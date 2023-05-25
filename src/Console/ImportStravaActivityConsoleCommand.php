@@ -25,7 +25,7 @@ class ImportStravaActivityConsoleCommand extends Command
     {
         $publicProfile = $this->strava->getPublicProfile(62214940);
 
-        foreach ($publicProfile['recentActivities'] ?? [] as $recentActivity) {
+        foreach (array_reverse($publicProfile['recentActivities']) ?? [] as $recentActivity) {
             try {
                 $this->stravaActivityRepository->findOneBy($recentActivity['id']);
             } catch (EntityNotFound) {
