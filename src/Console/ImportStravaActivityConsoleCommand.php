@@ -5,6 +5,8 @@ namespace App\Console;
 use App\Domain\Strava\Activity;
 use App\Domain\Strava\Strava;
 use App\Domain\Strava\StravaActivityRepository;
+use App\Domain\Strava\StravaTrophyRepository;
+use App\Domain\Strava\Trophy;
 use App\Infrastructure\Exception\EntityNotFound;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -17,6 +19,7 @@ class ImportStravaActivityConsoleCommand extends Command
     public function __construct(
         private readonly Strava $strava,
         private readonly StravaActivityRepository $stravaActivityRepository,
+        private readonly StravaTrophyRepository $stravaTrophyRepository
     ) {
         parent::__construct();
     }
@@ -30,6 +33,16 @@ class ImportStravaActivityConsoleCommand extends Command
                 $this->stravaActivityRepository->findOneBy($recentActivity['id']);
             } catch (EntityNotFound) {
                 $this->stravaActivityRepository->add(Activity::fromMap($recentActivity));
+            }
+        }
+
+        var_dump($publicProfile['trophies']);
+
+        foreach (array_reverse($publicProfile['trophies']) ?? [] as $trophy) {
+            try {
+                $this->stravaTrophyRepository->findOneBy($trophy['challenge_id']);
+            } catch (EntityNotFound) {
+                $this->stravaTrophyRepository->add(Trophy::fromMap($trophy));
             }
         }
 
