@@ -36,8 +36,6 @@ class ImportStravaActivityConsoleCommand extends Command
             }
         }
 
-        var_dump($publicProfile['trophies']);
-
         foreach (array_reverse($publicProfile['trophies']) ?? [] as $trophy) {
             try {
                 $this->stravaTrophyRepository->findOneBy($trophy['challenge_id']);
