@@ -8,6 +8,8 @@ use App\Domain\Strava\StravaActivityRepository;
 use App\Domain\Strava\StravaTrophyRepository;
 use App\Domain\Strava\Trophy;
 use App\Infrastructure\Exception\EntityNotFound;
+use League\Flysystem\Filesystem;
+use Ramsey\Uuid\Rfc4122\UuidV5;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -19,7 +21,8 @@ class ImportStravaActivityConsoleCommand extends Command
     public function __construct(
         private readonly Strava $strava,
         private readonly StravaActivityRepository $stravaActivityRepository,
-        private readonly StravaTrophyRepository $stravaTrophyRepository
+        private readonly StravaTrophyRepository $stravaTrophyRepository,
+        private readonly Filesystem $filesystem,
     ) {
         parent::__construct();
     }
@@ -32,15 +35,49 @@ class ImportStravaActivityConsoleCommand extends Command
             try {
                 $this->stravaActivityRepository->findOneBy($recentActivity['id']);
             } catch (EntityNotFound) {
-                $this->stravaActivityRepository->add(Activity::fromMap($recentActivity));
+                $activity = Activity::fromMap($recentActivity);
+
+                foreach ($activity->getImages() as $image) {
+                    if (!empty($image['defaultSrc'])) {
+                        $imagePath = sprintf('files/activities/%s/%s.png', $activity->getId(), UuidV5::uuid1());
+                        $this->filesystem->write(
+                            $imagePath,
+                            $this->strava->downloadImage($image['defaultSrc'])
+                        );
+
+                        $activity->addDefaultLocalImage($imagePath);
+                    }
+
+                    if (!empty($image['squareSrc'])) {
+                        $imagePath = sprintf('files/activities/%s/%s.png', $activity->getId(), UuidV5::uuid1());
+                        $this->filesystem->write(
+                            $imagePath,
+                            $this->strava->downloadImage($image['squareSrc'])
+                        );
+
+                        $activity->addSquareLocalImage($imagePath);
+                    }
+                }
+
+                $this->stravaActivityRepository->add($activity);
             }
         }
 
-        foreach (array_reverse($publicProfile['trophies']) ?? [] as $trophy) {
+        foreach (array_reverse($publicProfile['trophies']) ?? [] as $trophyData) {
             try {
-                $this->stravaTrophyRepository->findOneBy($trophy['challenge_id']);
+                $this->stravaTrophyRepository->findOneBy($trophyData['challenge_id']);
             } catch (EntityNotFound) {
-                $this->stravaTrophyRepository->add(Trophy::fromMap($trophy));
+                $trophy = Trophy::fromMap($trophyData);
+                if ($url = $trophy->getLogoUrl()) {
+                    $imagePath = sprintf('files/trophies/%s.png', UuidV5::uuid1());
+                    $this->filesystem->write(
+                        $imagePath,
+                        $this->strava->downloadImage($url)
+                    );
+
+                    $trophy->updateLocalLogo($imagePath);
+                }
+                $this->stravaTrophyRepository->add($trophy);
             }
         }
 

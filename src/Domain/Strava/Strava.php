@@ -34,4 +34,11 @@ final class Strava
 
         return Json::decode(html_entity_decode($matches['profile']));
     }
+
+    public function downloadImage($uri): string
+    {
+        $response = $this->client->request('GET', $uri);
+
+        return $response->getBody()->getContents();
+    }
 }

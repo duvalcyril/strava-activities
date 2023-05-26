@@ -9,6 +9,8 @@ use App\Infrastructure\Twig\TwigBuilder;
 use Dotenv\Dotenv;
 use Lcobucci\Clock\Clock;
 use Lcobucci\Clock\SystemClock;
+use League\Flysystem\Filesystem;
+use League\Flysystem\Local\LocalFilesystemAdapter;
 use SleekDB\Store;
 use Symfony\Component\Console\Application;
 use Twig\Environment as TwigEnvironment;
@@ -46,4 +48,7 @@ return [
         'auto_cache' => false,
         'timeout' => false,
     ])),
+    Filesystem::class => DI\autowire()->constructorParameter('adapter', new LocalFilesystemAdapter(
+        Settings::getAppRoot()
+    )),
 ];

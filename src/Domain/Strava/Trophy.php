@@ -5,13 +5,23 @@ namespace App\Domain\Strava;
 class Trophy
 {
     private function __construct(
-        private readonly array $data
+        private array $data
     ) {
     }
 
     public static function fromMap(array $data): self
     {
         return new self($data);
+    }
+
+    public function getLogoUrl(): ?string
+    {
+        return $this->data['logo_url'] ?? null;
+    }
+
+    public function updateLocalLogo(string $path): void
+    {
+        $this->data['localLogo'] = $path;
     }
 
     public function jsonSerialize(): array
