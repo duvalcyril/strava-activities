@@ -22,6 +22,7 @@ jobs:
         run: |
           composer install --prefer-dist
           bin/console app:strava:import-activity
+          bin/console app:strava:build-files
       - name: Commit and push changes
         run: |
           git config --global user.name 'robiningelbrecht'
