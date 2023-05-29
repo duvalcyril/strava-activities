@@ -1,1 +1,1 @@
-{% for trophy in trophies %}<img src="{{ trophy.getLocalLogoUrl() }}" width="50">{% endfor %}
+{% for trophy in trophies %}<a href="{{ trophy.getUrl() }}"><img src="{{ trophy.getLocalLogoUrl() }}" width="75" /></a>{% endfor %}

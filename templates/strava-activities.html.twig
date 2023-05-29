@@ -8,12 +8,12 @@
     </tr>
     {% for activity in activities %}
         <tr>
-            <td>{{ activity.getName() }}</td>
+            <td><a href="{{ activity.getUrl() }}">{{ activity.getName() }}</a></td>
             <td>{{ activity.getDistance() }}</td>
             <td>{{ activity.getElevation() }}</td>
             <td>{{ activity.getMovingTime() }}</td>
             {% if activity.getPrimaryImage() %}
-                <td><img src="{{ activity.getPrimaryImage() }}" width="200" /></td>
+                <td><img src="{{ activity.getPrimaryImage() }}" width="100" /></td>
             {% else %}
                 <td></td>
             {% endif %}

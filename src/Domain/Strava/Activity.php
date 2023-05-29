@@ -44,6 +44,11 @@ class Activity implements \JsonSerializable
         return $this->data['localSquareImages'][0] ?? null;
     }
 
+    public function getUrl(): string
+    {
+        return 'https://www.strava.com/activities/'.$this->data['id'];
+    }
+
     public function getImages(): array
     {
         return $this->data['images'] ?? [];

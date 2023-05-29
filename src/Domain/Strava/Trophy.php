@@ -24,6 +24,11 @@ class Trophy
         return $this->data['localLogo'] ?? null;
     }
 
+    public function getUrl(): string
+    {
+        return 'https://www.strava.com/challenges/'.$this->data['url'];
+    }
+
     public function updateLocalLogo(string $path): void
     {
         $this->data['localLogo'] = $path;
