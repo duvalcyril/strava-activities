@@ -9,9 +9,16 @@ class ReadMe implements \Stringable
     ) {
     }
 
-    public function updateStravaActivities(): self
+    public function updateStravaActivities(string $activities): self
     {
-        $this->pregReplace('strava-activities', '', true);
+        $this->pregReplace('strava-activities', $activities, true);
+
+        return $this;
+    }
+
+    public function updateStravaChallenges(string $challenges): self
+    {
+        $this->pregReplace('strava-challenges', $challenges, true);
 
         return $this;
     }

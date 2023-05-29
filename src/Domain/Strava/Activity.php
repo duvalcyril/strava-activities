@@ -19,6 +19,31 @@ class Activity implements \JsonSerializable
         return (int) $this->data['id'];
     }
 
+    public function getName(): string
+    {
+        return $this->data['name'];
+    }
+
+    public function getDistance(): string
+    {
+        return $this->data['distance'];
+    }
+
+    public function getElevation(): string
+    {
+        return $this->data['elevation'];
+    }
+
+    public function getMovingTime(): string
+    {
+        return $this->data['movingTime'];
+    }
+
+    public function getPrimaryImage(): ?string
+    {
+        return $this->data['localSquareImages'][0] ?? null;
+    }
+
     public function getImages(): array
     {
         return $this->data['images'] ?? [];

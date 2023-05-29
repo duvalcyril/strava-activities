@@ -1,0 +1,22 @@
+<table>
+    <tr>
+        <th></th>
+        <th>Distance</th>
+        <th>Elevation</th>
+        <th>Time</th>
+        <th></th>
+    </tr>
+    {% for activity in activities %}
+        <tr>
+            <td>{{ activity.getName() }}</td>
+            <td>{{ activity.getDistance() }}</td>
+            <td>{{ activity.getElevation() }}</td>
+            <td>{{ activity.getMovingTime() }}</td>
+            {% if activity.getPrimaryImage() %}
+                <td><img src="{{ activity.getPrimaryImage() }}" /></td>
+            {% else %}
+                <td></td>
+            {% endif %}
+        </tr>
+    {% endfor %}
+</table>
