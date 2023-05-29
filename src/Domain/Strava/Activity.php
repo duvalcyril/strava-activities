@@ -41,7 +41,7 @@ class Activity implements \JsonSerializable
 
     public function getPrimaryImage(): ?string
     {
-        return $this->data['localSquareImages'][0] ?? null;
+        return 'https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/'.$this->data['localSquareImages'][0] ?? null;
     }
 
     public function getUrl(): string

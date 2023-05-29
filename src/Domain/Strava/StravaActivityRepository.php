@@ -15,11 +15,11 @@ class StravaActivityRepository
     /**
      * @return \App\Domain\Strava\Activity[]
      */
-    public function findAll(): array
+    public function findAll(int $limit = null): array
     {
         return array_map(
             fn (array $row) => Activity::fromMap($row),
-            $this->store->findAll(['_id' => 'desc'])
+            $this->store->findAll(['_id' => 'desc'], $limit)
         );
     }
 

@@ -2,7 +2,7 @@
 
 This repository contains a list of [my Strava activities](https://www.strava.com/athletes/62214940)
 
-# Latest activities
+# Activities
 <!--START_SECTION:strava-activities-->
 <table>
     <tr>
@@ -17,70 +17,70 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">28.2 km</td>
             <td align="center">238 m</td>
             <td align="center">49:08</td>
-                            <td><img src="files/activities/9162422046/103ab394-fe20-11ed-9942-9a34a3268d72.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9162422046/103ab394-fe20-11ed-9942-9a34a3268d72.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9157342987">Afternoon Ride</a></td>
             <td align="center">20.0 km</td>
             <td align="center">23 m</td>
             <td align="center">1:07:38</td>
-                            <td><img src="files/activities/9157342987/6eef28e6-fd73-11ed-b177-00224804aad3.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9157342987/6eef28e6-fd73-11ed-b177-00224804aad3.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9155976770">Zwift - Red Unicorn in Watopia</a></td>
             <td align="center">35.6 km</td>
             <td align="center">768 m</td>
             <td align="center">1:30:13</td>
-                            <td><img src="files/activities/9155976770/6cdaa4d6-fd73-11ed-9f5a-00224804aad3.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9155976770/6cdaa4d6-fd73-11ed-9f5a-00224804aad3.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9152881957">Night Ride</a></td>
             <td align="center">4.2 km</td>
             <td align="center">9 m</td>
             <td align="center">12:06</td>
-                            <td><img src="files/activities/9152881957/6c30ad96-fd73-11ed-808c-00224804aad3.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9152881957/6c30ad96-fd73-11ed-808c-00224804aad3.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9148704237">Lunch Ride</a></td>
             <td align="center">4.9 km</td>
             <td align="center">9 m</td>
             <td align="center">13:46</td>
-                            <td><img src="files/activities/9148704237/103a09f2-fc82-11ed-b9c2-000d3a10a046.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9148704237/103a09f2-fc82-11ed-b9c2-000d3a10a046.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9138675211">Zwift - Zone Benchmarking in Richmond</a></td>
             <td align="center">20.3 km</td>
             <td align="center">142 m</td>
             <td align="center">40:23</td>
-                            <td><img src="files/activities/9138675211/0bdab31e-fbbc-11ed-8660-9a34a3268d72.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9138675211/0bdab31e-fbbc-11ed-8660-9a34a3268d72.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9138442860">Zwift - Pedaling Drills in Makuri Islands</a></td>
             <td align="center">8.1 km</td>
             <td align="center">79 m</td>
             <td align="center">20:21</td>
-                            <td><img src="files/activities/9138442860/0b8a59f0-fbbc-11ed-9b66-9a34a3268d72.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9138442860/0b8a59f0-fbbc-11ed-9b66-9a34a3268d72.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9132215821">Zwift - FTP Test (shorter) in Makuri Islands</a></td>
             <td align="center">22.2 km</td>
             <td align="center">222 m</td>
             <td align="center">46:32</td>
-                            <td><img src="files/activities/9132215821/0ae15210-fbbc-11ed-b507-9a34a3268d72.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9132215821/0ae15210-fbbc-11ed-b507-9a34a3268d72.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9120215227">Zwift - Flexible Free Ride in France</a></td>
             <td align="center">27.1 km</td>
             <td align="center">163 m</td>
             <td align="center">45:53</td>
-                            <td><img src="files/activities/9120215227/089eba9c-fbbc-11ed-a5c0-9a34a3268d72.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9120215227/089eba9c-fbbc-11ed-a5c0-9a34a3268d72.png" width="100" /></td>
                     </tr>
             <tr>
             <td><a href="https://www.strava.com/activities/9111623965">Zwift - Foundation in Watopia</a></td>
             <td align="center">34.3 km</td>
             <td align="center">157 m</td>
             <td align="center">1:05:19</td>
-                            <td><img src="files/activities/9111623965/061c97e4-fbbc-11ed-a109-9a34a3268d72.png" width="100" /></td>
+                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9111623965/061c97e4-fbbc-11ed-a109-9a34a3268d72.png" width="100" /></td>
                     </tr>
     </table>
 <!--END_SECTION:strava-activities-->

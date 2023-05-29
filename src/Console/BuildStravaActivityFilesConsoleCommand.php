@@ -25,6 +25,13 @@ class BuildStravaActivityFilesConsoleCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        file_put_contents(
+            Settings::getAppRoot().'/build/strava-activities-latest.md',
+            $this->twig->load('strava-activities.html.twig')->render([
+                'activities' => $this->stravaActivityRepository->findAll(5),
+            ])
+        );
+
         $pathToReadMe = Settings::getAppRoot().'/README.md';
         $readme = ReadMe::fromPathToReadMe($pathToReadMe);
 
