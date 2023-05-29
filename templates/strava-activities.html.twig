@@ -1,17 +1,17 @@
 <table>
     <tr>
         <th></th>
-        <th>Distance</th>
-        <th>Elevation</th>
-        <th>Time</th>
+        <th align="center">Distance</th>
+        <th align="center">Elevation</th>
+        <th align="center">Time</th>
         <th></th>
     </tr>
     {% for activity in activities %}
         <tr>
             <td><a href="{{ activity.getUrl() }}">{{ activity.getName() }}</a></td>
-            <td>{{ activity.getDistance() }}</td>
-            <td>{{ activity.getElevation() }}</td>
-            <td>{{ activity.getMovingTime() }}</td>
+            <td align="center">{{ activity.getDistance() }}</td>
+            <td align="center">{{ activity.getElevation() }}</td>
+            <td align="center">{{ activity.getMovingTime() }}</td>
             {% if activity.getPrimaryImage() %}
                 <td><img src="{{ activity.getPrimaryImage() }}" width="100" /></td>
             {% else %}
