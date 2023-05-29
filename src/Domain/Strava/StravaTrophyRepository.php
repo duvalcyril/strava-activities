@@ -19,7 +19,7 @@ class StravaTrophyRepository
     {
         return array_map(
             fn (array $row) => Trophy::fromMap($row),
-            $this->store->findAll()
+            $this->store->findAll(['_id' => 'desc'])
         );
     }
 

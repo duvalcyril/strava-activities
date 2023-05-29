@@ -19,6 +19,11 @@ class Trophy
         return $this->data['logo_url'] ?? null;
     }
 
+    public function getLocalLogoUrl(): ?string
+    {
+        return $this->data['localLogo'] ?? null;
+    }
+
     public function updateLocalLogo(string $path): void
     {
         $this->data['localLogo'] = $path;
