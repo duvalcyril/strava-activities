@@ -87,13 +87,5 @@ This repository contains a list of [my Strava activities](https://www.strava.com
 
 # Completed challenges
 <!--START_SECTION:strava-challenges-->
-<img src="files/trophies/12dafeba-fe20-11ed-a9b3-9a34a3268d72.png" width="100px">
-<img src="files/trophies/1dbaa90e-fd83-11ed-831a-000d3aed3e12.png" width="100px">
-<img src="files/trophies/6f64d38e-fd73-11ed-bb08-00224804aad3.png" width="100px">
-<img src="files/trophies/c25913d4-fbbb-11ed-9944-9a34a3268d72.png" width="100px">
-<img src="files/trophies/c1c4d5fc-fbbb-11ed-b7cf-9a34a3268d72.png" width="100px">
-<img src="files/trophies/c17b1d9a-fbbb-11ed-bd88-9a34a3268d72.png" width="100px">
-<img src="files/trophies/c174ecc2-fbbb-11ed-b139-9a34a3268d72.png" width="100px">
-<img src="files/trophies/c0f1b0a0-fbbb-11ed-b92b-9a34a3268d72.png" width="100px">
-
+<img src="files/trophies/12dafeba-fe20-11ed-a9b3-9a34a3268d72.png" width="100px"><img src="files/trophies/1dbaa90e-fd83-11ed-831a-000d3aed3e12.png" width="100px"><img src="files/trophies/6f64d38e-fd73-11ed-bb08-00224804aad3.png" width="100px"><img src="files/trophies/c25913d4-fbbb-11ed-9944-9a34a3268d72.png" width="100px"><img src="files/trophies/c1c4d5fc-fbbb-11ed-b7cf-9a34a3268d72.png" width="100px"><img src="files/trophies/c17b1d9a-fbbb-11ed-bd88-9a34a3268d72.png" width="100px"><img src="files/trophies/c174ecc2-fbbb-11ed-b139-9a34a3268d72.png" width="100px"><img src="files/trophies/c0f1b0a0-fbbb-11ed-b92b-9a34a3268d72.png" width="100px">
 <!--END_SECTION:strava-challenges-->
