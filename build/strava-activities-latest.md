@@ -27,18 +27,4 @@
             <td align="center">1:30:13</td>
                             <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9155976770/6cdaa4d6-fd73-11ed-9f5a-00224804aad3.png" width="100" /></td>
                     </tr>
-            <tr>
-            <td><a href="https://www.strava.com/activities/9152881957">Night Ride</a></td>
-            <td align="center">4.2 km</td>
-            <td align="center">9 m</td>
-            <td align="center">12:06</td>
-                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9152881957/6c30ad96-fd73-11ed-808c-00224804aad3.png" width="100" /></td>
-                    </tr>
-            <tr>
-            <td><a href="https://www.strava.com/activities/9148704237">Lunch Ride</a></td>
-            <td align="center">4.9 km</td>
-            <td align="center">9 m</td>
-            <td align="center">13:46</td>
-                            <td><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/files/activities/9148704237/103a09f2-fc82-11ed-b9c2-000d3a10a046.png" width="100" /></td>
-                    </tr>
     </table>
