@@ -19,7 +19,7 @@ class StravaChallengeRepository
     {
         return array_map(
             fn (array $row) => Challenge::fromMap($row),
-            $this->store->findAll(['_id' => 'desc'])
+            $this->store->findAll(['createdOn' => 'desc'])
         );
     }
 

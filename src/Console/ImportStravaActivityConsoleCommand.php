@@ -65,7 +65,7 @@ class ImportStravaActivityConsoleCommand extends Command
             }
         }
 
-        foreach (array_reverse($this->strava->getChallenges(62214940)) ?? [] as $challengeData) {
+        foreach ($this->strava->getChallenges(62214940) ?? [] as $challengeData) {
             try {
                 $this->stravaChallengeRepository->findOneBy($challengeData['challenge_id']);
             } catch (EntityNotFound) {
