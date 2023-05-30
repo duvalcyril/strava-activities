@@ -3,10 +3,10 @@
 namespace App\Console;
 
 use App\Domain\Strava\Activity;
+use App\Domain\Strava\Challenge;
 use App\Domain\Strava\Strava;
 use App\Domain\Strava\StravaActivityRepository;
-use App\Domain\Strava\StravaTrophyRepository;
-use App\Domain\Strava\Trophy;
+use App\Domain\Strava\StravaChallengeRepository;
 use App\Infrastructure\Exception\EntityNotFound;
 use League\Flysystem\Filesystem;
 use Ramsey\Uuid\Rfc4122\UuidV5;
@@ -21,7 +21,7 @@ class ImportStravaActivityConsoleCommand extends Command
     public function __construct(
         private readonly Strava $strava,
         private readonly StravaActivityRepository $stravaActivityRepository,
-        private readonly StravaTrophyRepository $stravaTrophyRepository,
+        private readonly StravaChallengeRepository $stravaChallengeRepository,
         private readonly Filesystem $filesystem,
     ) {
         parent::__construct();
@@ -63,11 +63,11 @@ class ImportStravaActivityConsoleCommand extends Command
             }
         }
 
-        foreach (array_reverse($publicProfile['trophies']) ?? [] as $trophyData) {
+        foreach (array_reverse($this->strava->getChallenges(62214940)) ?? [] as $trophyData) {
             try {
-                $this->stravaTrophyRepository->findOneBy($trophyData['challenge_id']);
+                $this->stravaChallengeRepository->findOneBy($trophyData['challenge_id']);
             } catch (EntityNotFound) {
-                $trophy = Trophy::fromMap($trophyData);
+                $trophy = Challenge::fromMap($trophyData);
                 if ($url = $trophy->getLogoUrl()) {
                     $imagePath = sprintf('files/trophies/%s.png', UuidV5::uuid1());
                     $this->filesystem->write(
@@ -77,7 +77,7 @@ class ImportStravaActivityConsoleCommand extends Command
 
                     $trophy->updateLocalLogo($imagePath);
                 }
-                $this->stravaTrophyRepository->add($trophy);
+                $this->stravaChallengeRepository->add($trophy);
             }
         }
 

@@ -2,7 +2,7 @@
 
 namespace App\Domain\Strava;
 
-class Trophy
+class Challenge
 {
     private function __construct(
         private array $data

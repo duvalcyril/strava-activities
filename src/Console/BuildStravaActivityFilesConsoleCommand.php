@@ -4,7 +4,7 @@ namespace App\Console;
 
 use App\Domain\ReadMe;
 use App\Domain\Strava\StravaActivityRepository;
-use App\Domain\Strava\StravaTrophyRepository;
+use App\Domain\Strava\StravaChallengeRepository;
 use App\Infrastructure\Environment\Settings;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -17,7 +17,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
 {
     public function __construct(
         private readonly StravaActivityRepository $stravaActivityRepository,
-        private readonly StravaTrophyRepository $stravaTrophyRepository,
+        private readonly StravaChallengeRepository $stravaChallengeRepository,
         private readonly Environment $twig
     ) {
         parent::__construct();
@@ -40,7 +40,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
                 'activities' => $this->stravaActivityRepository->findAll(),
             ]))
         ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
-            'trophies' => $this->stravaTrophyRepository->findAll(),
+            'challenges' => $this->stravaChallengeRepository->findAll(),
         ]));
 
         \Safe\file_put_contents($pathToReadMe, (string) $readme);

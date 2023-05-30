@@ -5,7 +5,7 @@ namespace App\Domain\Strava;
 use App\Infrastructure\Exception\EntityNotFound;
 use SleekDB\Store;
 
-class StravaTrophyRepository
+class StravaChallengeRepository
 {
     public function __construct(
         private readonly Store $store
@@ -13,26 +13,26 @@ class StravaTrophyRepository
     }
 
     /**
-     * @return \App\Domain\Strava\Trophy[]
+     * @return \App\Domain\Strava\Challenge[]
      */
     public function findAll(): array
     {
         return array_map(
-            fn (array $row) => Trophy::fromMap($row),
+            fn (array $row) => Challenge::fromMap($row),
             $this->store->findAll(['_id' => 'desc'])
         );
     }
 
-    public function findOneBy(int $id): Trophy
+    public function findOneBy(int $id): Challenge
     {
         if (!$row = $this->store->findOneBy(['challenge_id', '==', $id])) {
             throw new EntityNotFound(sprintf('Trophy "%s" not found', $id));
         }
 
-        return Trophy::fromMap($row);
+        return Challenge::fromMap($row);
     }
 
-    public function add(Trophy $trophy): void
+    public function add(Challenge $trophy): void
     {
         $this->store->insert($trophy->jsonSerialize());
     }

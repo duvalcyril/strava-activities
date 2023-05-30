@@ -1,7 +1,7 @@
 <?php
 
 use App\Domain\Strava\StravaActivityRepository;
-use App\Domain\Strava\StravaTrophyRepository as StravaTrophyRepositoryAlias;
+use App\Domain\Strava\StravaChallengeRepository as StravaTrophyRepositoryAlias;
 use App\Infrastructure\Console\ConsoleCommandContainer;
 use App\Infrastructure\Environment\Environment;
 use App\Infrastructure\Environment\Settings;
@@ -44,7 +44,7 @@ return [
         'auto_cache' => false,
         'timeout' => false,
     ])),
-    StravaTrophyRepositoryAlias::class => DI\autowire()->constructorParameter('store', new Store('trophies', $appRoot.'/database', [
+    StravaTrophyRepositoryAlias::class => DI\autowire()->constructorParameter('store', new Store('challenges', $appRoot.'/database', [
         'auto_cache' => false,
         'timeout' => false,
     ])),

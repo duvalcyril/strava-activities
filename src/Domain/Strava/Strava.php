@@ -35,6 +35,16 @@ final class Strava
         return Json::decode(html_entity_decode($matches['profile']));
     }
 
+    public function getChallenges(int $athleteId): array
+    {
+        $contents = $this->request('athletes/'.$athleteId);
+        if (!preg_match('/data-react-class=\'AthleteProfileApp\'[\s]+data-react-props=\'(?<profile>.*?)\'/', $contents, $matches)) {
+            throw new \RuntimeException('Could not fetch Strava profile');
+        }
+
+        return Json::decode(html_entity_decode($matches['profile']['trophies'] ?? '[]'));
+    }
+
     public function downloadImage($uri): string
     {
         $response = $this->client->request('GET', $uri);
