@@ -3,6 +3,7 @@
 namespace App\Console;
 
 use App\Domain\Strava\Activity;
+use App\Domain\Strava\ActivityType;
 use App\Domain\Strava\Challenge;
 use App\Domain\Strava\Strava;
 use App\Domain\Strava\StravaActivityRepository;
@@ -31,36 +32,15 @@ class ImportStravaActivityConsoleCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $publicProfile = $this->strava->getPublicProfile(62214940);
+        foreach ($this->strava->getActivities() ?? [] as $stravaActivity) {
+            if (!ActivityType::tryFrom($stravaActivity['type'])) {
+                continue;
+            }
 
-        foreach (array_reverse($publicProfile['recentActivities']) ?? [] as $recentActivity) {
             try {
-                $this->stravaActivityRepository->findOneBy($recentActivity['id']);
+                $this->stravaActivityRepository->findOneBy($stravaActivity['id']);
             } catch (EntityNotFound) {
-                $activity = Activity::fromMap($recentActivity);
-
-                foreach ($activity->getImages() as $image) {
-                    if (!empty($image['defaultSrc'])) {
-                        $imagePath = sprintf('files/activities/%s/%s.png', $activity->getId(), UuidV5::uuid1());
-                        $this->filesystem->write(
-                            $imagePath,
-                            $this->strava->downloadImage($image['defaultSrc'])
-                        );
-
-                        $activity->addDefaultLocalImage($imagePath);
-                    }
-
-                    if (!empty($image['squareSrc'])) {
-                        $imagePath = sprintf('files/activities/%s/%s.png', $activity->getId(), UuidV5::uuid1());
-                        $this->filesystem->write(
-                            $imagePath,
-                            $this->strava->downloadImage($image['squareSrc'])
-                        );
-
-                        $activity->addSquareLocalImage($imagePath);
-                    }
-                }
-
+                $activity = Activity::create($this->strava->getActivity($stravaActivity['id']));
                 $this->stravaActivityRepository->add($activity);
             }
         }
@@ -74,7 +54,7 @@ class ImportStravaActivityConsoleCommand extends Command
                     $this->clock->now()
                 );
                 if ($url = $challenge->getLogoUrl()) {
-                    $imagePath = sprintf('files/trophies/%s.png', UuidV5::uuid1());
+                    $imagePath = sprintf('files/challenges/%s.png', UuidV5::uuid1());
                     $this->filesystem->write(
                         $imagePath,
                         $this->strava->downloadImage($url)
@@ -83,6 +63,7 @@ class ImportStravaActivityConsoleCommand extends Command
                     $challenge->updateLocalLogo($imagePath);
                 }
                 $this->stravaChallengeRepository->add($challenge);
+                sleep(1); // Make sure timestamp is increased by at leas one.
             }
         }
 

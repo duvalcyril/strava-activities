@@ -19,7 +19,7 @@ class StravaActivityRepository
     {
         return array_map(
             fn (array $row) => Activity::fromMap($row),
-            $this->store->findAll(['_id' => 'desc'], $limit)
+            $this->store->findAll(['start_date_timestamp' => 'desc'], $limit)
         );
     }
 

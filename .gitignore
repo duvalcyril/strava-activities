@@ -1,3 +1,4 @@
+.env
 nginx
 vendor
 var

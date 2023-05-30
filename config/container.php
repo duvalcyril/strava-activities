@@ -2,6 +2,9 @@
 
 use App\Domain\Strava\StravaActivityRepository;
 use App\Domain\Strava\StravaChallengeRepository as StravaTrophyRepositoryAlias;
+use App\Domain\Strava\StravaClientId;
+use App\Domain\Strava\StravaClientSecret;
+use App\Domain\Strava\StravaRefreshToken;
 use App\Infrastructure\Console\ConsoleCommandContainer;
 use App\Infrastructure\Environment\Environment;
 use App\Infrastructure\Environment\Settings;
@@ -40,6 +43,9 @@ return [
     Environment::class => fn () => Environment::from($_ENV['ENVIRONMENT']),
     // Settings.
     Settings::class => DI\factory([Settings::class, 'load']),
+    StravaClientId::class => StravaClientId::fromString($_ENV['STRAVA_CLIENT_ID']),
+    StravaClientSecret::class => StravaClientSecret::fromString($_ENV['STRAVA_CLIENT_SECRET']),
+    StravaRefreshToken::class => StravaRefreshToken::fromString($_ENV['STRAVA_REFRESH_TOKEN']),
     StravaActivityRepository::class => DI\autowire()->constructorParameter('store', new Store('activities', $appRoot.'/database', [
         'auto_cache' => false,
         'timeout' => false,

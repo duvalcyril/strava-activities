@@ -9,6 +9,16 @@ class Activity implements \JsonSerializable
     ) {
     }
 
+    public static function create(array $data): self
+    {
+        $data['start_date_timestamp'] = \DateTimeImmutable::createFromFormat(
+            'Y-m-d\TH:i:s\Z',
+            $data['start_date']
+        )->getTimestamp();
+
+        return new self($data);
+    }
+
     public static function fromMap(array $data): self
     {
         return new self($data);
@@ -19,49 +29,49 @@ class Activity implements \JsonSerializable
         return (int) $this->data['id'];
     }
 
+    public function getStartDate(): \DateTimeImmutable
+    {
+        return \DateTimeImmutable::createFromFormat(
+            'Y-m-d\TH:i:s\Z',
+            $this->data['start_date']
+        );
+    }
+
+    public function getType(): ActivityType
+    {
+        return ActivityType::from($this->data['type']);
+    }
+
     public function getName(): string
     {
         return $this->data['name'];
     }
 
-    public function getDistance(): string
+    public function getDistance(): float
     {
-        return $this->data['distance'];
+        return round($this->data['distance'] / 1000);
     }
 
-    public function getElevation(): string
+    public function getElevation(): int
     {
-        return $this->data['elevation'];
+        return round($this->data['total_elevation_gain']);
     }
 
     public function getMovingTime(): string
     {
-        return $this->data['movingTime'];
-    }
+        $seconds = $this->data['moving_time'];
 
-    public function getPrimaryImage(): ?string
-    {
-        return 'https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/'.$this->data['localSquareImages'][0] ?? null;
+        $hours = (int) floor($this->data['moving_time'] / 3600);
+        if ($hours > 0) {
+            return gmdate('G:i:s', $seconds);
+        }
+
+        return gmdate('i:s', $seconds);
     }
 
     public function getUrl(): string
     {
         return 'https://www.strava.com/activities/'.$this->data['id'];
-    }
-
-    public function getImages(): array
-    {
-        return $this->data['images'] ?? [];
-    }
-
-    public function addDefaultLocalImage(string $image): void
-    {
-        $this->data['localDefaultImages'][] = $image;
-    }
-
-    public function addSquareLocalImage(string $image): void
-    {
-        $this->data['localSquareImages'][] = $image;
     }
 
     public function jsonSerialize(): array
