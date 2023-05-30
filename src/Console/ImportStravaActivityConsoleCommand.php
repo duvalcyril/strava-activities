@@ -8,6 +8,7 @@ use App\Domain\Strava\Strava;
 use App\Domain\Strava\StravaActivityRepository;
 use App\Domain\Strava\StravaChallengeRepository;
 use App\Infrastructure\Exception\EntityNotFound;
+use Lcobucci\Clock\Clock;
 use League\Flysystem\Filesystem;
 use Ramsey\Uuid\Rfc4122\UuidV5;
 use Symfony\Component\Console\Attribute\AsCommand;
@@ -23,6 +24,7 @@ class ImportStravaActivityConsoleCommand extends Command
         private readonly StravaActivityRepository $stravaActivityRepository,
         private readonly StravaChallengeRepository $stravaChallengeRepository,
         private readonly Filesystem $filesystem,
+        private readonly Clock $clock
     ) {
         parent::__construct();
     }
@@ -63,21 +65,24 @@ class ImportStravaActivityConsoleCommand extends Command
             }
         }
 
-        foreach (array_reverse($this->strava->getChallenges(62214940)) ?? [] as $trophyData) {
+        foreach (array_reverse($this->strava->getChallenges(62214940)) ?? [] as $challengeData) {
             try {
-                $this->stravaChallengeRepository->findOneBy($trophyData['challenge_id']);
+                $this->stravaChallengeRepository->findOneBy($challengeData['challenge_id']);
             } catch (EntityNotFound) {
-                $trophy = Challenge::fromMap($trophyData);
-                if ($url = $trophy->getLogoUrl()) {
+                $challenge = Challenge::create(
+                    $challengeData,
+                    $this->clock->now()
+                );
+                if ($url = $challenge->getLogoUrl()) {
                     $imagePath = sprintf('files/trophies/%s.png', UuidV5::uuid1());
                     $this->filesystem->write(
                         $imagePath,
                         $this->strava->downloadImage($url)
                     );
 
-                    $trophy->updateLocalLogo($imagePath);
+                    $challenge->updateLocalLogo($imagePath);
                 }
-                $this->stravaChallengeRepository->add($trophy);
+                $this->stravaChallengeRepository->add($challenge);
             }
         }
 

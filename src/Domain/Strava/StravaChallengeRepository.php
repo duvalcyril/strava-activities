@@ -26,14 +26,14 @@ class StravaChallengeRepository
     public function findOneBy(int $id): Challenge
     {
         if (!$row = $this->store->findOneBy(['challenge_id', '==', $id])) {
-            throw new EntityNotFound(sprintf('Trophy "%s" not found', $id));
+            throw new EntityNotFound(sprintf('Challenge "%s" not found', $id));
         }
 
         return Challenge::fromMap($row);
     }
 
-    public function add(Challenge $trophy): void
+    public function add(Challenge $challenge): void
     {
-        $this->store->insert($trophy->jsonSerialize());
+        $this->store->insert($challenge->jsonSerialize());
     }
 }

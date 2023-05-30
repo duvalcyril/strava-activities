@@ -14,6 +14,13 @@ class Challenge
         return new self($data);
     }
 
+    public static function create(array $data, \DateTimeImmutable $createdOn): self
+    {
+        $data['createdOn'] = $createdOn->getTimestamp();
+
+        return new self($data);
+    }
+
     public function getLogoUrl(): ?string
     {
         return $this->data['logo_url'] ?? null;

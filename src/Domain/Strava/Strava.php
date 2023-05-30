@@ -25,6 +25,10 @@ final class Strava
         return $response->getBody()->getContents();
     }
 
+    public function getActivities(): array
+    {
+    }
+
     public function getPublicProfile(int $athleteId): array
     {
         $contents = $this->request('athletes/'.$athleteId);
