@@ -15,10 +15,22 @@
             <td><a href="{{ activity.getUrl() }}">{{ activity.getName()|length > 40 ? activity.getName()|slice(0, 37) ~ '...' : activity.getName() }}</a></td>
             <td align="center">{{ activity.getDistance() }} <sup><sub>km</sub></sup></td>
             <td align="center">{{ activity.getElevation() }} <sup><sub>m</sub></sup></td>
-            <td align="center">{{ activity.getMovingTime() }}</td>
+            <td align="center">{{ activity.getMovingTimeFormatted() }}</td>
             <td align="center">{{ activity.getAveragePower() ? activity.getAveragePower() ~ ' <sup><sub>w</sub></sup>': 'n/a' }}</td>
             <td>{{ activity.getAverageSpeedInKmPerH() }} <sup><sub>km/h</sub></sup></td>
         </tr>
     {% endfor %}
+    {%  if totals %}
+        <tr>
+            <td></td>
+            <td></td>
+            <td align="center">{{ totals.getDistance() }} <sup><sub>km</sub></sup></td>
+            <td align="center">{{ totals.getElevation() }} <sup><sub>m</sub></sup></td>
+            <td align="center">{{ totals.getMovingTimeFormatted() }}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    {% endif %}
 </table>
 {% endautoescape %}

@@ -73,9 +73,14 @@ class Activity implements \JsonSerializable
         return round($this->data['average_speed'] * 3.6, 1);
     }
 
-    public function getMovingTime(): string
+    public function getMovingTime(): int
     {
-        $interval = CarbonInterval::seconds($this->data['moving_time'])->cascade();
+        return $this->data['moving_time'];
+    }
+
+    public function getMovingTimeFormatted(): string
+    {
+        $interval = CarbonInterval::seconds($this->getMovingTime())->cascade();
 
         $movingTime = implode(':', array_filter(array_map(fn (int $value) => sprintf('%02d', $value), [
             $interval->minutes,

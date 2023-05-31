@@ -35,4 +35,22 @@
             <td align="center">204 <sup><sub>w</sub></sup></td>
             <td>34.5 <sup><sub>km/h</sub></sup></td>
         </tr>
-    </table>
+            <tr>
+            <td>28-05-2023</td>
+            <td><a href="https://www.strava.com/activities/9157342987">Afternoon Ride</a></td>
+            <td align="center">20 <sup><sub>km</sub></sup></td>
+            <td align="center">23 <sup><sub>m</sub></sup></td>
+            <td align="center">1:07:38</td>
+            <td align="center">n/a</td>
+            <td>17.8 <sup><sub>km/h</sub></sup></td>
+        </tr>
+            <tr>
+            <td>28-05-2023</td>
+            <td><a href="https://www.strava.com/activities/9155976770">Zwift - Red Unicorn in Watopia</a></td>
+            <td align="center">36 <sup><sub>km</sub></sup></td>
+            <td align="center">768 <sup><sub>m</sub></sup></td>
+            <td align="center">1:30:13</td>
+            <td align="center">169 <sup><sub>w</sub></sup></td>
+            <td>23.7 <sup><sub>km/h</sub></sup></td>
+        </tr>
+        </table>

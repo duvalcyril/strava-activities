@@ -3,6 +3,7 @@
 namespace App\Console;
 
 use App\Domain\ReadMe;
+use App\Domain\Strava\ActivityTotals;
 use App\Domain\Strava\StravaActivityRepository;
 use App\Domain\Strava\StravaChallengeRepository;
 use App\Infrastructure\Environment\Settings;
@@ -28,16 +29,18 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         file_put_contents(
             Settings::getAppRoot().'/build/strava-activities-latest.md',
             $this->twig->load('strava-activities.html.twig')->render([
-                'activities' => $this->stravaActivityRepository->findAll(3),
+                'activities' => $this->stravaActivityRepository->findAll(5),
             ])
         );
 
         $pathToReadMe = Settings::getAppRoot().'/README.md';
         $readme = ReadMe::fromPathToReadMe($pathToReadMe);
 
+        $allActivities = $this->stravaActivityRepository->findAll();
         $readme
             ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
-                'activities' => $this->stravaActivityRepository->findAll(),
+                'activities' => $allActivities,
+                'totals' => ActivityTotals::fromActivities($allActivities),
             ]))
         ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
             'challenges' => $this->stravaChallengeRepository->findAll(),
