@@ -8,9 +8,9 @@ This repository contains a list of [my Strava activities](https://www.strava.com
     <tr>
         <th></th>
         <th></th>
-        <th align="center">Distance</th>
-        <th align="center">Elevation</th>
-        <th align="center">Time</th>
+        <th align="center"><img src="https://www.svgrepo.com/show/447602/distance.svg" width="35" /></th>
+        <th align="center"><img src="https://www.svgrepo.com/show/314380/mountain-solid.svg" width="35"/></th>
+        <th align="center"><img src="https://www.svgrepo.com/show/506771/time.svg" width="35"/></th>
     </tr>
             <tr>
             <td>29-05-2023</td>
