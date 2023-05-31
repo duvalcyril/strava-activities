@@ -2,9 +2,9 @@
     <tr>
         <th></th>
         <th></th>
-        <th align="center"><img src="https://www.svgrepo.com/show/447602/distance.svg" width="35" /></th>
-        <th align="center"><img src="https://www.svgrepo.com/show/314380/mountain-solid.svg" width="35"/></th>
-        <th align="center"><img src="https://www.svgrepo.com/show/506771/time.svg" width="35"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/distance.svg" width="35" /></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="35"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="35"/></th>
     </tr>
             <tr>
             <td>29-05-2023</td>
