@@ -21,7 +21,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">691 <sup><sub>m</sub></sup></td>
             <td align="center">1:22:14</td>
             <td align="center">167 <sup><sub>w</sub></sup></td>
-            <td>23.9 <sup><sub>km/h</sub></sup></td>
+            <td align="center">23.9 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>31-05-2023</td>
@@ -30,7 +30,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">29 <sup><sub>m</sub></sup></td>
             <td align="center">44:07</td>
             <td align="center">n/a</td>
-            <td>20 <sup><sub>km/h</sub></sup></td>
+            <td align="center">20 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>29-05-2023</td>
@@ -39,7 +39,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">238 <sup><sub>m</sub></sup></td>
             <td align="center">49:08</td>
             <td align="center">204 <sup><sub>w</sub></sup></td>
-            <td>34.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">34.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>28-05-2023</td>
@@ -48,7 +48,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">23 <sup><sub>m</sub></sup></td>
             <td align="center">1:07:38</td>
             <td align="center">n/a</td>
-            <td>17.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">17.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>28-05-2023</td>
@@ -57,7 +57,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">768 <sup><sub>m</sub></sup></td>
             <td align="center">1:30:13</td>
             <td align="center">169 <sup><sub>w</sub></sup></td>
-            <td>23.7 <sup><sub>km/h</sub></sup></td>
+            <td align="center">23.7 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>27-05-2023</td>
@@ -66,7 +66,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">9 <sup><sub>m</sub></sup></td>
             <td align="center">12:06</td>
             <td align="center">n/a</td>
-            <td>21 <sup><sub>km/h</sub></sup></td>
+            <td align="center">21 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>27-05-2023</td>
@@ -75,7 +75,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">9 <sup><sub>m</sub></sup></td>
             <td align="center">13:46</td>
             <td align="center">n/a</td>
-            <td>21.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">21.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>25-05-2023</td>
@@ -84,7 +84,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">142 <sup><sub>m</sub></sup></td>
             <td align="center">40:23</td>
             <td align="center">167 <sup><sub>w</sub></sup></td>
-            <td>30.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">30.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>25-05-2023</td>
@@ -93,7 +93,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">79 <sup><sub>m</sub></sup></td>
             <td align="center">20:21</td>
             <td align="center">148 <sup><sub>w</sub></sup></td>
-            <td>24.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">24.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>24-05-2023</td>
@@ -102,7 +102,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">222 <sup><sub>m</sub></sup></td>
             <td align="center">46:32</td>
             <td align="center">177 <sup><sub>w</sub></sup></td>
-            <td>28.7 <sup><sub>km/h</sub></sup></td>
+            <td align="center">28.7 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>22-05-2023</td>
@@ -111,7 +111,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">163 <sup><sub>m</sub></sup></td>
             <td align="center">45:53</td>
             <td align="center">198 <sup><sub>w</sub></sup></td>
-            <td>35.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">35.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>21-05-2023</td>
@@ -120,7 +120,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">157 <sup><sub>m</sub></sup></td>
             <td align="center">1:05:19</td>
             <td align="center">152 <sup><sub>w</sub></sup></td>
-            <td>31.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">31.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>20-05-2023</td>
@@ -129,7 +129,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">275 <sup><sub>m</sub></sup></td>
             <td align="center">1:15:40</td>
             <td align="center">136 <sup><sub>w</sub></sup></td>
-            <td>24.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">24.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>20-05-2023</td>
@@ -138,7 +138,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">5 <sup><sub>m</sub></sup></td>
             <td align="center">16:15</td>
             <td align="center">n/a</td>
-            <td>13.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">13.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>17-05-2023</td>
@@ -147,7 +147,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">3 <sup><sub>m</sub></sup></td>
             <td align="center">8:48</td>
             <td align="center">n/a</td>
-            <td>18.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">18.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>17-05-2023</td>
@@ -156,7 +156,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">721 <sup><sub>m</sub></sup></td>
             <td align="center">1:29:32</td>
             <td align="center">159 <sup><sub>w</sub></sup></td>
-            <td>25.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">25.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>15-05-2023</td>
@@ -165,7 +165,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">353 <sup><sub>m</sub></sup></td>
             <td align="center">1:14:49</td>
             <td align="center">155 <sup><sub>w</sub></sup></td>
-            <td>29 <sup><sub>km/h</sub></sup></td>
+            <td align="center">29 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>14-05-2023</td>
@@ -174,7 +174,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">218 <sup><sub>m</sub></sup></td>
             <td align="center">44:04</td>
             <td align="center">126 <sup><sub>w</sub></sup></td>
-            <td>23.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">23.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>13-05-2023</td>
@@ -183,7 +183,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">108 <sup><sub>m</sub></sup></td>
             <td align="center">1:05:48</td>
             <td align="center">146 <sup><sub>w</sub></sup></td>
-            <td>31.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">31.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>12-05-2023</td>
@@ -192,7 +192,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">0 <sup><sub>m</sub></sup></td>
             <td align="center">8:49</td>
             <td align="center">n/a</td>
-            <td>19.7 <sup><sub>km/h</sub></sup></td>
+            <td align="center">19.7 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>12-05-2023</td>
@@ -201,7 +201,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">6 <sup><sub>m</sub></sup></td>
             <td align="center">10:19</td>
             <td align="center">n/a</td>
-            <td>16.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">16.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>12-05-2023</td>
@@ -210,7 +210,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">237 <sup><sub>m</sub></sup></td>
             <td align="center">1:08:42</td>
             <td align="center">153 <sup><sub>w</sub></sup></td>
-            <td>23.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">23.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>11-05-2023</td>
@@ -219,7 +219,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">351 <sup><sub>m</sub></sup></td>
             <td align="center">1:11:22</td>
             <td align="center">143 <sup><sub>w</sub></sup></td>
-            <td>29.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">29.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>11-05-2023</td>
@@ -228,7 +228,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">0 <sup><sub>m</sub></sup></td>
             <td align="center">44:00</td>
             <td align="center">n/a</td>
-            <td>16.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">16.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>09-05-2023</td>
@@ -237,7 +237,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">359 <sup><sub>m</sub></sup></td>
             <td align="center">1:17:24</td>
             <td align="center">161 <sup><sub>w</sub></sup></td>
-            <td>31.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">31.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>08-05-2023</td>
@@ -246,7 +246,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">266 <sup><sub>m</sub></sup></td>
             <td align="center">1:06:50</td>
             <td align="center">170 <sup><sub>w</sub></sup></td>
-            <td>31.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">31.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>06-05-2023</td>
@@ -255,7 +255,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">0 <sup><sub>m</sub></sup></td>
             <td align="center">41:00</td>
             <td align="center">n/a</td>
-            <td>16.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">16.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>06-05-2023</td>
@@ -264,7 +264,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">377 <sup><sub>m</sub></sup></td>
             <td align="center">1:07:02</td>
             <td align="center">152 <sup><sub>w</sub></sup></td>
-            <td>28.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">28.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>05-05-2023</td>
@@ -273,7 +273,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">263 <sup><sub>m</sub></sup></td>
             <td align="center">1:12:00</td>
             <td align="center">151 <sup><sub>w</sub></sup></td>
-            <td>29.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">29.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>03-05-2023</td>
@@ -282,7 +282,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">106 <sup><sub>m</sub></sup></td>
             <td align="center">1:02:55</td>
             <td align="center">160 <sup><sub>w</sub></sup></td>
-            <td>32.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">32.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>03-05-2023</td>
@@ -291,7 +291,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">0 <sup><sub>m</sub></sup></td>
             <td align="center">35:00</td>
             <td align="center">n/a</td>
-            <td>16.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">16.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>01-05-2023</td>
@@ -300,7 +300,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">1065 <sup><sub>m</sub></sup></td>
             <td align="center">1:43:55</td>
             <td align="center">162 <sup><sub>w</sub></sup></td>
-            <td>18.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">18.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>30-04-2023</td>
@@ -309,7 +309,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">179 <sup><sub>m</sub></sup></td>
             <td align="center">55:00</td>
             <td align="center">142 <sup><sub>w</sub></sup></td>
-            <td>21.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">21.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>29-04-2023</td>
@@ -318,7 +318,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">114 <sup><sub>m</sub></sup></td>
             <td align="center">1:00:29</td>
             <td align="center">148 <sup><sub>w</sub></sup></td>
-            <td>30.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">30.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>27-04-2023</td>
@@ -327,7 +327,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">0 <sup><sub>m</sub></sup></td>
             <td align="center">45:00</td>
             <td align="center">n/a</td>
-            <td>16.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">16.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>26-04-2023</td>
@@ -336,7 +336,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">240 <sup><sub>m</sub></sup></td>
             <td align="center">1:09:57</td>
             <td align="center">127 <sup><sub>w</sub></sup></td>
-            <td>28.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">28.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>25-04-2023</td>
@@ -345,7 +345,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">464 <sup><sub>m</sub></sup></td>
             <td align="center">1:26:11</td>
             <td align="center">142 <sup><sub>w</sub></sup></td>
-            <td>26.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">26.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>23-04-2023</td>
@@ -354,7 +354,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">105 <sup><sub>m</sub></sup></td>
             <td align="center">44:54</td>
             <td align="center">125 <sup><sub>w</sub></sup></td>
-            <td>29.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">29.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>21-04-2023</td>
@@ -363,7 +363,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">276 <sup><sub>m</sub></sup></td>
             <td align="center">53:11</td>
             <td align="center">131 <sup><sub>w</sub></sup></td>
-            <td>26.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">26.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>19-04-2023</td>
@@ -372,7 +372,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">84 <sup><sub>m</sub></sup></td>
             <td align="center">1:08:02</td>
             <td align="center">142 <sup><sub>w</sub></sup></td>
-            <td>31 <sup><sub>km/h</sub></sup></td>
+            <td align="center">31 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>18-04-2023</td>
@@ -381,7 +381,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">45 <sup><sub>m</sub></sup></td>
             <td align="center">59:06</td>
             <td align="center">129 <sup><sub>w</sub></sup></td>
-            <td>30.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">30.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>16-04-2023</td>
@@ -390,7 +390,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">0 <sup><sub>m</sub></sup></td>
             <td align="center">43:00</td>
             <td align="center">n/a</td>
-            <td>24.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">24.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>14-04-2023</td>
@@ -399,7 +399,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">211 <sup><sub>m</sub></sup></td>
             <td align="center">1:23:53</td>
             <td align="center">139 <sup><sub>w</sub></sup></td>
-            <td>30.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">30.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>13-04-2023</td>
@@ -408,7 +408,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">239 <sup><sub>m</sub></sup></td>
             <td align="center">49:58</td>
             <td align="center">123 <sup><sub>w</sub></sup></td>
-            <td>24.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">24.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>13-04-2023</td>
@@ -417,7 +417,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">0 <sup><sub>m</sub></sup></td>
             <td align="center">40:00</td>
             <td align="center">n/a</td>
-            <td>17.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">17.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>12-04-2023</td>
@@ -426,7 +426,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">169 <sup><sub>m</sub></sup></td>
             <td align="center">48:20</td>
             <td align="center">127 <sup><sub>w</sub></sup></td>
-            <td>25.9 <sup><sub>km/h</sub></sup></td>
+            <td align="center">25.9 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>11-04-2023</td>
@@ -435,7 +435,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">390 <sup><sub>m</sub></sup></td>
             <td align="center">1:05:33</td>
             <td align="center">156 <sup><sub>w</sub></sup></td>
-            <td>20.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">20.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>09-04-2023</td>
@@ -444,7 +444,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">151 <sup><sub>m</sub></sup></td>
             <td align="center">1:12:04</td>
             <td align="center">156 <sup><sub>w</sub></sup></td>
-            <td>31.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">31.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>07-04-2023</td>
@@ -453,7 +453,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">495 <sup><sub>m</sub></sup></td>
             <td align="center">1:01:40</td>
             <td align="center">156 <sup><sub>w</sub></sup></td>
-            <td>23.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">23.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>06-04-2023</td>
@@ -462,7 +462,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">101 <sup><sub>m</sub></sup></td>
             <td align="center">47:56</td>
             <td align="center">153 <sup><sub>w</sub></sup></td>
-            <td>31.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">31.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>05-04-2023</td>
@@ -471,7 +471,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">126 <sup><sub>m</sub></sup></td>
             <td align="center">45:21</td>
             <td align="center">141 <sup><sub>w</sub></sup></td>
-            <td>31.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">31.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>05-04-2023</td>
@@ -480,7 +480,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">12 <sup><sub>m</sub></sup></td>
             <td align="center">16:37</td>
             <td align="center">n/a</td>
-            <td>15.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">15.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>05-04-2023</td>
@@ -489,7 +489,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">10 <sup><sub>m</sub></sup></td>
             <td align="center">20:35</td>
             <td align="center">n/a</td>
-            <td>13.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">13.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>04-04-2023</td>
@@ -498,7 +498,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">7 <sup><sub>m</sub></sup></td>
             <td align="center">16:58</td>
             <td align="center">n/a</td>
-            <td>16.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">16.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>04-04-2023</td>
@@ -507,7 +507,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">10 <sup><sub>m</sub></sup></td>
             <td align="center">19:27</td>
             <td align="center">n/a</td>
-            <td>14.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">14.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>27-03-2023</td>
@@ -516,7 +516,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">7 <sup><sub>m</sub></sup></td>
             <td align="center">31:58</td>
             <td align="center">n/a</td>
-            <td>12.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">12.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td>27-03-2023</td>
@@ -525,7 +525,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">20 <sup><sub>m</sub></sup></td>
             <td align="center">27:16</td>
             <td align="center">n/a</td>
-            <td>12.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">12.6 <sup><sub>km/h</sub></sup></td>
         </tr>
                 <tr>
             <td></td>

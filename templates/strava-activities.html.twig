@@ -17,7 +17,7 @@
             <td align="center">{{ activity.getElevation() }} <sup><sub>m</sub></sup></td>
             <td align="center">{{ activity.getMovingTimeFormatted() }}</td>
             <td align="center">{{ activity.getAveragePower() ? activity.getAveragePower() ~ ' <sup><sub>w</sub></sup>': 'n/a' }}</td>
-            <td>{{ activity.getAverageSpeedInKmPerH() }} <sup><sub>km/h</sub></sup></td>
+            <td align="center">{{ activity.getAverageSpeedInKmPerH() }} <sup><sub>km/h</sub></sup></td>
         </tr>
     {% endfor %}
     {%  if totals %}
