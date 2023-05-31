@@ -28,7 +28,7 @@
         </tr>
             <tr>
             <td>29-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruck...</a></td>
+            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbr...</a></td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
             <td align="center">49:08</td>
