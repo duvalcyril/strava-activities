@@ -66,6 +66,11 @@ class Activity implements \JsonSerializable
         return null;
     }
 
+    public function getAverageSpeedInKmPerH(): float
+    {
+        return round($this->data['average_speed'] * 3.6, 1);
+    }
+
     public function getMovingTime(): string
     {
         $seconds = $this->data['moving_time'];
