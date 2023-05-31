@@ -15,6 +15,24 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="35" alt="average speed" title="average speed"/></th>
     </tr>
             <tr>
+            <td>31-05-2023</td>
+            <td><sup><sub><a href="https://www.strava.com/activities/9176313509">Zwift - Devedeset in Watopia</a></sub></sup></td>
+            <td align="center">33 <sup><sub>km</sub></sup></td>
+            <td align="center">691 <sup><sub>m</sub></sup></td>
+            <td align="center">1:22:14</td>
+            <td align="center">167 <sup><sub>w</sub></sup></td>
+            <td>23.9 <sup><sub>km/h</sub></sup></td>
+        </tr>
+            <tr>
+            <td>31-05-2023</td>
+            <td><sup><sub><a href="https://www.strava.com/activities/9174924354">Lunch Ride</a></sub></sup></td>
+            <td align="center">15 <sup><sub>km</sub></sup></td>
+            <td align="center">29 <sup><sub>m</sub></sup></td>
+            <td align="center">44:07</td>
+            <td align="center">n/a</td>
+            <td>20 <sup><sub>km/h</sub></sup></td>
+        </tr>
+            <tr>
             <td>29-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruckring in Innsbruck</a></sub></sup></td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
