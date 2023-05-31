@@ -11,7 +11,7 @@
     </tr>
     {% for activity in activities %}
         <tr>
-            <td><sup><sub>{{ activity.getStartDate().format('d-m-Y') }}</sub></sup></td>
+            <td>{{ activity.getStartDate().format('d-m-Y') }}</td>
             <td><sup><sub><a href="{{ activity.getUrl() }}">{{ activity.getName()|length > 45 ? activity.getName()|slice(0, 45) ~ '...' : activity.getName() }}</a></sub></sup></td>
             <td align="center">{{ activity.getDistance() }} <sup><sub>km</sub></sup></td>
             <td align="center">{{ activity.getElevation() }} <sup><sub>m</sub></sup></td>

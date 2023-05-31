@@ -15,7 +15,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="35" alt="average speed" title="average speed"/></th>
     </tr>
             <tr>
-            <td><sup><sub>29-05-2023</sub></sup></td>
+            <td>29-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruckring ...</a></sub></sup></td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
@@ -24,7 +24,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>34.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>28-05-2023</sub></sup></td>
+            <td>28-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9157342987">Afternoon Ride</a></sub></sup></td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">23 <sup><sub>m</sub></sup></td>
@@ -33,7 +33,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>17.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>28-05-2023</sub></sup></td>
+            <td>28-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9155976770">Zwift - Red Unicorn in Watopia</a></sub></sup></td>
             <td align="center">36 <sup><sub>km</sub></sup></td>
             <td align="center">768 <sup><sub>m</sub></sup></td>
@@ -42,7 +42,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>23.7 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>27-05-2023</sub></sup></td>
+            <td>27-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9152881957">Night Ride</a></sub></sup></td>
             <td align="center">4 <sup><sub>km</sub></sup></td>
             <td align="center">9 <sup><sub>m</sub></sup></td>
@@ -51,7 +51,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>21 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>27-05-2023</sub></sup></td>
+            <td>27-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9148704237">Lunch Ride</a></sub></sup></td>
             <td align="center">5 <sup><sub>km</sub></sup></td>
             <td align="center">9 <sup><sub>m</sub></sup></td>
@@ -60,7 +60,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>21.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>25-05-2023</sub></sup></td>
+            <td>25-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9138675211">Zwift - Zone Benchmarking in Richmond</a></sub></sup></td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">142 <sup><sub>m</sub></sup></td>
@@ -69,7 +69,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>30.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>25-05-2023</sub></sup></td>
+            <td>25-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9138442860">Zwift - Pedaling Drills in Makuri Islands</a></sub></sup></td>
             <td align="center">8 <sup><sub>km</sub></sup></td>
             <td align="center">79 <sup><sub>m</sub></sup></td>
@@ -78,7 +78,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>24.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>24-05-2023</sub></sup></td>
+            <td>24-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9132215821">Zwift - FTP Test (shorter) in Makuri Islands</a></sub></sup></td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">222 <sup><sub>m</sub></sup></td>
@@ -87,7 +87,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>28.7 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>22-05-2023</sub></sup></td>
+            <td>22-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9120215227">Zwift - Flexible Free Ride in France</a></sub></sup></td>
             <td align="center">27 <sup><sub>km</sub></sup></td>
             <td align="center">163 <sup><sub>m</sub></sup></td>
@@ -96,7 +96,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>35.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>21-05-2023</sub></sup></td>
+            <td>21-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9111623965">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">34 <sup><sub>km</sub></sup></td>
             <td align="center">157 <sup><sub>m</sub></sup></td>
@@ -105,7 +105,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>31.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>20-05-2023</sub></sup></td>
+            <td>20-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9106730277">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">30 <sup><sub>km</sub></sup></td>
             <td align="center">275 <sup><sub>m</sub></sup></td>
@@ -114,7 +114,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>24.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>20-05-2023</sub></sup></td>
+            <td>20-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9105368636">Lunch Ride</a></sub></sup></td>
             <td align="center">4 <sup><sub>km</sub></sup></td>
             <td align="center">5 <sup><sub>m</sub></sup></td>
@@ -123,7 +123,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>13.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>17-05-2023</sub></sup></td>
+            <td>17-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9089741187">Evening Ride</a></sub></sup></td>
             <td align="center">3 <sup><sub>km</sub></sup></td>
             <td align="center">3 <sup><sub>m</sub></sup></td>
@@ -132,7 +132,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>18.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>17-05-2023</sub></sup></td>
+            <td>17-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9088700396">Zwift - Threshold Development in Watopia</a></sub></sup></td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">721 <sup><sub>m</sub></sup></td>
@@ -141,7 +141,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>25.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>15-05-2023</sub></sup></td>
+            <td>15-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9076452878">Zwift - Threshold Development in Watopia</a></sub></sup></td>
             <td align="center">36 <sup><sub>km</sub></sup></td>
             <td align="center">353 <sup><sub>m</sub></sup></td>
@@ -150,7 +150,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>29 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>14-05-2023</sub></sup></td>
+            <td>14-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9070524758">Zwift - Active Recovery in London</a></sub></sup></td>
             <td align="center">17 <sup><sub>km</sub></sup></td>
             <td align="center">218 <sup><sub>m</sub></sup></td>
@@ -159,7 +159,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>23.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>13-05-2023</sub></sup></td>
+            <td>13-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9065355028">Zwift - Active Recovery in Watopia</a></sub></sup></td>
             <td align="center">34 <sup><sub>km</sub></sup></td>
             <td align="center">108 <sup><sub>m</sub></sup></td>
@@ -168,7 +168,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>31.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>12-05-2023</sub></sup></td>
+            <td>12-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9060004298">Night Ride</a></sub></sup></td>
             <td align="center">3 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
@@ -177,7 +177,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>19.7 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>12-05-2023</sub></sup></td>
+            <td>12-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9058621575">Evening Ride</a></sub></sup></td>
             <td align="center">3 <sup><sub>km</sub></sup></td>
             <td align="center">6 <sup><sub>m</sub></sup></td>
@@ -186,7 +186,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>16.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>12-05-2023</sub></sup></td>
+            <td>12-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9058227157">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">26 <sup><sub>km</sub></sup></td>
             <td align="center">237 <sup><sub>m</sub></sup></td>
@@ -195,7 +195,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>23.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>11-05-2023</sub></sup></td>
+            <td>11-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9052150879">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">351 <sup><sub>m</sub></sup></td>
@@ -204,7 +204,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>29.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>11-05-2023</sub></sup></td>
+            <td>11-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9050346463">Commute</a></sub></sup></td>
             <td align="center">12 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
@@ -213,7 +213,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>16.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>09-05-2023</sub></sup></td>
+            <td>09-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9040880440">Zwift - Threshold Development in Watopia</a></sub></sup></td>
             <td align="center">40 <sup><sub>km</sub></sup></td>
             <td align="center">359 <sup><sub>m</sub></sup></td>
@@ -222,7 +222,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>31.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>08-05-2023</sub></sup></td>
+            <td>08-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9034331277">Zwift - Threshold Development in Watopia</a></sub></sup></td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">266 <sup><sub>m</sub></sup></td>
@@ -231,7 +231,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>31.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>06-05-2023</sub></sup></td>
+            <td>06-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9023505366">Commute</a></sub></sup></td>
             <td align="center">11 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
@@ -240,7 +240,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>16.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>06-05-2023</sub></sup></td>
+            <td>06-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9019875314">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">32 <sup><sub>km</sub></sup></td>
             <td align="center">377 <sup><sub>m</sub></sup></td>
@@ -249,7 +249,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>28.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>05-05-2023</sub></sup></td>
+            <td>05-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9015734636">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">263 <sup><sub>m</sub></sup></td>
@@ -258,7 +258,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>29.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>03-05-2023</sub></sup></td>
+            <td>03-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9003851558">Zwift - Intermittent in Watopia</a></sub></sup></td>
             <td align="center">34 <sup><sub>km</sub></sup></td>
             <td align="center">106 <sup><sub>m</sub></sup></td>
@@ -267,7 +267,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>32.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>03-05-2023</sub></sup></td>
+            <td>03-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/9003197724">Commute</a></sub></sup></td>
             <td align="center">10 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
@@ -276,7 +276,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>16.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>01-05-2023</sub></sup></td>
+            <td>01-05-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8989624727">Zwift - Tempo in Watopia</a></sub></sup></td>
             <td align="center">32 <sup><sub>km</sub></sup></td>
             <td align="center">1065 <sup><sub>m</sub></sup></td>
@@ -285,7 +285,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>18.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>30-04-2023</sub></sup></td>
+            <td>30-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8983590716">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">179 <sup><sub>m</sub></sup></td>
@@ -294,7 +294,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>21.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>29-04-2023</sub></sup></td>
+            <td>29-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8978542341">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">30 <sup><sub>km</sub></sup></td>
             <td align="center">114 <sup><sub>m</sub></sup></td>
@@ -303,7 +303,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>30.2 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>27-04-2023</sub></sup></td>
+            <td>27-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8965456621">Commute</a></sub></sup></td>
             <td align="center">12 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
@@ -312,7 +312,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>16.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>26-04-2023</sub></sup></td>
+            <td>26-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8961012150">Zwift - Strength in Watopia</a></sub></sup></td>
             <td align="center">33 <sup><sub>km</sub></sup></td>
             <td align="center">240 <sup><sub>m</sub></sup></td>
@@ -321,7 +321,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>28.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>25-04-2023</sub></sup></td>
+            <td>25-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8954935199">Zwift - Tempo in Watopia</a></sub></sup></td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">464 <sup><sub>m</sub></sup></td>
@@ -330,7 +330,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>26.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>23-04-2023</sub></sup></td>
+            <td>23-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8943085360">Zwift - Active Recovery in Watopia</a></sub></sup></td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">105 <sup><sub>m</sub></sup></td>
@@ -339,7 +339,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>29.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>21-04-2023</sub></sup></td>
+            <td>21-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8931111884">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">23 <sup><sub>km</sub></sup></td>
             <td align="center">276 <sup><sub>m</sub></sup></td>
@@ -348,7 +348,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>26.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>19-04-2023</sub></sup></td>
+            <td>19-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8919763151">Zwift - Foundation in Richmond</a></sub></sup></td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">84 <sup><sub>m</sub></sup></td>
@@ -357,7 +357,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>31 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>18-04-2023</sub></sup></td>
+            <td>18-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8913200246">Zwift - Strength in Watopia</a></sub></sup></td>
             <td align="center">30 <sup><sub>km</sub></sup></td>
             <td align="center">45 <sup><sub>m</sub></sup></td>
@@ -366,7 +366,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>30.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>16-04-2023</sub></sup></td>
+            <td>16-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8903705768">Afternoon Ride</a></sub></sup></td>
             <td align="center">18 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
@@ -375,7 +375,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>24.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>14-04-2023</sub></sup></td>
+            <td>14-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8889731068">Zwift - Tempo in Watopia</a></sub></sup></td>
             <td align="center">42 <sup><sub>km</sub></sup></td>
             <td align="center">211 <sup><sub>m</sub></sup></td>
@@ -384,7 +384,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>30.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>13-04-2023</sub></sup></td>
+            <td>13-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8884162026">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">239 <sup><sub>m</sub></sup></td>
@@ -393,7 +393,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>24.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>13-04-2023</sub></sup></td>
+            <td>13-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8884245832">Commute</a></sub></sup></td>
             <td align="center">12 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
@@ -402,7 +402,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>17.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>12-04-2023</sub></sup></td>
+            <td>12-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8878924682">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">21 <sup><sub>km</sub></sup></td>
             <td align="center">169 <sup><sub>m</sub></sup></td>
@@ -411,7 +411,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>25.9 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>11-04-2023</sub></sup></td>
+            <td>11-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8872209398">Zwift - Strength in Makuri Islands</a></sub></sup></td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">390 <sup><sub>m</sub></sup></td>
@@ -420,7 +420,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>20.5 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>09-04-2023</sub></sup></td>
+            <td>09-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8859715132">Zwift - Tempo in Watopia</a></sub></sup></td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">151 <sup><sub>m</sub></sup></td>
@@ -429,7 +429,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>31.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>07-04-2023</sub></sup></td>
+            <td>07-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8848645176">Zwift - Ramp Test in Innsbruck</a></sub></sup></td>
             <td align="center">24 <sup><sub>km</sub></sup></td>
             <td align="center">495 <sup><sub>m</sub></sup></td>
@@ -438,7 +438,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>23.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>06-04-2023</sub></sup></td>
+            <td>06-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8842900668">Zwift - Zone Benchmarking in Watopia</a></sub></sup></td>
             <td align="center">25 <sup><sub>km</sub></sup></td>
             <td align="center">101 <sup><sub>m</sub></sup></td>
@@ -447,7 +447,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>31.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>05-04-2023</sub></sup></td>
+            <td>05-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8837881433">Zwift - FTP Test (shorter) in Watopia</a></sub></sup></td>
             <td align="center">24 <sup><sub>km</sub></sup></td>
             <td align="center">126 <sup><sub>m</sub></sup></td>
@@ -456,7 +456,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>31.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>05-04-2023</sub></sup></td>
+            <td>05-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8836876517">Afternoon Ride</a></sub></sup></td>
             <td align="center">4 <sup><sub>km</sub></sup></td>
             <td align="center">12 <sup><sub>m</sub></sup></td>
@@ -465,7 +465,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>15.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>05-04-2023</sub></sup></td>
+            <td>05-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8835455910">Morning Ride</a></sub></sup></td>
             <td align="center">5 <sup><sub>km</sub></sup></td>
             <td align="center">10 <sup><sub>m</sub></sup></td>
@@ -474,7 +474,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>13.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>04-04-2023</sub></sup></td>
+            <td>04-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8835455809">Afternoon Ride</a></sub></sup></td>
             <td align="center">5 <sup><sub>km</sub></sup></td>
             <td align="center">7 <sup><sub>m</sub></sup></td>
@@ -483,7 +483,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>16.8 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>04-04-2023</sub></sup></td>
+            <td>04-04-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8835457514">Morning Ride</a></sub></sup></td>
             <td align="center">5 <sup><sub>km</sub></sup></td>
             <td align="center">10 <sup><sub>m</sub></sup></td>
@@ -492,7 +492,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>14.4 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>27-03-2023</sub></sup></td>
+            <td>27-03-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8835457306">Morning Ride</a></sub></sup></td>
             <td align="center">7 <sup><sub>km</sub></sup></td>
             <td align="center">7 <sup><sub>m</sub></sup></td>
@@ -501,7 +501,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td>12.6 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td><sup><sub>27-03-2023</sub></sup></td>
+            <td>27-03-2023</td>
             <td><sup><sub><a href="https://www.strava.com/activities/8835458375">Morning Ride</a></sub></sup></td>
             <td align="center">6 <sup><sub>km</sub></sup></td>
             <td align="center">20 <sup><sub>m</sub></sup></td>
