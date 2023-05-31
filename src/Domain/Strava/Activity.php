@@ -2,6 +2,8 @@
 
 namespace App\Domain\Strava;
 
+use Carbon\CarbonInterval;
+
 class Activity implements \JsonSerializable
 {
     private function __construct(
@@ -73,14 +75,13 @@ class Activity implements \JsonSerializable
 
     public function getMovingTime(): string
     {
-        $seconds = $this->data['moving_time'];
+        $interval = CarbonInterval::seconds($this->data['moving_time'])->cascade();
 
-        $hours = (int) floor($this->data['moving_time'] / 3600);
-        if ($hours > 0) {
-            return gmdate('G:i:s', $seconds);
-        }
-
-        return gmdate('i:s', $seconds);
+        return implode(':', array_filter(array_map(fn (int $value) => sprintf('%02d', $value), [
+            $interval->hours,
+            $interval->minutes,
+            $interval->seconds,
+        ])));
     }
 
     public function getUrl(): string

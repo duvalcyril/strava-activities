@@ -19,7 +19,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9176313509">Zwift - Devedeset in Watopia</a></sub></sup></td>
             <td align="center">33 <sup><sub>km</sub></sup></td>
             <td align="center">691 <sup><sub>m</sub></sup></td>
-            <td align="center">1:22:14</td>
+            <td align="center">01:22:14</td>
             <td align="center">167 <sup><sub>w</sub></sup></td>
             <td>23.9 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -28,7 +28,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9174924354">Lunch Ride</a></sub></sup></td>
             <td align="center">15 <sup><sub>km</sub></sup></td>
             <td align="center">29 <sup><sub>m</sub></sup></td>
-            <td align="center">44:07</td>
+            <td align="center">00:44:07</td>
             <td align="center">n/a</td>
             <td>20 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -37,7 +37,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruckring in Innsbruck</a></sub></sup></td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
-            <td align="center">49:08</td>
+            <td align="center">00:49:08</td>
             <td align="center">204 <sup><sub>w</sub></sup></td>
             <td>34.5 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -46,7 +46,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9157342987">Afternoon Ride</a></sub></sup></td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">23 <sup><sub>m</sub></sup></td>
-            <td align="center">1:07:38</td>
+            <td align="center">01:07:38</td>
             <td align="center">n/a</td>
             <td>17.8 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -55,7 +55,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9155976770">Zwift - Red Unicorn in Watopia</a></sub></sup></td>
             <td align="center">36 <sup><sub>km</sub></sup></td>
             <td align="center">768 <sup><sub>m</sub></sup></td>
-            <td align="center">1:30:13</td>
+            <td align="center">01:30:13</td>
             <td align="center">169 <sup><sub>w</sub></sup></td>
             <td>23.7 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -64,7 +64,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9152881957">Night Ride</a></sub></sup></td>
             <td align="center">4 <sup><sub>km</sub></sup></td>
             <td align="center">9 <sup><sub>m</sub></sup></td>
-            <td align="center">12:06</td>
+            <td align="center">00:12:06</td>
             <td align="center">n/a</td>
             <td>21 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -73,7 +73,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9148704237">Lunch Ride</a></sub></sup></td>
             <td align="center">5 <sup><sub>km</sub></sup></td>
             <td align="center">9 <sup><sub>m</sub></sup></td>
-            <td align="center">13:46</td>
+            <td align="center">00:13:46</td>
             <td align="center">n/a</td>
             <td>21.5 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -82,7 +82,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9138675211">Zwift - Zone Benchmarking in Richmond</a></sub></sup></td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">142 <sup><sub>m</sub></sup></td>
-            <td align="center">40:23</td>
+            <td align="center">00:40:23</td>
             <td align="center">167 <sup><sub>w</sub></sup></td>
             <td>30.2 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -91,7 +91,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9138442860">Zwift - Pedaling Drills in Makuri Islands</a></sub></sup></td>
             <td align="center">8 <sup><sub>km</sub></sup></td>
             <td align="center">79 <sup><sub>m</sub></sup></td>
-            <td align="center">20:21</td>
+            <td align="center">00:20:21</td>
             <td align="center">148 <sup><sub>w</sub></sup></td>
             <td>24.1 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -100,7 +100,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9132215821">Zwift - FTP Test (shorter) in Makuri Islands</a></sub></sup></td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">222 <sup><sub>m</sub></sup></td>
-            <td align="center">46:32</td>
+            <td align="center">00:46:32</td>
             <td align="center">177 <sup><sub>w</sub></sup></td>
             <td>28.7 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -109,7 +109,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9120215227">Zwift - Flexible Free Ride in France</a></sub></sup></td>
             <td align="center">27 <sup><sub>km</sub></sup></td>
             <td align="center">163 <sup><sub>m</sub></sup></td>
-            <td align="center">45:53</td>
+            <td align="center">00:45:53</td>
             <td align="center">198 <sup><sub>w</sub></sup></td>
             <td>35.5 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -118,7 +118,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9111623965">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">34 <sup><sub>km</sub></sup></td>
             <td align="center">157 <sup><sub>m</sub></sup></td>
-            <td align="center">1:05:19</td>
+            <td align="center">01:05:19</td>
             <td align="center">152 <sup><sub>w</sub></sup></td>
             <td>31.5 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -127,7 +127,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9106730277">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">30 <sup><sub>km</sub></sup></td>
             <td align="center">275 <sup><sub>m</sub></sup></td>
-            <td align="center">1:15:40</td>
+            <td align="center">01:15:40</td>
             <td align="center">136 <sup><sub>w</sub></sup></td>
             <td>24.2 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -136,7 +136,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9105368636">Lunch Ride</a></sub></sup></td>
             <td align="center">4 <sup><sub>km</sub></sup></td>
             <td align="center">5 <sup><sub>m</sub></sup></td>
-            <td align="center">16:15</td>
+            <td align="center">00:16:15</td>
             <td align="center">n/a</td>
             <td>13.1 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -145,7 +145,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9089741187">Evening Ride</a></sub></sup></td>
             <td align="center">3 <sup><sub>km</sub></sup></td>
             <td align="center">3 <sup><sub>m</sub></sup></td>
-            <td align="center">08:48</td>
+            <td align="center">00:08:48</td>
             <td align="center">n/a</td>
             <td>18.6 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -154,7 +154,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9088700396">Zwift - Threshold Development in Watopia</a></sub></sup></td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">721 <sup><sub>m</sub></sup></td>
-            <td align="center">1:29:32</td>
+            <td align="center">01:29:32</td>
             <td align="center">159 <sup><sub>w</sub></sup></td>
             <td>25.3 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -163,7 +163,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9076452878">Zwift - Threshold Development in Watopia</a></sub></sup></td>
             <td align="center">36 <sup><sub>km</sub></sup></td>
             <td align="center">353 <sup><sub>m</sub></sup></td>
-            <td align="center">1:14:49</td>
+            <td align="center">01:14:49</td>
             <td align="center">155 <sup><sub>w</sub></sup></td>
             <td>29 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -172,7 +172,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9070524758">Zwift - Active Recovery in London</a></sub></sup></td>
             <td align="center">17 <sup><sub>km</sub></sup></td>
             <td align="center">218 <sup><sub>m</sub></sup></td>
-            <td align="center">44:04</td>
+            <td align="center">00:44:04</td>
             <td align="center">126 <sup><sub>w</sub></sup></td>
             <td>23.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -181,7 +181,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9065355028">Zwift - Active Recovery in Watopia</a></sub></sup></td>
             <td align="center">34 <sup><sub>km</sub></sup></td>
             <td align="center">108 <sup><sub>m</sub></sup></td>
-            <td align="center">1:05:48</td>
+            <td align="center">01:05:48</td>
             <td align="center">146 <sup><sub>w</sub></sup></td>
             <td>31.1 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -190,7 +190,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9060004298">Night Ride</a></sub></sup></td>
             <td align="center">3 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
-            <td align="center">08:49</td>
+            <td align="center">00:08:49</td>
             <td align="center">n/a</td>
             <td>19.7 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -199,7 +199,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9058621575">Evening Ride</a></sub></sup></td>
             <td align="center">3 <sup><sub>km</sub></sup></td>
             <td align="center">6 <sup><sub>m</sub></sup></td>
-            <td align="center">10:19</td>
+            <td align="center">00:10:19</td>
             <td align="center">n/a</td>
             <td>16.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -208,7 +208,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9058227157">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">26 <sup><sub>km</sub></sup></td>
             <td align="center">237 <sup><sub>m</sub></sup></td>
-            <td align="center">1:08:42</td>
+            <td align="center">01:08:42</td>
             <td align="center">153 <sup><sub>w</sub></sup></td>
             <td>23.1 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -217,7 +217,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9052150879">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">351 <sup><sub>m</sub></sup></td>
-            <td align="center">1:11:22</td>
+            <td align="center">01:11:22</td>
             <td align="center">143 <sup><sub>w</sub></sup></td>
             <td>29.2 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -226,7 +226,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9050346463">Commute</a></sub></sup></td>
             <td align="center">12 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
-            <td align="center">44:00</td>
+            <td align="center">00:44:00</td>
             <td align="center">n/a</td>
             <td>16.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -235,7 +235,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9040880440">Zwift - Threshold Development in Watopia</a></sub></sup></td>
             <td align="center">40 <sup><sub>km</sub></sup></td>
             <td align="center">359 <sup><sub>m</sub></sup></td>
-            <td align="center">1:17:24</td>
+            <td align="center">01:17:24</td>
             <td align="center">161 <sup><sub>w</sub></sup></td>
             <td>31.3 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -244,7 +244,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9034331277">Zwift - Threshold Development in Watopia</a></sub></sup></td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">266 <sup><sub>m</sub></sup></td>
-            <td align="center">1:06:50</td>
+            <td align="center">01:06:50</td>
             <td align="center">170 <sup><sub>w</sub></sup></td>
             <td>31.2 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -253,7 +253,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9023505366">Commute</a></sub></sup></td>
             <td align="center">11 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
-            <td align="center">41:00</td>
+            <td align="center">00:41:00</td>
             <td align="center">n/a</td>
             <td>16.1 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -262,7 +262,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9019875314">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">32 <sup><sub>km</sub></sup></td>
             <td align="center">377 <sup><sub>m</sub></sup></td>
-            <td align="center">1:07:02</td>
+            <td align="center">01:07:02</td>
             <td align="center">152 <sup><sub>w</sub></sup></td>
             <td>28.6 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -271,7 +271,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9015734636">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">263 <sup><sub>m</sub></sup></td>
-            <td align="center">1:12:00</td>
+            <td align="center">01:12:00</td>
             <td align="center">151 <sup><sub>w</sub></sup></td>
             <td>29.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -280,7 +280,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9003851558">Zwift - Intermittent in Watopia</a></sub></sup></td>
             <td align="center">34 <sup><sub>km</sub></sup></td>
             <td align="center">106 <sup><sub>m</sub></sup></td>
-            <td align="center">1:02:55</td>
+            <td align="center">01:02:55</td>
             <td align="center">160 <sup><sub>w</sub></sup></td>
             <td>32.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -289,7 +289,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/9003197724">Commute</a></sub></sup></td>
             <td align="center">10 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
-            <td align="center">35:00</td>
+            <td align="center">00:35:00</td>
             <td align="center">n/a</td>
             <td>16.3 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -298,7 +298,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8989624727">Zwift - Tempo in Watopia</a></sub></sup></td>
             <td align="center">32 <sup><sub>km</sub></sup></td>
             <td align="center">1065 <sup><sub>m</sub></sup></td>
-            <td align="center">1:43:55</td>
+            <td align="center">01:43:55</td>
             <td align="center">162 <sup><sub>w</sub></sup></td>
             <td>18.2 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -307,7 +307,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8983590716">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">179 <sup><sub>m</sub></sup></td>
-            <td align="center">55:00</td>
+            <td align="center">00:55:00</td>
             <td align="center">142 <sup><sub>w</sub></sup></td>
             <td>21.8 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -316,7 +316,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8978542341">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">30 <sup><sub>km</sub></sup></td>
             <td align="center">114 <sup><sub>m</sub></sup></td>
-            <td align="center">1:00:29</td>
+            <td align="center">01:00:29</td>
             <td align="center">148 <sup><sub>w</sub></sup></td>
             <td>30.2 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -325,7 +325,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8965456621">Commute</a></sub></sup></td>
             <td align="center">12 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
-            <td align="center">45:00</td>
+            <td align="center">00:45:00</td>
             <td align="center">n/a</td>
             <td>16.3 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -334,7 +334,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8961012150">Zwift - Strength in Watopia</a></sub></sup></td>
             <td align="center">33 <sup><sub>km</sub></sup></td>
             <td align="center">240 <sup><sub>m</sub></sup></td>
-            <td align="center">1:09:57</td>
+            <td align="center">01:09:57</td>
             <td align="center">127 <sup><sub>w</sub></sup></td>
             <td>28.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -343,7 +343,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8954935199">Zwift - Tempo in Watopia</a></sub></sup></td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">464 <sup><sub>m</sub></sup></td>
-            <td align="center">1:26:11</td>
+            <td align="center">01:26:11</td>
             <td align="center">142 <sup><sub>w</sub></sup></td>
             <td>26.8 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -352,7 +352,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8943085360">Zwift - Active Recovery in Watopia</a></sub></sup></td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">105 <sup><sub>m</sub></sup></td>
-            <td align="center">44:54</td>
+            <td align="center">00:44:54</td>
             <td align="center">125 <sup><sub>w</sub></sup></td>
             <td>29.3 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -361,7 +361,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8931111884">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">23 <sup><sub>km</sub></sup></td>
             <td align="center">276 <sup><sub>m</sub></sup></td>
-            <td align="center">53:11</td>
+            <td align="center">00:53:11</td>
             <td align="center">131 <sup><sub>w</sub></sup></td>
             <td>26.5 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -370,7 +370,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8919763151">Zwift - Foundation in Richmond</a></sub></sup></td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">84 <sup><sub>m</sub></sup></td>
-            <td align="center">1:08:02</td>
+            <td align="center">01:08:02</td>
             <td align="center">142 <sup><sub>w</sub></sup></td>
             <td>31 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -379,7 +379,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8913200246">Zwift - Strength in Watopia</a></sub></sup></td>
             <td align="center">30 <sup><sub>km</sub></sup></td>
             <td align="center">45 <sup><sub>m</sub></sup></td>
-            <td align="center">59:06</td>
+            <td align="center">00:59:06</td>
             <td align="center">129 <sup><sub>w</sub></sup></td>
             <td>30.6 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -388,7 +388,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8903705768">Afternoon Ride</a></sub></sup></td>
             <td align="center">18 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
-            <td align="center">43:00</td>
+            <td align="center">00:43:00</td>
             <td align="center">n/a</td>
             <td>24.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -397,7 +397,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8889731068">Zwift - Tempo in Watopia</a></sub></sup></td>
             <td align="center">42 <sup><sub>km</sub></sup></td>
             <td align="center">211 <sup><sub>m</sub></sup></td>
-            <td align="center">1:23:53</td>
+            <td align="center">01:23:53</td>
             <td align="center">139 <sup><sub>w</sub></sup></td>
             <td>30.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -406,7 +406,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8884162026">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">239 <sup><sub>m</sub></sup></td>
-            <td align="center">49:58</td>
+            <td align="center">00:49:58</td>
             <td align="center">123 <sup><sub>w</sub></sup></td>
             <td>24.1 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -415,7 +415,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8884245832">Commute</a></sub></sup></td>
             <td align="center">12 <sup><sub>km</sub></sup></td>
             <td align="center">0 <sup><sub>m</sub></sup></td>
-            <td align="center">40:00</td>
+            <td align="center">00:40:00</td>
             <td align="center">n/a</td>
             <td>17.6 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -424,7 +424,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8878924682">Zwift - Foundation in Watopia</a></sub></sup></td>
             <td align="center">21 <sup><sub>km</sub></sup></td>
             <td align="center">169 <sup><sub>m</sub></sup></td>
-            <td align="center">48:20</td>
+            <td align="center">00:48:20</td>
             <td align="center">127 <sup><sub>w</sub></sup></td>
             <td>25.9 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -433,7 +433,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8872209398">Zwift - Strength in Makuri Islands</a></sub></sup></td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">390 <sup><sub>m</sub></sup></td>
-            <td align="center">1:05:33</td>
+            <td align="center">01:05:33</td>
             <td align="center">156 <sup><sub>w</sub></sup></td>
             <td>20.5 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -442,7 +442,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8859715132">Zwift - Tempo in Watopia</a></sub></sup></td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">151 <sup><sub>m</sub></sup></td>
-            <td align="center">1:12:04</td>
+            <td align="center">01:12:04</td>
             <td align="center">156 <sup><sub>w</sub></sup></td>
             <td>31.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -451,7 +451,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8848645176">Zwift - Ramp Test in Innsbruck</a></sub></sup></td>
             <td align="center">24 <sup><sub>km</sub></sup></td>
             <td align="center">495 <sup><sub>m</sub></sup></td>
-            <td align="center">1:01:40</td>
+            <td align="center">01:01:40</td>
             <td align="center">156 <sup><sub>w</sub></sup></td>
             <td>23.6 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -460,7 +460,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8842900668">Zwift - Zone Benchmarking in Watopia</a></sub></sup></td>
             <td align="center">25 <sup><sub>km</sub></sup></td>
             <td align="center">101 <sup><sub>m</sub></sup></td>
-            <td align="center">47:56</td>
+            <td align="center">00:47:56</td>
             <td align="center">153 <sup><sub>w</sub></sup></td>
             <td>31.8 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -469,7 +469,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8837881433">Zwift - FTP Test (shorter) in Watopia</a></sub></sup></td>
             <td align="center">24 <sup><sub>km</sub></sup></td>
             <td align="center">126 <sup><sub>m</sub></sup></td>
-            <td align="center">45:21</td>
+            <td align="center">00:45:21</td>
             <td align="center">141 <sup><sub>w</sub></sup></td>
             <td>31.3 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -478,7 +478,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8836876517">Afternoon Ride</a></sub></sup></td>
             <td align="center">4 <sup><sub>km</sub></sup></td>
             <td align="center">12 <sup><sub>m</sub></sup></td>
-            <td align="center">16:37</td>
+            <td align="center">00:16:37</td>
             <td align="center">n/a</td>
             <td>15.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -487,7 +487,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8835455910">Morning Ride</a></sub></sup></td>
             <td align="center">5 <sup><sub>km</sub></sup></td>
             <td align="center">10 <sup><sub>m</sub></sup></td>
-            <td align="center">20:35</td>
+            <td align="center">00:20:35</td>
             <td align="center">n/a</td>
             <td>13.8 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -496,7 +496,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8835455809">Afternoon Ride</a></sub></sup></td>
             <td align="center">5 <sup><sub>km</sub></sup></td>
             <td align="center">7 <sup><sub>m</sub></sup></td>
-            <td align="center">16:58</td>
+            <td align="center">00:16:58</td>
             <td align="center">n/a</td>
             <td>16.8 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -505,7 +505,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8835457514">Morning Ride</a></sub></sup></td>
             <td align="center">5 <sup><sub>km</sub></sup></td>
             <td align="center">10 <sup><sub>m</sub></sup></td>
-            <td align="center">19:27</td>
+            <td align="center">00:19:27</td>
             <td align="center">n/a</td>
             <td>14.4 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -514,7 +514,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8835457306">Morning Ride</a></sub></sup></td>
             <td align="center">7 <sup><sub>km</sub></sup></td>
             <td align="center">7 <sup><sub>m</sub></sup></td>
-            <td align="center">31:58</td>
+            <td align="center">00:31:58</td>
             <td align="center">n/a</td>
             <td>12.6 <sup><sub>km/h</sub></sup></td>
         </tr>
@@ -523,7 +523,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td><sup><sub><a href="https://www.strava.com/activities/8835458375">Morning Ride</a></sub></sup></td>
             <td align="center">6 <sup><sub>km</sub></sup></td>
             <td align="center">20 <sup><sub>m</sub></sup></td>
-            <td align="center">27:16</td>
+            <td align="center">00:27:16</td>
             <td align="center">n/a</td>
             <td>12.6 <sup><sub>km/h</sub></sup></td>
         </tr>
