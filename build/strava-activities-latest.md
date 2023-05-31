@@ -53,4 +53,4 @@
             <td align="center">169 <sup><sub>w</sub></sup></td>
             <td align="center">23.7 <sup><sub>km/h</sub></sup></td>
         </tr>
-        </table>
+    </table>

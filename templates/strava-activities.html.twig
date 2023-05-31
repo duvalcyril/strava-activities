@@ -20,16 +20,18 @@
             <td align="center">{{ activity.getAverageSpeedInKmPerH() }} <sup><sub>km/h</sub></sup></td>
         </tr>
     {% endfor %}
-    {%  if totals %}
+</table>
+{%  if totals %}
+    <table>
         <tr>
             <td></td>
             <td></td>
             <td align="center">{{ totals.getDistance() }} <sup><sub>km</sub></sup></td>
             <td align="center">{{ totals.getElevation() }} <sup><sub>m</sub></sup></td>
-            <td></td>
+            <td align="center">{{ totals.getMovingTimeFormatted() }}</td>
             <td></td>
             <td></td>
         </tr>
-    {% endif %}
-</table>
+    </table>
+{% endif %}
 {% endautoescape %}
