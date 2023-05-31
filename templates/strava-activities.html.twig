@@ -6,11 +6,11 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="35" alt="elevation" title="elevation"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="35" alt="time" title="time"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="35" alt="average watts" title="average watts"/></th>
-        <th align="center"><img src="https://www.svgrepo.com/show/458910/speed-alt.svg" width="35" alt="average speed" title="average speed"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="35" alt="average speed" title="average speed"/></th>
     </tr>
     {% for activity in activities %}
         <tr>
-            <td>{{ activity.getStartDate().format('d-m-Y') }}</td>
+            <td><sub>{{ activity.getStartDate().format('d-m-Y') }}</sub></td>
             <td><sub><a href="{{ activity.getUrl() }}">{{ activity.getName()|length > 45 ? activity.getName()|slice(0, 45) ~ '...' : activity.getName() }}</a></sub></td>
             <td align="center">{{ activity.getDistance() }} km</td>
             <td align="center">{{ activity.getElevation() }} m</td>
