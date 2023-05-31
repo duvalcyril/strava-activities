@@ -34,7 +34,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>29-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruckring ...</a></td>
+            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruck...</a></td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
             <td align="center">49:08</td>
@@ -88,7 +88,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>25-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9138442860">Zwift - Pedaling Drills in Makuri Islands</a></td>
+            <td><a href="https://www.strava.com/activities/9138442860">Zwift - Pedaling Drills in Makuri Island...</a></td>
             <td align="center">8 <sup><sub>km</sub></sup></td>
             <td align="center">79 <sup><sub>m</sub></sup></td>
             <td align="center">20:21</td>
@@ -97,7 +97,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>24-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9132215821">Zwift - FTP Test (shorter) in Makuri Islands</a></td>
+            <td><a href="https://www.strava.com/activities/9132215821">Zwift - FTP Test (shorter) in Makuri Isl...</a></td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">222 <sup><sub>m</sub></sup></td>
             <td align="center">46:32</td>
