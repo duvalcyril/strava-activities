@@ -535,7 +535,6 @@ This repository contains a list of [my Strava activities](https://www.strava.com
             <td align="center">2d 34m 20s</td>
             <td></td>
             <td></td>
-            <td></td>
         </tr>
     </table>
 
