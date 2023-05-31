@@ -1,3 +1,4 @@
+{% autoescape false %}
 <table>
     <tr>
         <th></th>
@@ -10,13 +11,14 @@
     </tr>
     {% for activity in activities %}
         <tr>
-            <td><sub>{{ activity.getStartDate().format('d-m-Y') }}</sub></td>
-            <td><sub><a href="{{ activity.getUrl() }}">{{ activity.getName()|length > 45 ? activity.getName()|slice(0, 45) ~ '...' : activity.getName() }}</a></sub></td>
-            <td align="center">{{ activity.getDistance() }} km</td>
-            <td align="center">{{ activity.getElevation() }} m</td>
+            <td><small>{{ activity.getStartDate().format('d-m-Y') }}</small></td>
+            <td><small><a href="{{ activity.getUrl() }}">{{ activity.getName()|length > 45 ? activity.getName()|slice(0, 45) ~ '...' : activity.getName() }}</a></small></td>
+            <td align="center">{{ activity.getDistance() }} <small>km</small></td>
+            <td align="center">{{ activity.getElevation() }} <small>m</small></td>
             <td align="center">{{ activity.getMovingTime() }}</td>
-            <td align="center">{{ activity.getAveragePower() ? activity.getAveragePower() ~ ' w': 'n/a' }}</td>
-            <td>{{ activity.getAverageSpeedInKmPerH() }} km/h</td>
+            <td align="center">{{ activity.getAveragePower() ? activity.getAveragePower() ~ ' <small>w</small>': 'n/a' }}</td>
+            <td>{{ activity.getAverageSpeedInKmPerH() }} <small>km/h</small></td>
         </tr>
     {% endfor %}
 </table>
+{% endautoescape %}
