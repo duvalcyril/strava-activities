@@ -28,6 +28,20 @@ class ActivityTotals
         return CarbonInterval::seconds($seconds)->cascade()->forHumans(null, true);
     }
 
+    public function getStartDate(): \DateTimeImmutable
+    {
+        $startDate = new \DateTimeImmutable();
+        foreach ($this->activities as $activity) {
+            /* @var \App\Domain\Strava\Activity $activity */
+            if ($activity->getStartDate() > $startDate) {
+                continue;
+            }
+            $startDate = $activity->getStartDate();
+        }
+
+        return $startDate;
+    }
+
     public static function fromActivities(array $activities): self
     {
         return new self($activities);

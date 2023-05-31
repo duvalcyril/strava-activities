@@ -37,14 +37,17 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         $readme = ReadMe::fromPathToReadMe($pathToReadMe);
 
         $allActivities = $this->stravaActivityRepository->findAll();
+
         $readme
-            ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
-                'activities' => $allActivities,
+            ->updateStravaTotals($this->twig->load('strava-totals.html.twig')->render([
                 'totals' => ActivityTotals::fromActivities($allActivities),
             ]))
-        ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
-            'challenges' => $this->stravaChallengeRepository->findAll(),
-        ]));
+            ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
+                'activities' => $allActivities,
+            ]))
+            ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
+                'challenges' => $this->stravaChallengeRepository->findAll(),
+            ]));
 
         \Safe\file_put_contents($pathToReadMe, (string) $readme);
 

@@ -21,20 +21,4 @@
         </tr>
     {% endfor %}
 </table>
-{%  if totals %}
-    <table>
-        <tr>
-            <td><b>Distance</b></td>
-            <td align="center">{{ totals.getDistance()|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
-        </tr>
-        <tr>
-            <td><b>Elevation</b></td>
-            <td align="center">{{ totals.getElevation()|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></td>
-        </tr>
-        <tr>
-            <td><b>Time</b></td>
-            <td align="center">{{ totals.getMovingTimeFormatted() }}</td>
-        </tr>
-    </table>
-{% endif %}
 {% endautoescape %}
