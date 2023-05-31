@@ -77,11 +77,16 @@ class Activity implements \JsonSerializable
     {
         $interval = CarbonInterval::seconds($this->data['moving_time'])->cascade();
 
-        return implode(':', array_filter(array_map(fn (int $value) => sprintf('%02d', $value), [
-            $interval->hours,
+        $movingTime = implode(':', array_filter(array_map(fn (int $value) => sprintf('%02d', $value), [
             $interval->minutes,
             $interval->seconds,
         ])));
+
+        if ($hours = $interval->hours) {
+            $movingTime = $hours.':'.$movingTime;
+        }
+
+        return ltrim($movingTime, '0');
     }
 
     public function getUrl(): string
