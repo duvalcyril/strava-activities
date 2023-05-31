@@ -1,12 +1,14 @@
 <table>
     <tr>
         <th></th>
+        <th></th>
         <th align="center">Distance</th>
         <th align="center">Elevation</th>
         <th align="center">Time</th>
     </tr>
     {% for activity in activities %}
         <tr>
+            <td>{{ activity.getStartDate().format('d-m-Y') }}</td>
             <td><a href="{{ activity.getUrl() }}">{{ activity.getName() }}</a></td>
             <td align="center">{{ activity.getDistance() }} km</td>
             <td align="center">{{ activity.getElevation() }} m</td>
