@@ -11,11 +11,11 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/distance.svg" width="35" /></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="35"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="35"/></th>
-        <th align="center"><img src="https://www.svgrepo.com/show/455017/electricity.svg" width="35"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="35"/></th>
     </tr>
             <tr>
             <td>29-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruckring in Innsbruck</a></td>
+            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Inns...</a></td>
             <td align="center">28 km</td>
             <td align="center">238 m</td>
             <td align="center">49:08</td>
@@ -55,7 +55,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>25-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9138675211">Zwift - Zone Benchmarking in Richmond</a></td>
+            <td><a href="https://www.strava.com/activities/9138675211">Zwift - Zone Benchmarking in Richmo...</a></td>
             <td align="center">20 km</td>
             <td align="center">142 m</td>
             <td align="center">40:23</td>
@@ -63,7 +63,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>25-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9138442860">Zwift - Pedaling Drills in Makuri Islands</a></td>
+            <td><a href="https://www.strava.com/activities/9138442860">Zwift - Pedaling Drills in Makuri I...</a></td>
             <td align="center">8 km</td>
             <td align="center">79 m</td>
             <td align="center">20:21</td>
@@ -71,7 +71,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>24-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9132215821">Zwift - FTP Test (shorter) in Makuri Islands</a></td>
+            <td><a href="https://www.strava.com/activities/9132215821">Zwift - FTP Test (shorter) in Makur...</a></td>
             <td align="center">22 km</td>
             <td align="center">222 m</td>
             <td align="center">46:32</td>
@@ -79,7 +79,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>22-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9120215227">Zwift - Flexible Free Ride in France</a></td>
+            <td><a href="https://www.strava.com/activities/9120215227">Zwift - Flexible Free Ride in Franc...</a></td>
             <td align="center">27 km</td>
             <td align="center">163 m</td>
             <td align="center">45:53</td>
@@ -119,7 +119,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>17-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9088700396">Zwift - Threshold Development in Watopia</a></td>
+            <td><a href="https://www.strava.com/activities/9088700396">Zwift - Threshold Development in Wa...</a></td>
             <td align="center">38 km</td>
             <td align="center">721 m</td>
             <td align="center">1:29:32</td>
@@ -127,7 +127,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>15-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9076452878">Zwift - Threshold Development in Watopia</a></td>
+            <td><a href="https://www.strava.com/activities/9076452878">Zwift - Threshold Development in Wa...</a></td>
             <td align="center">36 km</td>
             <td align="center">353 m</td>
             <td align="center">1:14:49</td>
@@ -191,7 +191,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>09-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9040880440">Zwift - Threshold Development in Watopia</a></td>
+            <td><a href="https://www.strava.com/activities/9040880440">Zwift - Threshold Development in Wa...</a></td>
             <td align="center">40 km</td>
             <td align="center">359 m</td>
             <td align="center">1:17:24</td>
@@ -199,7 +199,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>08-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9034331277">Zwift - Threshold Development in Watopia</a></td>
+            <td><a href="https://www.strava.com/activities/9034331277">Zwift - Threshold Development in Wa...</a></td>
             <td align="center">35 km</td>
             <td align="center">266 m</td>
             <td align="center">1:06:50</td>
@@ -391,7 +391,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>06-04-2023</td>
-            <td><a href="https://www.strava.com/activities/8842900668">Zwift - Zone Benchmarking in Watopia</a></td>
+            <td><a href="https://www.strava.com/activities/8842900668">Zwift - Zone Benchmarking in Watopi...</a></td>
             <td align="center">25 km</td>
             <td align="center">101 m</td>
             <td align="center">47:56</td>
@@ -399,7 +399,7 @@ This repository contains a list of [my Strava activities](https://www.strava.com
         </tr>
             <tr>
             <td>05-04-2023</td>
-            <td><a href="https://www.strava.com/activities/8837881433">Zwift - FTP Test (shorter) in Watopia</a></td>
+            <td><a href="https://www.strava.com/activities/8837881433">Zwift - FTP Test (shorter) in Watop...</a></td>
             <td align="center">24 km</td>
             <td align="center">126 m</td>
             <td align="center">45:21</td>

@@ -5,11 +5,11 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/distance.svg" width="35" /></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="35"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="35"/></th>
-        <th align="center"><img src="https://www.svgrepo.com/show/455017/electricity.svg" width="35"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="35"/></th>
     </tr>
             <tr>
             <td>29-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruckring in Innsbruck</a></td>
+            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Inns...</a></td>
             <td align="center">28 km</td>
             <td align="center">238 m</td>
             <td align="center">49:08</td>
