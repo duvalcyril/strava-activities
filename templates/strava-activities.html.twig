@@ -5,6 +5,7 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/distance.svg" width="35" /></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="35"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="35"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="35"/></th>
     </tr>
     {% for activity in activities %}
         <tr>
@@ -13,6 +14,7 @@
             <td align="center">{{ activity.getDistance() }} km</td>
             <td align="center">{{ activity.getElevation() }} m</td>
             <td align="center">{{ activity.getMovingTime() }}</td>
+            <td align="center">{{ activity.getAveragePower() ?: 'n/a' }}</td>
         </tr>
     {% endfor %}
 </table>

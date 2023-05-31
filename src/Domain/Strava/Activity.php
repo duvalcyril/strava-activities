@@ -57,6 +57,15 @@ class Activity implements \JsonSerializable
         return round($this->data['total_elevation_gain']);
     }
 
+    public function getAveragePower(): ?int
+    {
+        if (isset($this->data['average_watts'])) {
+            return round($this->data['average_watts']);
+        }
+
+        return null;
+    }
+
     public function getMovingTime(): string
     {
         $seconds = $this->data['moving_time'];
