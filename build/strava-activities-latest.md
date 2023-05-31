@@ -10,7 +10,7 @@
     </tr>
             <tr>
             <td>31-05-2023</td>
-            <td><sup><sub><a href="https://www.strava.com/activities/9176313509">Zwift - Devedeset in Watopia</a></sub></sup></td>
+            <td><a href="https://www.strava.com/activities/9176313509">Zwift - Devedeset in Watopia</a></td>
             <td align="center">33 <sup><sub>km</sub></sup></td>
             <td align="center">691 <sup><sub>m</sub></sup></td>
             <td align="center">1:22:14</td>
@@ -19,7 +19,7 @@
         </tr>
             <tr>
             <td>31-05-2023</td>
-            <td><sup><sub><a href="https://www.strava.com/activities/9174924354">Lunch Ride</a></sub></sup></td>
+            <td><a href="https://www.strava.com/activities/9174924354">Lunch Ride</a></td>
             <td align="center">15 <sup><sub>km</sub></sup></td>
             <td align="center">29 <sup><sub>m</sub></sup></td>
             <td align="center">44:07</td>
@@ -28,7 +28,7 @@
         </tr>
             <tr>
             <td>29-05-2023</td>
-            <td><sup><sub><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruckring in Innsbruck</a></sub></sup></td>
+            <td><a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbruckring ...</a></td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
             <td align="center">49:08</td>
