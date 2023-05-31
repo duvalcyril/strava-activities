@@ -530,13 +530,16 @@ This repository contains a list of [my Strava activities](https://www.strava.com
     </table>
     <table>
         <tr>
-            <td></td>
-            <td></td>
-            <td align="center">1243 <sup><sub>km</sub></sup></td>
-            <td align="center">10698 <sup><sub>m</sub></sup></td>
+            <td><b>Distance</b></td>
+            <td align="center">1 243 <sup><sub>km</sub></sup></td>
+        </tr>
+        <tr>
+            <td><b>Elevation</b></td>
+            <td align="center">10 698 <sup><sub>m</sub></sup></td>
+        </tr>
+        <tr>
+            <td><b>Time</b></td>
             <td align="center">2d 34m 20s</td>
-            <td></td>
-            <td></td>
         </tr>
     </table>
 
