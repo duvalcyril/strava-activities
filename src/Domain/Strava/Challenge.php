@@ -21,6 +21,11 @@ class Challenge
         return new self($data);
     }
 
+    public function getName(): string
+    {
+        return $this->data['name'];
+    }
+
     public function getLogoUrl(): ?string
     {
         return $this->data['logo_url'] ?? null;
