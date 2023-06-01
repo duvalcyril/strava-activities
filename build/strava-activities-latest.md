@@ -11,7 +11,7 @@
             <tr>
             <td>01-06-2023</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="20" alt="virtual ride" title="virtual ride"/>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9183393448">Zwift - Zone Benchmarking in New York</a>
             </td>
             <td align="center">23 <sup><sub>km</sub></sup></td>
@@ -23,7 +23,7 @@
             <tr>
             <td>31-05-2023</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="20" alt="virtual ride" title="virtual ride"/>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9176313509">Zwift - Devedeset in Watopia</a>
             </td>
             <td align="center">33 <sup><sub>km</sub></sup></td>
@@ -35,7 +35,7 @@
             <tr>
             <td>31-05-2023</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="20" alt="virtual ride" title="virtual ride"/>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9174924354">Lunch Ride</a>
             </td>
             <td align="center">15 <sup><sub>km</sub></sup></td>
@@ -47,7 +47,7 @@
             <tr>
             <td>29-05-2023</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="20" alt="virtual ride" title="virtual ride"/>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9162422046">Zwift - Race: 3R Racing (C) on Innsbr...</a>
             </td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
@@ -59,7 +59,7 @@
             <tr>
             <td>28-05-2023</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="20" alt="virtual ride" title="virtual ride"/>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9157342987">Afternoon Ride</a>
             </td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
