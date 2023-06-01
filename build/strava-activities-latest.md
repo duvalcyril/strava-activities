@@ -9,6 +9,15 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="35" alt="average speed" title="average speed"/></th>
     </tr>
             <tr>
+            <td>01-06-2023</td>
+            <td><a href="https://www.strava.com/activities/9183393448">Zwift - Zone Benchmarking in New York</a></td>
+            <td align="center">23 <sup><sub>km</sub></sup></td>
+            <td align="center">377 <sup><sub>m</sub></sup></td>
+            <td align="center">47:49</td>
+            <td align="center">185 <sup><sub>w</sub></sup></td>
+            <td align="center">28.9 <sup><sub>km/h</sub></sup></td>
+        </tr>
+            <tr>
             <td>31-05-2023</td>
             <td><a href="https://www.strava.com/activities/9176313509">Zwift - Devedeset in Watopia</a></td>
             <td align="center">33 <sup><sub>km</sub></sup></td>
@@ -43,14 +52,5 @@
             <td align="center">1:07:38</td>
             <td align="center">n/a</td>
             <td align="center">17.8 <sup><sub>km/h</sub></sup></td>
-        </tr>
-            <tr>
-            <td>28-05-2023</td>
-            <td><a href="https://www.strava.com/activities/9155976770">Zwift - Red Unicorn in Watopia</a></td>
-            <td align="center">36 <sup><sub>km</sub></sup></td>
-            <td align="center">768 <sup><sub>m</sub></sup></td>
-            <td align="center">1:30:13</td>
-            <td align="center">169 <sup><sub>w</sub></sup></td>
-            <td align="center">23.7 <sup><sub>km/h</sub></sup></td>
         </tr>
     </table>

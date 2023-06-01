@@ -2,9 +2,9 @@
 
 This repository contains a list of [my Strava activities](https://www.strava.com/athletes/62214940).
 <!--START_SECTION:strava-totals-->
-Since `27-03-2023` I recorded a total distance of `1 243 km`,
-an elevation of `10 698 m`
-and a total time of `2d 34m 20s` 🎉.
+Since `27-03-2023` I recorded a total distance of `1 266 km`,
+an elevation of `11 075 m`
+and a total time of `2d 1h 22m 9s` 🎉.
 <!--END_SECTION:strava-totals-->
 
 ## Activities
@@ -19,6 +19,15 @@ and a total time of `2d 34m 20s` 🎉.
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="35" alt="average watts" title="average watts"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="35" alt="average speed" title="average speed"/></th>
     </tr>
+            <tr>
+            <td>01-06-2023</td>
+            <td><a href="https://www.strava.com/activities/9183393448">Zwift - Zone Benchmarking in New York</a></td>
+            <td align="center">23 <sup><sub>km</sub></sup></td>
+            <td align="center">377 <sup><sub>m</sub></sup></td>
+            <td align="center">47:49</td>
+            <td align="center">185 <sup><sub>w</sub></sup></td>
+            <td align="center">28.9 <sup><sub>km/h</sub></sup></td>
+        </tr>
             <tr>
             <td>31-05-2023</td>
             <td><a href="https://www.strava.com/activities/9176313509">Zwift - Devedeset in Watopia</a></td>
