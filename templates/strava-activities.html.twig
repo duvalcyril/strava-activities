@@ -11,11 +11,11 @@
     </tr>
     {% for activity in activities %}
         <tr>
+            <td>{{ activity.getStartDate().format('d-m-Y') }}</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="35" alt="virtual ride" title="virtual ride"/>
-                {{ activity.getStartDate().format('d-m-Y') }}
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/zwift.svg" width="20" alt="virtual ride" title="virtual ride"/>
+                <a href="{{ activity.getUrl() }}">{{ activity.getName()|length > 40 ? activity.getName()|slice(0, 37) ~ '...' : activity.getName() }}</a>
             </td>
-            <td><a href="{{ activity.getUrl() }}">{{ activity.getName()|length > 40 ? activity.getName()|slice(0, 37) ~ '...' : activity.getName() }}</a></td>
             <td align="center">{{ activity.getDistance() }} <sup><sub>km</sub></sup></td>
             <td align="center">{{ activity.getElevation() }} <sup><sub>m</sub></sup></td>
             <td align="center">{{ activity.getMovingTimeFormatted() }}</td>
