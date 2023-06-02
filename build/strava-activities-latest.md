@@ -46,7 +46,7 @@
             <td align="center">44:07</td>
             <td align="center">n/a</td>
             <td align="center">20 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>29-05-2023</td>
@@ -72,6 +72,6 @@
             <td align="center">1:07:38</td>
             <td align="center">n/a</td>
             <td align="center">17.8 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
     </table>

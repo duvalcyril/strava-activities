@@ -22,7 +22,7 @@
             <td align="center">{{ activity.getMovingTimeFormatted() }}</td>
             <td align="center">{{ activity.getAveragePower() ? activity.getAveragePower() ~ ' <sup><sub>w</sub></sup>': 'n/a' }}</td>
             <td align="center">{{ activity.getAverageSpeedInKmPerH() }} <sup><sub>km/h</sub></sup></td>
-            <td align="center">{{ activity.getAverageHeartRate() }}</td>
+            <td align="center">{{ activity.getAverageHeartRate() ?? 'n/a' }}</td>
         </tr>
     {% endfor %}
 </table>

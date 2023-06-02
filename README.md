@@ -59,7 +59,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">44:07</td>
             <td align="center">n/a</td>
             <td align="center">20 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>29-05-2023</td>
@@ -85,7 +85,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">1:07:38</td>
             <td align="center">n/a</td>
             <td align="center">17.8 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>28-05-2023</td>
@@ -111,7 +111,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">12:06</td>
             <td align="center">n/a</td>
             <td align="center">21 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>27-05-2023</td>
@@ -124,7 +124,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">13:46</td>
             <td align="center">n/a</td>
             <td align="center">21.5 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>25-05-2023</td>
@@ -215,7 +215,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">16:15</td>
             <td align="center">n/a</td>
             <td align="center">13.1 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>17-05-2023</td>
@@ -228,7 +228,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">8:48</td>
             <td align="center">n/a</td>
             <td align="center">18.6 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>17-05-2023</td>
@@ -293,7 +293,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">8:49</td>
             <td align="center">n/a</td>
             <td align="center">19.7 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>12-05-2023</td>
@@ -306,7 +306,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">10:19</td>
             <td align="center">n/a</td>
             <td align="center">16.4 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>12-05-2023</td>
@@ -345,7 +345,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">44:00</td>
             <td align="center">n/a</td>
             <td align="center">16.4 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>09-05-2023</td>
@@ -384,7 +384,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">41:00</td>
             <td align="center">n/a</td>
             <td align="center">16.1 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>06-05-2023</td>
@@ -436,7 +436,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">35:00</td>
             <td align="center">n/a</td>
             <td align="center">16.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>01-05-2023</td>
@@ -488,7 +488,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">45:00</td>
             <td align="center">n/a</td>
             <td align="center">16.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>26-04-2023</td>
@@ -579,7 +579,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">43:00</td>
             <td align="center">n/a</td>
             <td align="center">24.4 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>14-04-2023</td>
@@ -618,7 +618,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">40:00</td>
             <td align="center">n/a</td>
             <td align="center">17.6 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>12-04-2023</td>
@@ -683,7 +683,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">47:56</td>
             <td align="center">153 <sup><sub>w</sub></sup></td>
             <td align="center">31.8 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>05-04-2023</td>
@@ -696,7 +696,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">45:21</td>
             <td align="center">141 <sup><sub>w</sub></sup></td>
             <td align="center">31.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center"></td>
+            <td align="center">n/a</td>
         </tr>
             <tr>
             <td>05-04-2023</td>
