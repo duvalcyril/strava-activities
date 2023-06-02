@@ -23,10 +23,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
-            <td>01-06-2023</td>
+            <td>01-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9183393448">Zone Benchmarking in New ...</a>
+                <a href="https://www.strava.com/activities/9183393448">Zone Benchmarking in New York</a>
             </td>
             <td align="center">23 <sup><sub>km</sub></sup></td>
             <td align="center">377 <sup><sub>m</sub></sup></td>
@@ -36,7 +36,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">158</td>
         </tr>
             <tr>
-            <td>31-05-2023</td>
+            <td>31-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9176313509">Devedeset in Watopia</a>
@@ -49,7 +49,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">159</td>
         </tr>
             <tr>
-            <td>31-05-2023</td>
+            <td>31-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9174924354">Lunch Ride</a>
@@ -62,10 +62,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>29-05-2023</td>
+            <td>29-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9162422046">Race: 3R Racing (C) on In...</a>
+                <a href="https://www.strava.com/activities/9162422046">Race: 3R Racing (C) on Inns...</a>
             </td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
@@ -75,7 +75,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">174</td>
         </tr>
             <tr>
-            <td>28-05-2023</td>
+            <td>28-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9157342987">Afternoon Ride</a>
@@ -88,7 +88,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>28-05-2023</td>
+            <td>28-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9155976770">Red Unicorn in Watopia</a>
@@ -101,7 +101,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">154</td>
         </tr>
             <tr>
-            <td>27-05-2023</td>
+            <td>27-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9152881957">Night Ride</a>
@@ -114,7 +114,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>27-05-2023</td>
+            <td>27-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9148704237">Lunch Ride</a>
@@ -127,10 +127,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>25-05-2023</td>
+            <td>25-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9138675211">Zone Benchmarking in Rich...</a>
+                <a href="https://www.strava.com/activities/9138675211">Zone Benchmarking in Richmond</a>
             </td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">142 <sup><sub>m</sub></sup></td>
@@ -140,10 +140,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">171</td>
         </tr>
             <tr>
-            <td>25-05-2023</td>
+            <td>25-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9138442860">Pedaling Drills in Makuri...</a>
+                <a href="https://www.strava.com/activities/9138442860">Pedaling Drills in Makuri I...</a>
             </td>
             <td align="center">8 <sup><sub>km</sub></sup></td>
             <td align="center">79 <sup><sub>m</sub></sup></td>
@@ -153,10 +153,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">156</td>
         </tr>
             <tr>
-            <td>24-05-2023</td>
+            <td>24-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9132215821">FTP Test (shorter) in Mak...</a>
+                <a href="https://www.strava.com/activities/9132215821">FTP Test (shorter) in Makur...</a>
             </td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">222 <sup><sub>m</sub></sup></td>
@@ -166,7 +166,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">163</td>
         </tr>
             <tr>
-            <td>22-05-2023</td>
+            <td>22-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9120215227">Flexible Free Ride in France</a>
@@ -179,7 +179,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">177</td>
         </tr>
             <tr>
-            <td>21-05-2023</td>
+            <td>21-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9111623965">Foundation in Watopia</a>
@@ -192,7 +192,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">158</td>
         </tr>
             <tr>
-            <td>20-05-2023</td>
+            <td>20-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9106730277">Foundation in Watopia</a>
@@ -205,7 +205,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">143</td>
         </tr>
             <tr>
-            <td>20-05-2023</td>
+            <td>20-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9105368636">Lunch Ride</a>
@@ -218,7 +218,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>17-05-2023</td>
+            <td>17-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9089741187">Evening Ride</a>
@@ -231,10 +231,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>17-05-2023</td>
+            <td>17-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9088700396">Threshold Development in ...</a>
+                <a href="https://www.strava.com/activities/9088700396">Threshold Development in Wa...</a>
             </td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">721 <sup><sub>m</sub></sup></td>
@@ -244,10 +244,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">161</td>
         </tr>
             <tr>
-            <td>15-05-2023</td>
+            <td>15-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9076452878">Threshold Development in ...</a>
+                <a href="https://www.strava.com/activities/9076452878">Threshold Development in Wa...</a>
             </td>
             <td align="center">36 <sup><sub>km</sub></sup></td>
             <td align="center">353 <sup><sub>m</sub></sup></td>
@@ -257,7 +257,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">152</td>
         </tr>
             <tr>
-            <td>14-05-2023</td>
+            <td>14-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9070524758">Active Recovery in London</a>
@@ -270,7 +270,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">134</td>
         </tr>
             <tr>
-            <td>13-05-2023</td>
+            <td>13-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9065355028">Active Recovery in Watopia</a>
@@ -283,7 +283,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">147</td>
         </tr>
             <tr>
-            <td>12-05-2023</td>
+            <td>12-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9060004298">Night Ride</a>
@@ -296,7 +296,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>12-05-2023</td>
+            <td>12-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9058621575">Evening Ride</a>
@@ -309,7 +309,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>12-05-2023</td>
+            <td>12-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9058227157">Foundation in Watopia</a>
@@ -322,7 +322,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">158</td>
         </tr>
             <tr>
-            <td>11-05-2023</td>
+            <td>11-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9052150879">Foundation in Watopia</a>
@@ -335,7 +335,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">150</td>
         </tr>
             <tr>
-            <td>11-05-2023</td>
+            <td>11-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9050346463">Commute</a>
@@ -348,10 +348,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>09-05-2023</td>
+            <td>09-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9040880440">Threshold Development in ...</a>
+                <a href="https://www.strava.com/activities/9040880440">Threshold Development in Wa...</a>
             </td>
             <td align="center">40 <sup><sub>km</sub></sup></td>
             <td align="center">359 <sup><sub>m</sub></sup></td>
@@ -361,10 +361,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">152</td>
         </tr>
             <tr>
-            <td>08-05-2023</td>
+            <td>08-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9034331277">Threshold Development in ...</a>
+                <a href="https://www.strava.com/activities/9034331277">Threshold Development in Wa...</a>
             </td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">266 <sup><sub>m</sub></sup></td>
@@ -374,7 +374,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">164</td>
         </tr>
             <tr>
-            <td>06-05-2023</td>
+            <td>06-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9023505366">Commute</a>
@@ -387,7 +387,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>06-05-2023</td>
+            <td>06-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9019875314">Foundation in Watopia</a>
@@ -400,7 +400,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">158</td>
         </tr>
             <tr>
-            <td>05-05-2023</td>
+            <td>05-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9015734636">Foundation in Watopia</a>
@@ -413,7 +413,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">157</td>
         </tr>
             <tr>
-            <td>03-05-2023</td>
+            <td>03-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9003851558">Intermittent in Watopia</a>
@@ -426,7 +426,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">158</td>
         </tr>
             <tr>
-            <td>03-05-2023</td>
+            <td>03-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9003197724">Commute</a>
@@ -439,7 +439,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>01-05-2023</td>
+            <td>01-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8989624727">Tempo in Watopia</a>
@@ -452,7 +452,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">163</td>
         </tr>
             <tr>
-            <td>30-04-2023</td>
+            <td>30-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8983590716">Foundation in Watopia</a>
@@ -465,7 +465,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">164</td>
         </tr>
             <tr>
-            <td>29-04-2023</td>
+            <td>29-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8978542341">Foundation in Watopia</a>
@@ -478,7 +478,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">150</td>
         </tr>
             <tr>
-            <td>27-04-2023</td>
+            <td>27-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8965456621">Commute</a>
@@ -491,7 +491,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>26-04-2023</td>
+            <td>26-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8961012150">Strength in Watopia</a>
@@ -504,7 +504,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">151</td>
         </tr>
             <tr>
-            <td>25-04-2023</td>
+            <td>25-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8954935199">Tempo in Watopia</a>
@@ -517,7 +517,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">161</td>
         </tr>
             <tr>
-            <td>23-04-2023</td>
+            <td>23-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8943085360">Active Recovery in Watopia</a>
@@ -530,7 +530,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">145</td>
         </tr>
             <tr>
-            <td>21-04-2023</td>
+            <td>21-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8931111884">Foundation in Watopia</a>
@@ -543,7 +543,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">159</td>
         </tr>
             <tr>
-            <td>19-04-2023</td>
+            <td>19-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8919763151">Foundation in Richmond</a>
@@ -556,7 +556,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">164</td>
         </tr>
             <tr>
-            <td>18-04-2023</td>
+            <td>18-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8913200246">Strength in Watopia</a>
@@ -569,7 +569,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">155</td>
         </tr>
             <tr>
-            <td>16-04-2023</td>
+            <td>16-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8903705768">Afternoon Ride</a>
@@ -582,7 +582,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>14-04-2023</td>
+            <td>14-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8889731068">Tempo in Watopia</a>
@@ -595,7 +595,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">160</td>
         </tr>
             <tr>
-            <td>13-04-2023</td>
+            <td>13-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8884162026">Foundation in Watopia</a>
@@ -608,7 +608,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">146</td>
         </tr>
             <tr>
-            <td>13-04-2023</td>
+            <td>13-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8884245832">Commute</a>
@@ -621,7 +621,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>12-04-2023</td>
+            <td>12-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8878924682">Foundation in Watopia</a>
@@ -634,7 +634,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">150</td>
         </tr>
             <tr>
-            <td>11-04-2023</td>
+            <td>11-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8872209398">Strength in Makuri Islands</a>
@@ -647,7 +647,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">162</td>
         </tr>
             <tr>
-            <td>09-04-2023</td>
+            <td>09-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8859715132">Tempo in Watopia</a>
@@ -660,7 +660,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">155</td>
         </tr>
             <tr>
-            <td>07-04-2023</td>
+            <td>07-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8848645176">Ramp Test in Innsbruck</a>
@@ -673,7 +673,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">162</td>
         </tr>
             <tr>
-            <td>06-04-2023</td>
+            <td>06-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8842900668">Zone Benchmarking in Watopia</a>
@@ -686,10 +686,10 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>05-04-2023</td>
+            <td>05-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8837881433">FTP Test (shorter) in Wat...</a>
+                <a href="https://www.strava.com/activities/8837881433">FTP Test (shorter) in Watopia</a>
             </td>
             <td align="center">24 <sup><sub>km</sub></sup></td>
             <td align="center">126 <sup><sub>m</sub></sup></td>
@@ -699,7 +699,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">n/a</td>
         </tr>
             <tr>
-            <td>05-04-2023</td>
+            <td>05-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8836876517">Afternoon Ride</a>
@@ -712,7 +712,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">111</td>
         </tr>
             <tr>
-            <td>05-04-2023</td>
+            <td>05-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8835455910">Morning Ride</a>
@@ -725,7 +725,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">111</td>
         </tr>
             <tr>
-            <td>04-04-2023</td>
+            <td>04-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8835455809">Afternoon Ride</a>
@@ -738,7 +738,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">112</td>
         </tr>
             <tr>
-            <td>04-04-2023</td>
+            <td>04-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8835457514">Morning Ride</a>
@@ -751,7 +751,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">123</td>
         </tr>
             <tr>
-            <td>27-03-2023</td>
+            <td>27-03-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8835457306">Morning Ride</a>
@@ -764,7 +764,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td align="center">114</td>
         </tr>
             <tr>
-            <td>27-03-2023</td>
+            <td>27-03-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8835458375">Morning Ride</a>
