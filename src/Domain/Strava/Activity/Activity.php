@@ -46,7 +46,7 @@ class Activity implements \JsonSerializable
 
     public function getName(): string
     {
-        return $this->data['name'];
+        return trim(str_replace('Zwift - ', '', $this->data['name']));
     }
 
     public function getDistance(): float
@@ -71,6 +71,15 @@ class Activity implements \JsonSerializable
     public function getAverageSpeedInKmPerH(): float
     {
         return round($this->data['average_speed'] * 3.6, 1);
+    }
+
+    public function getAverageHeartRate(): ?int
+    {
+        if (isset($this->data['average_heartrate'])) {
+            return round($this->data['average_heartrate']);
+        }
+
+        return null;
     }
 
     public function getMovingTime(): int
