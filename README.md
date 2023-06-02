@@ -26,7 +26,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>01-06-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9183393448">Zone Benchmarking in New York</a>
+                <a href="https://www.strava.com/activities/9183393448">Zone Benchmarking in New ...</a>
             </td>
             <td align="center">23 <sup><sub>km</sub></sup></td>
             <td align="center">377 <sup><sub>m</sub></sup></td>
@@ -65,7 +65,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>29-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9162422046">Race: 3R Racing (C) on Inns...</a>
+                <a href="https://www.strava.com/activities/9162422046">Race: 3R Racing (C) on In...</a>
             </td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
@@ -130,7 +130,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>25-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9138675211">Zone Benchmarking in Richmond</a>
+                <a href="https://www.strava.com/activities/9138675211">Zone Benchmarking in Rich...</a>
             </td>
             <td align="center">20 <sup><sub>km</sub></sup></td>
             <td align="center">142 <sup><sub>m</sub></sup></td>
@@ -143,7 +143,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>25-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9138442860">Pedaling Drills in Makuri I...</a>
+                <a href="https://www.strava.com/activities/9138442860">Pedaling Drills in Makuri...</a>
             </td>
             <td align="center">8 <sup><sub>km</sub></sup></td>
             <td align="center">79 <sup><sub>m</sub></sup></td>
@@ -156,7 +156,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>24-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9132215821">FTP Test (shorter) in Makur...</a>
+                <a href="https://www.strava.com/activities/9132215821">FTP Test (shorter) in Mak...</a>
             </td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">222 <sup><sub>m</sub></sup></td>
@@ -234,7 +234,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>17-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9088700396">Threshold Development in Wa...</a>
+                <a href="https://www.strava.com/activities/9088700396">Threshold Development in ...</a>
             </td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">721 <sup><sub>m</sub></sup></td>
@@ -247,7 +247,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>15-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9076452878">Threshold Development in Wa...</a>
+                <a href="https://www.strava.com/activities/9076452878">Threshold Development in ...</a>
             </td>
             <td align="center">36 <sup><sub>km</sub></sup></td>
             <td align="center">353 <sup><sub>m</sub></sup></td>
@@ -351,7 +351,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>09-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9040880440">Threshold Development in Wa...</a>
+                <a href="https://www.strava.com/activities/9040880440">Threshold Development in ...</a>
             </td>
             <td align="center">40 <sup><sub>km</sub></sup></td>
             <td align="center">359 <sup><sub>m</sub></sup></td>
@@ -364,7 +364,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>08-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9034331277">Threshold Development in Wa...</a>
+                <a href="https://www.strava.com/activities/9034331277">Threshold Development in ...</a>
             </td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">266 <sup><sub>m</sub></sup></td>
@@ -689,7 +689,7 @@ and a total time of `2d 1h 22m 9s` 🎉.
             <td>05-04-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8837881433">FTP Test (shorter) in Watopia</a>
+                <a href="https://www.strava.com/activities/8837881433">FTP Test (shorter) in Wat...</a>
             </td>
             <td align="center">24 <sup><sub>km</sub></sup></td>
             <td align="center">126 <sup><sub>m</sub></sup></td>
