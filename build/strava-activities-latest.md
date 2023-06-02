@@ -52,7 +52,7 @@
             <td>29-05-2023</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9162422046">Race: 3R Racing (C) on Innsbru...</a>
+                <a href="https://www.strava.com/activities/9162422046">Race: 3R Racing (C) on Inns...</a>
             </td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
