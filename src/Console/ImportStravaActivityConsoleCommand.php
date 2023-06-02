@@ -2,12 +2,12 @@
 
 namespace App\Console;
 
-use App\Domain\Strava\Activity;
-use App\Domain\Strava\ActivityType;
-use App\Domain\Strava\Challenge;
+use App\Domain\Strava\Activity\Activity;
+use App\Domain\Strava\Activity\ActivityType;
+use App\Domain\Strava\Activity\StravaActivityRepository;
+use App\Domain\Strava\Challenge\Challenge;
+use App\Domain\Strava\Challenge\StravaChallengeRepository;
 use App\Domain\Strava\Strava;
-use App\Domain\Strava\StravaActivityRepository;
-use App\Domain\Strava\StravaChallengeRepository;
 use App\Infrastructure\Exception\EntityNotFound;
 use Lcobucci\Clock\Clock;
 use League\Flysystem\Filesystem;

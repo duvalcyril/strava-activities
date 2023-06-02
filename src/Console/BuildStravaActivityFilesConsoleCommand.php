@@ -3,9 +3,9 @@
 namespace App\Console;
 
 use App\Domain\ReadMe;
-use App\Domain\Strava\ActivityTotals;
-use App\Domain\Strava\StravaActivityRepository;
-use App\Domain\Strava\StravaChallengeRepository;
+use App\Domain\Strava\Activity\ActivityTotals;
+use App\Domain\Strava\Activity\StravaActivityRepository;
+use App\Domain\Strava\Challenge\StravaChallengeRepository;
 use App\Infrastructure\Environment\Settings;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;

@@ -1,7 +1,7 @@
 <?php
 
-use App\Domain\Strava\StravaActivityRepository;
-use App\Domain\Strava\StravaChallengeRepository as StravaTrophyRepositoryAlias;
+use App\Domain\Strava\Activity\StravaActivityRepository;
+use App\Domain\Strava\Challenge\StravaChallengeRepository as StravaTrophyRepositoryAlias;
 use App\Domain\Strava\StravaClientId;
 use App\Domain\Strava\StravaClientSecret;
 use App\Domain\Strava\StravaRefreshToken;

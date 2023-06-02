@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Strava;
+namespace App\Domain\Strava\Activity;
 
 use Carbon\CarbonInterval;
 
@@ -32,7 +32,7 @@ class ActivityTotals
     {
         $startDate = new \DateTimeImmutable();
         foreach ($this->activities as $activity) {
-            /* @var \App\Domain\Strava\Activity $activity */
+            /* @var \App\Domain\Strava\Activity\Activity $activity */
             if ($activity->getStartDate() > $startDate) {
                 continue;
             }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Strava;
+namespace App\Domain\Strava\Challenge;
 
 use App\Infrastructure\Exception\EntityNotFound;
 use SleekDB\Store;
@@ -13,7 +13,7 @@ class StravaChallengeRepository
     }
 
     /**
-     * @return \App\Domain\Strava\Challenge[]
+     * @return \App\Domain\Strava\Challenge\Challenge[]
      */
     public function findAll(): array
     {
