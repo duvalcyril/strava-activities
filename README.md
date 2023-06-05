@@ -4,9 +4,9 @@
 </p>
 
 <!--START_SECTION:strava-totals-->
-Since `27-03-2023` I recorded a total distance of `1 318 km`,
-an elevation of `11 999 m`
-and a total time of `2d 3h 58m 9s` 🎉.
+Since `27-03-2023` I recorded a total distance of `1 364 km`,
+an elevation of `12 509 m`
+and a total time of `2d 5h 29m 48s` 🎉.
 <!--END_SECTION:strava-totals-->
 
 ## Activities
@@ -22,6 +22,19 @@ and a total time of `2d 3h 58m 9s` 🎉.
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>05-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9207962438">Orange Unicorn in Watopia</a>
+            </td>
+            <td align="center">46 <sup><sub>km</sub></sup></td>
+            <td align="center">510 <sup><sub>m</sub></sup></td>
+            <td align="center">1:31:39</td>
+            <td align="center">175 <sup><sub>w</sub></sup></td>
+            <td align="center">30.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">158</td>
+        </tr>
             <tr>
             <td>03-06-23</td>
             <td>
