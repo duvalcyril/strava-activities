@@ -4,9 +4,9 @@
 </p>
 
 <!--START_SECTION:strava-totals-->
-Since `27-03-2023` I recorded a total distance of `1 473 km`,
-an elevation of `14 101 m`
-and a total time of `2d 9h 30m 9s` 🎉.
+Since `27-03-2023` I recorded a total distance of `1 483 km`,
+an elevation of `14 120 m`
+and a total time of `2d 10h 6m 2s` 🎉.
 <!--END_SECTION:strava-totals-->
 
 ## Activities
@@ -22,6 +22,19 @@ and a total time of `2d 9h 30m 9s` 🎉.
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>09-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9232932614">Morning Ride</a>
+            </td>
+            <td align="center">10 <sup><sub>km</sub></sup></td>
+            <td align="center">19 <sup><sub>m</sub></sup></td>
+            <td align="center">35:53</td>
+            <td align="center">n/a</td>
+            <td align="center">17 <sup><sub>km/h</sub></sup></td>
+            <td align="center">n/a</td>
+        </tr>
             <tr>
             <td>08-06-23</td>
             <td>
