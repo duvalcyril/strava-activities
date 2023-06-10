@@ -10,6 +10,19 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>10-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9238635357">Halvfems in New York</a>
+            </td>
+            <td align="center">26 <sup><sub>km</sub></sup></td>
+            <td align="center">486 <sup><sub>m</sub></sup></td>
+            <td align="center">1:03:40</td>
+            <td align="center">166 <sup><sub>w</sub></sup></td>
+            <td align="center">24.9 <sup><sub>km/h</sub></sup></td>
+            <td align="center">158</td>
+        </tr>
+            <tr>
             <td>09-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -60,18 +73,5 @@
             <td align="center">n/a</td>
             <td align="center">21.2 <sup><sub>km/h</sub></sup></td>
             <td align="center">n/a</td>
-        </tr>
-            <tr>
-            <td>06-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9214774609">Race: EVO CC Race Series (C...</a>
-            </td>
-            <td align="center">27 <sup><sub>km</sub></sup></td>
-            <td align="center">151 <sup><sub>m</sub></sup></td>
-            <td align="center">40:43</td>
-            <td align="center">218 <sup><sub>w</sub></sup></td>
-            <td align="center">39.5 <sup><sub>km/h</sub></sup></td>
-            <td align="center">175</td>
         </tr>
     </table>
