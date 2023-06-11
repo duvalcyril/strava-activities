@@ -10,6 +10,19 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>11-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9246480572">Yellow Unicorn in Watopia</a>
+            </td>
+            <td align="center">56 <sup><sub>km</sub></sup></td>
+            <td align="center">379 <sup><sub>m</sub></sup></td>
+            <td align="center">1:45:17</td>
+            <td align="center">171 <sup><sub>w</sub></sup></td>
+            <td align="center">32.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">159</td>
+        </tr>
+            <tr>
             <td>10-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -60,18 +73,5 @@
             <td align="center">167 <sup><sub>w</sub></sup></td>
             <td align="center">24.2 <sup><sub>km/h</sub></sup></td>
             <td align="center">155</td>
-        </tr>
-            <tr>
-            <td>07-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9218932318">Morning Ride</a>
-            </td>
-            <td align="center">15 <sup><sub>km</sub></sup></td>
-            <td align="center">36 <sup><sub>m</sub></sup></td>
-            <td align="center">41:51</td>
-            <td align="center">n/a</td>
-            <td align="center">21.2 <sup><sub>km/h</sub></sup></td>
-            <td align="center">n/a</td>
         </tr>
     </table>
