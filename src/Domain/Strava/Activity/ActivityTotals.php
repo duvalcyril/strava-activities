@@ -6,9 +6,20 @@ use Carbon\CarbonInterval;
 
 class ActivityTotals
 {
+    private \DateTimeImmutable $startDate;
+
     private function __construct(
-        private readonly array $activities
+        private readonly array $activities,
+        private readonly \DateTimeImmutable $now,
     ) {
+        $this->startDate = new \DateTimeImmutable();
+        foreach ($this->activities as $activity) {
+            /* @var \App\Domain\Strava\Activity\Activity $activity */
+            if ($activity->getStartDate() > $this->startDate) {
+                continue;
+            }
+            $this->startDate = $activity->getStartDate();
+        }
     }
 
     public function getDistance(): float
@@ -30,20 +41,32 @@ class ActivityTotals
 
     public function getStartDate(): \DateTimeImmutable
     {
-        $startDate = new \DateTimeImmutable();
-        foreach ($this->activities as $activity) {
-            /* @var \App\Domain\Strava\Activity\Activity $activity */
-            if ($activity->getStartDate() > $startDate) {
-                continue;
-            }
-            $startDate = $activity->getStartDate();
-        }
-
-        return $startDate;
+        return $this->startDate;
     }
 
-    public static function fromActivities(array $activities): self
+    public function getDailyAverage(): float
     {
-        return new self($activities);
+        $diff = $this->getStartDate()->diff($this->now);
+
+        return $this->getDistance() / $diff->days;
+    }
+
+    public function getWeeklyAverage(): float
+    {
+        $diff = $this->getStartDate()->diff($this->now);
+
+        return $this->getDistance() / ceil($diff->days / 7);
+    }
+
+    public function getMonthlyAverage(): float
+    {
+        $diff = $this->getStartDate()->diff($this->now);
+
+        return $this->getDistance() / ($diff->m + 1);
+    }
+
+    public static function fromActivities(array $activities, \DateTimeImmutable $now): self
+    {
+        return new self($activities, $now);
     }
 }

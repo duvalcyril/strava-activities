@@ -1,3 +1,7 @@
 Since `{{ totals.getStartDate().format('d-m-Y') }}` I recorded a total distance of `{{ totals.getDistance()|number_format(0, '.', ' ') }} km`,
 an elevation of `{{ totals.getElevation()|number_format(0, '.', ' ') }} m`
 and a total time of `{{ totals.getMovingTimeFormatted() }}` 🎉.
+
+That's a daily average of `{{ totals.getDailyAverage()|number_format(0, '.', ' ') }} km`,
+a weekly average of `{{ totals.getWeeklyAverage()|number_format(0, '.', ' ') }} km` and a
+monthly average of `{{ totals.getMonthlyAverage()|number_format(0, '.', ' ') }} km`

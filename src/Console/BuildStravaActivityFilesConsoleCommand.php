@@ -7,6 +7,7 @@ use App\Domain\Strava\Activity\ActivityTotals;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;
 use App\Infrastructure\Environment\Settings;
+use Lcobucci\Clock\Clock;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -19,7 +20,8 @@ class BuildStravaActivityFilesConsoleCommand extends Command
     public function __construct(
         private readonly StravaActivityRepository $stravaActivityRepository,
         private readonly StravaChallengeRepository $stravaChallengeRepository,
-        private readonly Environment $twig
+        private readonly Environment $twig,
+        private readonly Clock $clock,
     ) {
         parent::__construct();
     }
@@ -40,7 +42,10 @@ class BuildStravaActivityFilesConsoleCommand extends Command
 
         $readme
             ->updateStravaTotals($this->twig->load('strava-totals.html.twig')->render([
-                'totals' => ActivityTotals::fromActivities($allActivities),
+                'totals' => ActivityTotals::fromActivities(
+                    $allActivities,
+                    $this->clock->now(),
+                ),
             ]))
             ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $allActivities,
