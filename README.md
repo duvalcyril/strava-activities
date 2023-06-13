@@ -4,9 +4,9 @@
 </p>
 
 <!--START_SECTION:strava-totals-->
-Since `27-03-2023` I recorded a total distance of `1 575 km`,
-an elevation of `15 005 m`
-and a total time of `2d 13h 34m 11s` 🎉.
+Since `27-03-2023` I recorded a total distance of `1 628 km`,
+an elevation of `15 609 m`
+and a total time of `2d 15h 35m 40s` 🎉.
 <!--END_SECTION:strava-totals-->
 
 ## Activities
@@ -22,6 +22,32 @@ and a total time of `2d 13h 34m 11s` 🎉.
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>13-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9258936778">Amalgam in Yorkshire</a>
+            </td>
+            <td align="center">43 <sup><sub>km</sub></sup></td>
+            <td align="center">585 <sup><sub>m</sub></sup></td>
+            <td align="center">1:25:09</td>
+            <td align="center">169 <sup><sub>w</sub></sup></td>
+            <td align="center">30.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">151</td>
+        </tr>
+            <tr>
+            <td>13-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9258943783">Morning Ride</a>
+            </td>
+            <td align="center">10 <sup><sub>km</sub></sup></td>
+            <td align="center">19 <sup><sub>m</sub></sup></td>
+            <td align="center">36:20</td>
+            <td align="center">n/a</td>
+            <td align="center">16.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">n/a</td>
+        </tr>
             <tr>
             <td>12-06-23</td>
             <td>
