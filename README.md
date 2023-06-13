@@ -7,6 +7,10 @@
 Since `27-03-2023` I recorded a total distance of `1 628 km`,
 an elevation of `15 609 m`
 and a total time of `2d 15h 35m 40s` 🎉.
+
+That's a daily average of `21 km`,
+a weekly average of `136 km` and a
+monthly average of `543 km`
 <!--END_SECTION:strava-totals-->
 
 ## Activities
