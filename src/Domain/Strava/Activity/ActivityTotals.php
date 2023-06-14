@@ -32,6 +32,11 @@ class ActivityTotals
         return array_sum(array_map(fn (Activity $activity) => $activity->getElevation(), $this->activities));
     }
 
+    public function getCalories(): int
+    {
+        return array_sum(array_map(fn (Activity $activity) => $activity->getCalories(), $this->activities));
+    }
+
     public function getMovingTimeFormatted(): string
     {
         $seconds = array_sum(array_map(fn (Activity $activity) => $activity->getMovingTime(), $this->activities));

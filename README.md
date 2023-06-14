@@ -11,6 +11,8 @@ and a total time of `2d 15h 35m 40s` 🎉
 That's a daily average of `21 km`,
 a weekly average of `136 km` and a
 monthly average of `543 km` 🐣
+
+I burned `27771 calories` doing so, that's about `103` pizza slices 🍕
 <!--END_SECTION:strava-totals-->
 
 ## Activities

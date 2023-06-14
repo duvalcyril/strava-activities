@@ -59,6 +59,11 @@ class Activity implements \JsonSerializable
         return round($this->data['total_elevation_gain']);
     }
 
+    public function getCalories(): int
+    {
+        return $this->data['calories'] ?? 0;
+    }
+
     public function getAveragePower(): ?int
     {
         if (isset($this->data['average_watts'])) {
