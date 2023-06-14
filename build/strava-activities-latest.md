@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>14-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9265285993">Ham Sandwich in Makuri Islands</a>
+            </td>
+            <td align="center">22 <sup><sub>km</sub></sup></td>
+            <td align="center">384 <sup><sub>m</sub></sup></td>
+            <td align="center">1:02:12</td>
+            <td align="center">170 <sup><sub>w</sub></sup></td>
+            <td align="center">21.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">154</td>
+        </tr>
+            <tr>
+            <td>14-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9264449997">Morning Ride</a>
+            </td>
+            <td align="center">10 <sup><sub>km</sub></sup></td>
+            <td align="center">19 <sup><sub>m</sub></sup></td>
+            <td align="center">37:13</td>
+            <td align="center">n/a</td>
+            <td align="center">16.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">n/a</td>
+        </tr>
+            <tr>
             <td>13-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -47,31 +73,5 @@
             <td align="center">n/a</td>
             <td align="center">16.1 <sup><sub>km/h</sub></sup></td>
             <td align="center">n/a</td>
-        </tr>
-            <tr>
-            <td>12-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9249508717">Morning Ride</a>
-            </td>
-            <td align="center">5 <sup><sub>km</sub></sup></td>
-            <td align="center">12 <sup><sub>m</sub></sup></td>
-            <td align="center">20:11</td>
-            <td align="center">n/a</td>
-            <td align="center">15.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center">n/a</td>
-        </tr>
-            <tr>
-            <td>11-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9246480572">Yellow Unicorn in Watopia</a>
-            </td>
-            <td align="center">56 <sup><sub>km</sub></sup></td>
-            <td align="center">379 <sup><sub>m</sub></sup></td>
-            <td align="center">1:45:17</td>
-            <td align="center">171 <sup><sub>w</sub></sup></td>
-            <td align="center">32.1 <sup><sub>km/h</sub></sup></td>
-            <td align="center">159</td>
         </tr>
     </table>
