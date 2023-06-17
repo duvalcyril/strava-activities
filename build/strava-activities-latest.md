@@ -10,6 +10,19 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>17-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9281314560">Kempervennen toerke</a>
+            </td>
+            <td align="center">47 <sup><sub>km</sub></sup></td>
+            <td align="center">33 <sup><sub>m</sub></sup></td>
+            <td align="center">1:51:42</td>
+            <td align="center">n/a</td>
+            <td align="center">25.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">n/a</td>
+        </tr>
+            <tr>
             <td>15-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -60,18 +73,5 @@
             <td align="center">169 <sup><sub>w</sub></sup></td>
             <td align="center">30.5 <sup><sub>km/h</sub></sup></td>
             <td align="center">151</td>
-        </tr>
-            <tr>
-            <td>13-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9258943783">Morning Ride</a>
-            </td>
-            <td align="center">10 <sup><sub>km</sub></sup></td>
-            <td align="center">19 <sup><sub>m</sub></sup></td>
-            <td align="center">36:20</td>
-            <td align="center">n/a</td>
-            <td align="center">16.6 <sup><sub>km/h</sub></sup></td>
-            <td align="center">n/a</td>
         </tr>
     </table>
