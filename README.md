@@ -12,7 +12,7 @@ That's a daily average of `21 km`,
 a weekly average of `148 km` and a
 monthly average of `592 km` 🐣
 
-I burned `31802 calories` doing so, that's about `118` pizza slices 🍕
+I burned `33386 calories` doing so, that's about `124` pizza slices 🍕
 <!--END_SECTION:strava-totals-->
 
 ## Activities
