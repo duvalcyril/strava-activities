@@ -10,6 +10,19 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>18-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9289789967">Kempervennen toerke 2</a>
+            </td>
+            <td align="center">43 <sup><sub>km</sub></sup></td>
+            <td align="center">39 <sup><sub>m</sub></sup></td>
+            <td align="center">1:33:28</td>
+            <td align="center">n/a</td>
+            <td align="center">27.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">164</td>
+        </tr>
+            <tr>
             <td>17-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -60,18 +73,5 @@
             <td align="center">n/a</td>
             <td align="center">16.4 <sup><sub>km/h</sub></sup></td>
             <td align="center">n/a</td>
-        </tr>
-            <tr>
-            <td>13-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9258936778">Amalgam in Yorkshire</a>
-            </td>
-            <td align="center">43 <sup><sub>km</sub></sup></td>
-            <td align="center">585 <sup><sub>m</sub></sup></td>
-            <td align="center">1:25:09</td>
-            <td align="center">169 <sup><sub>w</sub></sup></td>
-            <td align="center">30.5 <sup><sub>km/h</sub></sup></td>
-            <td align="center">151</td>
         </tr>
     </table>
