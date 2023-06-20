@@ -68,16 +68,16 @@
         </thead>
         <tbody>
                     <tr>
-                <td align="center">Elite Direto XR-T</td>
-                <td align="center">946 <sup><sub>km</sub></sup></td>
+                <td align="center">Retro Race Bike</td>
+                <td align="center">183 <sup><sub>km</sub></sup></td>
             </tr>
                     <tr>
                 <td align="center">Zwift Hub</td>
                 <td align="center">477 <sup><sub>km</sub></sup></td>
             </tr>
                     <tr>
-                <td align="center">Retro Race Bike</td>
-                <td align="center">183 <sup><sub>km</sub></sup></td>
+                <td align="center">Elite Direto XR-T</td>
+                <td align="center">946 <sup><sub>km</sub></sup></td>
             </tr>
                 </tbody>
     </table>
