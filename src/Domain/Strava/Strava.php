@@ -77,7 +77,7 @@ final class Strava
         ]));
     }
 
-    public function getGear(int $id): array
+    public function getGear(string $id): array
     {
         return Json::decode($this->request('api/v3/gear/'.$id, 'GET', [
             RequestOptions::HEADERS => [

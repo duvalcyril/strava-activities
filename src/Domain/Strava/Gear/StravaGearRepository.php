@@ -23,7 +23,7 @@ class StravaGearRepository
         );
     }
 
-    public function findOneBy(int $id): Gear
+    public function findOneBy(string $id): Gear
     {
         if (!$row = $this->store->findOneBy(['id', '==', $id])) {
             throw new EntityNotFound(sprintf('Gear "%s" not found', $id));

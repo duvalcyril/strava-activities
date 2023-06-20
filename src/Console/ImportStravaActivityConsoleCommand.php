@@ -60,7 +60,7 @@ class ImportStravaActivityConsoleCommand extends Command
                 $gear->updateDistance($stravaGear['distance']);
             } catch (EntityNotFound) {
                 $gear = Gear::create(
-                    $gearId,
+                    $stravaGear,
                     $this->clock->now()
                 );
             }
