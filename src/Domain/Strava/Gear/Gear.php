@@ -21,9 +21,20 @@ class Gear implements \JsonSerializable
         return new self($data);
     }
 
-    public function updateDistance(float $distance): void
+    public function getName(): string
+    {
+        return $this->data['name'];
+    }
+
+    public function getDistance(): float
+    {
+        return round($this->data['distance'] / 1000);
+    }
+
+    public function updateDistance(float $distance, float $convertedDistance): void
     {
         $this->data['distance'] = $distance;
+        $this->data['converted_distance'] = $convertedDistance;
     }
 
     public function jsonSerialize(): array

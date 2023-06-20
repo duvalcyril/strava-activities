@@ -35,6 +35,7 @@ class ImportStravaActivityConsoleCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        // ACTIVITIES.
         foreach ($this->strava->getActivities() ?? [] as $stravaActivity) {
             if (!ActivityType::tryFrom($stravaActivity['type'])) {
                 continue;
@@ -48,6 +49,7 @@ class ImportStravaActivityConsoleCommand extends Command
             }
         }
 
+        // GEAR.
         $gearIds = array_unique(array_filter(array_map(
             fn (Activity $activity) => $activity->getGearId(),
             $this->stravaActivityRepository->findAll()
@@ -57,7 +59,7 @@ class ImportStravaActivityConsoleCommand extends Command
             $stravaGear = $this->strava->getGear($gearId);
             try {
                 $gear = $this->stravaGearRepository->findOneBy($gearId);
-                $gear->updateDistance($stravaGear['distance']);
+                $gear->updateDistance($stravaGear['distance'], $stravaGear['converted_distance']);
             } catch (EntityNotFound) {
                 $gear = Gear::create(
                     $stravaGear,
@@ -67,6 +69,7 @@ class ImportStravaActivityConsoleCommand extends Command
             $this->stravaGearRepository->save($gear);
         }
 
+        // CHALLENGES.
         foreach ($this->strava->getChallenges(62214940) ?? [] as $challengeData) {
             try {
                 $this->stravaChallengeRepository->findOneBy($challengeData['challenge_id']);
@@ -85,7 +88,7 @@ class ImportStravaActivityConsoleCommand extends Command
                     $challenge->updateLocalLogo($imagePath);
                 }
                 $this->stravaChallengeRepository->add($challenge);
-                sleep(1); // Make sure timestamp is increased by at leas one.
+                sleep(1); // Make sure timestamp is increased by at least one.
             }
         }
 

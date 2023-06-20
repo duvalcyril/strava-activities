@@ -6,6 +6,8 @@ use App\Domain\ReadMe;
 use App\Domain\Strava\Activity\ActivityTotals;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;
+use App\Domain\Strava\Gear\StravaGearRepository;
+use App\Domain\Strava\MonthlyStatistics;
 use App\Infrastructure\Environment\Settings;
 use Lcobucci\Clock\Clock;
 use Symfony\Component\Console\Attribute\AsCommand;
@@ -20,6 +22,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
     public function __construct(
         private readonly StravaActivityRepository $stravaActivityRepository,
         private readonly StravaChallengeRepository $stravaChallengeRepository,
+        private readonly StravaGearRepository $stravaGearRepository,
         private readonly Environment $twig,
         private readonly Clock $clock,
     ) {
@@ -28,7 +31,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        file_put_contents(
+        \Safe\file_put_contents(
             Settings::getAppRoot().'/build/strava-activities-latest.md',
             $this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $this->stravaActivityRepository->findAll(5),
@@ -55,6 +58,14 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             ]));
 
         \Safe\file_put_contents($pathToReadMe, (string) $readme);
+
+        \Safe\file_put_contents(
+            Settings::getAppRoot().'/STATS.md',
+            $this->twig->load('stats.html.twig')->render([
+                'bikes' => $this->stravaGearRepository->findAll(),
+                'statistics' => MonthlyStatistics::fromActivities($allActivities),
+            ])
+        );
 
         return Command::SUCCESS;
     }

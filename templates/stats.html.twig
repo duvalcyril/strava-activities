@@ -1,0 +1,56 @@
+<p align="center">
+    <img src="public/strava.png"
+         alt="Strava">
+</p>
+
+<h2 align="center">Total distance</h2>
+
+<div align="center">
+    <table>
+        <thead>
+        <tr>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th># of rides</th>
+            <th>Distance</th>
+            <th>Elevation</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for statistic in statistics.getRows() %}
+            <tr>
+                <td align="center">{{ statistic.month }}</td>
+                <td align="center">{{ statistic.numberOfRides }}</td>
+                <td align="center">{{ statistic.totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
+                <td align="center">{{ statistic.totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></td>
+            </tr>
+        {% endfor %}
+        <tr>
+            <td align="center"><b>Total</b></td>
+            <td align="center"><b>{{ statistics.getTotals().numberOfRides }}</b></td>
+            <td align="center"><b>{{ statistics.getTotals().totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></b></td>
+            <td align="center"><b>{{ statistics.getTotals().totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></b></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 align="center">Total distance per bike</h2>
+
+<div align="center">
+    <table>
+        <thead>
+        <tr>
+            <th>Bike</th>
+            <th>Distance</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for bike in bikes %}
+            <tr>
+                <td align="center">{{ bike.getName() }}</td>
+                <td align="center">{{ bike.getDistance()|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
