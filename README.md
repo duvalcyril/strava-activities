@@ -4,15 +4,15 @@
 </p>
 
 <!--START_SECTION:strava-totals-->
-Since `27-03-2023` I recorded a total distance of `1 776 km`,
-an elevation of `16 128 m`
-and a total time of `2d 21h 41m 31s` 🎉
+Since `27-03-2023` I recorded a total distance of `1 805 km`,
+an elevation of `16 464 m`
+and a total time of `2d 22h 42m 55s` 🎉
 
 That's a daily average of `21 km`,
-a weekly average of `137 km` and a
-monthly average of `592 km` 🐣
+a weekly average of `139 km` and a
+monthly average of `602 km` 🐣
 
-I burned `33386 calories` doing so, that's about `124` pizza slices 🍕
+I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
 <!--END_SECTION:strava-totals-->
 
 ## Activities
@@ -28,6 +28,19 @@ I burned `33386 calories` doing so, that's about `124` pizza slices 🍕
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>20-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9301725522">Novanta in London</a>
+            </td>
+            <td align="center">29 <sup><sub>km</sub></sup></td>
+            <td align="center">336 <sup><sub>m</sub></sup></td>
+            <td align="center">1:01:24</td>
+            <td align="center">171 <sup><sub>w</sub></sup></td>
+            <td align="center">28.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">158</td>
+        </tr>
             <tr>
             <td>18-06-23</td>
             <td>

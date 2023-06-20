@@ -19,9 +19,9 @@
         <tbody>
                     <tr>
                 <td align="center">June 2023</td>
-                <td align="center">19</td>
-                <td align="center">533 <sup><sub>km</sub></sup></td>
-                <td align="center">5 430 <sup><sub>m</sub></sup></td>
+                <td align="center">20</td>
+                <td align="center">562 <sup><sub>km</sub></sup></td>
+                <td align="center">5 766 <sup><sub>m</sub></sup></td>
                 <td align="center">19</td>
             </tr>
                     <tr>
@@ -47,9 +47,9 @@
             </tr>
                 <tr>
             <td align="center"><b>Total</b></td>
-            <td align="center"><b>76</b></td>
-            <td align="center"><b>1 776 <sup><sub>km</sub></sup></b></td>
-            <td align="center"><b>16 128 <sup><sub>m</sub></sup></b></td>
+            <td align="center"><b>77</b></td>
+            <td align="center"><b>1 805 <sup><sub>km</sub></sup></b></td>
+            <td align="center"><b>16 464 <sup><sub>m</sub></sup></b></td>
             <td align="center"><b>36</b></td>
         </tr>
         </tbody>
@@ -68,16 +68,16 @@
         </thead>
         <tbody>
                     <tr>
-                <td align="center">Retro Race Bike</td>
-                <td align="center">183 <sup><sub>km</sub></sup></td>
+                <td align="center">Elite Direto XR-T</td>
+                <td align="center">946 <sup><sub>km</sub></sup></td>
             </tr>
                     <tr>
                 <td align="center">Zwift Hub</td>
-                <td align="center">448 <sup><sub>km</sub></sup></td>
+                <td align="center">477 <sup><sub>km</sub></sup></td>
             </tr>
                     <tr>
-                <td align="center">Elite Direto XR-T</td>
-                <td align="center">946 <sup><sub>km</sub></sup></td>
+                <td align="center">Retro Race Bike</td>
+                <td align="center">183 <sup><sub>km</sub></sup></td>
             </tr>
                 </tbody>
     </table>
