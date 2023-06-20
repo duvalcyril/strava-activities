@@ -77,6 +77,15 @@ final class Strava
         ]));
     }
 
+    public function getGear(int $id): array
+    {
+        return Json::decode($this->request('api/v3/gear/'.$id, 'GET', [
+            RequestOptions::HEADERS => [
+                'Authorization' => 'Bearer '.$this->getAccessToken(),
+            ],
+        ]));
+    }
+
     public function getChallenges(int $athleteId): array
     {
         $contents = $this->request('athletes/'.$athleteId);

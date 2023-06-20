@@ -1,7 +1,8 @@
 <?php
 
 use App\Domain\Strava\Activity\StravaActivityRepository;
-use App\Domain\Strava\Challenge\StravaChallengeRepository as StravaTrophyRepositoryAlias;
+use App\Domain\Strava\Challenge\StravaChallengeRepository;
+use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\StravaClientId;
 use App\Domain\Strava\StravaClientSecret;
 use App\Domain\Strava\StravaRefreshToken;
@@ -43,6 +44,7 @@ return [
     Environment::class => fn () => Environment::from($_ENV['ENVIRONMENT']),
     // Settings.
     Settings::class => DI\factory([Settings::class, 'load']),
+    // Strava stuff.
     StravaClientId::class => StravaClientId::fromString($_ENV['STRAVA_CLIENT_ID']),
     StravaClientSecret::class => StravaClientSecret::fromString($_ENV['STRAVA_CLIENT_SECRET']),
     StravaRefreshToken::class => StravaRefreshToken::fromString($_ENV['STRAVA_REFRESH_TOKEN']),
@@ -50,10 +52,15 @@ return [
         'auto_cache' => false,
         'timeout' => false,
     ])),
-    StravaTrophyRepositoryAlias::class => DI\autowire()->constructorParameter('store', new Store('challenges', $appRoot.'/database', [
+    StravaChallengeRepository::class => DI\autowire()->constructorParameter('store', new Store('challenges', $appRoot.'/database', [
         'auto_cache' => false,
         'timeout' => false,
     ])),
+    StravaGearRepository::class => DI\autowire()->constructorParameter('store', new Store('gears', $appRoot.'/database', [
+        'auto_cache' => false,
+        'timeout' => false,
+    ])),
+    // File system.
     Filesystem::class => DI\autowire()->constructorParameter('adapter', new LocalFilesystemAdapter(
         Settings::getAppRoot()
     )),

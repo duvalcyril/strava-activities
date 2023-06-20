@@ -7,7 +7,7 @@ use Carbon\CarbonInterval;
 class Activity implements \JsonSerializable
 {
     private function __construct(
-        private array $data
+        private readonly array $data
     ) {
     }
 
@@ -42,6 +42,11 @@ class Activity implements \JsonSerializable
     public function getType(): ActivityType
     {
         return ActivityType::from($this->data['type']);
+    }
+
+    public function getGearId(): ?string
+    {
+        return $this->data['gear_id'] ?? null;
     }
 
     public function getName(): string

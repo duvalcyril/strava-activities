@@ -7,6 +7,8 @@ use App\Domain\Strava\Activity\ActivityType;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\Challenge\Challenge;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;
+use App\Domain\Strava\Gear\Gear;
+use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\Strava;
 use App\Infrastructure\Exception\EntityNotFound;
 use Lcobucci\Clock\Clock;
@@ -24,6 +26,7 @@ class ImportStravaActivityConsoleCommand extends Command
         private readonly Strava $strava,
         private readonly StravaActivityRepository $stravaActivityRepository,
         private readonly StravaChallengeRepository $stravaChallengeRepository,
+        private readonly StravaGearRepository $stravaGearRepository,
         private readonly Filesystem $filesystem,
         private readonly Clock $clock
     ) {
@@ -43,6 +46,25 @@ class ImportStravaActivityConsoleCommand extends Command
                 $activity = Activity::create($this->strava->getActivity($stravaActivity['id']));
                 $this->stravaActivityRepository->add($activity);
             }
+        }
+
+        $gearIds = array_unique(array_filter(array_map(
+            fn (Activity $activity) => $activity->getGearId(),
+            $this->stravaActivityRepository->findAll()
+        )));
+
+        foreach ($gearIds as $gearId) {
+            $stravaGear = $this->strava->getGear($gearId);
+            try {
+                $gear = $this->stravaGearRepository->findOneBy($gearId);
+                $gear->updateDistance($stravaGear['distance']);
+            } catch (EntityNotFound) {
+                $gear = Gear::create(
+                    $gearId,
+                    $this->clock->now()
+                );
+            }
+            $this->stravaGearRepository->save($gear);
         }
 
         foreach ($this->strava->getChallenges(62214940) ?? [] as $challengeData) {
