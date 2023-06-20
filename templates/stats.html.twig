@@ -3,7 +3,7 @@
          alt="Strava">
 </p>
 
-<h2 align="center">Total distance</h2>
+<h2 align="center">Monthly stats</h2>
 
 <div align="center">
     <table>
@@ -13,6 +13,7 @@
             <th># of rides</th>
             <th>Distance</th>
             <th>Elevation</th>
+            <th># challenges<br /> completed</th>
         </tr>
         </thead>
         <tbody>
@@ -22,6 +23,7 @@
                 <td align="center">{{ statistic.numberOfRides }}</td>
                 <td align="center">{{ statistic.totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
                 <td align="center">{{ statistic.totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></td>
+                <td align="center">{{ statistic.challengesCompleted }}</td>
             </tr>
         {% endfor %}
         <tr>
@@ -29,6 +31,7 @@
             <td align="center"><b>{{ statistics.getTotals().numberOfRides }}</b></td>
             <td align="center"><b>{{ statistics.getTotals().totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></b></td>
             <td align="center"><b>{{ statistics.getTotals().totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></b></td>
+            <td align="center"><b>{{ statistics.getTotals().challengesCompleted }}</b></td>
         </tr>
         </tbody>
     </table>

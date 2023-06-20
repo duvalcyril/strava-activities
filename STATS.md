@@ -3,7 +3,7 @@
          alt="Strava">
 </p>
 
-<h2 align="center">Total distance</h2>
+<h2 align="center">Monthly stats</h2>
 
 <div align="center">
     <table>
@@ -13,6 +13,7 @@
             <th># of rides</th>
             <th>Distance</th>
             <th>Elevation</th>
+            <th># challenges<br /> completed</th>
         </tr>
         </thead>
         <tbody>
@@ -21,30 +22,35 @@
                 <td align="center">19</td>
                 <td align="center">533 <sup><sub>km</sub></sup></td>
                 <td align="center">5 430 <sup><sub>m</sub></sup></td>
+                <td align="center">19</td>
             </tr>
                     <tr>
                 <td align="center">May 2023</td>
                 <td align="center">32</td>
                 <td align="center">722 <sup><sub>km</sub></sup></td>
                 <td align="center">7 243 <sup><sub>m</sub></sup></td>
+                <td align="center">10</td>
             </tr>
                     <tr>
                 <td align="center">April 2023</td>
                 <td align="center">23</td>
                 <td align="center">508 <sup><sub>km</sub></sup></td>
                 <td align="center">3 428 <sup><sub>m</sub></sup></td>
+                <td align="center">7</td>
             </tr>
                     <tr>
                 <td align="center">March 2023</td>
                 <td align="center">2</td>
                 <td align="center">13 <sup><sub>km</sub></sup></td>
                 <td align="center">27 <sup><sub>m</sub></sup></td>
+                <td align="center">0</td>
             </tr>
                 <tr>
             <td align="center"><b>Total</b></td>
             <td align="center"><b>76</b></td>
             <td align="center"><b>1 776 <sup><sub>km</sub></sup></b></td>
             <td align="center"><b>16 128 <sup><sub>m</sub></sup></b></td>
+            <td align="center"><b>36</b></td>
         </tr>
         </tbody>
     </table>

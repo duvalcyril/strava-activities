@@ -42,6 +42,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         $readme = ReadMe::fromPathToReadMe($pathToReadMe);
 
         $allActivities = $this->stravaActivityRepository->findAll();
+        $alChallenges = $this->stravaChallengeRepository->findAll();
 
         $readme
             ->updateStravaTotals($this->twig->load('strava-totals.html.twig')->render([
@@ -54,7 +55,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
                 'activities' => $allActivities,
             ]))
             ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
-                'challenges' => $this->stravaChallengeRepository->findAll(),
+                'challenges' => $alChallenges,
             ]));
 
         \Safe\file_put_contents($pathToReadMe, (string) $readme);
@@ -63,7 +64,10 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             Settings::getAppRoot().'/STATS.md',
             $this->twig->load('stats.html.twig')->render([
                 'bikes' => $this->stravaGearRepository->findAll(),
-                'statistics' => MonthlyStatistics::fromActivities($allActivities),
+                'statistics' => MonthlyStatistics::fromActivitiesAndChallenges(
+                    $allActivities,
+                    $alChallenges
+                ),
             ])
         );
 

@@ -46,6 +46,11 @@ class Challenge
         $this->data['localLogo'] = $path;
     }
 
+    public function getCreatedOn(): \DateTimeImmutable
+    {
+        return (new \DateTimeImmutable())->setTimestamp($this->data['createdOn']);
+    }
+
     public function jsonSerialize(): array
     {
         return $this->data;

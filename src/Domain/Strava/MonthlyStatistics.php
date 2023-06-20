@@ -3,18 +3,21 @@
 namespace App\Domain\Strava;
 
 use App\Domain\Strava\Activity\Activity;
+use App\Domain\Strava\Challenge\Challenge;
 
 class MonthlyStatistics
 {
     private function __construct(
         /** @var \App\Domain\Strava\Activity\Activity[] */
-        private readonly array $activities
+        private readonly array $activities,
+        /** @var \App\Domain\Strava\Challenge\Challenge[] */
+        private readonly array $challenges,
     ) {
     }
 
-    public static function fromActivities(array $activities): self
+    public static function fromActivitiesAndChallenges(array $activities, array $challenges): self
     {
-        return new self($activities);
+        return new self($activities, $challenges);
     }
 
     public function getRows(): array
@@ -29,6 +32,10 @@ class MonthlyStatistics
                     'numberOfRides' => 0,
                     'totalDistance' => 0,
                     'totalElevation' => 0,
+                    'challengesCompleted' => count(array_filter(
+                        $this->challenges,
+                        fn (Challenge $challenge) => $challenge->getCreatedOn()->format('Ym') == $activity->getStartDate()->format('Ym')
+                    )),
                 ];
             }
 
@@ -46,6 +53,7 @@ class MonthlyStatistics
             'numberOfRides' => count($this->activities),
             'totalDistance' => array_sum(array_map(fn (Activity $activity) => $activity->getDistance(), $this->activities)),
             'totalElevation' => array_sum(array_map(fn (Activity $activity) => $activity->getElevation(), $this->activities)),
+            'challengesCompleted' => count($this->challenges),
         ];
     }
 }
