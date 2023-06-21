@@ -45,7 +45,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         $alChallenges = $this->stravaChallengeRepository->findAll();
 
         $readme
-            ->updateStravaTotals($this->twig->load('strava-totals.html.twig')->render([
+            ->updateStravaTotals($this->twig->load('strava-intro.html.twig')->render([
                 'totals' => ActivityTotals::fromActivities(
                     $allActivities,
                     $this->clock->now(),
@@ -54,22 +54,20 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $allActivities,
             ]))
+            ->updateStravaMonthlyStats($this->twig->load('strava-monthly-stats.html.twig')->render([
+                'statistics' => MonthlyStatistics::fromActivitiesAndChallenges(
+                    $allActivities,
+                    $alChallenges
+                ),
+            ]))
+            ->updateStravaDistancePerBike($this->twig->load('strava-distance-per-bike.html.twig')->render([
+                'bikes' => $this->stravaGearRepository->findAll(),
+            ]))
             ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
                 'challenges' => $alChallenges,
             ]));
 
         \Safe\file_put_contents($pathToReadMe, (string) $readme);
-
-        \Safe\file_put_contents(
-            Settings::getAppRoot().'/STATS.md',
-            $this->twig->load('stats.html.twig')->render([
-                'bikes' => $this->stravaGearRepository->findAll(),
-                'statistics' => MonthlyStatistics::fromActivitiesAndChallenges(
-                    $allActivities,
-                    $alChallenges
-                ),
-            ])
-        );
 
         return Command::SUCCESS;
     }
