@@ -64,6 +64,15 @@ final class Strava
         ]));
     }
 
+    public function getActivityZones(int $id): array
+    {
+        return Json::decode($this->request('api/v3/activities/'.$id.'/zones', 'GET', [
+            RequestOptions::HEADERS => [
+                'Authorization' => 'Bearer '.$this->getAccessToken(),
+            ],
+        ]));
+    }
+
     public function getActivityPhotos(int $activityId): array
     {
         return Json::decode($this->request('api/v3/activities/'.$activityId.'/photos', 'GET', [
