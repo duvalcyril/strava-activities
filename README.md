@@ -1116,6 +1116,10 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
             <td align="center">Elite Direto XR-T</td>
             <td align="center">946 <sup><sub>km</sub></sup></td>
         </tr>
+            <tr>
+            <td align="center">Other</td>
+            <td align="center">199 <sup><sub>km</sub></sup></td>
+        </tr>
         </tbody>
 </table>
 <!--END_SECTION:strava-distance-per-bike-->

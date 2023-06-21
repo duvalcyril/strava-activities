@@ -6,6 +6,7 @@ use App\Domain\ReadMe;
 use App\Domain\Strava\Activity\ActivityTotals;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;
+use App\Domain\Strava\Gear\Gear;
 use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\MonthlyStatistics;
 use App\Infrastructure\Environment\Settings;
@@ -42,14 +43,15 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         $readme = ReadMe::fromPathToReadMe($pathToReadMe);
 
         $allActivities = $this->stravaActivityRepository->findAll();
-        $alChallenges = $this->stravaChallengeRepository->findAll();
-
+        $allChallenges = $this->stravaChallengeRepository->findAll();
+        $allBikes = $this->stravaGearRepository->findAll();
+        $activityTotals = ActivityTotals::fromActivities(
+            $allActivities,
+            $this->clock->now(),
+        );
         $readme
             ->updateStravaTotals($this->twig->load('strava-intro.html.twig')->render([
-                'totals' => ActivityTotals::fromActivities(
-                    $allActivities,
-                    $this->clock->now(),
-                ),
+                'totals' => $activityTotals,
             ]))
             ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $allActivities,
@@ -57,14 +59,18 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             ->updateStravaMonthlyStats($this->twig->load('strava-monthly-stats.html.twig')->render([
                 'statistics' => MonthlyStatistics::fromActivitiesAndChallenges(
                     $allActivities,
-                    $alChallenges
+                    $allChallenges
                 ),
             ]))
             ->updateStravaDistancePerBike($this->twig->load('strava-distance-per-bike.html.twig')->render([
-                'bikes' => $this->stravaGearRepository->findAll(),
+                'bikes' => [...$allBikes, Gear::fromMap([
+                    'name' => 'Other',
+                    'distance' => ($activityTotals->getDistance() * 1000) -
+                        array_sum(array_map(fn (Gear $bike) => $bike->getDistance() * 1000, $allBikes)),
+                ])],
             ]))
             ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
-                'challenges' => $alChallenges,
+                'challenges' => $allChallenges,
             ]));
 
         \Safe\file_put_contents($pathToReadMe, (string) $readme);
