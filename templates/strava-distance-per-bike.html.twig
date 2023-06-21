@@ -1,18 +1,16 @@
-<div align="center">
-    <table>
-        <thead>
+<table>
+    <thead>
+    <tr>
+        <th>Bike</th>
+        <th>Distance</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for bike in bikes %}
         <tr>
-            <th>Bike</th>
-            <th>Distance</th>
+            <td align="center">{{ bike.getName() }}</td>
+            <td align="center">{{ bike.getDistance()|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
         </tr>
-        </thead>
-        <tbody>
-        {% for bike in bikes %}
-            <tr>
-                <td align="center">{{ bike.getName() }}</td>
-                <td align="center">{{ bike.getDistance()|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-</div>
+    {% endfor %}
+    </tbody>
+</table>

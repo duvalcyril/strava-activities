@@ -1,31 +1,29 @@
-<div align="center">
-    <table>
-        <thead>
+<table>
+    <thead>
+    <tr>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th># of rides</th>
+        <th>Distance</th>
+        <th>Elevation</th>
+        <th># challenges<br /> completed</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for statistic in statistics.getRows() %}
         <tr>
-            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-            <th># of rides</th>
-            <th>Distance</th>
-            <th>Elevation</th>
-            <th># challenges<br /> completed</th>
+            <td align="center">{{ statistic.month }}</td>
+            <td align="center">{{ statistic.numberOfRides }}</td>
+            <td align="center">{{ statistic.totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
+            <td align="center">{{ statistic.totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></td>
+            <td align="center">{{ statistic.challengesCompleted }}</td>
         </tr>
-        </thead>
-        <tbody>
-        {% for statistic in statistics.getRows() %}
-            <tr>
-                <td align="center">{{ statistic.month }}</td>
-                <td align="center">{{ statistic.numberOfRides }}</td>
-                <td align="center">{{ statistic.totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
-                <td align="center">{{ statistic.totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></td>
-                <td align="center">{{ statistic.challengesCompleted }}</td>
-            </tr>
-        {% endfor %}
-        <tr>
-            <td align="center"><b>Total</b></td>
-            <td align="center"><b>{{ statistics.getTotals().numberOfRides }}</b></td>
-            <td align="center"><b>{{ statistics.getTotals().totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></b></td>
-            <td align="center"><b>{{ statistics.getTotals().totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></b></td>
-            <td align="center"><b>{{ statistics.getTotals().challengesCompleted }}</b></td>
-        </tr>
-        </tbody>
-    </table>
-</div>
+    {% endfor %}
+    <tr>
+        <td align="center"><b>Total</b></td>
+        <td align="center"><b>{{ statistics.getTotals().numberOfRides }}</b></td>
+        <td align="center"><b>{{ statistics.getTotals().totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></b></td>
+        <td align="center"><b>{{ statistics.getTotals().totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></b></td>
+        <td align="center"><b>{{ statistics.getTotals().challengesCompleted }}</b></td>
+    </tr>
+    </tbody>
+</table>
