@@ -15,8 +15,8 @@ monthly average of `602 km` 🐣
 I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
 <!--END_SECTION:strava-totals-->
 
-<a href="#Activities">activities</a> | 
-<a href="#Monthly stats">monthly-stats</a> | 
+<a href="#activities">Activities</a> | 
+<a href="#monthly-stats">Monthly stats</a> | 
 <a href="#Total distance per bike">Total distance per bike</a> |
 <a href="#Completed challenges">Completed challenges</a>
 
