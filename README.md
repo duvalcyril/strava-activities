@@ -6,7 +6,7 @@
 <!--START_SECTION:strava-totals-->
 Since `27-03-2023` I recorded a total distance of `1 805 km`,
 an elevation of `16 464 m`
-and a total time of `2d 22h 42m 55s` 🎉
+and a total time of `2d 22h 42m` 🎉
 
 That's a daily average of `21 km`,
 a weekly average of `139 km` and a
@@ -1048,8 +1048,9 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
     <tr>
         <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
         <th># of rides</th>
-        <th>Distance</th>
-        <th>Elevation</th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/distance.svg" width="30" alt="distance" title="distance"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="30" alt="elevation" title="elevation"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
         <th># challenges<br /> completed</th>
     </tr>
     </thead>
@@ -1059,6 +1060,7 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
             <td align="center">20</td>
             <td align="center">562 <sup><sub>km</sub></sup></td>
             <td align="center">5 766 <sup><sub>m</sub></sup></td>
+            <td align="center">22h 8m</td>
             <td align="center">19</td>
         </tr>
             <tr>
@@ -1066,6 +1068,7 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
             <td align="center">32</td>
             <td align="center">722 <sup><sub>km</sub></sup></td>
             <td align="center">7 243 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 4h 1m</td>
             <td align="center">10</td>
         </tr>
             <tr>
@@ -1073,6 +1076,7 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
             <td align="center">23</td>
             <td align="center">508 <sup><sub>km</sub></sup></td>
             <td align="center">3 428 <sup><sub>m</sub></sup></td>
+            <td align="center">19h 33m</td>
             <td align="center">7</td>
         </tr>
             <tr>
@@ -1080,6 +1084,7 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
             <td align="center">2</td>
             <td align="center">13 <sup><sub>km</sub></sup></td>
             <td align="center">27 <sup><sub>m</sub></sup></td>
+            <td align="center">59m</td>
             <td align="center">0</td>
         </tr>
         <tr>
@@ -1087,6 +1092,7 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
         <td align="center"><b>77</b></td>
         <td align="center"><b>1 805 <sup><sub>km</sub></sup></b></td>
         <td align="center"><b>16 464 <sup><sub>m</sub></sup></b></td>
+        <td align="center"><b>2d 22h 42m</b></td>
         <td align="center"><b>36</b></td>
     </tr>
     </tbody>
@@ -1099,31 +1105,41 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
 <table>
     <thead>
     <tr>
-        <th>Bike</th>
-        <th>Distance</th>
+        <th></th>
         <th># of rides</th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/distance.svg" width="30" alt="distance" title="distance"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="30" alt="elevation" title="elevation"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
     </tr>
     </thead>
     <tbody>
             <tr>
             <td align="center">Retro Race Bike</td>
-            <td align="center">183 <sup><sub>km</sub></sup></td>
             <td align="center">5</td>
+            <td align="center">183 <sup><sub>km</sub></sup></td>
+            <td align="center">1 076 <sup><sub>m</sub></sup></td>
+            <td align="center">7h 44m</td>
         </tr>
             <tr>
             <td align="center">Zwift Hub</td>
-            <td align="center">477 <sup><sub>km</sub></sup></td>
             <td align="center">15</td>
+            <td align="center">477 <sup><sub>km</sub></sup></td>
+            <td align="center">6 691 <sup><sub>m</sub></sup></td>
+            <td align="center">17h 7m</td>
         </tr>
             <tr>
             <td align="center">Elite Direto XR-T ☠️</td>
-            <td align="center">946 <sup><sub>km</sub></sup></td>
             <td align="center">32</td>
+            <td align="center">946 <sup><sub>km</sub></sup></td>
+            <td align="center">8 470 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 9h 59m</td>
         </tr>
             <tr>
             <td align="center">Other</td>
-            <td align="center">199 <sup><sub>km</sub></sup></td>
             <td align="center">25</td>
+            <td align="center">199 <sup><sub>km</sub></sup></td>
+            <td align="center">227 <sup><sub>m</sub></sup></td>
+            <td align="center">11h 51m</td>
         </tr>
         </tbody>
 </table>

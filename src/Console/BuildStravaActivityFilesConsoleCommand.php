@@ -62,7 +62,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
                     $allChallenges
                 ),
             ]))
-            ->updateStravaDistancePerBike($this->twig->load('strava-distance-per-bike.html.twig')->render([
+            ->updateStravaStatsPerBike($this->twig->load('strava-stats-per-bike.html.twig')->render([
                 'statistics' => BikeStatistics::fromActivitiesAndGear($allActivities, $allBikes),
             ]))
             ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([

@@ -30,7 +30,7 @@ class ReadMe implements \Stringable
         return $this;
     }
 
-    public function updateStravaDistancePerBike(string $challenges): self
+    public function updateStravaStatsPerBike(string $challenges): self
     {
         $this->pregReplace('strava-distance-per-bike', $challenges, true);
 

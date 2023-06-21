@@ -41,7 +41,7 @@ class ActivityTotals
     {
         $seconds = array_sum(array_map(fn (Activity $activity) => $activity->getMovingTime(), $this->activities));
 
-        return CarbonInterval::seconds($seconds)->cascade()->forHumans(null, true);
+        return CarbonInterval::seconds($seconds)->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']);
     }
 
     public function getStartDate(): \DateTimeImmutable

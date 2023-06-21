@@ -4,6 +4,7 @@ namespace App\Domain\Strava;
 
 use App\Domain\Strava\Activity\Activity;
 use App\Domain\Strava\Challenge\Challenge;
+use Carbon\CarbonInterval;
 
 class MonthlyStatistics
 {
@@ -32,6 +33,7 @@ class MonthlyStatistics
                     'numberOfRides' => 0,
                     'totalDistance' => 0,
                     'totalElevation' => 0,
+                    'movingTime' => 0,
                     'challengesCompleted' => count(array_filter(
                         $this->challenges,
                         fn (Challenge $challenge) => $challenge->getCreatedOn()->format('Ym') == $activity->getStartDate()->format('Ym')
@@ -42,6 +44,11 @@ class MonthlyStatistics
             ++$statistics[$month]['numberOfRides'];
             $statistics[$month]['totalDistance'] += $activity->getDistance();
             $statistics[$month]['totalElevation'] += $activity->getElevation();
+            $statistics[$month]['movingTime'] += $activity->getMovingTime();
+        }
+
+        foreach ($statistics as &$statistic) {
+            $statistic['movingTime'] = CarbonInterval::seconds($statistic['movingTime'])->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']);
         }
 
         return $statistics;
@@ -53,6 +60,7 @@ class MonthlyStatistics
             'numberOfRides' => count($this->activities),
             'totalDistance' => array_sum(array_map(fn (Activity $activity) => $activity->getDistance(), $this->activities)),
             'totalElevation' => array_sum(array_map(fn (Activity $activity) => $activity->getElevation(), $this->activities)),
+            'movingTime' => CarbonInterval::seconds(array_sum(array_map(fn (Activity $activity) => $activity->getMovingTime(), $this->activities)))->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']),
             'challengesCompleted' => count($this->challenges),
         ];
     }
