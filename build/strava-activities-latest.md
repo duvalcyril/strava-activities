@@ -74,4 +74,7 @@
             <td align="center">21.1 <sup><sub>km/h</sub></sup></td>
             <td align="center">154</td>
         </tr>
+                <tr>
+            <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
+        </tr>
     </table>

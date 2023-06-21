@@ -1036,7 +1036,7 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
             <td align="center">12.6 <sup><sub>km/h</sub></sup></td>
             <td align="center">101</td>
         </tr>
-    </table>
+        </table>
 
 <!--END_SECTION:strava-activities-->
 

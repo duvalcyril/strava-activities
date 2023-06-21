@@ -25,5 +25,10 @@
             <td align="center">{{ activity.getAverageHeartRate() ?? 'n/a' }}</td>
         </tr>
     {% endfor %}
+    {% if addLinkToAllActivities %}
+        <tr>
+            <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
+        </tr>
+    {% endif %}
 </table>
 {% endautoescape %}

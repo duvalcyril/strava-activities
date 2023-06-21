@@ -36,6 +36,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             Settings::getAppRoot().'/build/strava-activities-latest.md',
             $this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $this->stravaActivityRepository->findAll(5),
+                'addLinkToAllActivities' => true,
             ])
         );
 
