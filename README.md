@@ -19,7 +19,7 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
 
 <kbd><a href="#activities">Activities</a></kbd> | 
 <kbd><a href="#monthly-stats">Monthly stats</a></kbd> | 
-<kbd><a href="#total-distance-per-bike">Total distance per bike</a></kbd> |
+<kbd><a href="#stats-per-bike">Stats per bike</a></kbd> |
 <kbd><a href="#completed-challenges">Completed challenges</a></kbd>
 
 ## Activities
@@ -1093,7 +1093,7 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
 </table>
 <!--END_SECTION:strava-monthly-stats-->
 
-## Total distance per bike
+## Stats per bike
 
 <!--START_SECTION:strava-distance-per-bike-->
 <table>
@@ -1101,24 +1101,29 @@ I burned `33986 calories` doing so, that's about `126` pizza slices 🍕
     <tr>
         <th>Bike</th>
         <th>Distance</th>
+        <th># of rides</th>
     </tr>
     </thead>
     <tbody>
             <tr>
             <td align="center">Retro Race Bike</td>
             <td align="center">183 <sup><sub>km</sub></sup></td>
+            <td align="center">5</td>
         </tr>
             <tr>
             <td align="center">Zwift Hub</td>
             <td align="center">477 <sup><sub>km</sub></sup></td>
+            <td align="center">15</td>
         </tr>
             <tr>
-            <td align="center">Elite Direto XR-T</td>
+            <td align="center">Elite Direto XR-T ☠️</td>
             <td align="center">946 <sup><sub>km</sub></sup></td>
+            <td align="center">32</td>
         </tr>
             <tr>
             <td align="center">Other</td>
             <td align="center">199 <sup><sub>km</sub></sup></td>
+            <td align="center">25</td>
         </tr>
         </tbody>
 </table>

@@ -3,13 +3,15 @@
     <tr>
         <th>Bike</th>
         <th>Distance</th>
+        <th># of rides</th>
     </tr>
     </thead>
     <tbody>
-    {% for bike in bikes %}
+    {% for statistic in statistics.getRows() %}
         <tr>
-            <td align="center">{{ bike.getName() }}</td>
-            <td align="center">{{ bike.getDistance()|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
+            <td align="center">{{ statistic.name }}</td>
+            <td align="center">{{ statistic.distance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
+            <td align="center">{{ statistic.numberOfRides }}</td>
         </tr>
     {% endfor %}
     </tbody>

@@ -21,6 +21,11 @@ class Gear implements \JsonSerializable
         return new self($data);
     }
 
+    public function getId(): string
+    {
+        return $this->data['id'];
+    }
+
     public function getName(): string
     {
         return $this->data['name'];
@@ -29,6 +34,11 @@ class Gear implements \JsonSerializable
     public function getDistance(): float
     {
         return round($this->data['distance'] / 1000);
+    }
+
+    public function isRetired(): bool
+    {
+        return $this->data['retired'] ?? false;
     }
 
     public function updateDistance(float $distance, float $convertedDistance): void

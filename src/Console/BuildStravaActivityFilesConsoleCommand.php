@@ -5,8 +5,8 @@ namespace App\Console;
 use App\Domain\ReadMe;
 use App\Domain\Strava\Activity\ActivityTotals;
 use App\Domain\Strava\Activity\StravaActivityRepository;
+use App\Domain\Strava\BikeStatistics;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;
-use App\Domain\Strava\Gear\Gear;
 use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\MonthlyStatistics;
 use App\Infrastructure\Environment\Settings;
@@ -45,13 +45,13 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         $allActivities = $this->stravaActivityRepository->findAll();
         $allChallenges = $this->stravaChallengeRepository->findAll();
         $allBikes = $this->stravaGearRepository->findAll();
-        $activityTotals = ActivityTotals::fromActivities(
-            $allActivities,
-            $this->clock->now(),
-        );
+
         $readme
             ->updateStravaTotals($this->twig->load('strava-intro.html.twig')->render([
-                'totals' => $activityTotals,
+                'totals' => ActivityTotals::fromActivities(
+                    $allActivities,
+                    $this->clock->now(),
+                ),
             ]))
             ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $allActivities,
@@ -63,11 +63,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
                 ),
             ]))
             ->updateStravaDistancePerBike($this->twig->load('strava-distance-per-bike.html.twig')->render([
-                'bikes' => [...$allBikes, Gear::fromMap([
-                    'name' => 'Other',
-                    'distance' => ($activityTotals->getDistance() * 1000) -
-                        array_sum(array_map(fn (Gear $bike) => $bike->getDistance() * 1000, $allBikes)),
-                ])],
+                'statistics' => BikeStatistics::fromActivitiesAndGear($allActivities, $allBikes),
             ]))
             ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
                 'challenges' => $allChallenges,
