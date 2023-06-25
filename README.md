@@ -1153,11 +1153,11 @@ I burned `35996 calories` doing so, that's about `133` pizza slices 🍕
     </thead>
     <tbody>
             <tr>
-            <td align="center">Elite Direto XR-T ☠️</td>
-            <td align="center">32</td>
-            <td align="center">946 <sup><sub>km</sub></sup></td>
-            <td align="center">8 470 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 9h 59m</td>
+            <td align="center">Retro Race Bike</td>
+            <td align="center">6</td>
+            <td align="center">195 <sup><sub>km</sub></sup></td>
+            <td align="center">1 104 <sup><sub>m</sub></sup></td>
+            <td align="center">8h 14m</td>
         </tr>
             <tr>
             <td align="center">Zwift Hub</td>
@@ -1167,11 +1167,11 @@ I burned `35996 calories` doing so, that's about `133` pizza slices 🍕
             <td align="center">20h 1m</td>
         </tr>
             <tr>
-            <td align="center">Retro Race Bike</td>
-            <td align="center">6</td>
-            <td align="center">195 <sup><sub>km</sub></sup></td>
-            <td align="center">1 104 <sup><sub>m</sub></sup></td>
-            <td align="center">8h 14m</td>
+            <td align="center">Elite Direto XR-T ☠️</td>
+            <td align="center">32</td>
+            <td align="center">946 <sup><sub>km</sub></sup></td>
+            <td align="center">8 470 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 9h 59m</td>
         </tr>
             <tr>
             <td align="center">Other</td>

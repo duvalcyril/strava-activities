@@ -3,6 +3,7 @@
 namespace App\Console;
 
 use App\Domain\ReadMe;
+use App\Domain\Strava\Activity\Activity;
 use App\Domain\Strava\Activity\ActivityTotals;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\BikeStatistics;
@@ -71,6 +72,16 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             ]));
 
         \Safe\file_put_contents($pathToReadMe, (string) $readme);
+
+        \Safe\file_put_contents(
+            Settings::getAppRoot().'/INCOMPLETE-ACTIVITIES.md',
+            $this->twig->load('strava-activities.html.twig')->render([
+                'activities' => array_filter(
+                    $allActivities,
+                    fn (Activity $activity) => empty($activity->getCalories()) || empty($activity->getGearId())
+                ),
+            ])
+        );
 
         return Command::SUCCESS;
     }
