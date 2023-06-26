@@ -4,15 +4,15 @@
 </p>
 
 <!--START_SECTION:strava-totals-->
-Since `27-03-2023` I recorded a total distance of `1 921 km`,
-an elevation of `18 720 m`
-and a total time of `3d 3h 47m` 🎉
+Since `27-03-2023` I recorded a total distance of `1 960 km`,
+an elevation of `18 752 m`
+and a total time of `3d 5h 26m` 🎉
 
-That's a daily average of `21 km`,
-a weekly average of `148 km` and a
-monthly average of `640 km` 🐣
+That's a daily average of `22 km`,
+a weekly average of `151 km` and a
+monthly average of `653 km` 🐣
 
-I burned `36977 calories` doing so, that's about `137` pizza slices 🍕
+I burned `37980 calories` doing so, that's about `141` pizza slices 🍕
 <!--END_SECTION:strava-totals-->
 
 ---
@@ -35,6 +35,19 @@ I burned `36977 calories` doing so, that's about `137` pizza slices 🍕
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>26-06-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9339863534">Avondritje met de bikerboys</a>
+            </td>
+            <td align="center">39 <sup><sub>km</sub></sup></td>
+            <td align="center">32 <sup><sub>m</sub></sup></td>
+            <td align="center">1:38:06</td>
+            <td align="center">n/a</td>
+            <td align="center">24.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">141</td>
+        </tr>
             <tr>
             <td>25-06-23</td>
             <td>
@@ -1109,10 +1122,10 @@ I burned `36977 calories` doing so, that's about `137` pizza slices 🍕
     <tbody>
             <tr>
             <td align="center">June 2023</td>
-            <td align="center">24</td>
-            <td align="center">678 <sup><sub>km</sub></sup></td>
-            <td align="center">8 022 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 3h 13m</td>
+            <td align="center">25</td>
+            <td align="center">717 <sup><sub>km</sub></sup></td>
+            <td align="center">8 054 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 4h 51m</td>
             <td align="center">21</td>
         </tr>
             <tr>
@@ -1141,10 +1154,10 @@ I burned `36977 calories` doing so, that's about `137` pizza slices 🍕
         </tr>
         <tr>
         <td align="center"><b>Total</b></td>
-        <td align="center"><b>81</b></td>
-        <td align="center"><b>1 921 <sup><sub>km</sub></sup></b></td>
-        <td align="center"><b>18 720 <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>3d 3h 47m</b></td>
+        <td align="center"><b>82</b></td>
+        <td align="center"><b>1 960 <sup><sub>km</sub></sup></b></td>
+        <td align="center"><b>18 752 <sup><sub>m</sub></sup></b></td>
+        <td align="center"><b>3d 5h 26m</b></td>
         <td align="center"><b>38</b></td>
     </tr>
     </tbody>
@@ -1181,10 +1194,10 @@ I burned `36977 calories` doing so, that's about `137` pizza slices 🍕
         </tr>
             <tr>
             <td align="center">Retro Race Bike</td>
-            <td align="center">6</td>
-            <td align="center">195 <sup><sub>km</sub></sup></td>
-            <td align="center">1 104 <sup><sub>m</sub></sup></td>
-            <td align="center">8h 14m</td>
+            <td align="center">7</td>
+            <td align="center">234 <sup><sub>km</sub></sup></td>
+            <td align="center">1 136 <sup><sub>m</sub></sup></td>
+            <td align="center">9h 52m</td>
         </tr>
             <tr>
             <td align="center">Other</td>
