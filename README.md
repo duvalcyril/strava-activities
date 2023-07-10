@@ -4,15 +4,15 @@
 </p>
 
 <!--START_SECTION:strava-totals-->
-Since `27-03-2023` I recorded a total distance of `2 315 km`,
-an elevation of `22 015 m`
-and a total time of `3d 19h 54m` 🎉
+Since `27-03-2023` I recorded a total distance of `2 346 km`,
+an elevation of `22 200 m`
+and a total time of `3d 20h 55m` 🎉
 
 That's a daily average of `22 km`,
-a weekly average of `154 km` and a
-monthly average of `579 km` 🐣
+a weekly average of `156 km` and a
+monthly average of `587 km` 🐣
 
-I burned `45921 calories` doing so, that's about `170` pizza slices 🍕
+I burned `46468 calories` doing so, that's about `172` pizza slices 🍕
 <!--END_SECTION:strava-totals-->
 
 ---
@@ -35,6 +35,19 @@ I burned `45921 calories` doing so, that's about `170` pizza slices 🍕
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>10-07-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9424963443">C.A. in Paris</a>
+            </td>
+            <td align="center">31 <sup><sub>km</sub></sup></td>
+            <td align="center">185 <sup><sub>m</sub></sup></td>
+            <td align="center">1:00:15</td>
+            <td align="center">159 <sup><sub>w</sub></sup></td>
+            <td align="center">30.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">152</td>
+        </tr>
             <tr>
             <td>09-07-23</td>
             <td>
@@ -1304,10 +1317,10 @@ I burned `45921 calories` doing so, that's about `170` pizza slices 🍕
     <tbody>
             <tr>
             <td align="center">July 2023</td>
-            <td align="center">11</td>
-            <td align="center">235 <sup><sub>km</sub></sup></td>
-            <td align="center">1 934 <sup><sub>m</sub></sup></td>
-            <td align="center">9h 6m</td>
+            <td align="center">12</td>
+            <td align="center">266 <sup><sub>km</sub></sup></td>
+            <td align="center">2 119 <sup><sub>m</sub></sup></td>
+            <td align="center">10h 7m</td>
             <td align="center">10</td>
         </tr>
             <tr>
@@ -1344,10 +1357,10 @@ I burned `45921 calories` doing so, that's about `170` pizza slices 🍕
         </tr>
         <tr>
         <td align="center"><b>Total</b></td>
-        <td align="center"><b>96</b></td>
-        <td align="center"><b>2 315 <sup><sub>km</sub></sup></b></td>
-        <td align="center"><b>22 015 <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>3d 19h 54m</b></td>
+        <td align="center"><b>97</b></td>
+        <td align="center"><b>2 346 <sup><sub>km</sub></sup></b></td>
+        <td align="center"><b>22 200 <sup><sub>m</sub></sup></b></td>
+        <td align="center"><b>3d 20h 55m</b></td>
         <td align="center"><b>49</b></td>
     </tr>
     </tbody>
@@ -1384,15 +1397,15 @@ I burned `45921 calories` doing so, that's about `170` pizza slices 🍕
         </tr>
             <tr>
             <td align="center">Zwift Hub</td>
-            <td align="center">25</td>
-            <td align="center">789 <sup><sub>km</sub></sup></td>
-            <td align="center">11 991 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 5h 57m</td>
+            <td align="center">26</td>
+            <td align="center">819 <sup><sub>km</sub></sup></td>
+            <td align="center">12 176 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 6h 58m</td>
         </tr>
             <tr>
             <td align="center">Other</td>
             <td align="center">28</td>
-            <td align="center">223 <sup><sub>km</sub></sup></td>
+            <td align="center">224 <sup><sub>km</sub></sup></td>
             <td align="center">267 <sup><sub>m</sub></sup></td>
             <td align="center">13h 12m</td>
         </tr>
