@@ -8,7 +8,7 @@ Since `27-03-2023` I recorded a total distance of `2 393 km`,
 an elevation of `22 510 m`
 and a total time of `3d 22h 25m` 🎉
 
-That's a daily average of `23 km`,
+That's a daily average of `22 km`,
 a weekly average of `150 km` and a
 monthly average of `598 km` 🐣
 
