@@ -1408,6 +1408,13 @@ I burned `49013 calories` doing so, that's about `182` pizza slices 🍕
     </thead>
     <tbody>
             <tr>
+            <td align="center">Zwift Hub</td>
+            <td align="center">27</td>
+            <td align="center">866 <sup><sub>km</sub></sup></td>
+            <td align="center">12 486 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 8h 28m</td>
+        </tr>
+            <tr>
             <td align="center">Retro Race Bike</td>
             <td align="center">12</td>
             <td align="center">417 <sup><sub>km</sub></sup></td>
@@ -1420,13 +1427,6 @@ I burned `49013 calories` doing so, that's about `182` pizza slices 🍕
             <td align="center">946 <sup><sub>km</sub></sup></td>
             <td align="center">8 470 <sup><sub>m</sub></sup></td>
             <td align="center">1d 9h 59m</td>
-        </tr>
-            <tr>
-            <td align="center">Zwift Hub</td>
-            <td align="center">27</td>
-            <td align="center">866 <sup><sub>km</sub></sup></td>
-            <td align="center">12 486 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 8h 28m</td>
         </tr>
             <tr>
             <td align="center">Other</td>
