@@ -4,15 +4,15 @@
 </p>
 
 <!--START_SECTION:strava-totals-->
-Since `27-03-2023` I recorded a total distance of `2 532 km`,
-an elevation of `23 638 m`
-and a total time of `4d 3h 44m` 🎉
+Since `27-03-2023` I recorded a total distance of `2 559 km`,
+an elevation of `23 982 m`
+and a total time of `4d 4h 44m` 🎉
 
 That's a daily average of `23 km`,
-a weekly average of `158 km` and a
-monthly average of `633 km` 🐣
+a weekly average of `151 km` and a
+monthly average of `640 km` 🐣
 
-I burned `50835 calories` doing so, that's about `188` pizza slices 🍕
+I burned `51423 calories` doing so, that's about `190` pizza slices 🍕
 <!--END_SECTION:strava-totals-->
 
 ---
@@ -35,6 +35,19 @@ I burned `50835 calories` doing so, that's about `188` pizza slices 🍕
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>18-07-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9475869554">Spaded Sweetie in Richmond</a>
+            </td>
+            <td align="center">27 <sup><sub>km</sub></sup></td>
+            <td align="center">344 <sup><sub>m</sub></sup></td>
+            <td align="center">1:00:04</td>
+            <td align="center">171 <sup><sub>w</sub></sup></td>
+            <td align="center">27.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">149</td>
+        </tr>
             <tr>
             <td>17-07-23</td>
             <td>
@@ -1382,10 +1395,10 @@ I burned `50835 calories` doing so, that's about `188` pizza slices 🍕
     <tbody>
             <tr>
             <td align="center">July 2023</td>
-            <td align="center">17</td>
-            <td align="center">452 <sup><sub>km</sub></sup></td>
-            <td align="center">3 557 <sup><sub>m</sub></sup></td>
-            <td align="center">16h 56m</td>
+            <td align="center">18</td>
+            <td align="center">479 <sup><sub>km</sub></sup></td>
+            <td align="center">3 901 <sup><sub>m</sub></sup></td>
+            <td align="center">17h 56m</td>
             <td align="center">15</td>
         </tr>
             <tr>
@@ -1422,10 +1435,10 @@ I burned `50835 calories` doing so, that's about `188` pizza slices 🍕
         </tr>
         <tr>
         <td align="center"><b>Total</b></td>
-        <td align="center"><b>102</b></td>
-        <td align="center"><b>2 532 <sup><sub>km</sub></sup></b></td>
-        <td align="center"><b>23 638 <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>4d 3h 44m</b></td>
+        <td align="center"><b>103</b></td>
+        <td align="center"><b>2 559 <sup><sub>km</sub></sup></b></td>
+        <td align="center"><b>23 982 <sup><sub>m</sub></sup></b></td>
+        <td align="center"><b>4d 4h 44m</b></td>
         <td align="center"><b>54</b></td>
     </tr>
     </tbody>
@@ -1462,10 +1475,10 @@ I burned `50835 calories` doing so, that's about `188` pizza slices 🍕
         </tr>
             <tr>
             <td align="center">Zwift Hub</td>
-            <td align="center">29</td>
-            <td align="center">933 <sup><sub>km</sub></sup></td>
-            <td align="center">13 491 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 10h 58m</td>
+            <td align="center">30</td>
+            <td align="center">960 <sup><sub>km</sub></sup></td>
+            <td align="center">13 835 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 11h 58m</td>
         </tr>
             <tr>
             <td align="center">Other</td>
