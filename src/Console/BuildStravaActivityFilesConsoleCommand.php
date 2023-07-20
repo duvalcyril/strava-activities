@@ -44,6 +44,14 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         $readme = ReadMe::fromPathToReadMe($pathToReadMe);
 
         $allActivities = $this->stravaActivityRepository->findAll();
+        foreach ($allActivities as &$activity) {
+            if (!$activity->getGearId()) {
+                continue;
+            }
+            $activity->enrichWithGearName(
+                $this->stravaGearRepository->findOneBy($activity->getGearId())->getName()
+            );
+        }
         $allChallenges = $this->stravaChallengeRepository->findAll();
         $allBikes = $this->stravaGearRepository->findAll();
 

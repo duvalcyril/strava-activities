@@ -6,9 +6,12 @@ use Carbon\CarbonInterval;
 
 class Activity implements \JsonSerializable
 {
+    private ?string $gearName;
+
     private function __construct(
         private readonly array $data
     ) {
+        $this->gearName = null;
     }
 
     public static function create(array $data): self
@@ -47,6 +50,16 @@ class Activity implements \JsonSerializable
     public function getGearId(): ?string
     {
         return $this->data['gear_id'] ?? null;
+    }
+
+    public function getGearName(): ?string
+    {
+        return $this->gearName;
+    }
+
+    public function enrichWithGearName(string $gearName): void
+    {
+        $this->gearName = $gearName;
     }
 
     public function getName(): string
