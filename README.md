@@ -1493,18 +1493,18 @@ I burned `53505 calories` doing so, that's about `198` pizza slices 🍕
             <td align="center">20h 42m</td>
         </tr>
             <tr>
-            <td align="center">Zwift Hub</td>
-            <td align="center">30</td>
-            <td align="center">960 <sup><sub>km</sub></sup></td>
-            <td align="center">13 835 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 11h 58m</td>
-        </tr>
-            <tr>
             <td align="center">Elite Direto XR-T ☠️</td>
             <td align="center">32</td>
             <td align="center">946 <sup><sub>km</sub></sup></td>
             <td align="center">8 470 <sup><sub>m</sub></sup></td>
             <td align="center">1d 9h 59m</td>
+        </tr>
+            <tr>
+            <td align="center">Zwift Hub</td>
+            <td align="center">30</td>
+            <td align="center">960 <sup><sub>km</sub></sup></td>
+            <td align="center">13 835 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 11h 58m</td>
         </tr>
             <tr>
             <td align="center">Other</td>
