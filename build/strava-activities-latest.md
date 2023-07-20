@@ -13,7 +13,7 @@
             <td>19-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9483741727">BikerBoys 🏍️</a>
+                <a href="https://www.strava.com/activities/9483741727" title="Kcal: 1769 | Gear: b12659861 ">BikerBoys 🏍️</a>
             </td>
             <td align="center">69 <sup><sub>km</sub></sup></td>
             <td align="center">149 <sup><sub>m</sub></sup></td>
@@ -26,7 +26,7 @@
             <td>19-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9481993011">Afternoon Ride</a>
+                <a href="https://www.strava.com/activities/9481993011" title="Kcal: 313 | Gear: b12659861 ">Afternoon Ride</a>
             </td>
             <td align="center">13 <sup><sub>km</sub></sup></td>
             <td align="center">32 <sup><sub>m</sub></sup></td>
@@ -39,7 +39,7 @@
             <td>18-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9475869554">Spaded Sweetie in Richmond</a>
+                <a href="https://www.strava.com/activities/9475869554" title="Kcal: 588 | Gear: b12659743 ">Spaded Sweetie in Richmond</a>
             </td>
             <td align="center">27 <sup><sub>km</sub></sup></td>
             <td align="center">344 <sup><sub>m</sub></sup></td>
@@ -52,7 +52,7 @@
             <td>17-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9468607450">LOX in Makuri Islands</a>
+                <a href="https://www.strava.com/activities/9468607450" title="Kcal: 585 | Gear: b12659743 ">LOX in Makuri Islands</a>
             </td>
             <td align="center">25 <sup><sub>km</sub></sup></td>
             <td align="center">310 <sup><sub>m</sub></sup></td>
@@ -65,7 +65,7 @@
             <td>14-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9450997559">Cucumber in New York</a>
+                <a href="https://www.strava.com/activities/9450997559" title="Kcal: 919 | Gear: b12659743 ">Cucumber in New York</a>
             </td>
             <td align="center">41 <sup><sub>km</sub></sup></td>
             <td align="center">695 <sup><sub>m</sub></sup></td>
