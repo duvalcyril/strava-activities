@@ -22,6 +22,10 @@ I burned `56087 calories` doing so, that's about `208` pizza slices 🍕
 <kbd><a href="#stats-per-bike">Stats per bike</a></kbd> |
 <kbd><a href="#completed-challenges">Completed challenges</a></kbd>
 
+## Weekly distances
+
+<img src="build/chart.svg" alt="Weekly distances"/>
+
 ## Activities
 <!--START_SECTION:strava-activities-->
 <table>
@@ -1483,10 +1487,6 @@ I burned `56087 calories` doing so, that's about `208` pizza slices 🍕
     </tbody>
 </table>
 <!--END_SECTION:strava-monthly-stats-->
-
-## Weekly distances
-
-<img src="build/chart.svg"/>
 
 ## Stats per bike
 

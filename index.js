@@ -13,6 +13,7 @@ const data = fs.readFileSync(currentDir + '/build/chart.json');
 const option = {
     animation: false,
     color: ['#E34902'],
+    backgroundColor: '#ffffff',
     grid: {
         left: '3%',
         right: '4%',
