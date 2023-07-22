@@ -8,7 +8,7 @@ Since `27-03-2023` I recorded a total distance of `2 743 km`,
 an elevation of `24 256 m`
 and a total time of `4d 11h 33m` 🎉
 
-That's a daily average of `24 km`,
+That's a daily average of `23 km`,
 a weekly average of `161 km` and a
 monthly average of `686 km` 🐣
 
@@ -1484,6 +1484,10 @@ I burned `56087 calories` doing so, that's about `208` pizza slices 🍕
 </table>
 <!--END_SECTION:strava-monthly-stats-->
 
+## Weekly distances
+
+<img src="build/chart.svg"/>
+
 ## Stats per bike
 
 <!--START_SECTION:strava-distance-per-bike-->
@@ -1506,18 +1510,18 @@ I burned `56087 calories` doing so, that's about `208` pizza slices 🍕
             <td align="center">1d 23m</td>
         </tr>
             <tr>
-            <td align="center">Elite Direto XR-T ☠️</td>
-            <td align="center">32</td>
-            <td align="center">946 <sup><sub>km</sub></sup></td>
-            <td align="center">8 470 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 9h 59m</td>
-        </tr>
-            <tr>
             <td align="center">Zwift Hub</td>
             <td align="center">30</td>
             <td align="center">960 <sup><sub>km</sub></sup></td>
             <td align="center">13 835 <sup><sub>m</sub></sup></td>
             <td align="center">1d 11h 58m</td>
+        </tr>
+            <tr>
+            <td align="center">Elite Direto XR-T ☠️</td>
+            <td align="center">32</td>
+            <td align="center">946 <sup><sub>km</sub></sup></td>
+            <td align="center">8 470 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 9h 59m</td>
         </tr>
             <tr>
             <td align="center">Other</td>
