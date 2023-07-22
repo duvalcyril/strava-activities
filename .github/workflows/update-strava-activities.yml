@@ -40,7 +40,9 @@ jobs:
           bin/console app:strava:import-activity
           bin/console app:strava:build-files
       - name: Build new version of chart
-        run: node index.js
+        run: |
+          npm install
+          node index.js
       - name: Commit and push changes
         run: |
           git config --global user.name 'robiningelbrecht'
