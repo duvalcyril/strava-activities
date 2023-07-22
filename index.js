@@ -53,9 +53,6 @@ const option = {
             splitLine: {
                 show: false
             },
-            max: function (value) {
-                return Math.ceil(value.max / 10) * 10;
-            },
             axisLabel: {
                 formatter: '{value} km'
             }
