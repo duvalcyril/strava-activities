@@ -19,7 +19,7 @@ class StravaGearRepository
     {
         return array_map(
             fn (array $row) => Gear::fromMap($row),
-            $this->store->findAll()
+            $this->store->findAll(['distance' => 'desc'])
         );
     }
 

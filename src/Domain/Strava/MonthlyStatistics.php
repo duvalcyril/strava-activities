@@ -38,6 +38,14 @@ class MonthlyStatistics
                         $this->challenges,
                         fn (Challenge $challenge) => $challenge->getCreatedOn()->format('Ym') == $activity->getStartDate()->format('Ym')
                     )),
+                    'gears' => [],
+                ];
+            }
+
+            if (!isset($statistics[$month]['gears'][$activity->getGearId()])) {
+                $statistics[$month]['gears'][$activity->getGearId()] = [
+                    'name' => $activity->getGearName(),
+                    'distance' => 0,
                 ];
             }
 
@@ -45,6 +53,18 @@ class MonthlyStatistics
             $statistics[$month]['totalDistance'] += $activity->getDistance();
             $statistics[$month]['totalElevation'] += $activity->getElevation();
             $statistics[$month]['movingTime'] += $activity->getMovingTime();
+            $statistics[$month]['gears'][$activity->getGearId()]['distance'] += $activity->getDistance();
+
+            // Sort gears by gears.
+            $gears = $statistics[$month]['gears'];
+            uasort($gears, function (array $a, array $b) {
+                if ($a['distance'] == $b['distance']) {
+                    return 0;
+                }
+
+                return ($a['distance'] < $b['distance']) ? 1 : -1;
+            });
+            $statistics[$month]['gears'] = $gears;
         }
 
         foreach ($statistics as &$statistic) {
