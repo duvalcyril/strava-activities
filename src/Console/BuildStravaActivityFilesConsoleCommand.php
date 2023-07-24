@@ -7,6 +7,7 @@ use App\Domain\Strava\Activity\ActivityTotals;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\BikeStatistics;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;
+use App\Domain\Strava\DistancePerWeek;
 use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\MonthlyStatistics;
 use App\Infrastructure\Environment\Settings;
@@ -42,22 +43,10 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             ])
         );
 
-        $distancePerWeek = [];
-        foreach ($allActivities as $activity) {
-            $week = $activity->getStartDate()->format('YW');
-            if (!isset($distancePerWeek[$week])) {
-                $distancePerWeek[$week] = [
-                    $activity->getStartDate()->modify('monday this week')->format('Y-m-d'),
-                    0,
-                ];
-            }
-            $distancePerWeek[$week][1] += $activity->getDistance();
-        }
-
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart.json',
             $this->twig->load('strava-weekly-distance-chart.html.twig')->render([
-                'data' => array_values($distancePerWeek),
+                'data' => DistancePerWeek::fromActivities($allActivities)->getData(),
             ])
         );
 
