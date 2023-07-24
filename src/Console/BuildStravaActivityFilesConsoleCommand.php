@@ -46,7 +46,10 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart.json',
             $this->twig->load('strava-weekly-distance-chart.html.twig')->render([
-                'data' => DistancePerWeek::fromActivities($allActivities)->getData(),
+                'data' => DistancePerWeek::fromActivities(
+                    $allActivities,
+                    $this->clock->now(),
+                )->getData(),
             ])
         );
 
