@@ -43,7 +43,9 @@ jobs:
           chart-option: 'https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/build/chart.json'
       - name: Save generated chart
         run: |
-          "${{ steps.chart.outputs.svg }}" > build/chart.json
+          cat <<EOF > build/chart.json
+          ${{ steps.chart.outputs.svg }}
+          EOF
       - name: Commit and push changes
         run: |
           git config --global user.name 'robiningelbrecht'
