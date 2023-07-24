@@ -4,7 +4,7 @@ on:
   schedule:
     - cron:  '30 18 * * *'
 jobs:
-  update-commit-history:
+  update-strava-history:
     name: Update strava activities
     runs-on: ubuntu-latest
     steps:
@@ -36,11 +36,12 @@ jobs:
           bin/console app:strava:build-files
       - name: Generate chart
         id: chart
-        uses: robiningelbrecht/apache-echarts-action@v1.0.0
+        uses: robiningelbrecht/apache-echarts-action@v1.1.0
         with:
           width: 1000
           height: 300
-          chart-option: 'https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/build/chart.json'
+          pass-options-as: file
+          chart-option: 'build/chart.json'
       - name: Save generated chart
         run: |
           cat <<EOF > build/chart.svg
