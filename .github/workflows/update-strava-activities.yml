@@ -14,11 +14,6 @@ jobs:
         with:
           php-version: '8.1'
 
-      - name: Setup Node 18
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
       # https://github.com/marketplace/actions/checkout
       - name: Checkout
         uses: actions/checkout@v3
@@ -39,10 +34,16 @@ jobs:
           
           bin/console app:strava:import-activity
           bin/console app:strava:build-files
-      - name: Build new version of chart
+      - name: Generate chart
+        id: chart
+        uses: robiningelbrecht/apache-echarts-action@v1.0.0
+        with:
+          width: 1000
+          height: 300
+          chart-option: 'https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/build/chart.json'
+      - name: Save generated chart
         run: |
-          npm install
-          node index.js
+          "${{ steps.chart.outputs.svg }}" > build/chart.json
       - name: Commit and push changes
         run: |
           git config --global user.name 'robiningelbrecht'

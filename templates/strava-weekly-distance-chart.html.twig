@@ -1,0 +1,97 @@
+{% autoescape false %}
+    {
+    "animation": false,
+    "color": [
+    "#E34902"
+    ],
+    "backgroundColor": "#ffffff",
+    "grid": {
+    "left": "3%",
+    "right": "4%",
+    "bottom": "3%",
+    "containLabel": true
+    },
+    "xAxis": [
+    {
+    "type": "time",
+    "boundaryGap": false,
+    "axisTick": {
+    "show": false
+    },
+    "axisLabel": {
+    "formatter": {
+    "year": "{yyyy}",
+    "month": "{MMM} {yyyy}",
+    "day": "{d}",
+    "hour": "{HH}:{mm}",
+    "minute": "{HH}:{mm}",
+    "second": "{HH}:{mm}:{ss}",
+    "millisecond": "{hh}:{mm}:{ss} {SSS}",
+    "none": "{yyyy}-{MM}-{dd} {hh}:{mm}:{ss} {SSS}"
+    }
+    },
+    "splitLine": {
+    "show": true,
+    "lineStyle": {
+    "color": "#E0E6F1"
+    }
+    }
+    }
+    ],
+    "yAxis": [
+    {
+    "type": "value",
+    "splitLine": {
+    "show": false
+    },
+    "axisLabel": {
+    "formatter": "{value} km"
+    }
+    }
+    ],
+    "series": [
+    {
+    "name": "Average distance / week",
+    "type": "line",
+    "smooth": false,
+    "label": {
+    "show": true,
+    "formatter": "{@[1]} km",
+    "rotate": -45
+    },
+    "lineStyle": {
+    "width": 1
+    },
+    "symbolSize": 6,
+    "showSymbol": true,
+    "areaStyle": {
+    "opacity": 0.3,
+    "color": "rgba(227, 73, 2, 0.3)"
+    },
+    "markLine": {
+    "data": [
+    [
+    {
+    "symbol": "none",
+    "x": "90%",
+    "yAxis": "max"
+    },
+    {
+    "symbol": "circle",
+    "label": {
+    "position": "start",
+    "formatter": "Max"
+    },
+    "type": "max"
+    }
+    ]
+    ]
+    },
+    "emphasis": {
+    "focus": "series"
+    },
+    "data": {{ data|json_encode(constant('JSON_PRETTY_PRINT')) }}
+    }
+    ]
+    }
+{% endautoescape %}

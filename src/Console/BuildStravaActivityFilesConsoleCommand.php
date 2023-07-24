@@ -10,7 +10,6 @@ use App\Domain\Strava\Challenge\StravaChallengeRepository;
 use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\MonthlyStatistics;
 use App\Infrastructure\Environment\Settings;
-use App\Infrastructure\Serialization\Json;
 use Lcobucci\Clock\Clock;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -57,7 +56,9 @@ class BuildStravaActivityFilesConsoleCommand extends Command
 
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart.json',
-            Json::encode(array_values($distancePerWeek))
+            $this->twig->load('strava-weekly-distance-chart.html.twig')->render([
+                'data' => array_values($distancePerWeek),
+            ])
         );
 
         $pathToReadMe = Settings::getAppRoot().'/README.md';
