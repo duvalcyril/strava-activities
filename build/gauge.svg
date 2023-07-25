@@ -1,11 +1,11 @@
-<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 800 500">
-<rect width="800" height="500" x="0" y="0" id="0" fill="#ffffff"></rect>
-<path d="M175 375A225 225 0 1 1 625 375L575 375A175 175 0 0 0 225 375Z" fill="#E6EBF8"></path>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:20px;font-family:sans-serif;font-weight:bold;" x="145" y="375.00000000000006" transform="matrix(0,-1,1,0,-230,520)" fill="#E34902">0</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:20px;font-family:sans-serif;font-weight:bold;" x="655" y="374.99999999999994" transform="matrix(0,1,-1,0,1030,-280)" fill="#E34902">238</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:20px;font-family:sans-serif;font-weight:bold;" xml:space="preserve" x="400" y="352.5" fill="#464646">Days of cycling</text>
-<path d="M340 305.5l120 0l0 40l-120 0Z" fill="rgb(0,0,0)" fill-opacity="0"></path>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:30px;font-family:sans-serif;font-weight:bold;" x="400" y="325.5" fill="#464646">150</text>
-<path d="M0 -162L10 -135L-10 -135L0 -162Z" transform="matrix(0.917,0.398,-0.398,0.917,400,375)" fill="#E6EBF8"></path>
-<path d="M175 375A225 225 0 0 1 489.5 168.6L469.6 214.4A175 175 0 0 0 225 375Z" fill="#E34902"></path>
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 600 500">
+<rect width="600" height="500" x="0" y="0" id="0" fill="#ffffff"></rect>
+<path d="M75 325A225 225 0 1 1 525 325L475 325A175 175 0 0 0 125 325Z" fill="#E6EBF8"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:20px;font-family:sans-serif;font-weight:bold;" x="45" y="325.00000000000006" transform="matrix(0,-1,1,0,-280,370)" fill="#E34902">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:20px;font-family:sans-serif;font-weight:bold;" x="555" y="324.99999999999994" transform="matrix(0,1,-1,0,880,-230)" fill="#E34902">238</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:20px;font-family:sans-serif;font-weight:bold;" xml:space="preserve" x="300" y="302.5" fill="#464646">Days of cycling</text>
+<path d="M240 255.5l120 0l0 40l-120 0Z" fill="rgb(0,0,0)" fill-opacity="0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:30px;font-family:sans-serif;font-weight:bold;" x="300" y="275.5" fill="#464646">150</text>
+<path d="M0 -162L10 -135L-10 -135L0 -162Z" transform="matrix(0.917,0.398,-0.398,0.917,300,325)" fill="#E6EBF8"></path>
+<path d="M75 325A225 225 0 0 1 389.5 118.6L369.6 164.4A175 175 0 0 0 125 325Z" fill="#E34902"></path>
 </svg>
