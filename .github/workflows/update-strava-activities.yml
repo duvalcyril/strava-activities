@@ -46,7 +46,7 @@ jobs:
         id: gauge
         uses: robiningelbrecht/apache-echarts-action@v1.1.0
         with:
-          width: 800
+          width: 600
           height: 500
           pass-options-as: file
           chart-option: 'build/gauge.json'
