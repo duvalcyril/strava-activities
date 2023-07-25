@@ -1,4 +1,5 @@
 {
+"backgroundColor": "#ffffff",
 "series": [
 {
 "type": "gauge",
