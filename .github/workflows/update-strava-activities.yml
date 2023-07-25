@@ -42,10 +42,22 @@ jobs:
           height: 300
           pass-options-as: file
           chart-option: 'build/chart.json'
-      - name: Save generated chart
+      - name: Generate gauge
+        id: gauge
+        uses: robiningelbrecht/apache-echarts-action@v1.1.0
+        with:
+          width: 1000
+          height: 300
+          pass-options-as: file
+          chart-option: 'build/gauge.json'
+      - name: Save generated charts
         run: |
           cat <<EOF > build/chart.svg
           ${{ steps.chart.outputs.svg }}
+          EOF
+          
+          cat <<EOF > build/gauge.svg
+          ${{ steps.gauge.outputs.svg }}
           EOF
       - name: Commit and push changes
         run: |

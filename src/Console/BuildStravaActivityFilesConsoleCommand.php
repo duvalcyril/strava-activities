@@ -53,6 +53,14 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             ])
         );
 
+        \Safe\file_put_contents(
+            Settings::getAppRoot().'/build/gauge.json',
+            $this->twig->load('strava-days-of-cycling-gauge.html.twig')->render([
+                'max_days' => 238,
+                'days_of_cycling' => 150,
+            ])
+        );
+
         $pathToReadMe = Settings::getAppRoot().'/README.md';
         $readme = ReadMe::fromPathToReadMe($pathToReadMe);
 
