@@ -74,4 +74,14 @@ class ActivityTotals
     {
         return new self($activities, $now);
     }
+
+    public function getTotalDays(): int
+    {
+        return $this->now->diff($this->startDate)->days;
+    }
+
+    public function getTotalDaysOfCycling(): int
+    {
+        return count(array_unique(array_map(fn (Activity $activity) => $activity->getStartDate()->format('Ymd'), $this->activities)));
+    }
 }

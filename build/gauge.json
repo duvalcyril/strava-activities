@@ -10,7 +10,7 @@
 "center": ["50%", "65%"],
 "radius": "90%",
 "min": 0,
-"max": 238,
+"max": 120,
 "splitNumber": 1,
 "progress": {
 "show": true,
@@ -54,8 +54,8 @@
 },
 "data": [
 {
-"value": 150,
-"name": "Days of cycling"
+"value": 83,
+"name": "Days of cycling (69%)"
 }
 ]
 }

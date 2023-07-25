@@ -34,6 +34,10 @@ class BuildStravaActivityFilesConsoleCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $allActivities = $this->stravaActivityRepository->findAll();
+        $activityTotals = ActivityTotals::fromActivities(
+            $allActivities,
+            $this->clock->now(),
+        );
 
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/strava-activities-latest.md',
@@ -56,8 +60,9 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/gauge.json',
             $this->twig->load('strava-days-of-cycling-gauge.html.twig')->render([
-                'max_days' => 238,
-                'days_of_cycling' => 150,
+                'total_days' => $activityTotals->getTotalDays(),
+                'days_of_cycling' => $activityTotals->getTotalDaysOfCycling(),
+                'days_of_cycling_percentage' => round(($activityTotals->getTotalDaysOfCycling() / $activityTotals->getTotalDays()) * 100),
             ])
         );
 
@@ -77,10 +82,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
 
         $readme
             ->updateStravaTotals($this->twig->load('strava-intro.html.twig')->render([
-                'totals' => ActivityTotals::fromActivities(
-                    $allActivities,
-                    $this->clock->now(),
-                ),
+                'totals' => $activityTotals,
             ]))
             ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $allActivities,
