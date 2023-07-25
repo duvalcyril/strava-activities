@@ -1625,7 +1625,7 @@ I burned `58557 calories` doing so, that's about `217` pizza slices 🍕
 ## Days of cycling
 
 <p align="center">
-<img src="build/gauge.svg" alt="Days of cycling"/>
+<img src="build/gauge.svg" width="400" alt="Days of cycling"/>
 </p>
 
 ## Completed challenges
