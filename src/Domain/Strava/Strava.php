@@ -99,7 +99,7 @@ final class Strava
     {
         $contents = $this->request('athletes/'.$athleteId);
         if (!preg_match('/data-react-class=\'AthleteProfileApp[\S]*\'[\s]+data-react-props=\'(?<profile>.*?)\'/', $contents, $matches)) {
-            throw new \RuntimeException('Could not fetch Strava profile');
+            throw new \RuntimeException('Could not fetch Strava challenges');
         }
 
         return Json::decode(html_entity_decode($matches['profile'] ?? '[]'))['trophies'] ?? [];
