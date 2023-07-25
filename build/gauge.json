@@ -1,74 +1,62 @@
 {
-  "series": [
-    {
-      "type": "gauge",
-      "color": "#E34902",
-      "animation": false,
-      "startAngle": 180,
-      "endAngle": 0,
-      "center": [
-        "50%",
-        "75%"
-      ],
-      "radius": "90%",
-      "min": 0,
-      "max": 238,
-      "splitNumber": 1,
-      "progress": {
-        "show": true,
-        "width": 50
-      },
-      "axisLine": {
-        "lineStyle": {
-          "width": 50
-        }
-      },
-      "axisTick": {
-        "show": false
-      },
-      "pointer": {
-        "icon": "path://M12.8,0.7l12,40.1H0.7L12.8,0.7z",
-        "length": "12%",
-        "width": 20,
-        "offsetCenter": [
-          0,
-          "-60%"
-        ],
-        "itemStyle": {
-          "color": "auto"
-        }
-      },
-      "splitLine": {
-        "show": false
-      },
-      "axisLabel": {
-        "color": "#E34902",
-        "fontSize": 20,
-        "fontWeight": "bold",
-        "distance": -50,
-        "rotate": "tangential"
-      },
-      "title": {
-        "offsetCenter": [
-          0,
-          "-10%"
-        ],
-        "fontSize": 20,
-        "fontWeight": "bold"
-      },
-      "detail": {
-        "fontSize": 30,
-        "offsetCenter": [
-          0,
-          "-22%"
-        ]
-      },
-      "data": [
-        {
-          "value": 150,
-          "name": "Days of cycling"
-        }
-      ]
-    }
-  ]
+"series": [
+{
+"type": "gauge",
+"color": "#E34902",
+"animation": false,
+"startAngle": 180,
+"endAngle": 0,
+"center": ["50%", "75%"],
+"radius": "90%",
+"min": 0,
+"max": 238,
+"splitNumber": 1,
+"progress": {
+"show": true,
+"width": 50
+},
+"axisLine": {
+"lineStyle": {
+"width": 50
+}
+},
+"axisTick": {
+"show": false
+},
+"pointer": {
+"icon": "path://M12.8,0.7l12,40.1H0.7L12.8,0.7z",
+"length": "12%",
+"width": 20,
+"offsetCenter": [0, "-60%"],
+"itemStyle": {
+"color": "auto"
+}
+},
+"splitLine": {
+"show": false
+},
+"axisLabel": {
+"color": "#E34902",
+"fontSize": 20,
+"fontWeight": "bold",
+"distance": -50,
+"rotate": "tangential"
+},
+"title": {
+"offsetCenter": [0, "-10%"],
+"fontSize": 20,
+"fontWeight": "bold"
+},
+"detail": {
+"fontSize": 30,
+"offsetCenter": [0, "-22%"]
+},
+"data": [
+{
+"value": 150,
+"name": "Days of cycling"
+}
+]
+}
+]
 }
