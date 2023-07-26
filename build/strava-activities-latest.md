@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>26-07-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9527434111" title="Kcal: 1622 | Gear: None ">Toertje van de vaart met de...</a>
+            </td>
+            <td align="center">73 <sup><sub>km</sub></sup></td>
+            <td align="center">50 <sup><sub>m</sub></sup></td>
+            <td align="center">2:30:46</td>
+            <td align="center">n/a</td>
+            <td align="center">29 <sup><sub>km/h</sub></sup></td>
+            <td align="center">142</td>
+        </tr>
+            <tr>
+            <td>26-07-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9527451112" title="Kcal: 359 | Gear: None ">Afternoon Ride</a>
+            </td>
+            <td align="center">9 <sup><sub>km</sub></sup></td>
+            <td align="center">8 <sup><sub>m</sub></sup></td>
+            <td align="center">23:40</td>
+            <td align="center">n/a</td>
+            <td align="center">23.7 <sup><sub>km/h</sub></sup></td>
+            <td align="center">146</td>
+        </tr>
+            <tr>
             <td>25-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -47,32 +73,6 @@
             <td align="center">n/a</td>
             <td align="center">24.7 <sup><sub>km/h</sub></sup></td>
             <td align="center">128</td>
-        </tr>
-            <tr>
-            <td>22-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9499680193" title="Kcal: 545 | Gear: None ">Giza in France</a>
-            </td>
-            <td align="center">32 <sup><sub>km</sub></sup></td>
-            <td align="center">147 <sup><sub>m</sub></sup></td>
-            <td align="center">1:00:19</td>
-            <td align="center">158 <sup><sub>w</sub></sup></td>
-            <td align="center">32.2 <sup><sub>km/h</sub></sup></td>
-            <td align="center">136</td>
-        </tr>
-            <tr>
-            <td>21-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9494450902" title="Kcal: 2582 | Gear: None ">First Gran Fondo evah 🥳</a>
-            </td>
-            <td align="center">102 <sup><sub>km</sub></sup></td>
-            <td align="center">93 <sup><sub>m</sub></sup></td>
-            <td align="center">3:40:28</td>
-            <td align="center">n/a</td>
-            <td align="center">27.7 <sup><sub>km/h</sub></sup></td>
-            <td align="center">151</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
