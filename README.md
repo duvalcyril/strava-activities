@@ -1666,6 +1666,7 @@ I burned `61105 calories` doing so, that's about `226` pizza slices 🍕
 
 ## Best power outputs over time
 <!--START_SECTION:strava-power-outputs-->
+<p align="center">
 <table>
     <tr>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
@@ -1707,6 +1708,7 @@ I burned `61105 calories` doing so, that's about `226` pizza slices 🍕
             <td align="center">2.81 <sup><sub>w/kg</sub></sup></td>
         </tr>
     </table>
+</p>
 <!--END_SECTION:strava-power-outputs-->
 
 ## Completed challenges
