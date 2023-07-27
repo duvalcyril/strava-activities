@@ -10,7 +10,7 @@ class Activity implements \JsonSerializable
     private ?string $gearName;
 
     private function __construct(
-        private array $data
+        private readonly array $data
     ) {
         $this->gearName = null;
     }
