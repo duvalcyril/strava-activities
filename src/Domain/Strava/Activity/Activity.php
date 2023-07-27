@@ -2,6 +2,7 @@
 
 namespace App\Domain\Strava\Activity;
 
+use App\Infrastructure\ValueObject\Weight;
 use Carbon\CarbonInterval;
 
 class Activity implements \JsonSerializable
@@ -9,7 +10,7 @@ class Activity implements \JsonSerializable
     private ?string $gearName;
 
     private function __construct(
-        private readonly array $data
+        private array $data
     ) {
         $this->gearName = null;
     }
@@ -163,6 +164,11 @@ class Activity implements \JsonSerializable
         }
 
         return $bestSequence;
+    }
+
+    public function getAthleteWeight(): Weight
+    {
+        return Weight::fromKilograms($this->data['athlete_weight']);
     }
 
     public function jsonSerialize(): array

@@ -12,7 +12,6 @@ use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\MonthlyStatistics;
 use App\Domain\Strava\PowerOutputs;
 use App\Infrastructure\Environment\Settings;
-use App\Infrastructure\ValueObject\Weight;
 use Lcobucci\Clock\Clock;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -77,9 +76,8 @@ class BuildStravaActivityFilesConsoleCommand extends Command
                 ),
             ]))
             ->updateStravaPowerOutputs($this->twig->load('strava-power-outputs.html.twig')->render([
-                'powerOutputs' => PowerOutputs::fromActivitiesAndWeight(
-                    $allActivities,
-                    Weight::fromKilograms(69.00),
+                'powerOutputs' => PowerOutputs::fromActivities(
+                    $allActivities
                 ),
             ]))
             ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([

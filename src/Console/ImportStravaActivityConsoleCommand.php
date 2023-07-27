@@ -36,6 +36,7 @@ class ImportStravaActivityConsoleCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        $athlete = $this->strava->getAthlete();
         // ACTIVITIES.
         foreach ($this->strava->getActivities() ?? [] as $stravaActivity) {
             if (!ActivityType::tryFrom($stravaActivity['type'])) {
@@ -56,6 +57,7 @@ class ImportStravaActivityConsoleCommand extends Command
                     'streams' => [
                         'watts' => $streams,
                     ],
+                    'athlete_weight' => $athlete['weight'],
                 ]);
 
                 $this->stravaActivityRepository->add($activity);

@@ -44,6 +44,15 @@ final class Strava
         return Json::decode($response)['access_token'] ?? throw new \RuntimeException('Could not fetch Strava accessToken');
     }
 
+    public function getAthlete(): array
+    {
+        return Json::decode($this->request('api/v3/athlete', 'GET', [
+            RequestOptions::HEADERS => [
+                'Authorization' => 'Bearer '.$this->getAccessToken(),
+            ],
+        ]));
+    }
+
     public function getActivities(): array
     {
         return Json::decode($this->request('api/v3/athlete/activities', 'GET', [

@@ -2,7 +2,6 @@
 
 namespace App\Domain\Strava;
 
-use App\Infrastructure\ValueObject\Weight;
 use Carbon\CarbonInterval;
 
 class PowerOutputs
@@ -10,13 +9,12 @@ class PowerOutputs
     private function __construct(
         /** @var \App\Domain\Strava\Activity\Activity[] */
         private readonly array $activities,
-        private readonly Weight $weight,
     ) {
     }
 
-    public static function fromActivitiesAndWeight(array $activities, Weight $weight): self
+    public static function fromActivities(array $activities): self
     {
-        return new self($activities, $weight);
+        return new self($activities);
     }
 
     public function getBest(): array
@@ -34,7 +32,7 @@ class PowerOutputs
                     $best[$timeIntervalInSeconds] = [
                         'time' => (int) $interval->totalHours ? $interval->totalHours.' h' : ((int) $interval->totalMinutes ? $interval->totalMinutes.' m' : $interval->totalSeconds.' s'),
                         'power' => $power,
-                        'relativePower' => round($power / $this->weight->getFloat(), 2),
+                        'relativePower' => round($power / $activity->getAthleteWeight()->getFloat(), 2),
                     ];
                 }
             }
