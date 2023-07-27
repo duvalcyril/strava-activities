@@ -10,7 +10,7 @@ and a total time of `4d 18h 32m` 🎉
 
 That's a daily average of `24 km`,
 a weekly average of `164 km` and a
-monthly average of `739 km` 🐣
+monthly average of `591 km` 🐣
 
 I burned `60538 calories` doing so, that's about `224` pizza slices 🍕
 <!--END_SECTION:strava-totals-->

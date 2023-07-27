@@ -10,7 +10,7 @@
 "center": ["50%", "68%"],
 "radius": "90%",
 "min": 0,
-"max": 121,
+"max": 122,
 "splitNumber": 1,
 "progress": {
 "show": true,

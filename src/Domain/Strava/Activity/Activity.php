@@ -131,6 +131,85 @@ class Activity implements \JsonSerializable
         return 'https://www.strava.com/activities/'.$this->data['id'];
     }
 
+    public function getBestAveragePowerForTimeInterval(int $sequenceLength): ?int
+    {
+        if (!$bestSequence = $this->getBestSequence($sequenceLength, StreamType::WATTS)) {
+            return null;
+        }
+
+        return round(array_sum($bestSequence) / $sequenceLength);
+    }
+
+    public function getBestAverage5SecondPower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(5);
+    }
+
+    public function getBestAverage10SecondPower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(10);
+    }
+
+    public function getBestAverage30SecondPower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(30);
+    }
+
+    public function getBestAverage1MinutePower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(60);
+    }
+
+    public function getBestAverage5MinutePower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(300);
+    }
+
+    public function getBestAverage8MinutePower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(480);
+    }
+
+    public function getBestAverage20MinutePower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(1200);
+    }
+
+    public function getBestAverage60MinutePower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(3600);
+    }
+
+    public function getBestAverage120MinutePower(): ?int
+    {
+        return $this->getBestAveragePowerForTimeInterval(7200);
+    }
+
+    public function getBestSequence(int $sequenceLength, StreamType $streamType): array
+    {
+        $best = 0;
+        $bestSequence = [];
+
+        $sequence = $this->data['streams'][$streamType->value][0]['data'] ?? [];
+
+        if (count($sequence) < $sequenceLength) {
+            return [];
+        }
+
+        for ($i = 0; $i < count($sequence) - $sequenceLength; ++$i) {
+            $copySequence = $sequence;
+            $sequenceToCheck = array_slice($copySequence, $i, $sequenceLength);
+            $total = array_sum($sequenceToCheck);
+
+            if ($total > $best) {
+                $best = $total;
+                $bestSequence = $sequenceToCheck;
+            }
+        }
+
+        return $bestSequence;
+    }
+
     public function jsonSerialize(): array
     {
         return $this->data;
