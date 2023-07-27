@@ -30,51 +30,6 @@ I burned `61105 calories` doing so, that's about `226` pizza slices 🍕
 
 <img src="build/chart.svg" alt="Weekly distances"/>
 
-## Best power outputs over time
-<!--START_SECTION:strava-power-outputs-->
-<table>
-    <tr>
-        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
-        <th align="center" colspan="2"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="30" alt="average watts" title="average watts"/></th>
-    </tr>
-            <tr>
-            <td align="center">5 s</td>
-            <td align="center">504 <sup><sub>w</sub></sup></td>
-            <td align="center">7.3 <sup><sub>w/kg</sub></sup></td>
-        </tr>
-            <tr>
-            <td align="center">10 s</td>
-            <td align="center">496 <sup><sub>w</sub></sup></td>
-            <td align="center">7.19 <sup><sub>w/kg</sub></sup></td>
-        </tr>
-            <tr>
-            <td align="center">30 s</td>
-            <td align="center">422 <sup><sub>w</sub></sup></td>
-            <td align="center">6.12 <sup><sub>w/kg</sub></sup></td>
-        </tr>
-            <tr>
-            <td align="center">1 m</td>
-            <td align="center">342 <sup><sub>w</sub></sup></td>
-            <td align="center">4.96 <sup><sub>w/kg</sub></sup></td>
-        </tr>
-            <tr>
-            <td align="center">5 m</td>
-            <td align="center">262 <sup><sub>w</sub></sup></td>
-            <td align="center">3.8 <sup><sub>w/kg</sub></sup></td>
-        </tr>
-            <tr>
-            <td align="center">20 m</td>
-            <td align="center">247 <sup><sub>w</sub></sup></td>
-            <td align="center">3.58 <sup><sub>w/kg</sub></sup></td>
-        </tr>
-            <tr>
-            <td align="center">1 h</td>
-            <td align="center">194 <sup><sub>w</sub></sup></td>
-            <td align="center">2.81 <sup><sub>w/kg</sub></sup></td>
-        </tr>
-    </table>
-<!--END_SECTION:strava-power-outputs-->
-
 ## Activities
 <!--START_SECTION:strava-activities-->
 <table>
@@ -1708,6 +1663,51 @@ I burned `61105 calories` doing so, that's about `226` pizza slices 🍕
         </tbody>
 </table>
 <!--END_SECTION:strava-distance-per-bike-->
+
+## Best power outputs over time
+<!--START_SECTION:strava-power-outputs-->
+<table>
+    <tr>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
+        <th align="center" colspan="2"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="30" alt="average watts" title="average watts"/></th>
+    </tr>
+            <tr>
+            <td align="center">5 s</td>
+            <td align="center">504 <sup><sub>w</sub></sup></td>
+            <td align="center">7.3 <sup><sub>w/kg</sub></sup></td>
+        </tr>
+            <tr>
+            <td align="center">10 s</td>
+            <td align="center">496 <sup><sub>w</sub></sup></td>
+            <td align="center">7.19 <sup><sub>w/kg</sub></sup></td>
+        </tr>
+            <tr>
+            <td align="center">30 s</td>
+            <td align="center">422 <sup><sub>w</sub></sup></td>
+            <td align="center">6.12 <sup><sub>w/kg</sub></sup></td>
+        </tr>
+            <tr>
+            <td align="center">1 m</td>
+            <td align="center">342 <sup><sub>w</sub></sup></td>
+            <td align="center">4.96 <sup><sub>w/kg</sub></sup></td>
+        </tr>
+            <tr>
+            <td align="center">5 m</td>
+            <td align="center">262 <sup><sub>w</sub></sup></td>
+            <td align="center">3.8 <sup><sub>w/kg</sub></sup></td>
+        </tr>
+            <tr>
+            <td align="center">20 m</td>
+            <td align="center">247 <sup><sub>w</sub></sup></td>
+            <td align="center">3.58 <sup><sub>w/kg</sub></sup></td>
+        </tr>
+            <tr>
+            <td align="center">1 h</td>
+            <td align="center">194 <sup><sub>w</sub></sup></td>
+            <td align="center">2.81 <sup><sub>w/kg</sub></sup></td>
+        </tr>
+    </table>
+<!--END_SECTION:strava-power-outputs-->
 
 ## Completed challenges
 <!--START_SECTION:strava-challenges-->
