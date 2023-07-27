@@ -140,51 +140,6 @@ class Activity implements \JsonSerializable
         return round(array_sum($bestSequence) / $sequenceLength);
     }
 
-    public function getBestAverage5SecondPower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(5);
-    }
-
-    public function getBestAverage10SecondPower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(10);
-    }
-
-    public function getBestAverage30SecondPower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(30);
-    }
-
-    public function getBestAverage1MinutePower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(60);
-    }
-
-    public function getBestAverage5MinutePower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(300);
-    }
-
-    public function getBestAverage8MinutePower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(480);
-    }
-
-    public function getBestAverage20MinutePower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(1200);
-    }
-
-    public function getBestAverage60MinutePower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(3600);
-    }
-
-    public function getBestAverage120MinutePower(): ?int
-    {
-        return $this->getBestAveragePowerForTimeInterval(7200);
-    }
-
     public function getBestSequence(int $sequenceLength, StreamType $streamType): array
     {
         $best = 0;

@@ -16,6 +16,13 @@ class ReadMe implements \Stringable
         return $this;
     }
 
+    public function updateStravaPowerOutputs(string $powerOutputs): self
+    {
+        $this->pregReplace('strava-power-outputs', $powerOutputs, true);
+
+        return $this;
+    }
+
     public function updateStravaActivities(string $activities): self
     {
         $this->pregReplace('strava-activities', $activities, true);

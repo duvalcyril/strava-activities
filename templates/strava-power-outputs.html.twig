@@ -1,0 +1,13 @@
+<table>
+    <tr>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
+        <th align="center" colspan="2"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="30" alt="average watts" title="average watts"/></th>
+    </tr>
+    {% for powerOutput in powerOutputs.getBest() %}
+        <tr>
+            <td align="center">{{ powerOutput.time }}</td>
+            <td align="center">{{ powerOutput.power }} <sup><sub>w</sub></sup></td>
+            <td align="center">{{ powerOutput.relativePower }} <sup><sub>w/kg</sub></sup></td>
+        </tr>
+    {% endfor %}
+</table>
