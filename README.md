@@ -20,10 +20,10 @@ I burned `61105 calories` doing so, that's about `226` pizza slices 🍕
 ---
 
 <kbd><a href="#weekly-distances">Weekly distances</a></kbd> |
-<kbd><a href="#best-power-outputs-over-time">Power outputs</a></kbd> |
 <kbd><a href="#activities">Activities</a></kbd> | 
 <kbd><a href="#monthly-stats">Monthly stats</a></kbd> | 
 <kbd><a href="#stats-per-bike">Stats per bike</a></kbd> |
+<kbd><a href="#best-power-outputs-over-time">Power outputs</a></kbd> |
 <kbd><a href="#completed-challenges">Completed challenges</a></kbd>
 
 ## Weekly distances
