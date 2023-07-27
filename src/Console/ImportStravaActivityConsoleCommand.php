@@ -5,6 +5,7 @@ namespace App\Console;
 use App\Domain\Strava\Activity\Activity;
 use App\Domain\Strava\Activity\ActivityType;
 use App\Domain\Strava\Activity\StravaActivityRepository;
+use App\Domain\Strava\Activity\StreamType;
 use App\Domain\Strava\Challenge\Challenge;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;
 use App\Domain\Strava\Gear\Gear;
@@ -44,7 +45,19 @@ class ImportStravaActivityConsoleCommand extends Command
             try {
                 $this->stravaActivityRepository->findOneBy($stravaActivity['id']);
             } catch (EntityNotFound) {
-                $activity = Activity::create($this->strava->getActivity($stravaActivity['id']));
+                $streams = [];
+                try {
+                    $streams = $this->strava->getActivityStreams($stravaActivity['id'], StreamType::WATTS);
+                } catch (\Throwable) {
+                }
+
+                $activity = Activity::create([
+                    ...$this->strava->getActivity($stravaActivity['id']),
+                    'streams' => [
+                        'watts' => $streams,
+                    ],
+                ]);
+
                 $this->stravaActivityRepository->add($activity);
             }
         }

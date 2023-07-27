@@ -2,6 +2,7 @@
 
 namespace App\Domain\Strava;
 
+use App\Domain\Strava\Activity\StreamType;
 use App\Infrastructure\Serialization\Json;
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
@@ -71,6 +72,18 @@ final class Strava
                 'Authorization' => 'Bearer '.$this->getAccessToken(),
             ],
         ]));
+    }
+
+    public function getActivityStreams(int $id, StreamType $streamType): array
+    {
+        return array_filter(Json::decode($this->request('api/v3/activities/'.$id.'/streams', 'GET', [
+            RequestOptions::QUERY => [
+                'keys' => $streamType->value,
+            ],
+            RequestOptions::HEADERS => [
+                'Authorization' => 'Bearer '.$this->getAccessToken(),
+            ],
+        ])), fn (array $steam) => $steam['type'] === $streamType->value);
     }
 
     public function getActivityPhotos(int $activityId): array
