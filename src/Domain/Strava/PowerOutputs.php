@@ -33,6 +33,7 @@ class PowerOutputs
                         'time' => (int) $interval->totalHours ? $interval->totalHours.' h' : ((int) $interval->totalMinutes ? $interval->totalMinutes.' m' : $interval->totalSeconds.' s'),
                         'power' => $power,
                         'relativePower' => round($power / $activity->getAthleteWeight()->getFloat(), 2),
+                        'activity' => $activity,
                     ];
                 }
             }
