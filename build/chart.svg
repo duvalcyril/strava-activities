@@ -18,14 +18,10 @@
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(69.48 130.3333)" fill="#6E7079">200 km</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(69.48 95.1667)" fill="#6E7079">250 km</text>
 <text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(69.48 60)" fill="#6E7079">300 km</text>
-<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" y="6" transform="translate(233.2188 279)" fill="#6E7079">17</text>
-<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" y="6" transform="translate(455.7029 279)" fill="#6E7079">17</text>
-<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" y="6" transform="translate(685.603 279)" fill="#6E7079">17</text>
-<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" y="6" transform="translate(908.0871 279)" fill="#6E7079">17</text>
-<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" xml:space="preserve" y="6" transform="translate(114.5607 279)" fill="#6E7079">Apr 2023</text>
-<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" xml:space="preserve" y="6" transform="translate(337.0447 279)" fill="#6E7079">May 2023</text>
-<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" xml:space="preserve" y="6" transform="translate(566.9449 279)" fill="#6E7079">Jun 2023</text>
-<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" xml:space="preserve" y="6" transform="translate(789.4289 279)" fill="#6E7079">Jul 2023</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" y="6" transform="translate(114.5607 279)" fill="#6E7079">Apr</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" y="6" transform="translate(337.0447 279)" fill="#6E7079">May</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" y="6" transform="translate(566.9449 279)" fill="#6E7079">Jun</text>
+<text dominant-baseline="central" text-anchor="middle" style="font: normal normal 12px sans-serif" y="6" transform="translate(789.4289 279)" fill="#6E7079">Jul</text>
 <g clip-path="url(#zr0-c0)">
 <path d="M77.5 261.9L129.4 179.6L181.3 176.1L233.2 193.6L285.1 177.5L337 162.7L389 126.8L440.9 169L492.8 171.1L544.7 164.8L596.6 97.3L648.5 122.6L700.4 169L752.3 114.9L804.3 150L856.2 136L908.1 74.1L960 86L960 271L908.1 271L856.2 271L804.3 271L752.3 271L700.4 271L648.5 271L596.6 271L544.7 271L492.8 271L440.9 271L389 271L337 271L285.1 271L233.2 271L181.3 271L129.4 271L77.5 271Z" fill="rgb(227,73,2)" fill-opacity="0.09"></path>
 <path d="M77.5 261.9L129.4 179.6L181.3 176.1L233.2 193.6L285.1 177.5L337 162.7L389 126.8L440.9 169L492.8 171.1L544.7 164.8L596.6 97.3L648.5 122.6L700.4 169L752.3 114.9L804.3 150L856.2 136L908.1 74.1L960 86" fill="none" stroke="#E34902" stroke-linejoin="bevel"></path>
