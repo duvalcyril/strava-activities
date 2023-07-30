@@ -1694,85 +1694,77 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
 <!--START_SECTION:strava-power-outputs-->
 <table>
     <tr>
-        <th></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
         <th align="center" colspan="2"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-watt.svg" width="30" alt="average watts" title="average watts"/></th>
         <th></th>
     </tr>
             <tr>
-            <td>06-06-23</td>
             <td align="center">5 s</td>
             <td align="center">504 <sup><sub>w</sub></sup></td>
             <td align="center">7.3 <sup><sub>w/kg</sub></sup></td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9214774609" title="Kcal: 597 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C) on Wandering Flats...
+                    Race: EVO CC Race Series (C) on Wandering Flats in Makuri Islands
                 </a>
             </td>
         </tr>
             <tr>
-            <td>06-06-23</td>
             <td align="center">10 s</td>
             <td align="center">496 <sup><sub>w</sub></sup></td>
             <td align="center">7.19 <sup><sub>w/kg</sub></sup></td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9214774609" title="Kcal: 597 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C) on Wandering Flats...
+                    Race: EVO CC Race Series (C) on Wandering Flats in Makuri Islands
                 </a>
             </td>
         </tr>
             <tr>
-            <td>25-07-23</td>
             <td align="center">30 s</td>
             <td align="center">422 <sup><sub>w</sub></sup></td>
             <td align="center">6.12 <sup><sub>w/kg</sub></sup></td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C) on Turf N Surf in ...
+                    Race: EVO CC Race Series (C) on Turf N Surf in Makuri Islands
                 </a>
             </td>
         </tr>
             <tr>
-            <td>25-07-23</td>
             <td align="center">1 m</td>
             <td align="center">342 <sup><sub>w</sub></sup></td>
             <td align="center">4.96 <sup><sub>w/kg</sub></sup></td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C) on Turf N Surf in ...
+                    Race: EVO CC Race Series (C) on Turf N Surf in Makuri Islands
                 </a>
             </td>
         </tr>
             <tr>
-            <td>25-07-23</td>
             <td align="center">5 m</td>
             <td align="center">262 <sup><sub>w</sub></sup></td>
             <td align="center">3.8 <sup><sub>w/kg</sub></sup></td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C) on Turf N Surf in ...
+                    Race: EVO CC Race Series (C) on Turf N Surf in Makuri Islands
                 </a>
             </td>
         </tr>
             <tr>
-            <td>25-07-23</td>
             <td align="center">20 m</td>
             <td align="center">247 <sup><sub>w</sub></sup></td>
             <td align="center">3.58 <sup><sub>w/kg</sub></sup></td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C) on Turf N Surf in ...
+                    Race: EVO CC Race Series (C) on Turf N Surf in Makuri Islands
                 </a>
             </td>
         </tr>
             <tr>
-            <td>14-07-23</td>
             <td align="center">1 h</td>
             <td align="center">194 <sup><sub>w</sub></sup></td>
             <td align="center">2.81 <sup><sub>w/kg</sub></sup></td>
