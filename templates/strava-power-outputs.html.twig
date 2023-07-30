@@ -14,7 +14,7 @@
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ powerOutput.activity.getType().getIcon() }}.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="{{ powerOutput.activity.getUrl() }}" title="Kcal: {{ powerOutput.activity.getCalories() ?: 'n/a' }} | Gear: {{ powerOutput.activity.getGearName() ?: 'None' }} ">
-                    {{ powerOutput.activity.getName()|length > 30 ? powerOutput.activity.getName()|slice(0, 27) ~ '...' : powerOutput.activity.getName() }}
+                    {{ powerOutput.activity.getName()|length > 50 ? powerOutput.activity.getName()|slice(0, 47) ~ '...' : powerOutput.activity.getName() }}
                 </a>
             </td>
         </tr>

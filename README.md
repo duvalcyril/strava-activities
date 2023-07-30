@@ -1707,7 +1707,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9214774609" title="Kcal: 597 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C...
+                    Race: EVO CC Race Series (C) on Wandering Flats...
                 </a>
             </td>
         </tr>
@@ -1719,7 +1719,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9214774609" title="Kcal: 597 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C...
+                    Race: EVO CC Race Series (C) on Wandering Flats...
                 </a>
             </td>
         </tr>
@@ -1731,7 +1731,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C...
+                    Race: EVO CC Race Series (C) on Turf N Surf in ...
                 </a>
             </td>
         </tr>
@@ -1743,7 +1743,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C...
+                    Race: EVO CC Race Series (C) on Turf N Surf in ...
                 </a>
             </td>
         </tr>
@@ -1755,7 +1755,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C...
+                    Race: EVO CC Race Series (C) on Turf N Surf in ...
                 </a>
             </td>
         </tr>
@@ -1767,7 +1767,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C...
+                    Race: EVO CC Race Series (C) on Turf N Surf in ...
                 </a>
             </td>
         </tr>
