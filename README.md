@@ -86,7 +86,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>26-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9527434111" title="Kcal: 1622 | Gear: Retro Race Bike ">Toertje van de vaart met de...</a>
+                <a href="https://www.strava.com/activities/9527434111" title="Kcal: 1622 | Gear: Retro Race Bike ">Toertje van de vaart met d...</a>
             </td>
             <td align="center">73 <sup><sub>km</sub></sup></td>
             <td align="center">50 <sup><sub>m</sub></sup></td>
@@ -112,7 +112,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>25-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">Race: EVO CC Race Series (C...</a>
+                <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">Race: EVO CC Race Series (...</a>
             </td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">154 <sup><sub>m</sub></sup></td>
@@ -593,7 +593,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>14-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9265285993" title="Kcal: 604 | Gear: Zwift Hub ">Ham Sandwich in Makuri Islands</a>
+                <a href="https://www.strava.com/activities/9265285993" title="Kcal: 604 | Gear: Zwift Hub ">Ham Sandwich in Makuri Isl...</a>
             </td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">384 <sup><sub>m</sub></sup></td>
@@ -710,7 +710,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>08-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9226980899" title="Kcal: 617 | Gear: Zwift Hub ">What Goes Up, Must Come Dow...</a>
+                <a href="https://www.strava.com/activities/9226980899" title="Kcal: 617 | Gear: Zwift Hub ">What Goes Up, Must Come Do...</a>
             </td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">491 <sup><sub>m</sub></sup></td>
@@ -749,7 +749,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>06-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9214774609" title="Kcal: 597 | Gear: Zwift Hub ">Race: EVO CC Race Series (C...</a>
+                <a href="https://www.strava.com/activities/9214774609" title="Kcal: 597 | Gear: Zwift Hub ">Race: EVO CC Race Series (...</a>
             </td>
             <td align="center">27 <sup><sub>km</sub></sup></td>
             <td align="center">151 <sup><sub>m</sub></sup></td>
@@ -775,7 +775,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>03-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9193819340" title="Kcal: 1584 | Gear: Retro Race Bike ">Morning ride with retro rac...</a>
+                <a href="https://www.strava.com/activities/9193819340" title="Kcal: 1584 | Gear: Retro Race Bike ">Morning ride with retro ra...</a>
             </td>
             <td align="center">52 <sup><sub>km</sub></sup></td>
             <td align="center">924 <sup><sub>m</sub></sup></td>
@@ -827,7 +827,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>29-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9162422046" title="Kcal: 612 | Gear: Zwift Hub ">Race: 3R Racing (C) on Inns...</a>
+                <a href="https://www.strava.com/activities/9162422046" title="Kcal: 612 | Gear: Zwift Hub ">Race: 3R Racing (C) on Inn...</a>
             </td>
             <td align="center">28 <sup><sub>km</sub></sup></td>
             <td align="center">238 <sup><sub>m</sub></sup></td>
@@ -905,7 +905,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>25-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9138442860" title="Kcal: 173 | Gear: Elite Direto XR-T ">Pedaling Drills in Makuri I...</a>
+                <a href="https://www.strava.com/activities/9138442860" title="Kcal: 173 | Gear: Elite Direto XR-T ">Pedaling Drills in Makuri ...</a>
             </td>
             <td align="center">8 <sup><sub>km</sub></sup></td>
             <td align="center">79 <sup><sub>m</sub></sup></td>
@@ -918,7 +918,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>24-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9132215821" title="Kcal: 472 | Gear: Elite Direto XR-T ">FTP Test (shorter) in Makur...</a>
+                <a href="https://www.strava.com/activities/9132215821" title="Kcal: 472 | Gear: Elite Direto XR-T ">FTP Test (shorter) in Maku...</a>
             </td>
             <td align="center">22 <sup><sub>km</sub></sup></td>
             <td align="center">222 <sup><sub>m</sub></sup></td>
@@ -996,7 +996,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>17-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9088700396" title="Kcal: 813 | Gear: Elite Direto XR-T ">Threshold Development in Wa...</a>
+                <a href="https://www.strava.com/activities/9088700396" title="Kcal: 813 | Gear: Elite Direto XR-T ">Threshold Development in W...</a>
             </td>
             <td align="center">38 <sup><sub>km</sub></sup></td>
             <td align="center">721 <sup><sub>m</sub></sup></td>
@@ -1009,7 +1009,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>15-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9076452878" title="Kcal: 664 | Gear: Elite Direto XR-T ">Threshold Development in Wa...</a>
+                <a href="https://www.strava.com/activities/9076452878" title="Kcal: 664 | Gear: Elite Direto XR-T ">Threshold Development in W...</a>
             </td>
             <td align="center">36 <sup><sub>km</sub></sup></td>
             <td align="center">353 <sup><sub>m</sub></sup></td>
@@ -1113,7 +1113,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>09-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9040880440" title="Kcal: 715 | Gear: Elite Direto XR-T ">Threshold Development in Wa...</a>
+                <a href="https://www.strava.com/activities/9040880440" title="Kcal: 715 | Gear: Elite Direto XR-T ">Threshold Development in W...</a>
             </td>
             <td align="center">40 <sup><sub>km</sub></sup></td>
             <td align="center">359 <sup><sub>m</sub></sup></td>
@@ -1126,7 +1126,7 @@ I burned `62583 calories` doing so, that's about `232` pizza slices 🍕
             <td>08-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9034331277" title="Kcal: 651 | Gear: Elite Direto XR-T ">Threshold Development in Wa...</a>
+                <a href="https://www.strava.com/activities/9034331277" title="Kcal: 651 | Gear: Elite Direto XR-T ">Threshold Development in W...</a>
             </td>
             <td align="center">35 <sup><sub>km</sub></sup></td>
             <td align="center">266 <sup><sub>m</sub></sup></td>

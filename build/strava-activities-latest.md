@@ -52,7 +52,7 @@
             <td>26-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9527434111" title="Kcal: 1622 | Gear: None ">Toertje van de vaart met de...</a>
+                <a href="https://www.strava.com/activities/9527434111" title="Kcal: 1622 | Gear: None ">Toertje van de vaart met d...</a>
             </td>
             <td align="center">73 <sup><sub>km</sub></sup></td>
             <td align="center">50 <sup><sub>m</sub></sup></td>
