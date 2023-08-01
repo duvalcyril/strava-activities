@@ -1572,6 +1572,18 @@ I burned `63394 calories` doing so, that's about `235` pizza slices 🍕
     </thead>
     <tbody>
             <tr>
+            <td align="center">August 2023</td>
+            <td align="center">0</td>
+            <td align="center">0 <sup><sub>km</sub></sup></td>
+            <td>
+                <ul>
+                                    </ul>
+            </td>
+            <td align="center">0 <sup><sub>m</sub></sup></td>
+            <td align="center">0</td>
+            <td align="center">0</td>
+        </tr>
+            <tr>
             <td align="center">July 2023</td>
             <td align="center">31</td>
             <td align="center">1 015 <sup><sub>km</sub></sup></td>

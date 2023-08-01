@@ -36,7 +36,11 @@ class MonthlyStatistics
         $statistics = [];
 
         $interval = new \DateInterval('P1M');
-        $period = new \DatePeriod($this->startDate, $interval, $this->now);
+        $period = new \DatePeriod(
+            $this->startDate->modify('first day of this month'),
+            $interval,
+            $this->now->modify('last day of this month')
+        );
 
         foreach ($period as $date) {
             $month = $date->format('Ym');
@@ -85,6 +89,9 @@ class MonthlyStatistics
         }
 
         foreach ($statistics as &$statistic) {
+            if (0 == $statistic['movingTime']) {
+                continue;
+            }
             $statistic['movingTime'] = CarbonInterval::seconds($statistic['movingTime'])->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']);
         }
 
