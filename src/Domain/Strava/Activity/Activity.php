@@ -8,6 +8,7 @@ use Carbon\CarbonInterval;
 class Activity implements \JsonSerializable
 {
     private ?string $gearName;
+    private array $bestAveragePowerForTimeIntervals = [];
 
     private function __construct(
         private readonly array $data
@@ -134,11 +135,19 @@ class Activity implements \JsonSerializable
 
     public function getBestAveragePowerForTimeInterval(int $sequenceLength): ?int
     {
+        if (array_key_exists($sequenceLength, $this->bestAveragePowerForTimeIntervals)) {
+            return $this->bestAveragePowerForTimeIntervals[$sequenceLength];
+        }
+
         if (!$bestSequence = $this->getBestSequence($sequenceLength, StreamType::WATTS)) {
+            $this->bestAveragePowerForTimeIntervals[$sequenceLength] = null;
+
             return null;
         }
 
-        return round(array_sum($bestSequence) / $sequenceLength);
+        $this->bestAveragePowerForTimeIntervals[$sequenceLength] = round(array_sum($bestSequence) / $sequenceLength);
+
+        return $this->bestAveragePowerForTimeIntervals[$sequenceLength];
     }
 
     public function getBestSequence(int $sequenceLength, StreamType $streamType): array
