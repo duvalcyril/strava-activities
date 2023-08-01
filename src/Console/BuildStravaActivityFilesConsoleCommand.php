@@ -86,7 +86,8 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             ->updateStravaMonthlyStats($this->twig->load('strava-monthly-stats.html.twig')->render([
                 'statistics' => MonthlyStatistics::fromActivitiesAndChallenges(
                     $allActivities,
-                    $allChallenges
+                    $allChallenges,
+                    $this->clock->now()
                 ),
             ]))
             ->updateStravaStatsPerBike($this->twig->load('strava-stats-per-bike.html.twig')->render([

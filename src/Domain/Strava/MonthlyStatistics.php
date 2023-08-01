@@ -8,39 +8,56 @@ use Carbon\CarbonInterval;
 
 class MonthlyStatistics
 {
+    private \DateTimeImmutable $startDate;
+
     private function __construct(
         /** @var \App\Domain\Strava\Activity\Activity[] */
         private readonly array $activities,
         /** @var \App\Domain\Strava\Challenge\Challenge[] */
         private readonly array $challenges,
+        private readonly \DateTimeImmutable $now,
     ) {
+        $this->startDate = new \DateTimeImmutable();
+        foreach ($this->activities as $activity) {
+            if ($activity->getStartDate() > $this->startDate) {
+                continue;
+            }
+            $this->startDate = $activity->getStartDate();
+        }
     }
 
-    public static function fromActivitiesAndChallenges(array $activities, array $challenges): self
+    public static function fromActivitiesAndChallenges(array $activities, array $challenges, \DateTimeImmutable $now): self
     {
-        return new self($activities, $challenges);
+        return new self($activities, $challenges, $now);
     }
 
     public function getRows(): array
     {
         $statistics = [];
 
+        $interval = new \DateInterval('P1M');
+        $period = new \DatePeriod($this->startDate, $interval, $this->now);
+
+        foreach ($period as $date) {
+            $month = $date->format('Ym');
+            $statistics[$month] = [
+                'month' => $date->format('F Y'),
+                'numberOfRides' => 0,
+                'totalDistance' => 0,
+                'totalElevation' => 0,
+                'movingTime' => 0,
+                'challengesCompleted' => count(array_filter(
+                    $this->challenges,
+                    fn (Challenge $challenge) => $challenge->getCreatedOn()->format('Ym') == $date->format('Ym')
+                )),
+                'gears' => [],
+            ];
+        }
+
+        $statistics = array_reverse($statistics, true);
+
         foreach ($this->activities as $activity) {
             $month = $activity->getStartDate()->format('Ym');
-            if (empty($statistics[$month])) {
-                $statistics[$month] = [
-                    'month' => $activity->getStartDate()->format('F Y'),
-                    'numberOfRides' => 0,
-                    'totalDistance' => 0,
-                    'totalElevation' => 0,
-                    'movingTime' => 0,
-                    'challengesCompleted' => count(array_filter(
-                        $this->challenges,
-                        fn (Challenge $challenge) => $challenge->getCreatedOn()->format('Ym') == $activity->getStartDate()->format('Ym')
-                    )),
-                    'gears' => [],
-                ];
-            }
 
             if (!isset($statistics[$month]['gears'][$activity->getGearId()])) {
                 $statistics[$month]['gears'][$activity->getGearId()] = [
