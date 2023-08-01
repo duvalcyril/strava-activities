@@ -1699,53 +1699,53 @@ I burned `64081 calories` doing so, that's about `237` pizza slices 🍕
     </thead>
     <tbody>
             <tr>
-            <td align="center">Sunday</td>
-            <td align="center">14</td>
-            <td align="center">414 <sup><sub>km</sub></sup></td>
-            <td align="center">3 258 <sup><sub>m</sub></sup></td>
-            <td align="center">15h 31m</td>
-        </tr>
-            <tr>
             <td align="center">Monday</td>
-            <td align="center">15</td>
+            <td align="center">15 <sup><sub>(13%)</sub></sup></td>
             <td align="center">431 <sup><sub>km</sub></sup></td>
             <td align="center">4 208 <sup><sub>m</sub></sup></td>
             <td align="center">16h</td>
         </tr>
             <tr>
             <td align="center">Tuesday</td>
-            <td align="center">16</td>
+            <td align="center">16 <sup><sub>(14%)</sub></sup></td>
             <td align="center">505 <sup><sub>km</sub></sup></td>
             <td align="center">3 897 <sup><sub>m</sub></sup></td>
             <td align="center">17h 40m</td>
         </tr>
             <tr>
             <td align="center">Wednesday</td>
-            <td align="center">25</td>
+            <td align="center">25 <sup><sub>(21%)</sub></sup></td>
             <td align="center">667 <sup><sub>km</sub></sup></td>
             <td align="center">5 558 <sup><sub>m</sub></sup></td>
             <td align="center">1d 2h 17m</td>
         </tr>
             <tr>
             <td align="center">Thursday</td>
-            <td align="center">14</td>
+            <td align="center">14 <sup><sub>(12%)</sub></sup></td>
             <td align="center">299 <sup><sub>km</sub></sup></td>
             <td align="center">3 512 <sup><sub>m</sub></sup></td>
             <td align="center">12h 29m</td>
         </tr>
             <tr>
             <td align="center">Friday</td>
-            <td align="center">15</td>
+            <td align="center">15 <sup><sub>(13%)</sub></sup></td>
             <td align="center">378 <sup><sub>km</sub></sup></td>
             <td align="center">2 635 <sup><sub>m</sub></sup></td>
             <td align="center">14h 35m</td>
         </tr>
             <tr>
             <td align="center">Saturday</td>
-            <td align="center">18</td>
+            <td align="center">18 <sup><sub>(15%)</sub></sup></td>
             <td align="center">430 <sup><sub>km</sub></sup></td>
             <td align="center">3 750 <sup><sub>m</sub></sup></td>
             <td align="center">17h 38m</td>
+        </tr>
+            <tr>
+            <td align="center">Sunday</td>
+            <td align="center">14 <sup><sub>(12%)</sub></sup></td>
+            <td align="center">414 <sup><sub>km</sub></sup></td>
+            <td align="center">3 258 <sup><sub>m</sub></sup></td>
+            <td align="center">15h 31m</td>
         </tr>
         </tbody>
 </table>

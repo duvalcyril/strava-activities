@@ -12,7 +12,7 @@
     {% for statistic in statistics.getRows() %}
         <tr>
             <td align="center">{{ statistic.weekDay }}</td>
-            <td align="center">{{ statistic.numberOfRides }}</td>
+            <td align="center">{{ statistic.numberOfRides }} <sup><sub>({{ statistic.percentage }}%)</sub></sup></td>
             <td align="center">{{ statistic.totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></td>
             <td align="center">{{ statistic.totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></td>
             <td align="center">{{ statistic.movingTime }}</td>

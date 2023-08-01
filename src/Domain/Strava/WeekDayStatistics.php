@@ -30,12 +30,13 @@ class WeekDayStatistics
     {
         $statistics = [];
 
-        foreach (range(0, 6) as $weekDay) {
+        foreach ([1, 2, 3, 4, 5, 6, 0] as $weekDay) {
             $statistics[$weekDay] = [
                 'numberOfRides' => 0,
                 'totalDistance' => 0,
                 'totalElevation' => 0,
                 'movingTime' => 0,
+                'percentage' => 0,
             ];
         }
 
@@ -46,6 +47,7 @@ class WeekDayStatistics
             $statistics[$weekDay]['totalDistance'] += $activity->getDistance();
             $statistics[$weekDay]['totalElevation'] += $activity->getElevation();
             $statistics[$weekDay]['movingTime'] += $activity->getMovingTime();
+            $statistics[$weekDay]['percentage'] = round($statistics[$weekDay]['numberOfRides'] / count($this->activities) * 100);
             $statistics[$weekDay]['weekDay'] = $activity->getStartDate()->format('l');
         }
 
