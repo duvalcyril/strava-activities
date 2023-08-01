@@ -11,6 +11,7 @@ use App\Domain\Strava\DistancePerWeek;
 use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\MonthlyStatistics;
 use App\Domain\Strava\PowerOutputs;
+use App\Domain\Strava\WeekDayStatistics;
 use App\Infrastructure\Environment\Settings;
 use Lcobucci\Clock\Clock;
 use Symfony\Component\Console\Attribute\AsCommand;
@@ -88,6 +89,11 @@ class BuildStravaActivityFilesConsoleCommand extends Command
                     $allActivities,
                     $allChallenges,
                     $this->clock->now()
+                ),
+            ]))
+            ->updateWeekDayStats($this->twig->load('strava-week-day-stats.html.twig')->render([
+                'statistics' => WeekDayStatistics::fromActivities(
+                    $allActivities,
                 ),
             ]))
             ->updateStravaStatsPerBike($this->twig->load('strava-stats-per-bike.html.twig')->render([

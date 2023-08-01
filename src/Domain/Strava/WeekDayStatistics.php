@@ -46,6 +46,7 @@ class WeekDayStatistics
             $statistics[$weekDay]['totalDistance'] += $activity->getDistance();
             $statistics[$weekDay]['totalElevation'] += $activity->getElevation();
             $statistics[$weekDay]['movingTime'] += $activity->getMovingTime();
+            $statistics[$weekDay]['weekDay'] = $activity->getStartDate()->format('l');
         }
 
         foreach ($statistics as &$statistic) {

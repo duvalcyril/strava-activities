@@ -1683,6 +1683,12 @@ I burned `64081 calories` doing so, that's about `237` pizza slices 🍕
 </table>
 <!--END_SECTION:strava-monthly-stats-->
 
+## Stats per weekday
+
+<!--START_SECTION:strava-week-day-stats-->
+
+<!--END_SECTION:strava-week-day-stats-->
+
 ## Stats per bike
 
 <!--START_SECTION:strava-distance-per-bike-->
