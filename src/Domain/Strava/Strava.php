@@ -124,7 +124,8 @@ final class Strava
             throw new \RuntimeException('Could not fetch Strava challenges');
         }
 
-        return Json::decode(html_entity_decode($matches['profile'] ?? '[]'))['trophies'] ?? [];
+        return Json::decode(html_entity_decode($matches['profile'] ?? '[]'))['athleteData']['trophies'] ??
+            throw new \RuntimeException('Could not fetch Strava challenges');
     }
 
     public function downloadImage($uri): string
