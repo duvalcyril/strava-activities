@@ -21,7 +21,8 @@ I burned `64081 calories` doing so, that's about `237` pizza slices 🍕
 
 <kbd><a href="#weekly-distances">Weekly distances</a></kbd> |
 <kbd><a href="#activities">Activities</a></kbd> | 
-<kbd><a href="#monthly-stats">Monthly stats</a></kbd> | 
+<kbd><a href="#monthly-stats">Monthly stats</a></kbd> |
+<kbd><a href="#stats-per-weekday">Stats per weekday</a></kbd> |
 <kbd><a href="#stats-per-bike">Stats per bike</a></kbd> |
 <kbd><a href="#best-power-outputs-over-time">Power outputs</a></kbd> |
 <kbd><a href="#completed-challenges">Completed challenges</a></kbd>
@@ -1686,7 +1687,68 @@ I burned `64081 calories` doing so, that's about `237` pizza slices 🍕
 ## Stats per weekday
 
 <!--START_SECTION:strava-week-day-stats-->
-
+<table>
+    <thead>
+    <tr>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th># of rides</th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/distance.svg" width="30" alt="distance" title="distance"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="30" alt="elevation" title="elevation"/></th>
+        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
+    </tr>
+    </thead>
+    <tbody>
+            <tr>
+            <td align="center">Sunday</td>
+            <td align="center">14</td>
+            <td align="center">414 <sup><sub>km</sub></sup></td>
+            <td align="center">3 258 <sup><sub>m</sub></sup></td>
+            <td align="center">15h 31m</td>
+        </tr>
+            <tr>
+            <td align="center">Monday</td>
+            <td align="center">15</td>
+            <td align="center">431 <sup><sub>km</sub></sup></td>
+            <td align="center">4 208 <sup><sub>m</sub></sup></td>
+            <td align="center">16h</td>
+        </tr>
+            <tr>
+            <td align="center">Tuesday</td>
+            <td align="center">16</td>
+            <td align="center">505 <sup><sub>km</sub></sup></td>
+            <td align="center">3 897 <sup><sub>m</sub></sup></td>
+            <td align="center">17h 40m</td>
+        </tr>
+            <tr>
+            <td align="center">Wednesday</td>
+            <td align="center">25</td>
+            <td align="center">667 <sup><sub>km</sub></sup></td>
+            <td align="center">5 558 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 2h 17m</td>
+        </tr>
+            <tr>
+            <td align="center">Thursday</td>
+            <td align="center">14</td>
+            <td align="center">299 <sup><sub>km</sub></sup></td>
+            <td align="center">3 512 <sup><sub>m</sub></sup></td>
+            <td align="center">12h 29m</td>
+        </tr>
+            <tr>
+            <td align="center">Friday</td>
+            <td align="center">15</td>
+            <td align="center">378 <sup><sub>km</sub></sup></td>
+            <td align="center">2 635 <sup><sub>m</sub></sup></td>
+            <td align="center">14h 35m</td>
+        </tr>
+            <tr>
+            <td align="center">Saturday</td>
+            <td align="center">18</td>
+            <td align="center">430 <sup><sub>km</sub></sup></td>
+            <td align="center">3 750 <sup><sub>m</sub></sup></td>
+            <td align="center">17h 38m</td>
+        </tr>
+        </tbody>
+</table>
 <!--END_SECTION:strava-week-day-stats-->
 
 ## Stats per bike
