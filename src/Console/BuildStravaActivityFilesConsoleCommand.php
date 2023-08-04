@@ -2,7 +2,6 @@
 
 namespace App\Console;
 
-use App\Domain\ReadMe;
 use App\Domain\Strava\Activity\ActivityTotals;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\BikeStatistics;
@@ -55,9 +54,6 @@ class BuildStravaActivityFilesConsoleCommand extends Command
             ])
         );
 
-        $pathToReadMe = Settings::getAppRoot().'/README.md';
-        $readme = ReadMe::fromPathToReadMe($pathToReadMe);
-
         foreach ($allActivities as &$activity) {
             if (!$activity->getGearId()) {
                 continue;
@@ -69,41 +65,28 @@ class BuildStravaActivityFilesConsoleCommand extends Command
         $allChallenges = $this->stravaChallengeRepository->findAll();
         $allBikes = $this->stravaGearRepository->findAll();
 
-        $readme
-            ->updateStravaTotals($this->twig->load('strava-intro.html.twig')->render([
-                'totals' => ActivityTotals::fromActivities(
-                    $allActivities,
-                    $this->clock->now(),
-                ),
-            ]))
-            ->updateStravaPowerOutputs($this->twig->load('strava-power-outputs.html.twig')->render([
-                'powerOutputs' => PowerOutputs::fromActivities(
-                    $allActivities
-                ),
-            ]))
-            ->updateStravaActivities($this->twig->load('strava-activities.html.twig')->render([
+        \Safe\file_put_contents(Settings::getAppRoot().'/README.md', $this->twig->load('readme.html.twig')->render([
+            'totals' => ActivityTotals::fromActivities(
+                $allActivities,
+                $this->clock->now(),
+            ),
+            'allActivities' => $this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $allActivities,
-            ]))
-            ->updateStravaMonthlyStats($this->twig->load('strava-monthly-stats.html.twig')->render([
-                'statistics' => MonthlyStatistics::fromActivitiesAndChallenges(
-                    $allActivities,
-                    $allChallenges,
-                    $this->clock->now()
-                ),
-            ]))
-            ->updateWeekDayStats($this->twig->load('strava-week-day-stats.html.twig')->render([
-                'statistics' => WeekDayStatistics::fromActivities(
-                    $allActivities,
-                ),
-            ]))
-            ->updateStravaStatsPerBike($this->twig->load('strava-stats-per-bike.html.twig')->render([
-                'statistics' => BikeStatistics::fromActivitiesAndGear($allActivities, $allBikes),
-            ]))
-            ->updateStravaChallenges($this->twig->load('strava-challenges.html.twig')->render([
-                'challenges' => $allChallenges,
-            ]));
-
-        \Safe\file_put_contents($pathToReadMe, (string) $readme);
+            ]),
+            'monthlyStatistics' => MonthlyStatistics::fromActivitiesAndChallenges(
+                $allActivities,
+                $allChallenges,
+                $this->clock->now()
+            ),
+            'weekdayStatistics' => WeekDayStatistics::fromActivities(
+                $allActivities,
+            ),
+            'bikeStatistics' => BikeStatistics::fromActivitiesAndGear($allActivities, $allBikes),
+            'powerOutputs' => PowerOutputs::fromActivities(
+                $allActivities
+            ),
+            'challenges' => $allChallenges,
+        ]));
 
         return Command::SUCCESS;
     }
