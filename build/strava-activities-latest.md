@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>13-08-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9637319898" title="Kcal: 1727 | Gear: None ">🇮🇹 Ride #4, final one</a>
+            </td>
+            <td align="center">56 <sup><sub>km</sub></sup></td>
+            <td align="center">608 <sup><sub>m</sub></sup></td>
+            <td align="center">2:16:27</td>
+            <td align="center">139 <sup><sub>w</sub></sup></td>
+            <td align="center">24.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">162</td>
+        </tr>
+            <tr>
+            <td>12-08-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9634781812" title="Kcal: 228 | Gear: None ">🇮🇹 Afternoon Ride</a>
+            </td>
+            <td align="center">8 <sup><sub>km</sub></sup></td>
+            <td align="center">48 <sup><sub>m</sub></sup></td>
+            <td align="center">27:09</td>
+            <td align="center">71 <sup><sub>w</sub></sup></td>
+            <td align="center">17 <sup><sub>km/h</sub></sup></td>
+            <td align="center">123</td>
+        </tr>
+            <tr>
             <td>11-08-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -47,32 +73,6 @@
             <td align="center">134 <sup><sub>w</sub></sup></td>
             <td align="center">24.4 <sup><sub>km/h</sub></sup></td>
             <td align="center">151</td>
-        </tr>
-            <tr>
-            <td>08-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9606936487" title="Kcal: 1067 | Gear: None ">Toerke met het vrouwtje 🇮🇹</a>
-            </td>
-            <td align="center">34 <sup><sub>km</sub></sup></td>
-            <td align="center">334 <sup><sub>m</sub></sup></td>
-            <td align="center">2:10:10</td>
-            <td align="center">67 <sup><sub>w</sub></sup></td>
-            <td align="center">15.5 <sup><sub>km/h</sub></sup></td>
-            <td align="center">120</td>
-        </tr>
-            <tr>
-            <td>05-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9586615456" title="Kcal: 998 | Gear: None ">Serrated in London</a>
-            </td>
-            <td align="center">52 <sup><sub>km</sub></sup></td>
-            <td align="center">132 <sup><sub>m</sub></sup></td>
-            <td align="center">1:30:18</td>
-            <td align="center">193 <sup><sub>w</sub></sup></td>
-            <td align="center">34.8 <sup><sub>km/h</sub></sup></td>
-            <td align="center">157</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
