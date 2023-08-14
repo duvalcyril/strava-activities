@@ -3,7 +3,7 @@
          alt="Strava">
 </p>
 
-Since I began cycling `139 days` ago on `27-03-2023`,
+Since I began cycling `140 days` ago on `27-03-2023`,
 I had `97 cycling days`.<br />
 I recorded a total distance of `3 440 km`,
 an elevation of `29 901 m`
