@@ -3,17 +3,17 @@
          alt="Strava">
 </p>
 
-Since I began cycling `154 days` ago on `27-03-2023`,
-I had `108 cycling days`.<br />
-I recorded a total distance of `3 877 km`,
-an elevation of `35 652 m`
-and a total time of `6d 6h 32m` 🎉
+Since I began cycling `155 days` ago on `27-03-2023`,
+I had `109 cycling days`.<br />
+I recorded a total distance of `3 907 km`,
+an elevation of `36 044 m`
+and a total time of `6d 7h 32m` 🎉
 
 That's a daily average of `25 km`,
-a weekly average of `176 km` and a
-monthly average of `646 km` 🐣
+a weekly average of `170 km` and a
+monthly average of `651 km` 🐣
 
-I burned `82717 calories` doing so, that's about `306` pizza slices 🍕
+I burned `83339 calories` doing so, that's about `309` pizza slices 🍕
 
 ---
 
@@ -42,6 +42,19 @@ I burned `82717 calories` doing so, that's about `306` pizza slices 🍕
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>29-08-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9743524526" title="Kcal: 622 | Gear: Zwift Hub ">Breakfast Returns🤢 in New ...</a>
+            </td>
+            <td align="center">30 <sup><sub>km</sub></sup></td>
+            <td align="center">392 <sup><sub>m</sub></sup></td>
+            <td align="center">1:00:13</td>
+            <td align="center">180 <sup><sub>w</sub></sup></td>
+            <td align="center">29.9 <sup><sub>km/h</sub></sup></td>
+            <td align="center">149</td>
+        </tr>
             <tr>
             <td>28-08-23</td>
             <td>
@@ -1856,16 +1869,16 @@ I burned `82717 calories` doing so, that's about `306` pizza slices 🍕
     <tbody>
             <tr>
             <td align="center">August 2023</td>
-            <td align="center">22</td>
-            <td align="center">782 <sup><sub>km</sub></sup></td>
+            <td align="center">23</td>
+            <td align="center">812 <sup><sub>km</sub></sup></td>
             <td>
                 <ul>
-                                            <li><b>Zwift Hub</b>: 424 <sup><sub>km</sub></sup></li>
+                                            <li><b>Zwift Hub</b>: 454 <sup><sub>km</sub></sup></li>
                                             <li><b>Retro Race Bike</b>: 358 <sup><sub>km</sub></sup></li>
                                     </ul>
             </td>
-            <td align="center">8 936 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 7h 1m</td>
+            <td align="center">9 328 <sup><sub>m</sub></sup></td>
+            <td align="center">1d 8h 1m</td>
             <td align="center">18</td>
         </tr>
             <tr>
@@ -1943,11 +1956,11 @@ I burned `82717 calories` doing so, that's about `306` pizza slices 🍕
         </tr>
         <tr>
         <td align="center"><b>Total</b></td>
-        <td align="center"><b>138</b></td>
-        <td align="center"><b>3 877 <sup><sub>km</sub></sup></b></td>
+        <td align="center"><b>139</b></td>
+        <td align="center"><b>3 907 <sup><sub>km</sub></sup></b></td>
         <td></td>
-        <td align="center"><b>35 652 <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>6d 6h 32m</b></td>
+        <td align="center"><b>36 044 <sup><sub>m</sub></sup></b></td>
+        <td align="center"><b>6d 7h 32m</b></td>
         <td align="center"><b>77</b></td>
     </tr>
     </tbody>
@@ -1975,10 +1988,10 @@ I burned `82717 calories` doing so, that's about `306` pizza slices 🍕
         </tr>
             <tr>
             <td align="center">Tuesday</td>
-            <td align="center">19 <sup><sub>(14%)</sub></sup></td>
-            <td align="center">597 <sup><sub>km</sub></sup></td>
-            <td align="center">5 155 <sup><sub>m</sub></sup></td>
-            <td align="center">22h 34m</td>
+            <td align="center">20 <sup><sub>(14%)</sub></sup></td>
+            <td align="center">627 <sup><sub>km</sub></sup></td>
+            <td align="center">5 547 <sup><sub>m</sub></sup></td>
+            <td align="center">23h 34m</td>
         </tr>
             <tr>
             <td align="center">Wednesday</td>
@@ -2033,10 +2046,10 @@ I burned `82717 calories` doing so, that's about `306` pizza slices 🍕
     <tbody>
             <tr>
             <td align="center">Zwift Hub</td>
-            <td align="center">47</td>
-            <td align="center">1 632 <sup><sub>km</sub></sup></td>
-            <td align="center">21 220 <sup><sub>m</sub></sup></td>
-            <td align="center">2d 9h 59m</td>
+            <td align="center">48</td>
+            <td align="center">1 662 <sup><sub>km</sub></sup></td>
+            <td align="center">21 612 <sup><sub>m</sub></sup></td>
+            <td align="center">2d 10h 59m</td>
         </tr>
             <tr>
             <td align="center">Retro Race Bike</td>
