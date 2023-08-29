@@ -77,4 +77,4 @@
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
         </tr>
-    </table>
+        </table>

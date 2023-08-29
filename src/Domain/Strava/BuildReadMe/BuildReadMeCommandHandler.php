@@ -53,6 +53,7 @@ class BuildReadMeCommandHandler implements CommandHandler
             ),
             'allActivities' => $this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $allActivities,
+                'addLinkToPowerOutputs' => true,
             ]),
             'monthlyStatistics' => MonthlyStatistics::fromActivitiesAndChallenges(
                 $allActivities,

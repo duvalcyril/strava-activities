@@ -1849,7 +1849,10 @@ I burned `83339 calories` doing so, that's about `309` pizza slices 🍕
             <td align="center">12.6 <sup><sub>km/h</sub></sup></td>
             <td align="center">101</td>
         </tr>
-        </table>
+                    <tr>
+            <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities/blob/master/build/strava-activities-power-outputs.md">View detailed power statistics</a></td>
+        </tr>
+    </table>
 
 
 ## Monthly stats
