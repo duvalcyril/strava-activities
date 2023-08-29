@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Strava\BuildLatestStravaActivities;
+namespace App\Domain\Strava\Activity\BuildActivityPowerOutputs;
 
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Infrastructure\Attribute\AsCommandHandler;
@@ -10,7 +10,7 @@ use App\Infrastructure\Environment\Settings;
 use Twig\Environment;
 
 #[AsCommandHandler]
-class BuildLatestStravaActivitiesCommandHandler implements CommandHandler
+class BuildActivityPowerOutputsCommandHandler implements CommandHandler
 {
     public function __construct(
         private readonly StravaActivityRepository $stravaActivityRepository,
@@ -20,13 +20,12 @@ class BuildLatestStravaActivitiesCommandHandler implements CommandHandler
 
     public function handle(DomainCommand $command): void
     {
-        assert($command instanceof BuildLatestStravaActivities);
+        assert($command instanceof BuildActivityPowerOutputs);
 
         \Safe\file_put_contents(
-            Settings::getAppRoot().'/build/strava-activities-latest.md',
-            $this->twig->load('strava-activities.html.twig')->render([
-                'activities' => $this->stravaActivityRepository->findAll(5),
-                'addLinkToAllActivities' => true,
+            Settings::getAppRoot().'/build/strava-activities-power-outputs.md',
+            $this->twig->load('strava-activities-power-outputs.html.twig')->render([
+                'activities' => $this->stravaActivityRepository->findAll(),
             ])
         );
     }

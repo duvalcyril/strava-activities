@@ -2,7 +2,8 @@
 
 namespace App\Console;
 
-use App\Domain\Strava\BuildLatestStravaActivities\BuildLatestStravaActivities;
+use App\Domain\Strava\Activity\BuildActivityPowerOutputs\BuildActivityPowerOutputs;
+use App\Domain\Strava\Activity\BuildLatestStravaActivities\BuildLatestStravaActivities;
 use App\Domain\Strava\BuildReadMe\BuildReadMe;
 use App\Domain\Strava\BuildWeeklyDistanceChart\BuildWeeklyDistanceChart;
 use App\Infrastructure\CQRS\CommandBus;
@@ -24,6 +25,7 @@ class BuildStravaActivityFilesConsoleCommand extends Command
     {
         $this->commandBus->dispatch(new BuildLatestStravaActivities());
         $this->commandBus->dispatch(new BuildWeeklyDistanceChart());
+        $this->commandBus->dispatch(new BuildActivityPowerOutputs());
         $this->commandBus->dispatch(new BuildReadMe());
 
         return Command::SUCCESS;

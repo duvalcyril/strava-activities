@@ -32,7 +32,7 @@ class PowerOutputs
                     $best[$timeIntervalInSeconds] = [
                         'time' => (int) $interval->totalHours ? $interval->totalHours.' h' : ((int) $interval->totalMinutes ? $interval->totalMinutes.' m' : $interval->totalSeconds.' s'),
                         'power' => $power,
-                        'relativePower' => round($power / $activity->getAthleteWeight()->getFloat(), 2),
+                        'relativePower' => $activity->getBestRelativeAveragePowerForTimeInterval($timeIntervalInSeconds),
                         'activity' => $activity,
                     ];
                 }

@@ -133,21 +133,30 @@ class Activity implements \JsonSerializable
         return 'https://www.strava.com/activities/'.$this->data['id'];
     }
 
-    public function getBestAveragePowerForTimeInterval(int $sequenceLength): ?int
+    public function getBestAveragePowerForTimeInterval(int $timeIntervalInSeconds): ?int
     {
-        if (array_key_exists($sequenceLength, $this->bestAveragePowerForTimeIntervals)) {
-            return $this->bestAveragePowerForTimeIntervals[$sequenceLength];
+        if (array_key_exists($timeIntervalInSeconds, $this->bestAveragePowerForTimeIntervals)) {
+            return $this->bestAveragePowerForTimeIntervals[$timeIntervalInSeconds];
         }
 
-        if (!$bestSequence = $this->getBestSequence($sequenceLength, StreamType::WATTS)) {
-            $this->bestAveragePowerForTimeIntervals[$sequenceLength] = null;
+        if (!$bestSequence = $this->getBestSequence($timeIntervalInSeconds, StreamType::WATTS)) {
+            $this->bestAveragePowerForTimeIntervals[$timeIntervalInSeconds] = null;
 
             return null;
         }
 
-        $this->bestAveragePowerForTimeIntervals[$sequenceLength] = round(array_sum($bestSequence) / $sequenceLength);
+        $this->bestAveragePowerForTimeIntervals[$timeIntervalInSeconds] = round(array_sum($bestSequence) / $timeIntervalInSeconds);
 
-        return $this->bestAveragePowerForTimeIntervals[$sequenceLength];
+        return $this->bestAveragePowerForTimeIntervals[$timeIntervalInSeconds];
+    }
+
+    public function getBestRelativeAveragePowerForTimeInterval(int $timeIntervalInSeconds): ?float
+    {
+        if ($averagePower = $this->getBestAveragePowerForTimeInterval($timeIntervalInSeconds)) {
+            return round($averagePower / $this->getAthleteWeight()->getFloat(), 2);
+        }
+
+        return null;
     }
 
     public function getBestSequence(int $sequenceLength, StreamType $streamType): array
