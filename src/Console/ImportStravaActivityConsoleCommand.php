@@ -2,9 +2,9 @@
 
 namespace App\Console;
 
-use App\Domain\Strava\ImportActivities\ImportActivities;
-use App\Domain\Strava\ImportChallenges\ImportChallenges;
-use App\Domain\Strava\ImportGear\ImportGear;
+use App\Domain\Strava\Activity\ImportActivities\ImportActivities;
+use App\Domain\Strava\Challenge\ImportChallenges\ImportChallenges;
+use App\Domain\Strava\Gear\ImportGear\ImportGear;
 use App\Infrastructure\CQRS\CommandBus;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Strava\ImportActivities;
+namespace App\Domain\Strava\Activity\ImportActivities;
 
 use App\Infrastructure\CQRS\DomainCommand;
 

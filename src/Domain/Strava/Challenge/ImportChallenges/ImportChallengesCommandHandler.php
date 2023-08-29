@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Strava\ImportChallenges;
+namespace App\Domain\Strava\Challenge\ImportChallenges;
 
 use App\Domain\Strava\Challenge\Challenge;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;

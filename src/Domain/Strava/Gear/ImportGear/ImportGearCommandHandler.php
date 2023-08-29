@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Strava\ImportGear;
+namespace App\Domain\Strava\Gear\ImportGear;
 
 use App\Domain\Strava\Activity\Activity;
 use App\Domain\Strava\Activity\StravaActivityRepository;

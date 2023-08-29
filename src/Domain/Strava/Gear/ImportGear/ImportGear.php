@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Strava\ImportGear;
+namespace App\Domain\Strava\Gear\ImportGear;
 
 use App\Infrastructure\CQRS\DomainCommand;
 
