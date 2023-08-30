@@ -23,6 +23,21 @@ class StravaActivityRepository
         );
     }
 
+    /**
+     * @return \App\Domain\Strava\Activity\Activity[]
+     */
+    public function findAllWithPower(): array
+    {
+        return array_map(
+            fn (array $row) => Activity::fromMap($row),
+            $this->store->findBy([
+                function ($row) {
+                    return !empty($row['streams'][StreamType::WATTS->value][0]['data']);
+                },
+            ], ['start_date_timestamp' => 'desc'])
+        );
+    }
+
     public function findOneBy(int $id): Activity
     {
         if (!$row = $this->store->findOneBy(['id', '==', $id])) {

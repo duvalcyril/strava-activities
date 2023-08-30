@@ -196,259 +196,6 @@
                     <td align="center">2.94 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>19-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9683883528" title="Kcal: 245 | Gear: None ">Evening Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>19-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9680047475" title="Kcal: 258 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>17-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9664874429" title="Kcal: 1390 | Gear: None ">🇫🇷 Ride #3</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>16-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9657780981" title="Kcal: 1269 | Gear: None ">🇫🇷 Ride #2</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>15-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9653331316" title="Kcal: 823 | Gear: None ">🇫🇷 Ride #1, avec la copine</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>13-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9637319898" title="Kcal: 1727 | Gear: None ">🇮🇹 Ride #4, final one</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>12-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9634781812" title="Kcal: 228 | Gear: None ">🇮🇹 Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>11-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9627264378" title="Kcal: 1351 | Gear: None ">🇮🇹 Ride #3 avec la girlfriend</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>10-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9620486295" title="Kcal: 229 | Gear: None ">🇮🇹 Lunch Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>09-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9612009708" title="Kcal: 1374 | Gear: None ">🇮🇹 Ride #2</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>08-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9606936487" title="Kcal: 1067 | Gear: None ">Toerke met het vrouwtje 🇮🇹</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>05-08-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -587,29 +334,6 @@
                     <td align="center">2.74 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>29-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9542782814" title="Kcal: 293 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>27-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -629,52 +353,6 @@
                     <td align="center">2.72 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">187 <sup><sub>w</sub></sup></td>
                     <td align="center">2.71 <sup><sub>w/kg</sub></sup></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>26-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9527434111" title="Kcal: 1622 | Gear: None ">Toertje van de vaart met d...</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>26-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9527451112" title="Kcal: 359 | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                                                                 <td align="center"></td>
                     <td align="center"></td>
                                     </tr>
@@ -725,29 +403,6 @@
                     <td align="center">2.43 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>23-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9507879874" title="Kcal: 262 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>22-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -767,75 +422,6 @@
                     <td align="center">2.65 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">179 <sup><sub>w</sub></sup></td>
                     <td align="center">2.59 <sup><sub>w/kg</sub></sup></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>21-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9494450902" title="Kcal: 2582 | Gear: None ">First Gran Fondo evah 🥳</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>19-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9483741727" title="Kcal: 1769 | Gear: None ">BikerBoys 🏍️</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>19-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9481993011" title="Kcal: 313 | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                                                                 <td align="center"></td>
                     <td align="center"></td>
                                     </tr>
@@ -909,52 +495,6 @@
                     <td align="center">2.81 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>14-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9451148657" title="Kcal: 318 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>12-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9439311948" title="Kcal: 1649 | Gear: None ">Avec le Bikerboys</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>11-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -1024,75 +564,6 @@
                     <td align="center"></td>
                                     </tr>
             <tr>
-            <td>08-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9417185349" title="Kcal: 285 | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>08-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9412342812" title="Kcal: 276 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>07-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9412348049" title="Kcal: 155 | Gear: None ">Evening Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>07-07-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -1112,29 +583,6 @@
                     <td align="center">2.72 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">179 <sup><sub>w</sub></sup></td>
                     <td align="center">2.59 <sup><sub>w/kg</sub></sup></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>07-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9406021001" title="Kcal: 327 | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                                                                 <td align="center"></td>
                     <td align="center"></td>
                                     </tr>
@@ -1231,52 +679,6 @@
                     <td align="center">2.19 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>01-07-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9367494764" title="Kcal: n/a | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>30-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9364261188" title="Kcal: 245 | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>29-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -1298,52 +700,6 @@
                     <td align="center">2.77 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">177 <sup><sub>w</sub></sup></td>
                     <td align="center">2.57 <sup><sub>w/kg</sub></sup></td>
-                                    </tr>
-            <tr>
-            <td>27-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9345252620" title="Kcal: 2117 | Gear: None ">Brugge -> Gent -> Brugge</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>26-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9339863534" title="Kcal: 1003 | Gear: None ">Avondritje met de bikerboys</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                     </tr>
             <tr>
             <td>25-06-23</td>
@@ -1415,29 +771,6 @@
                     <td align="center">2.81 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>21-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9307618363" title="Kcal: 308 | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>20-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -1459,75 +792,6 @@
                     <td align="center">2.9 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">173 <sup><sub>w</sub></sup></td>
                     <td align="center">2.51 <sup><sub>w/kg</sub></sup></td>
-                                    </tr>
-            <tr>
-            <td>18-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9289789967" title="Kcal: 1241 | Gear: None ">Kempervennen toerke 2</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>17-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9281314560" title="Kcal: 1519 | Gear: None ">Kempervennen toerke</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>15-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9271499486" title="Kcal: 667 | Gear: None ">💨🚴‍♂️</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                     </tr>
             <tr>
             <td>14-06-23</td>
@@ -1553,29 +817,6 @@
                     <td align="center">2.51 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>14-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9264449997" title="Kcal: n/a | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>13-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -1597,75 +838,6 @@
                     <td align="center">2.86 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">180 <sup><sub>w</sub></sup></td>
                     <td align="center">2.61 <sup><sub>w/kg</sub></sup></td>
-                                    </tr>
-            <tr>
-            <td>13-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9258943783" title="Kcal: n/a | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>12-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9252686242" title="Kcal: n/a | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>12-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9249508717" title="Kcal: n/a | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                     </tr>
             <tr>
             <td>11-06-23</td>
@@ -1714,29 +886,6 @@
                     <td align="center">2.48 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>09-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9232932614" title="Kcal: n/a | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>08-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -1781,29 +930,6 @@
                     <td align="center">2.68 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">175 <sup><sub>w</sub></sup></td>
                     <td align="center">2.54 <sup><sub>w/kg</sub></sup></td>
-                                    </tr>
-            <tr>
-            <td>07-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9218932318" title="Kcal: n/a | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                     </tr>
             <tr>
             <td>06-06-23</td>
@@ -1852,29 +978,6 @@
                     <td align="center">2.78 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>03-06-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9193819340" title="Kcal: 1584 | Gear: None ">Morning ride with retro ra...</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>01-06-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -1921,29 +1024,6 @@
                     <td align="center">2.58 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>31-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9174924354" title="Kcal: n/a | Gear: None ">Lunch Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>29-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -1969,29 +1049,6 @@
             <tr>
             <td>28-05-23</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9157342987" title="Kcal: n/a | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>28-05-23</td>
-            <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9155976770" title="Kcal: 872 | Gear: None ">Red Unicorn in Watopia</a>
             </td>
@@ -2011,52 +1068,6 @@
                     <td align="center">2.81 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">181 <sup><sub>w</sub></sup></td>
                     <td align="center">2.62 <sup><sub>w/kg</sub></sup></td>
-                                    </tr>
-            <tr>
-            <td>27-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9152881957" title="Kcal: n/a | Gear: None ">Night Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>27-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9148704237" title="Kcal: n/a | Gear: None ">Lunch Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                     </tr>
             <tr>
             <td>25-05-23</td>
@@ -2197,52 +1208,6 @@
                     <td align="center">2.03 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>20-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9105368636" title="Kcal: n/a | Gear: None ">Lunch Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>17-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9089741187" title="Kcal: n/a | Gear: None ">Evening Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>17-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -2337,52 +1302,6 @@
             <tr>
             <td>12-05-23</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9060004298" title="Kcal: n/a | Gear: None ">Night Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>12-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9058621575" title="Kcal: n/a | Gear: None ">Evening Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>12-05-23</td>
-            <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9058227157" title="Kcal: 602 | Gear: None ">Foundation in Watopia</a>
             </td>
@@ -2425,29 +1344,6 @@
                     <td align="center">2.17 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">147 <sup><sub>w</sub></sup></td>
                     <td align="center">2.13 <sup><sub>w/kg</sub></sup></td>
-                                    </tr>
-            <tr>
-            <td>11-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9050346463" title="Kcal: n/a | Gear: None ">Commute</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                     </tr>
             <tr>
             <td>09-05-23</td>
@@ -2494,29 +1390,6 @@
                     <td align="center">2.86 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">175 <sup><sub>w</sub></sup></td>
                     <td align="center">2.54 <sup><sub>w/kg</sub></sup></td>
-                                    </tr>
-            <tr>
-            <td>06-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9023505366" title="Kcal: n/a | Gear: None ">Commute</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                     </tr>
             <tr>
             <td>06-05-23</td>
@@ -2588,29 +1461,6 @@
                     <td align="center">2.35 <sup><sub>w/kg</sub></sup></td>
                                     </tr>
             <tr>
-            <td>03-05-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9003197724" title="Kcal: n/a | Gear: None ">Commute</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>01-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -2676,29 +1526,6 @@
                     <td align="center">2.51 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">159 <sup><sub>w</sub></sup></td>
                     <td align="center">2.3 <sup><sub>w/kg</sub></sup></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>27-04-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8965456621" title="Kcal: n/a | Gear: None ">Commute</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                                                                 <td align="center"></td>
                     <td align="center"></td>
                                     </tr>
@@ -2841,29 +1668,6 @@
                     <td align="center"></td>
                                     </tr>
             <tr>
-            <td>16-04-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8903705768" title="Kcal: n/a | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
             <td>14-04-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -2906,29 +1710,6 @@
                     <td align="center">2.01 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">134 <sup><sub>w</sub></sup></td>
                     <td align="center">1.94 <sup><sub>w/kg</sub></sup></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>13-04-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8884245832" title="Kcal: n/a | Gear: None ">Commute</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                                                                 <td align="center"></td>
                     <td align="center"></td>
                                     </tr>
@@ -3067,144 +1848,6 @@
                     <td align="center">2.96 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">195 <sup><sub>w</sub></sup></td>
                     <td align="center">2.83 <sup><sub>w/kg</sub></sup></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>05-04-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8836876517" title="Kcal: 124 | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>05-04-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8835455910" title="Kcal: 125 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>04-04-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8835455809" title="Kcal: 124 | Gear: None ">Afternoon Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>04-04-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8835457514" title="Kcal: 163 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>27-03-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8835457306" title="Kcal: 627 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                    </tr>
-            <tr>
-            <td>27-03-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/8835458375" title="Kcal: 136 | Gear: None ">Morning Ride</a>
-            </td>
-                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
-                                                                                <td align="center"></td>
-                    <td align="center"></td>
                                                                                 <td align="center"></td>
                     <td align="center"></td>
                                     </tr>
