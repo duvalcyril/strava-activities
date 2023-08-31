@@ -12,6 +12,29 @@
         <th colspan="2">Best 1h</th>
     </tr>
             <tr>
+            <td>31-08-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9756441741" title="Kcal: 695 | Gear: None ">Watopia Flat Forward in Lo...</a>
+            </td>
+                                                                <td align="center">476 <sup><sub>w</sub></sup></td>
+                    <td align="center">6.9 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">452 <sup><sub>w</sub></sup></td>
+                    <td align="center">6.55 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">341 <sup><sub>w</sub></sup></td>
+                    <td align="center">4.94 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">280 <sup><sub>w</sub></sup></td>
+                    <td align="center">4.06 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">224 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.25 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">219 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.17 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">210 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.04 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">197 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.86 <sup><sub>w/kg</sub></sup></td>
+                                    </tr>
+            <tr>
             <td>30-08-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
