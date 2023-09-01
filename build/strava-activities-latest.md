@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>01-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9763146204" title="Kcal: 823 | Gear: None ">Race: 3R Volcano Flat Race...</a>
+            </td>
+            <td align="center">38 <sup><sub>km</sub></sup></td>
+            <td align="center">152 <sup><sub>m</sub></sup></td>
+            <td align="center">1:00:23</td>
+            <td align="center">223 <sup><sub>w</sub></sup></td>
+            <td align="center">37.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">174</td>
+        </tr>
+            <tr>
+            <td>01-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9762712387" title="Kcal: 154 | Gear: None ">WarmUp in Makuri Islands</a>
+            </td>
+            <td align="center">7 <sup><sub>km</sub></sup></td>
+            <td align="center">108 <sup><sub>m</sub></sup></td>
+            <td align="center">16:14</td>
+            <td align="center">166 <sup><sub>w</sub></sup></td>
+            <td align="center">27 <sup><sub>km/h</sub></sup></td>
+            <td align="center">150</td>
+        </tr>
+            <tr>
             <td>31-08-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -47,32 +73,6 @@
             <td align="center">137 <sup><sub>w</sub></sup></td>
             <td align="center">29.9 <sup><sub>km/h</sub></sup></td>
             <td align="center">140</td>
-        </tr>
-            <tr>
-            <td>29-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9743524526" title="Kcal: 622 | Gear: None ">Breakfast Returns🤢 in New ...</a>
-            </td>
-            <td align="center">30 <sup><sub>km</sub></sup></td>
-            <td align="center">392 <sup><sub>m</sub></sup></td>
-            <td align="center">1:00:13</td>
-            <td align="center">180 <sup><sub>w</sub></sup></td>
-            <td align="center">29.9 <sup><sub>km/h</sub></sup></td>
-            <td align="center">149</td>
-        </tr>
-            <tr>
-            <td>28-08-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9737783754" title="Kcal: 1311 | Gear: None ">Aspire in Watopia</a>
-            </td>
-            <td align="center">61 <sup><sub>km</sub></sup></td>
-            <td align="center">709 <sup><sub>m</sub></sup></td>
-            <td align="center">2:00:21</td>
-            <td align="center">190 <sup><sub>w</sub></sup></td>
-            <td align="center">30.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center">151</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>

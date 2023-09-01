@@ -12,6 +12,52 @@
         <th colspan="2">Best 1h</th>
     </tr>
             <tr>
+            <td>01-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9763146204" title="Kcal: 823 | Gear: None ">Race: 3R Volcano Flat Race...</a>
+            </td>
+                                                                <td align="center">526 <sup><sub>w</sub></sup></td>
+                    <td align="center">7.62 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">504 <sup><sub>w</sub></sup></td>
+                    <td align="center">7.3 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">442 <sup><sub>w</sub></sup></td>
+                    <td align="center">6.41 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">338 <sup><sub>w</sub></sup></td>
+                    <td align="center">4.9 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">266 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.86 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">251 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.64 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">238 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.45 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center"></td>
+                    <td align="center"></td>
+                                    </tr>
+            <tr>
+            <td>01-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9762712387" title="Kcal: 154 | Gear: None ">WarmUp in Makuri Islands</a>
+            </td>
+                                                                <td align="center">379 <sup><sub>w</sub></sup></td>
+                    <td align="center">5.49 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">330 <sup><sub>w</sub></sup></td>
+                    <td align="center">4.78 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">280 <sup><sub>w</sub></sup></td>
+                    <td align="center">4.06 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">227 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.29 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">202 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.93 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">181 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.62 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center"></td>
+                    <td align="center"></td>
+                                                                                <td align="center"></td>
+                    <td align="center"></td>
+                                    </tr>
+            <tr>
             <td>31-08-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>

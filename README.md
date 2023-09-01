@@ -3,17 +3,17 @@
          alt="Strava">
 </p>
 
-Since I began cycling `157 days` ago on `27-03-2023`,
-I had `111 cycling days`.<br />
-I recorded a total distance of `3 981 km`,
-an elevation of `36 530 m`
-and a total time of `6d 9h 39m` 🎉
+Since I began cycling `158 days` ago on `27-03-2023`,
+I had `112 cycling days`.<br />
+I recorded a total distance of `4 026 km`,
+an elevation of `36 790 m`
+and a total time of `6d 10h 56m` 🎉
 
 That's a daily average of `25 km`,
-a weekly average of `173 km` and a
-monthly average of `664 km` 🐣
+a weekly average of `175 km` and a
+monthly average of `671 km` 🐣
 
-I burned `84867 calories` doing so, that's about `314` pizza slices 🍕
+I burned `85844 calories` doing so, that's about `318` pizza slices 🍕
 
 ---
 
@@ -42,6 +42,32 @@ I burned `84867 calories` doing so, that's about `314` pizza slices 🍕
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/average-speed.svg" width="30" alt="average speed" title="average speed"/></th>
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
+            <tr>
+            <td>01-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9763146204" title="Kcal: 823 | Gear: Zwift Hub ">Race: 3R Volcano Flat Race...</a>
+            </td>
+            <td align="center">38 <sup><sub>km</sub></sup></td>
+            <td align="center">152 <sup><sub>m</sub></sup></td>
+            <td align="center">1:00:23</td>
+            <td align="center">223 <sup><sub>w</sub></sup></td>
+            <td align="center">37.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">174</td>
+        </tr>
+            <tr>
+            <td>01-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9762712387" title="Kcal: 154 | Gear: Zwift Hub ">WarmUp in Makuri Islands</a>
+            </td>
+            <td align="center">7 <sup><sub>km</sub></sup></td>
+            <td align="center">108 <sup><sub>m</sub></sup></td>
+            <td align="center">16:14</td>
+            <td align="center">166 <sup><sub>w</sub></sup></td>
+            <td align="center">27 <sup><sub>km/h</sub></sup></td>
+            <td align="center">150</td>
+        </tr>
             <tr>
             <td>31-08-23</td>
             <td>
@@ -1910,6 +1936,19 @@ I burned `84867 calories` doing so, that's about `314` pizza slices 🍕
     </thead>
     <tbody>
             <tr>
+            <td align="center">September 2023</td>
+            <td align="center">2</td>
+            <td align="center">45 <sup><sub>km</sub></sup></td>
+            <td>
+                <ul>
+                                            <li><b>Zwift Hub</b>: 45 <sup><sub>km</sub></sup></li>
+                                    </ul>
+            </td>
+            <td align="center">260 <sup><sub>m</sub></sup></td>
+            <td align="center">1h 16m</td>
+            <td align="center">0</td>
+        </tr>
+            <tr>
             <td align="center">August 2023</td>
             <td align="center">26</td>
             <td align="center">886 <sup><sub>km</sub></sup></td>
@@ -1998,11 +2037,11 @@ I burned `84867 calories` doing so, that's about `314` pizza slices 🍕
         </tr>
         <tr>
         <td align="center"><b>Total</b></td>
-        <td align="center"><b>142</b></td>
-        <td align="center"><b>3 981 <sup><sub>km</sub></sup></b></td>
+        <td align="center"><b>144</b></td>
+        <td align="center"><b>4 026 <sup><sub>km</sub></sup></b></td>
         <td></td>
-        <td align="center"><b>36 530 <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>6d 9h 39m</b></td>
+        <td align="center"><b>36 790 <sup><sub>m</sub></sup></b></td>
+        <td align="center"><b>6d 10h 56m</b></td>
         <td align="center"><b>78</b></td>
     </tr>
     </tbody>
@@ -2051,10 +2090,10 @@ I burned `84867 calories` doing so, that's about `314` pizza slices 🍕
         </tr>
             <tr>
             <td align="center">Friday</td>
-            <td align="center">18 <sup><sub>(13%)</sub></sup></td>
-            <td align="center">523 <sup><sub>km</sub></sup></td>
-            <td align="center">3 804 <sup><sub>m</sub></sup></td>
-            <td align="center">20h 37m</td>
+            <td align="center">20 <sup><sub>(14%)</sub></sup></td>
+            <td align="center">568 <sup><sub>km</sub></sup></td>
+            <td align="center">4 064 <sup><sub>m</sub></sup></td>
+            <td align="center">21h 54m</td>
         </tr>
             <tr>
             <td align="center">Saturday</td>
@@ -2088,10 +2127,10 @@ I burned `84867 calories` doing so, that's about `314` pizza slices 🍕
     <tbody>
             <tr>
             <td align="center">Zwift Hub</td>
-            <td align="center">51</td>
-            <td align="center">1 735 <sup><sub>km</sub></sup></td>
-            <td align="center">22 098 <sup><sub>m</sub></sup></td>
-            <td align="center">2d 13h 6m</td>
+            <td align="center">53</td>
+            <td align="center">1 780 <sup><sub>km</sub></sup></td>
+            <td align="center">22 358 <sup><sub>m</sub></sup></td>
+            <td align="center">2d 14h 23m</td>
         </tr>
             <tr>
             <td align="center">Retro Race Bike</td>
@@ -2138,23 +2177,23 @@ I burned `84867 calories` doing so, that's about `314` pizza slices 🍕
         </tr>
             <tr>
             <td align="center">10 s</td>
-            <td align="center">496 <sup><sub>w</sub></sup></td>
-            <td align="center">7.19 <sup><sub>w/kg</sub></sup></td>
+            <td align="center">504 <sup><sub>w</sub></sup></td>
+            <td align="center">7.3 <sup><sub>w/kg</sub></sup></td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9214774609" title="Kcal: 597 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C) on Wandering Flats in Makuri Islands
+                <a href="https://www.strava.com/activities/9763146204" title="Kcal: 823 | Gear: Zwift Hub ">
+                    Race: 3R Volcano Flat Race - 3 Laps (36.6km/22.7mi 138m) (B) on Vol...
                 </a>
             </td>
         </tr>
             <tr>
             <td align="center">30 s</td>
-            <td align="center">422 <sup><sub>w</sub></sup></td>
-            <td align="center">6.12 <sup><sub>w/kg</sub></sup></td>
+            <td align="center">442 <sup><sub>w</sub></sup></td>
+            <td align="center">6.41 <sup><sub>w/kg</sub></sup></td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: Zwift Hub ">
-                    Race: EVO CC Race Series (C) on Turf N Surf in Makuri Islands
+                <a href="https://www.strava.com/activities/9763146204" title="Kcal: 823 | Gear: Zwift Hub ">
+                    Race: 3R Volcano Flat Race - 3 Laps (36.6km/22.7mi 138m) (B) on Vol...
                 </a>
             </td>
         </tr>
