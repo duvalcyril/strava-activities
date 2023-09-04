@@ -12,6 +12,29 @@
         <th colspan="2">Best 1h</th>
     </tr>
             <tr>
+            <td>04-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9782131381" title="Kcal: 635 | Gear: None ">Watopia Volcano Circuit in...</a>
+            </td>
+                                                                <td align="center">479 <sup><sub>w</sub></sup></td>
+                    <td align="center">6.94 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">478 <sup><sub>w</sub></sup></td>
+                    <td align="center">6.93 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">394 <sup><sub>w</sub></sup></td>
+                    <td align="center">5.71 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">317 <sup><sub>w</sub></sup></td>
+                    <td align="center">4.59 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">253 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.67 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">241 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.49 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">232 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.36 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center"></td>
+                    <td align="center"></td>
+                                    </tr>
+            <tr>
             <td>01-09-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
