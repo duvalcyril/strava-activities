@@ -12,6 +12,29 @@
         <th colspan="2">Best 1h</th>
     </tr>
             <tr>
+            <td>06-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9796786381" title="Kcal: 579 | Gear: None ">Wild Starts in London</a>
+            </td>
+                                                                <td align="center">358 <sup><sub>w</sub></sup></td>
+                    <td align="center">5.19 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">356 <sup><sub>w</sub></sup></td>
+                    <td align="center">5.16 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">355 <sup><sub>w</sub></sup></td>
+                    <td align="center">5.14 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">354 <sup><sub>w</sub></sup></td>
+                    <td align="center">5.13 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">241 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.49 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">231 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.35 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">207 <sup><sub>w</sub></sup></td>
+                    <td align="center">3 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center"></td>
+                    <td align="center"></td>
+                                    </tr>
+            <tr>
             <td>05-09-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
