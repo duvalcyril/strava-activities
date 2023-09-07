@@ -2104,8 +2104,7 @@ I burned `89782 calories` doing so, that's about `333` pizza slices 🍕
         <tr>
         <td align="center"><b>Total</b></td>
         <td align="center"><b>149</b></td>
-        <td align="center"><b>4 214 <sup><sub>km</sub></sup></b></td>
-        <td></td>
+        <td align="center" colspan="2"><b>4 214 <sup><sub>km</sub></sup></b></td>
         <td align="center"><b>37 790 <sup><sub>m</sub></sup></b></td>
         <td align="center"><b>6d 17h 13m</b></td>
         <td align="center"><b>85</b></td>
@@ -2113,8 +2112,7 @@ I burned `89782 calories` doing so, that's about `333` pizza slices 🍕
     <tr>
         <td align="center"><b>On Zwift</b></td>
         <td align="center"><b>88</b></td>
-        <td align="center"><b>2 831 <sup><sub>km</sub></sup></b></td>
-        <td></td>
+        <td align="center" colspan="2"><b>2 831 <sup><sub>km</sub></sup></b></td>
         <td align="center"><b>31 775 <sup><sub>m</sub></sup></b></td>
         <td align="center"><b>4d 3h 52m</b></td>
         <td align="center"><b></b></td>
@@ -2122,8 +2120,7 @@ I burned `89782 calories` doing so, that's about `333` pizza slices 🍕
     <tr>
         <td align="center"><b>Outside</b></td>
         <td align="center"><b>61</b></td>
-        <td align="center"><b>1 383 <sup><sub>km</sub></sup></b></td>
-        <td></td>
+        <td align="center" colspan="2"><b>1 383 <sup><sub>km</sub></sup></b></td>
         <td align="center"><b>6 015 <sup><sub>m</sub></sup></b></td>
         <td align="center"><b>2d 13h 20m</b></td>
         <td align="center"><b></b></td>
