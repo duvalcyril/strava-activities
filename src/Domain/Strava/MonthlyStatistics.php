@@ -3,6 +3,7 @@
 namespace App\Domain\Strava;
 
 use App\Domain\Strava\Activity\Activity;
+use App\Domain\Strava\Activity\ActivityType;
 use App\Domain\Strava\Challenge\Challenge;
 use Carbon\CarbonInterval;
 
@@ -100,11 +101,36 @@ class MonthlyStatistics
 
     public function getTotals(): array
     {
+        return $this->getTotalsForActivities($this->activities);
+    }
+
+    public function getTotalsForOutsideBikeRides(): array
+    {
+        $outsideBikeRides = array_filter(
+            $this->activities,
+            fn (Activity $activity) => ActivityType::RIDE === $activity->getType()
+        );
+
+        return $this->getTotalsForActivities($outsideBikeRides);
+    }
+
+    public function getTotalsForZwift(): array
+    {
+        $virtualRides = array_filter(
+            $this->activities,
+            fn (Activity $activity) => ActivityType::VIRTUAL_RIDE === $activity->getType()
+        );
+
+        return $this->getTotalsForActivities($virtualRides);
+    }
+
+    private function getTotalsForActivities(array $activities): array
+    {
         return [
-            'numberOfRides' => count($this->activities),
-            'totalDistance' => array_sum(array_map(fn (Activity $activity) => $activity->getDistance(), $this->activities)),
-            'totalElevation' => array_sum(array_map(fn (Activity $activity) => $activity->getElevation(), $this->activities)),
-            'movingTime' => CarbonInterval::seconds(array_sum(array_map(fn (Activity $activity) => $activity->getMovingTime(), $this->activities)))->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']),
+            'numberOfRides' => count($activities),
+            'totalDistance' => array_sum(array_map(fn (Activity $activity) => $activity->getDistance(), $activities)),
+            'totalElevation' => array_sum(array_map(fn (Activity $activity) => $activity->getElevation(), $activities)),
+            'movingTime' => CarbonInterval::seconds(array_sum(array_map(fn (Activity $activity) => $activity->getMovingTime(), $activities)))->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']),
             'challengesCompleted' => count($this->challenges),
         ];
     }
