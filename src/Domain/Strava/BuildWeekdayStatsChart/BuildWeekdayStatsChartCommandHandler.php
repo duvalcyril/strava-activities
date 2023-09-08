@@ -26,14 +26,10 @@ class BuildWeekdayStatsChartCommandHandler implements CommandHandler
         $weekdayStatistics = WeekDayStatistics::fromActivities(
             $this->stravaActivityRepository->findAll(),
         );
-        $data = [];
-        foreach ($weekdayStatistics->getRows() as $row) {
-            $data[] = [count($data), $row['percentage'], $row['totalDistance'], $row['movingTime']];
-        }
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart-weekday-stats.json',
             $this->twig->load('strava-weekday-stats-chart.html.twig')->render([
-                'data' => $data,
+                'data' => $weekdayStatistics->getData(),
             ])
         );
     }

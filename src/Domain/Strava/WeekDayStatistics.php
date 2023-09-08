@@ -26,7 +26,7 @@ class WeekDayStatistics
         return new self($activities);
     }
 
-    public function getRows(): array
+    public function getData(): array
     {
         $statistics = [];
 
@@ -34,7 +34,6 @@ class WeekDayStatistics
             $statistics[$weekDay] = [
                 'numberOfRides' => 0,
                 'totalDistance' => 0,
-                'totalElevation' => 0,
                 'movingTime' => 0,
                 'percentage' => 0,
             ];
@@ -45,16 +44,16 @@ class WeekDayStatistics
 
             ++$statistics[$weekDay]['numberOfRides'];
             $statistics[$weekDay]['totalDistance'] += $activity->getDistance();
-            $statistics[$weekDay]['totalElevation'] += $activity->getElevation();
             $statistics[$weekDay]['movingTime'] += $activity->getMovingTime();
             $statistics[$weekDay]['percentage'] = round($statistics[$weekDay]['numberOfRides'] / count($this->activities) * 100);
-            $statistics[$weekDay]['weekDay'] = $activity->getStartDate()->format('l');
         }
 
-        foreach ($statistics as &$statistic) {
-            $statistic['movingTime'] = CarbonInterval::seconds($statistic['movingTime'])->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']);
+        $data = [];
+        foreach ($statistics as $statistic) {
+            $movingTime = CarbonInterval::seconds($statistic['movingTime'])->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']);
+            $data[] = [count($data), $statistic['percentage'], $statistic['totalDistance'], $movingTime];
         }
 
-        return $statistics;
+        return $data;
     }
 }
