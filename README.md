@@ -2138,68 +2138,7 @@ I burned `90623 calories` doing so, that's about `336` pizza slices 🍕
 
 ## Stats per weekday
 
-<table>
-    <thead>
-    <tr>
-        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-        <th># of rides</th>
-        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/distance.svg" width="30" alt="distance" title="distance"/></th>
-        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/elevation.svg" width="30" alt="elevation" title="elevation"/></th>
-        <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/time.svg" width="30" alt="time" title="time"/></th>
-    </tr>
-    </thead>
-    <tbody>
-            <tr>
-            <td align="center">Monday</td>
-            <td align="center">18 <sup><sub>(12%)</sub></sup></td>
-            <td align="center">549 <sup><sub>km</sub></sup></td>
-            <td align="center">5 632 <sup><sub>m</sub></sup></td>
-            <td align="center">19h 54m</td>
-        </tr>
-            <tr>
-            <td align="center">Tuesday</td>
-            <td align="center">21 <sup><sub>(14%)</sub></sup></td>
-            <td align="center">677 <sup><sub>km</sub></sup></td>
-            <td align="center">6 063 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 1h 15m</td>
-        </tr>
-            <tr>
-            <td align="center">Wednesday</td>
-            <td align="center">32 <sup><sub>(21%)</sub></sup></td>
-            <td align="center">890 <sup><sub>km</sub></sup></td>
-            <td align="center">8 060 <sup><sub>m</sub></sup></td>
-            <td align="center">1d 10h 3m</td>
-        </tr>
-            <tr>
-            <td align="center">Thursday</td>
-            <td align="center">18 <sup><sub>(12%)</sub></sup></td>
-            <td align="center">442 <sup><sub>km</sub></sup></td>
-            <td align="center">5 125 <sup><sub>m</sub></sup></td>
-            <td align="center">17h 52m</td>
-        </tr>
-            <tr>
-            <td align="center">Friday</td>
-            <td align="center">20 <sup><sub>(13%)</sub></sup></td>
-            <td align="center">568 <sup><sub>km</sub></sup></td>
-            <td align="center">4 064 <sup><sub>m</sub></sup></td>
-            <td align="center">21h 54m</td>
-        </tr>
-            <tr>
-            <td align="center">Saturday</td>
-            <td align="center">24 <sup><sub>(16%)</sub></sup></td>
-            <td align="center">574 <sup><sub>km</sub></sup></td>
-            <td align="center">4 347 <sup><sub>m</sub></sup></td>
-            <td align="center">22h 31m</td>
-        </tr>
-            <tr>
-            <td align="center">Sunday</td>
-            <td align="center">17 <sup><sub>(11%)</sub></sup></td>
-            <td align="center">563 <sup><sub>km</sub></sup></td>
-            <td align="center">4 873 <sup><sub>m</sub></sup></td>
-            <td align="center">21h 22m</td>
-        </tr>
-        </tbody>
-</table>
+<img src="build/chart-weekday-stats.svg" alt="Weekly distances"/>
 
 ## Stats per bike
 
