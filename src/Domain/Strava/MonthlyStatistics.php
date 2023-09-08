@@ -131,7 +131,6 @@ class MonthlyStatistics
             'totalDistance' => array_sum(array_map(fn (Activity $activity) => $activity->getDistance(), $activities)),
             'totalElevation' => array_sum(array_map(fn (Activity $activity) => $activity->getElevation(), $activities)),
             'movingTime' => CarbonInterval::seconds(array_sum(array_map(fn (Activity $activity) => $activity->getMovingTime(), $activities)))->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']),
-            'challengesCompleted' => count($this->challenges),
         ];
     }
 }

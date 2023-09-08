@@ -67,28 +67,23 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         </tr>
     {% endfor %}
     <tr>
-        <td align="center"><b>Total</b></td>
-        <td align="center"><b>{{ monthlyStatistics.getTotals().numberOfRides }}</b></td>
-        <td align="center" colspan="2"><b>{{ monthlyStatistics.getTotals().totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></b></td>
-        <td align="center"><b>{{ monthlyStatistics.getTotals().totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>{{ monthlyStatistics.getTotals().movingTime }}</b></td>
-        <td align="center"><b>{{ monthlyStatistics.getTotals().challengesCompleted }}</b></td>
-    </tr>
-    <tr>
+        <td align="center" rowspan="3"><b>Totals</b></td>
         <td align="center"><b>On Zwift</b></td>
-        <td align="center"><b>{{ monthlyStatistics.getTotalsForZwift().numberOfRides }}</b></td>
         <td align="center" colspan="2"><b>{{ monthlyStatistics.getTotalsForZwift().totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></b></td>
         <td align="center"><b>{{ monthlyStatistics.getTotalsForZwift().totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>{{ monthlyStatistics.getTotalsForZwift().movingTime }}</b></td>
-        <td align="center"><b></b></td>
+        <td align="center" colspan="2"><b>{{ monthlyStatistics.getTotalsForZwift().movingTime }}</b></td>
     </tr>
     <tr>
         <td align="center"><b>Outside</b></td>
-        <td align="center"><b>{{ monthlyStatistics.getTotalsForOutsideBikeRides().numberOfRides }}</b></td>
         <td align="center" colspan="2"><b>{{ monthlyStatistics.getTotalsForOutsideBikeRides().totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></b></td>
         <td align="center"><b>{{ monthlyStatistics.getTotalsForOutsideBikeRides().totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>{{ monthlyStatistics.getTotalsForOutsideBikeRides().movingTime }}</b></td>
-        <td align="center"><b></b></td>
+        <td align="center" colspan="2"><b>{{ monthlyStatistics.getTotalsForOutsideBikeRides().movingTime }}</b></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Total</b></td>
+        <td align="center" colspan="2"><b>{{ monthlyStatistics.getTotals().totalDistance|number_format(0, '.', ' ') }} <sup><sub>km</sub></sup></b></td>
+        <td align="center"><b>{{ monthlyStatistics.getTotals().totalElevation|number_format(0, '.', ' ') }} <sup><sub>m</sub></sup></b></td>
+        <td align="center" colspan="2"><b>{{ monthlyStatistics.getTotals().movingTime }}</b></td>
     </tr>
     </tbody>
 </table>
