@@ -3,7 +3,7 @@
          alt="Strava">
 </p>
 
-Since I began cycling `164 days` ago on `27-03-2023`,
+Since I began cycling `165 days` ago on `27-03-2023`,
 I had `118 cycling days`.<br />
 I recorded a total distance of `4 263 km`,
 an elevation of `38 164 m`
@@ -2115,28 +2115,23 @@ I burned `90623 calories` doing so, that's about `336` pizza slices 🍕
             <td align="center">0</td>
         </tr>
         <tr>
-        <td align="center"><b>Total</b></td>
-        <td align="center"><b>150</b></td>
-        <td align="center" colspan="2"><b>4 263 <sup><sub>km</sub></sup></b></td>
-        <td align="center"><b>38 164 <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>6d 18h 53m</b></td>
-        <td align="center"><b>86</b></td>
-    </tr>
-    <tr>
+        <td align="center" rowspan="3"><b>Totals</b></td>
         <td align="center"><b>On Zwift</b></td>
-        <td align="center"><b>89</b></td>
         <td align="center" colspan="2"><b>2 880 <sup><sub>km</sub></sup></b></td>
         <td align="center"><b>32 149 <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>4d 5h 33m</b></td>
-        <td align="center"><b></b></td>
+        <td align="center" colspan="2"><b>4d 5h 33m</b></td>
     </tr>
     <tr>
         <td align="center"><b>Outside</b></td>
-        <td align="center"><b>61</b></td>
         <td align="center" colspan="2"><b>1 383 <sup><sub>km</sub></sup></b></td>
         <td align="center"><b>6 015 <sup><sub>m</sub></sup></b></td>
-        <td align="center"><b>2d 13h 20m</b></td>
-        <td align="center"><b></b></td>
+        <td align="center" colspan="2"><b>2d 13h 20m</b></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Total</b></td>
+        <td align="center" colspan="2"><b>4 263 <sup><sub>km</sub></sup></b></td>
+        <td align="center"><b>38 164 <sup><sub>m</sub></sup></b></td>
+        <td align="center" colspan="2"><b>6d 18h 53m</b></td>
     </tr>
     </tbody>
 </table>
