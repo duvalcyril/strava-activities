@@ -34,7 +34,7 @@ jobs:
           
           bin/console app:strava:import-activity
           bin/console app:strava:build-files
-      - name: Generate chart
+      - name: Generate weekly chart
         id: chart
         uses: robiningelbrecht/apache-echarts-action@v1.1.0
         with:
@@ -42,10 +42,21 @@ jobs:
           height: 300
           pass-options-as: file
           chart-option: 'build/chart.json'
+      - name: Generate weekday chart
+        id: chart_weekday
+        uses: robiningelbrecht/apache-echarts-action@v1.1.0
+        with:
+          width: 1000
+          height: 300
+          pass-options-as: file
+          chart-option: 'build/chart-weekday-stats.json'
       - name: Save generated charts
         run: |
           cat <<EOF > build/chart.svg
           ${{ steps.chart.outputs.svg }}
+          EOF
+          cat <<EOF > build/chart-weekday-stats.svg
+          ${{ steps.chart_weekday.outputs.svg }}
           EOF
       - name: Commit and push changes
         run: |

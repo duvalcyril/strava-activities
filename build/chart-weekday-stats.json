@@ -1,0 +1,91 @@
+    {
+    "animation": false,
+    "grid": {
+    "left": "3%",
+    "right": "4%",
+    "bottom": "3%",
+    "containLabel": true
+    },
+    "xAxis": {
+    "type": "category",
+    "data": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+    ]
+    },
+    "yAxis": {
+    "type": "value",
+    "splitLine": {
+    "show": false
+    },
+    "axisLabel": {
+    "show": false
+    }
+    },
+    "series": [
+    {
+    "type": "bar",
+    "label": {
+    "show": true,
+    "position": "inside",
+    "formatter": "{@[1]} rides\n{@[2]} km\n{@[3]}"
+    },
+    "showBackground": true,
+    "itemStyle": {
+    "color": "#E34902"
+    },
+    "backgroundStyle": {
+    "color": "rgba(227, 73, 2, 0.3)"
+    },
+    "data": [
+    [
+        0,
+        12,
+        549,
+        "19h 54m"
+    ],
+    [
+        1,
+        14,
+        677,
+        "1d 1h 15m"
+    ],
+    [
+        2,
+        21,
+        890,
+        "1d 10h 3m"
+    ],
+    [
+        3,
+        12,
+        442,
+        "17h 52m"
+    ],
+    [
+        4,
+        13,
+        568,
+        "21h 54m"
+    ],
+    [
+        5,
+        16,
+        574,
+        "22h 31m"
+    ],
+    [
+        6,
+        11,
+        563,
+        "21h 22m"
+    ]
+]
+    }
+    ]
+    }
