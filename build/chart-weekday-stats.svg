@@ -1,0 +1,54 @@
+<svg width="1000" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1000 300">
+<rect width="1000" height="300" x="0" y="0" id="0" fill="none"></rect>
+<path d="M30 271.5L960 271.5" fill="none" stroke="#6E7079" stroke-linecap="round"></path>
+<path d="M30.5 271L30.5 276" fill="none" stroke="#6E7079"></path>
+<path d="M163.5 271L163.5 276" fill="none" stroke="#6E7079"></path>
+<path d="M295.5 271L295.5 276" fill="none" stroke="#6E7079"></path>
+<path d="M428.5 271L428.5 276" fill="none" stroke="#6E7079"></path>
+<path d="M561.5 271L561.5 276" fill="none" stroke="#6E7079"></path>
+<path d="M694.5 271L694.5 276" fill="none" stroke="#6E7079"></path>
+<path d="M827.5 271L827.5 276" fill="none" stroke="#6E7079"></path>
+<path d="M960.5 271L960.5 276" fill="none" stroke="#6E7079"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(96.4286 279)" fill="#6E7079">Mon</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(229.2857 279)" fill="#6E7079">Tue</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(362.1429 279)" fill="#6E7079">Wed</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(495 279)" fill="#6E7079">Thu</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(627.8571 279)" fill="#6E7079">Fri</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(760.7143 279)" fill="#6E7079">Sat</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" y="6" transform="translate(893.5714 279)" fill="#6E7079">Sun</text>
+<path d="M50.6 60l91.7 0l0 211l-91.7 0Z" fill="rgb(227,73,2)" fill-opacity="0.3"></path>
+<path d="M183.5 60l91.7 0l0 211l-91.7 0Z" fill="rgb(227,73,2)" fill-opacity="0.3"></path>
+<path d="M316.3 60l91.7 0l0 211l-91.7 0Z" fill="rgb(227,73,2)" fill-opacity="0.3"></path>
+<path d="M449.2 60l91.7 0l0 211l-91.7 0Z" fill="rgb(227,73,2)" fill-opacity="0.3"></path>
+<path d="M582 60l91.7 0l0 211l-91.7 0Z" fill="rgb(227,73,2)" fill-opacity="0.3"></path>
+<path d="M714.9 60l91.7 0l0 211l-91.7 0Z" fill="rgb(227,73,2)" fill-opacity="0.3"></path>
+<path d="M847.7 60l91.7 0l0 211l-91.7 0Z" fill="rgb(227,73,2)" fill-opacity="0.3"></path>
+<path d="M50.6 271l91.7 0l0 -101.3l-91.7 0Z" fill="#E34902"></path>
+<path d="M183.5 271l91.7 0l0 -118.2l-91.7 0Z" fill="#E34902"></path>
+<path d="M316.3 271l91.7 0l0 -177.2l-91.7 0Z" fill="#E34902"></path>
+<path d="M449.2 271l91.7 0l0 -101.3l-91.7 0Z" fill="#E34902"></path>
+<path d="M582 271l91.7 0l0 -109.7l-91.7 0Z" fill="#E34902"></path>
+<path d="M714.9 271l91.7 0l0 -135l-91.7 0Z" fill="#E34902"></path>
+<path d="M847.7 271l91.7 0l0 -92.8l-91.7 0Z" fill="#E34902"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="-12" transform="translate(96.4286 220.36)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">12 rides</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(96.4286 220.36)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">549 km</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="12" transform="translate(96.4286 220.36)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">19h 54m</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="-12" transform="translate(229.2857 211.92)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">14 rides</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(229.2857 211.92)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">677 km</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="12" transform="translate(229.2857 211.92)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1d 1h 15m</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="-12" transform="translate(362.1429 182.38)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">21 rides</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(362.1429 182.38)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">890 km</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="12" transform="translate(362.1429 182.38)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1d 10h 3m</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="-12" transform="translate(495 220.36)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">12 rides</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(495 220.36)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">442 km</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="12" transform="translate(495 220.36)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">17h 52m</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="-12" transform="translate(627.8571 216.14)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">13 rides</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(627.8571 216.14)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">568 km</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="12" transform="translate(627.8571 216.14)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">21h 54m</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="-12" transform="translate(760.7143 203.48)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">16 rides</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(760.7143 203.48)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">574 km</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="12" transform="translate(760.7143 203.48)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">22h 31m</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="-12" transform="translate(893.5714 224.58)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">11 rides</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" transform="translate(893.5714 224.58)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">563 km</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:sans-serif;" xml:space="preserve" y="12" transform="translate(893.5714 224.58)" fill="#eee" stroke="#E34902" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">21h 22m</text>
+</svg>
