@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>10-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9822700346" title="Kcal: 508 | Gear: None ">Toeristen ritje</a>
+            </td>
+            <td align="center">17 <sup><sub>km</sub></sup></td>
+            <td align="center">23 <sup><sub>m</sub></sup></td>
+            <td align="center">53:18</td>
+            <td align="center">60 <sup><sub>w</sub></sup></td>
+            <td align="center">18.7 <sup><sub>km/h</sub></sup></td>
+            <td align="center">131</td>
+        </tr>
+            <tr>
+            <td>10-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9819926260" title="Kcal: 1684 | Gear: None ">Morning Ride</a>
+            </td>
+            <td align="center">64 <sup><sub>km</sub></sup></td>
+            <td align="center">127 <sup><sub>m</sub></sup></td>
+            <td align="center">2:13:29</td>
+            <td align="center">142 <sup><sub>w</sub></sup></td>
+            <td align="center">28.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">157</td>
+        </tr>
+            <tr>
             <td>07-09-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
@@ -47,32 +73,6 @@
             <td align="center">146 <sup><sub>w</sub></sup></td>
             <td align="center">29.5 <sup><sub>km/h</sub></sup></td>
             <td align="center">136</td>
-        </tr>
-            <tr>
-            <td>04-09-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9782131381" title="Kcal: 635 | Gear: None ">Watopia Volcano Circuit in...</a>
-            </td>
-            <td align="center">32 <sup><sub>km</sub></sup></td>
-            <td align="center">161 <sup><sub>m</sub></sup></td>
-            <td align="center">53:12</td>
-            <td align="center">208 <sup><sub>w</sub></sup></td>
-            <td align="center">36 <sup><sub>km/h</sub></sup></td>
-            <td align="center">155</td>
-        </tr>
-            <tr>
-            <td>03-09-23</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
-                <a href="https://www.strava.com/activities/9773726264" title="Kcal: 1493 | Gear: None ">Broederlijk ritje</a>
-            </td>
-            <td align="center">60 <sup><sub>km</sub></sup></td>
-            <td align="center">46 <sup><sub>m</sub></sup></td>
-            <td align="center">2:04:38</td>
-            <td align="center">143 <sup><sub>w</sub></sup></td>
-            <td align="center">29.1 <sup><sub>km/h</sub></sup></td>
-            <td align="center">151</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
