@@ -37,25 +37,39 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
                 'tooltip' => [
                 ],
                 'visualMap' => [
-                    'show' => false,
-                    'min' => 0,
-                    'max' => 2,
                     'type' => 'piecewise',
-                    'pieces' => [ // @todo: fix ranges
+                    'left' => 'center',
+                    'top' => 0,
+                    'orient' => 'horizontal',
+                    'pieces' => [
                         [
                             'min' => 0,
                             'max' => 0,
                             'color' => '#cdd9e5',
+                            'label' => 'No activities',
                         ],
                         [
                             'min' => 1,
-                            'max' => 1,
-                            'color' => '#006d32',
+                            'max' => 75,
+                            'color' => '#0e4429',
+                            'label' => 'Low',
                         ],
                         [
-                            'min' => 2,
-                            'max' => 2,
+                            'min' => 76,
+                            'max' => 125,
+                            'color' => '#006d32',
+                            'label' => 'Medium',
+                        ],
+                        [
+                            'min' => 126,
+                            'max' => 200,
+                            'color' => '#26a641',
+                            'label' => 'High',
+                        ],
+                        [
+                            'min' => 200,
                             'color' => '#39d353',
+                            'label' => 'Very high',
                         ],
                     ],
                 ],

@@ -7,25 +7,39 @@
     },
     "tooltip": [],
     "visualMap": {
-        "show": false,
-        "min": 0,
-        "max": 2,
         "type": "piecewise",
+        "left": "center",
+        "top": 0,
+        "orient": "horizontal",
         "pieces": [
             {
                 "min": 0,
                 "max": 0,
-                "color": "#cdd9e5"
+                "color": "#cdd9e5",
+                "label": "No activities"
             },
             {
                 "min": 1,
-                "max": 1,
-                "color": "#006d32"
+                "max": 75,
+                "color": "#0e4429",
+                "label": "Low"
             },
             {
-                "min": 2,
-                "max": 2,
-                "color": "#39d353"
+                "min": 76,
+                "max": 125,
+                "color": "#006d32",
+                "label": "Medium"
+            },
+            {
+                "min": 126,
+                "max": 200,
+                "color": "#26a641",
+                "label": "High"
+            },
+            {
+                "min": 200,
+                "color": "#39d353",
+                "label": "Very high"
             }
         ]
     },
@@ -443,7 +457,7 @@
             ],
             [
                 "2023-04-05",
-                14.5
+                15
             ],
             [
                 "2023-04-06",
@@ -843,7 +857,7 @@
             ],
             [
                 "2023-07-14",
-                64.5
+                65
             ],
             [
                 "2023-07-15",
@@ -891,7 +905,7 @@
             ],
             [
                 "2023-07-26",
-                86.5
+                87
             ],
             [
                 "2023-07-27",
