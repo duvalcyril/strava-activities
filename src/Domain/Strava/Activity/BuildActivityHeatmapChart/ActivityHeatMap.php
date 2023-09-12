@@ -37,7 +37,7 @@ final readonly class ActivityHeatMap
                 continue;
             }
 
-            $data[] = [$day, round(array_sum($rawData[$day]) / count($rawData[$day]))];
+            $data[] = [$day, array_sum($rawData[$day])];
         }
 
         return $data;
