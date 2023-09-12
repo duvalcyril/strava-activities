@@ -5,10 +5,10 @@ namespace App\Domain\Strava\Gear;
 use App\Infrastructure\Exception\EntityNotFound;
 use SleekDB\Store;
 
-class StravaGearRepository
+final readonly class StravaGearRepository
 {
     public function __construct(
-        private readonly Store $store
+        private Store $store
     ) {
     }
 

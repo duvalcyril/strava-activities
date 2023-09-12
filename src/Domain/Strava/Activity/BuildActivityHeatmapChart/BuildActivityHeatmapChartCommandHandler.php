@@ -7,10 +7,16 @@ use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Environment\Settings;
 use App\Infrastructure\Serialization\Json;
+use Lcobucci\Clock\Clock;
 
 #[AsCommandHandler]
-class BuildActivityHeatmapChartCommandHandler implements CommandHandler
+final readonly class BuildActivityHeatmapChartCommandHandler implements CommandHandler
 {
+    public function __construct(
+        private Clock $clock
+    ) {
+    }
+
     public function handle(DomainCommand $command): void
     {
         assert($command instanceof BuildActivityHeatmapChart);
@@ -55,7 +61,7 @@ class BuildActivityHeatmapChartCommandHandler implements CommandHandler
                         'auto',
                         13,
                     ],
-                    'range' => '2016', // @TODO: fix
+                    'range' => $this->clock->now()->format('Y'),
                     'itemStyle' => [
                         'borderWidth' => 3,
                         'opacity' => 0,

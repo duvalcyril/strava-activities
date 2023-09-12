@@ -11,10 +11,10 @@ use App\Infrastructure\Environment\Settings;
 use App\Infrastructure\Serialization\Json;
 
 #[AsCommandHandler]
-class BuildWeekdayStatsChartCommandHandler implements CommandHandler
+final readonly class BuildWeekdayStatsChartCommandHandler implements CommandHandler
 {
     public function __construct(
-        private readonly StravaActivityRepository $stravaActivityRepository,
+        private StravaActivityRepository $stravaActivityRepository,
     ) {
     }
 

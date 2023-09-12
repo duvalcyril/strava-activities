@@ -4,11 +4,11 @@ namespace App\Domain\Strava;
 
 use Carbon\CarbonInterval;
 
-class PowerOutputs
+final readonly class PowerOutputs
 {
     private function __construct(
         /** @var \App\Domain\Strava\Activity\Activity[] */
-        private readonly array $activities,
+        private array $activities,
     ) {
     }
 

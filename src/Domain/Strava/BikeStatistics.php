@@ -6,13 +6,13 @@ use App\Domain\Strava\Activity\Activity;
 use App\Domain\Strava\Gear\Gear;
 use Carbon\CarbonInterval;
 
-class BikeStatistics
+final readonly class BikeStatistics
 {
     private function __construct(
         /** @var \App\Domain\Strava\Activity\Activity[] */
-        private readonly array $activities,
+        private array $activities,
         /** @var \App\Domain\Strava\Gear\Gear[] */
-        private readonly array $bikes,
+        private array $bikes,
     ) {
     }
 

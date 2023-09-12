@@ -14,13 +14,13 @@ use League\Flysystem\Filesystem;
 use Ramsey\Uuid\Rfc4122\UuidV5;
 
 #[AsCommandHandler]
-class ImportChallengesCommandHandler implements CommandHandler
+final readonly class ImportChallengesCommandHandler implements CommandHandler
 {
     public function __construct(
-        private readonly Strava $strava,
-        private readonly StravaChallengeRepository $stravaChallengeRepository,
-        private readonly Filesystem $filesystem,
-        private readonly Clock $clock
+        private Strava $strava,
+        private StravaChallengeRepository $stravaChallengeRepository,
+        private Filesystem $filesystem,
+        private Clock $clock
     ) {
     }
 

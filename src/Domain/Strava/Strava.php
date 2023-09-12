@@ -7,13 +7,13 @@ use App\Infrastructure\Serialization\Json;
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
 
-final class Strava
+final readonly class Strava
 {
     public function __construct(
-        private readonly Client $client,
-        private readonly StravaClientId $stravaClientId,
-        private readonly StravaClientSecret $stravaClientSecret,
-        private readonly StravaRefreshToken $stravaRefreshToken,
+        private Client $client,
+        private StravaClientId $stravaClientId,
+        private StravaClientSecret $stravaClientSecret,
+        private StravaRefreshToken $stravaRefreshToken,
     ) {
     }
 

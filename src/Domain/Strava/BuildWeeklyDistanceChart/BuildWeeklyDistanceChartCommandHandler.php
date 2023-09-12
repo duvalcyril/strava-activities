@@ -12,11 +12,11 @@ use App\Infrastructure\Serialization\Json;
 use Lcobucci\Clock\Clock;
 
 #[AsCommandHandler]
-class BuildWeeklyDistanceChartCommandHandler implements CommandHandler
+final readonly class BuildWeeklyDistanceChartCommandHandler implements CommandHandler
 {
     public function __construct(
-        private readonly StravaActivityRepository $stravaActivityRepository,
-        private readonly Clock $clock,
+        private StravaActivityRepository $stravaActivityRepository,
+        private Clock $clock,
     ) {
     }
 

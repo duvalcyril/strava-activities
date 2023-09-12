@@ -13,11 +13,11 @@ use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Exception\EntityNotFound;
 
 #[AsCommandHandler]
-class ImportActivitiesCommandHandler implements CommandHandler
+final readonly class ImportActivitiesCommandHandler implements CommandHandler
 {
     public function __construct(
-        private readonly Strava $strava,
-        private readonly StravaActivityRepository $stravaActivityRepository,
+        private Strava $strava,
+        private StravaActivityRepository $stravaActivityRepository,
     ) {
     }
 

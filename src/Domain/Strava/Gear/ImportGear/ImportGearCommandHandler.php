@@ -14,13 +14,13 @@ use App\Infrastructure\Exception\EntityNotFound;
 use Lcobucci\Clock\Clock;
 
 #[AsCommandHandler]
-class ImportGearCommandHandler implements CommandHandler
+final readonly class ImportGearCommandHandler implements CommandHandler
 {
     public function __construct(
-        private readonly Strava $strava,
-        private readonly StravaActivityRepository $stravaActivityRepository,
-        private readonly StravaGearRepository $stravaGearRepository,
-        private readonly Clock $clock
+        private Strava $strava,
+        private StravaActivityRepository $stravaActivityRepository,
+        private StravaGearRepository $stravaGearRepository,
+        private Clock $clock
     ) {
     }
 

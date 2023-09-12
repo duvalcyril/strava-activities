@@ -5,10 +5,10 @@ namespace App\Domain\Strava\Challenge;
 use App\Infrastructure\Exception\EntityNotFound;
 use SleekDB\Store;
 
-class StravaChallengeRepository
+final readonly class StravaChallengeRepository
 {
     public function __construct(
-        private readonly Store $store
+        private Store $store
     ) {
     }
 

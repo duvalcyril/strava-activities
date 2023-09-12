@@ -18,14 +18,14 @@ use Lcobucci\Clock\Clock;
 use Twig\Environment;
 
 #[AsCommandHandler]
-class BuildReadMeCommandHandler implements CommandHandler
+final readonly class BuildReadMeCommandHandler implements CommandHandler
 {
     public function __construct(
-        private readonly StravaActivityRepository $stravaActivityRepository,
-        private readonly StravaChallengeRepository $stravaChallengeRepository,
-        private readonly StravaGearRepository $stravaGearRepository,
-        private readonly Environment $twig,
-        private readonly Clock $clock,
+        private StravaActivityRepository $stravaActivityRepository,
+        private StravaChallengeRepository $stravaChallengeRepository,
+        private StravaGearRepository $stravaGearRepository,
+        private Environment $twig,
+        private Clock $clock,
     ) {
     }
 

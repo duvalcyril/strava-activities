@@ -10,11 +10,11 @@ use App\Infrastructure\Environment\Settings;
 use Twig\Environment;
 
 #[AsCommandHandler]
-class BuildActivityPowerOutputsCommandHandler implements CommandHandler
+final readonly class BuildActivityPowerOutputsCommandHandler implements CommandHandler
 {
     public function __construct(
-        private readonly StravaActivityRepository $stravaActivityRepository,
-        private readonly Environment $twig,
+        private StravaActivityRepository $stravaActivityRepository,
+        private Environment $twig,
     ) {
     }
 
