@@ -120,12 +120,38 @@ final class Strava
     public function getChallenges(int $athleteId): array
     {
         $contents = $this->request('athletes/'.$athleteId);
-        if (!preg_match('/data-react-class=\'AthleteProfileApp[\S]*\'[\s]+data-react-props=\'(?<profile>.*?)\'/', $contents, $matches)) {
+        if (!preg_match_all('/<li class="Trophies_listItem[\S]*">(?<matches>[[\s\S]*)<\/li>/U', $contents, $matches)) {
             throw new \RuntimeException('Could not fetch Strava challenges');
         }
 
-        return Json::decode(html_entity_decode($matches['profile'] ?? '[]'))['athleteData']['trophies'] ??
-            throw new \RuntimeException('Could not fetch Strava challenges');
+        $challenges = [];
+        foreach ($matches['matches'] as $match) {
+            if (!preg_match('/<h4>(?<match>.*?)<\/h4>/U', $match, $challengeName)) {
+                throw new \RuntimeException('Could not fetch Strava challenge name');
+            }
+            if (!preg_match('/<a href="[\S]*" title="(?<match>.*?)" class="[\S]*"[\s\S]*\/>/U', $match, $teaser)) {
+                throw new \RuntimeException('Could not fetch Strava challenge teaser');
+            }
+            if (!preg_match('/<img src="(?<match>.*?)" alt="[\s\S]*"[\s\S]*\/>/U', $match, $logoUrl)) {
+                throw new \RuntimeException('Could not fetch Strava challenge logoUrl');
+            }
+            if (!preg_match('/<a href="\/challenges\/(?<match>.*?)" title="[\s\S]*"[\s\S]*>/U', $match, $url)) {
+                throw new \RuntimeException('Could not fetch Strava challenge url');
+            }
+            if (!preg_match('/<img src="https[\S]+\/challenges\/(?<match>.*?)\/[\S]+.png" alt="[\s\S]*"[\s\S]*\/>/U', $match, $challengeId)) {
+                throw new \RuntimeException('Could not fetch Strava challenge challengeId');
+            }
+
+            $challenges[] = [
+                'name' => $challengeName['match'],
+                'teaser' => $teaser['match'],
+                'logo_url' => $logoUrl['match'],
+                'url' => $url['match'],
+                'challenge_id' => $challengeId['match'],
+            ];
+        }
+
+        return $challenges;
     }
 
     public function downloadImage($uri): string
