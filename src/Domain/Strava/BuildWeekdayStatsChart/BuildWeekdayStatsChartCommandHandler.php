@@ -8,14 +8,13 @@ use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Environment\Settings;
-use Twig\Environment;
+use App\Infrastructure\Serialization\Json;
 
 #[AsCommandHandler]
 class BuildWeekdayStatsChartCommandHandler implements CommandHandler
 {
     public function __construct(
         private readonly StravaActivityRepository $stravaActivityRepository,
-        private readonly Environment $twig,
     ) {
     }
 
@@ -28,9 +27,54 @@ class BuildWeekdayStatsChartCommandHandler implements CommandHandler
         );
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart-weekday-stats.json',
-            $this->twig->load('strava-weekday-stats-chart.html.twig')->render([
-                'data' => $weekdayStatistics->getData(),
-            ])
+            Json::encode([
+                'animation' => false,
+                'grid' => [
+                    'left' => '3%',
+                    'right' => '4%',
+                    'bottom' => '3%',
+                    'containLabel' => true,
+                ],
+                'xAxis' => [
+                    'type' => 'category',
+                    'data' => [
+                        'Mon',
+                        'Tue',
+                        'Wed',
+                        'Thu',
+                        'Fri',
+                        'Sat',
+                        'Sun',
+                    ],
+                ],
+                'yAxis' => [
+                    'type' => 'value',
+                    'splitLine' => [
+                        'show' => false,
+                    ],
+                    'axisLabel' => [
+                        'show' => false,
+                    ],
+                ],
+                'series' => [
+                    [
+                        'type' => 'bar',
+                        'label' => [
+                            'show' => true,
+                            'position' => 'inside',
+                            'formatter' => "{@[1]} rides\n{@[2]} km\n{@[3]}",
+                        ],
+                        'showBackground' => true,
+                        'itemStyle' => [
+                            'color' => '#E34902',
+                        ],
+                        'backgroundStyle' => [
+                            'color' => 'rgba(227, 73, 2, 0.3)',
+                        ],
+                        'data' => $weekdayStatistics->getData(),
+                    ],
+                ],
+            ], JSON_PRETTY_PRINT),
         );
     }
 }
