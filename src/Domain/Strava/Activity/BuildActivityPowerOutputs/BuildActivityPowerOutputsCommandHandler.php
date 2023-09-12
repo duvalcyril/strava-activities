@@ -25,7 +25,7 @@ final readonly class BuildActivityPowerOutputsCommandHandler implements CommandH
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/strava-activities-power-outputs.md',
             $this->twig->load('strava-activities-power-outputs.html.twig')->render([
-                'activities' => $this->stravaActivityRepository->findAllWithPower(),
+                'activities' => $this->stravaActivityRepository->findWithPower(),
             ])
         );
     }

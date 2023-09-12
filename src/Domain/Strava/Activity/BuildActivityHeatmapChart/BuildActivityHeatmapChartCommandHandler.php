@@ -2,6 +2,7 @@
 
 namespace App\Domain\Strava\Activity\BuildActivityHeatmapChart;
 
+use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
@@ -13,6 +14,7 @@ use Lcobucci\Clock\Clock;
 final readonly class BuildActivityHeatmapChartCommandHandler implements CommandHandler
 {
     public function __construct(
+        private StravaActivityRepository $stravaActivityRepository,
         private Clock $clock
     ) {
     }
@@ -20,6 +22,8 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
     public function handle(DomainCommand $command): void
     {
         assert($command instanceof BuildActivityHeatmapChart);
+
+        $year = (int) $this->clock->now()->format('Y');
 
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart-activities-heatmap.json',
@@ -61,7 +65,7 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
                         'auto',
                         13,
                     ],
-                    'range' => $this->clock->now()->format('Y'),
+                    'range' => $year,
                     'itemStyle' => [
                         'borderWidth' => 3,
                         'opacity' => 0,
@@ -90,8 +94,9 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
                 'series' => [
                     'type' => 'heatmap',
                     'coordinateSystem' => 'calendar',
-                    'data' => [
-                    ],
+                    'data' => ActivityHeatMap::fromActivities(
+                        $this->stravaActivityRepository->findByYear($year)
+                    )->getData($year),
                 ],
             ], JSON_PRETTY_PRINT),
         );

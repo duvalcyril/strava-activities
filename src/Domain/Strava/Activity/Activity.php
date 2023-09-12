@@ -7,6 +7,7 @@ use Carbon\CarbonInterval;
 
 class Activity implements \JsonSerializable
 {
+    public const DATE_TIME_FORMAT = 'Y-m-d\TH:i:s\Z';
     private ?string $gearName;
     private array $bestAveragePowerForTimeIntervals = [];
 
@@ -19,7 +20,7 @@ class Activity implements \JsonSerializable
     public static function create(array $data): self
     {
         $data['start_date_timestamp'] = \DateTimeImmutable::createFromFormat(
-            'Y-m-d\TH:i:s\Z',
+            self::DATE_TIME_FORMAT,
             $data['start_date']
         )->getTimestamp();
 
@@ -182,6 +183,16 @@ class Activity implements \JsonSerializable
         }
 
         return $bestSequence;
+    }
+
+    public function getIntensity(): ?int
+    {
+        // ((durationInSeconds * avgHeartRate) / (FTP * 3600)) * 100
+        if (!$this->getAverageHeartRate()) {
+            return null;
+        }
+
+        return round(($this->getMovingTime() * $this->getAverageHeartRate()) / (240 * 3600) * 100);
     }
 
     public function getAthleteWeight(): Weight

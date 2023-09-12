@@ -26,14 +26,28 @@ readonly class StravaActivityRepository
     /**
      * @return \App\Domain\Strava\Activity\Activity[]
      */
-    public function findAllWithPower(): array
+    public function findWithPower(): array
     {
         return array_map(
             fn (array $row) => Activity::fromMap($row),
             $this->store->findBy([
-                function ($row) {
-                    return !empty($row['streams'][StreamType::WATTS->value][0]['data']);
-                },
+                fn ($row) => !empty($row['streams'][StreamType::WATTS->value][0]['data']),
+            ], ['start_date_timestamp' => 'desc'])
+        );
+    }
+
+    /**
+     * @return \App\Domain\Strava\Activity\Activity[]
+     */
+    public function findByYear(int $year): array
+    {
+        return array_map(
+            fn (array $row) => Activity::fromMap($row),
+            $this->store->findBy([
+                fn ($row) => (int) \DateTimeImmutable::createFromFormat(
+                    Activity::DATE_TIME_FORMAT,
+                    $row['start_date']
+                )->format('Y') === $year,
             ], ['start_date_timestamp' => 'desc'])
         );
     }
