@@ -41,7 +41,7 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
                     'min' => 0,
                     'max' => 2,
                     'type' => 'piecewise',
-                    'pieces' => [
+                    'pieces' => [ // @todo: fix ranges
                         [
                             'min' => 0,
                             'max' => 0,
