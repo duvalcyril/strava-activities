@@ -12,6 +12,29 @@
         <th colspan="2">Best 1h</th>
     </tr>
             <tr>
+            <td>12-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9835896245" title="Kcal: 441 | Gear: None ">Fast and Easy in Makuri Is...</a>
+            </td>
+                                                                <td align="center">158 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.29 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">156 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.26 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">156 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.26 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">155 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.25 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">155 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.25 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">155 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.25 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">155 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.25 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center"></td>
+                    <td align="center"></td>
+                                    </tr>
+            <tr>
             <td>11-09-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
