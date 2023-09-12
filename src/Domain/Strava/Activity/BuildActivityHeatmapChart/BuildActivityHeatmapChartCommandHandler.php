@@ -51,24 +51,24 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
                         [
                             'min' => 1,
                             'max' => 75,
-                            'color' => '#0e4429',
+                            'color' => '#68B34B',
                             'label' => 'Low',
                         ],
                         [
                             'min' => 76,
                             'max' => 125,
-                            'color' => '#006d32',
+                            'color' => '#FAB735',
                             'label' => 'Medium',
                         ],
                         [
                             'min' => 126,
                             'max' => 200,
-                            'color' => '#26a641',
+                            'color' => '#FF8E14',
                             'label' => 'High',
                         ],
                         [
                             'min' => 200,
-                            'color' => '#39d353',
+                            'color' => '#FF0C0C',
                             'label' => 'Very high',
                         ],
                     ],

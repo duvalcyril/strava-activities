@@ -19,7 +19,11 @@ final readonly class ActivityHeatMap
             }
 
             $day = $activity->getStartDate()->format('Y-m-d');
-            $rawData[$day][] = $intensity;
+            if (!array_key_exists($day, $rawData)) {
+                $rawData[$day] = 0;
+            }
+
+            $rawData[$day] += $intensity;
         }
 
         $interval = \DateInterval::createFromDateString('1 day');
@@ -37,7 +41,7 @@ final readonly class ActivityHeatMap
                 continue;
             }
 
-            $data[] = [$day, array_sum($rawData[$day])];
+            $data[] = [$day, $rawData[$day]];
         }
 
         return $data;
