@@ -28,7 +28,7 @@ final readonly class ImportChallengesCommandHandler implements CommandHandler
     {
         assert($command instanceof ImportChallenges);
 
-        foreach ($this->strava->getChallenges(62214940) ?? [] as $challengeData) {
+        foreach ($this->strava->getChallenges() ?? [] as $challengeData) {
             try {
                 $this->stravaChallengeRepository->findOneBy($challengeData['challenge_id']);
             } catch (EntityNotFound) {

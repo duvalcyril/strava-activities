@@ -32,7 +32,7 @@ jobs:
           echo STRAVA_CLIENT_SECRET=${{ secrets.STRAVA_CLIENT_SECRET }} >> .env
           echo STRAVA_REFRESH_TOKEN=${{ secrets.STRAVA_REFRESH_TOKEN }} >> .env
           
-          bin/console app:strava:import-activity
+          bin/console app:strava:import-data
           bin/console app:strava:build-files
       - name: Generate weekly chart
         id: chart

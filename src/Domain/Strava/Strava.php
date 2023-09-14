@@ -117,8 +117,9 @@ final readonly class Strava
         ]));
     }
 
-    public function getChallenges(int $athleteId): array
+    public function getChallenges(): array
     {
+        $athleteId = $this->getAthlete()['id'];
         $contents = $this->request('athletes/'.$athleteId);
         if (!preg_match_all('/<li class="Trophies_listItem[\S]*">(?<matches>[[\s\S]*)<\/li>/U', $contents, $matches)) {
             throw new \RuntimeException('Could not fetch Strava challenges');
