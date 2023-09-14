@@ -50,6 +50,14 @@ jobs:
           height: 300
           pass-options-as: file
           chart-option: 'build/chart-weekday-stats.json'
+      - name: Generate yearly heatmap chart
+        id: chart_activities_heatmap
+        uses: robiningelbrecht/apache-echarts-action@v1.1.0
+        with:
+          width: 1000
+          height: 300
+          pass-options-as: file
+          chart-option: 'build/chart-activities-heatmap.json'
       - name: Save generated charts
         run: |
           cat <<EOF > build/chart.svg
@@ -57,6 +65,9 @@ jobs:
           EOF
           cat <<EOF > build/chart-weekday-stats.svg
           ${{ steps.chart_weekday.outputs.svg }}
+          EOF
+          cat <<EOF > build/chart-activities-heatmap.svg
+          ${{ steps.chart_activities_heatmap.outputs.svg }}
           EOF
       - name: Commit and push changes
         run: |
