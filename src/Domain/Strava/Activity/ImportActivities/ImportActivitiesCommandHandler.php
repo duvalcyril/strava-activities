@@ -7,6 +7,7 @@ use App\Domain\Strava\Activity\ActivityType;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\Activity\StreamType;
 use App\Domain\Strava\Strava;
+use App\Domain\Weather\OpenMeteo\OpenMeteo;
 use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
@@ -17,6 +18,7 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
 {
     public function __construct(
         private Strava $strava,
+        private OpenMeteo $openMeteo,
         private StravaActivityRepository $stravaActivityRepository,
     ) {
     }
@@ -28,7 +30,7 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
         $athlete = $this->strava->getAthlete();
 
         foreach ($this->strava->getActivities() ?? [] as $stravaActivity) {
-            if (!ActivityType::tryFrom($stravaActivity['type'])) {
+            if (!$activityType = ActivityType::tryFrom($stravaActivity['type'])) {
                 continue;
             }
 
@@ -48,6 +50,15 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
                     ],
                     'athlete_weight' => $athlete['weight'],
                 ]);
+
+                if ($activityType->supportsWeather() && $activity->getLatitude() && $activity->getLongitude()) {
+                    $weather = $this->openMeteo->getWeatherStats(
+                        $activity->getLatitude(),
+                        $activity->getLongitude(),
+                        $activity->getStartDate()
+                    );
+                    $activity->updateWeather($weather);
+                }
 
                 $this->stravaActivityRepository->add($activity);
             }

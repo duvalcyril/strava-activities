@@ -2,6 +2,8 @@
 
 namespace App\Domain\Strava\Activity;
 
+use App\Infrastructure\ValueObject\Geography\Latitude;
+use App\Infrastructure\ValueObject\Geography\Longitude;
 use App\Infrastructure\ValueObject\Weight;
 use Carbon\CarbonInterval;
 
@@ -12,7 +14,7 @@ class Activity implements \JsonSerializable
     private array $bestAveragePowerForTimeIntervals = [];
 
     private function __construct(
-        private readonly array $data
+        private array $data
     ) {
         $this->gearName = null;
     }
@@ -40,7 +42,7 @@ class Activity implements \JsonSerializable
     public function getStartDate(): \DateTimeImmutable
     {
         return \DateTimeImmutable::createFromFormat(
-            'Y-m-d\TH:i:s\Z',
+            self::DATE_TIME_FORMAT,
             $this->data['start_date']
         );
     }
@@ -48,6 +50,16 @@ class Activity implements \JsonSerializable
     public function getType(): ActivityType
     {
         return ActivityType::from($this->data['type']);
+    }
+
+    public function getLatitude(): ?Latitude
+    {
+        return Latitude::fromOptionalString($this->data['start_latlng'][0] ?? null);
+    }
+
+    public function getLongitude(): ?Longitude
+    {
+        return Longitude::fromOptionalString($this->data['start_latlng'][1] ?? null);
     }
 
     public function getGearId(): ?string
@@ -63,6 +75,11 @@ class Activity implements \JsonSerializable
     public function enrichWithGearName(string $gearName): void
     {
         $this->gearName = $gearName;
+    }
+
+    public function updateWeather(array $weather): void
+    {
+        $this->data['weather'] = $weather;
     }
 
     public function getName(): string

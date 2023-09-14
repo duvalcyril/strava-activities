@@ -7,6 +7,11 @@ enum ActivityType: string
     case RIDE = 'Ride';
     case VIRTUAL_RIDE = 'VirtualRide';
 
+    public function supportsWeather(): bool
+    {
+        return self::RIDE === $this;
+    }
+
     public function getIcon(): string
     {
         return match ($this) {
