@@ -74,7 +74,6 @@ feel free to [open an issue](https://github.com/robiningelbrecht/strava-activiti
 * Features still to add / finish
     * Import and display activity images
     * Display per activity weather data
-    * Change activity heatmap to always include the last 12 months
 
 ## 💡Feature request?
 
