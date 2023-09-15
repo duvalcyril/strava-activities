@@ -2,6 +2,7 @@
 
 namespace App\Domain\Strava\Activity;
 
+use App\Domain\Weather\OpenMeteo\Weather;
 use App\Infrastructure\ValueObject\Geography\Latitude;
 use App\Infrastructure\ValueObject\Geography\Longitude;
 use App\Infrastructure\ValueObject\Weight;
@@ -80,6 +81,15 @@ class Activity implements \JsonSerializable
     public function updateWeather(array $weather): void
     {
         $this->data['weather'] = $weather;
+    }
+
+    public function getWeather(): ?Weather
+    {
+        if (empty($this->data['weather'])) {
+            return null;
+        }
+
+        return Weather::fromMap($this->data['weather']);
     }
 
     public function getLocalImagePaths(): ?array
