@@ -30,6 +30,7 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
     public function handle(DomainCommand $command): void
     {
         assert($command instanceof ImportActivities);
+        $command->getOutput()->writeln('Importing activities...');
 
         $athlete = $this->strava->getAthlete();
 
@@ -87,7 +88,7 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
                     }
 
                     $this->stravaActivityRepository->add($activity);
-                    $command->getOutput()->writeln(sprintf('Imported activity "%s"', $activity->getName()));
+                    $command->getOutput()->writeln(sprintf('  => Imported activity "%s"', $activity->getName()));
                     // Try to avoid Strava rate limits.
                     sleep(20);
                 } catch (ClientException $exception) {
@@ -97,7 +98,7 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
                     }
                     // This will allow initial imports with a lot of activities to proceed the next day.
                     // This occurs when we exceed Strava API rate limits.
-                    $command->getOutput()->writeln('You reached Strava API rate limits. You will need to import the rest of your activities tomorrow');
+                    $command->getOutput()->writeln('<error>You reached Strava API rate limits. You will need to import the rest of your activities tomorrow</error>');
                     break;
                 }
             }

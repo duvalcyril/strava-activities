@@ -28,6 +28,7 @@ final readonly class ImportGearCommandHandler implements CommandHandler
     public function handle(DomainCommand $command): void
     {
         assert($command instanceof ImportGear);
+        $command->getOutput()->writeln('Importing gear...');
 
         $gearIds = array_unique(array_filter(array_map(
             fn (Activity $activity) => $activity->getGearId(),
@@ -44,7 +45,8 @@ final readonly class ImportGearCommandHandler implements CommandHandler
                 }
                 // This will allow initial imports with a lot of activities to proceed the next day.
                 // This occurs when we exceed Strava API rate limits.
-                $command->getOutput()->writeln('You reached Strava API rate limits. You will need to import the rest of your activities tomorrow');
+                $command->getOutput()->writeln('<error>You reached Strava API rate limits. You will need to import the rest of your activities tomorrow</error>');
+
                 break;
             }
 
@@ -57,6 +59,7 @@ final readonly class ImportGearCommandHandler implements CommandHandler
                     $this->clock->now()
                 );
             }
+            $command->getOutput()->writeln(sprintf('  => Imported/updated gear "%s"', $gear->getName()));
             $this->stravaGearRepository->save($gear);
         }
     }

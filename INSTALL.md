@@ -74,8 +74,7 @@ feel free to [open an issue](https://github.com/robiningelbrecht/strava-activiti
 * Running the import for the first time can take a while, depending on how much activities you have on Strava.
   Strava's API has a rate limit of 100 request per 15 minutes and a 1000 requests per day. We have to make sure 
   this limit is not exceeded. See https://developers.strava.com/docs/rate-limits/. If you have more than 500 activities,
-  you might run into the daily rate limit. At this moment in time I don't have a ready-made solution for this.
-  You'll need to update the code yourself and import your activities into chunks spread over several days.
+  you might run into the daily rate limit. If you do so, the app will import the remaining activities the next day(s).
 * Features still to add / finish
     * Display activity images
     * Display per activity weather data
