@@ -145,8 +145,8 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
 ## Completed challenges
 
 {% for challenge in challenges %}<a href="{{ challenge.getUrl() }}"><img src="{{ challenge.getLocalLogoUrl() }}" alt="{{ challenge.getName()|replace({'"':'\''}) }}" title="{{ challenge.getName()|replace({'"':'\''}) }}" width="75" /></a>{% endfor %}
-{% endautoescape %}
 
 ## Want to have these statistics for yourself?
 
 Follow [this tutorial](INSTALL.md)
+{% endautoescape %}
