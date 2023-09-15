@@ -87,6 +87,11 @@ class Activity implements \JsonSerializable
         return $this->data['localImagePaths'] ?? null;
     }
 
+    public function getTotalImageCount(): int
+    {
+        return $this->data['total_photo_count'] ?? 0;
+    }
+
     public function updateLocalImagePaths(array $localImagePaths): void
     {
         $this->data['localImagePaths'] = $localImagePaths;

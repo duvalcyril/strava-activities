@@ -55,22 +55,25 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
                 ]);
 
                 $localImagePaths = [];
-                $photos = $this->strava->getActivityPhotos($activity->getId());
-                foreach ($photos as $photo) {
-                    if (empty($photo['urls'][5000])) {
-                        continue;
+
+                if ($activity->getTotalImageCount() > 0) {
+                    $photos = $this->strava->getActivityPhotos($activity->getId());
+                    foreach ($photos as $photo) {
+                        if (empty($photo['urls'][5000])) {
+                            continue;
+                        }
+
+                        $extension = pathinfo($photo['urls'][5000], PATHINFO_EXTENSION);
+
+                        $imagePath = sprintf('files/activities/%s.%s', UuidV5::uuid1(), $extension);
+                        $this->filesystem->write(
+                            $imagePath,
+                            $this->strava->downloadImage($photo['urls'][5000])
+                        );
+                        $localImagePaths[] = $imagePath;
                     }
-
-                    $extension = pathinfo($photo['urls'][5000], PATHINFO_EXTENSION);
-
-                    $imagePath = sprintf('files/activities/%s.%s', UuidV5::uuid1(), $extension);
-                    $this->filesystem->write(
-                        $imagePath,
-                        $this->strava->downloadImage($photo['urls'][5000])
-                    );
-                    $localImagePaths[] = $imagePath;
+                    $activity->updateLocalImagePaths($localImagePaths);
                 }
-                $activity->updateLocalImagePaths($localImagePaths);
 
                 if ($activityType->supportsWeather() && $activity->getLatitude() && $activity->getLongitude()) {
                     $weather = $this->openMeteo->getWeatherStats(
