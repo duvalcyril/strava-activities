@@ -82,6 +82,8 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
                 }
 
                 $this->stravaActivityRepository->add($activity);
+                // Try to avoid Strava rate limits.
+                sleep(20);
             }
         }
     }

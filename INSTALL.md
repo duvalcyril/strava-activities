@@ -71,8 +71,13 @@ feel free to [open an issue](https://github.com/robiningelbrecht/strava-activiti
 * Strava statistics will be re-calculated once a day. If you want to
   re-calculate these manually, navigate to https://github.com/[YOUR-GITHUB-USERNAME]/[REPOSITORY-NAME]/actions/workflows/update-strava-activities.yml
   and click `Run workflow` at the right-hand side
+* Running the import for the first time can take a while, depending on how much activities you have on Strava.
+  Strava's API has a rate limit of 100 request per 15 minutes and a 1000 requests per day. We have to make sure 
+  this limit is not exceeded. See https://developers.strava.com/docs/rate-limits/. If you have more than 500 activities,
+  you might run into the daily rate limit. At this moment in time I don't have a ready-made solution for this.
+  You'll need to update the code yourself and import your activities into chunks.
 * Features still to add / finish
-    * Import and display activity images
+    * Display activity images
     * Display per activity weather data
 
 ## 💡Feature request?
