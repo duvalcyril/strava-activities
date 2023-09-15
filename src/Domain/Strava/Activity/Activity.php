@@ -82,6 +82,11 @@ class Activity implements \JsonSerializable
         $this->data['weather'] = $weather;
     }
 
+    public function updateLocalImagePaths(array $localImagePaths): void
+    {
+        $this->data['localImagePaths'] = $localImagePaths;
+    }
+
     public function getName(): string
     {
         return trim(str_replace('Zwift - ', '', $this->data['name']));

@@ -102,8 +102,7 @@ final readonly class Strava
                 'Authorization' => 'Bearer '.$this->getAccessToken(),
             ],
             RequestOptions::QUERY => [
-                'photo_sources' => true,
-                'size' => 1980,
+                'size' => 5000,
             ],
         ]));
     }

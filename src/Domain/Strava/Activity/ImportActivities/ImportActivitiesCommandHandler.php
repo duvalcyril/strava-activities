@@ -12,6 +12,8 @@ use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Exception\EntityNotFound;
+use League\Flysystem\Filesystem;
+use Ramsey\Uuid\Rfc4122\UuidV5;
 
 #[AsCommandHandler]
 final readonly class ImportActivitiesCommandHandler implements CommandHandler
@@ -20,6 +22,7 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
         private Strava $strava,
         private OpenMeteo $openMeteo,
         private StravaActivityRepository $stravaActivityRepository,
+        private Filesystem $filesystem,
     ) {
     }
 
@@ -50,6 +53,24 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
                     ],
                     'athlete_weight' => $athlete['weight'],
                 ]);
+
+                $localImagePaths = [];
+                $photos = $this->strava->getActivityPhotos($activity->getId());
+                foreach ($photos as $photo) {
+                    if (empty($photo['urls'][5000])) {
+                        continue;
+                    }
+
+                    $extension = pathinfo($photo['urls'][5000], PATHINFO_EXTENSION);
+
+                    $imagePath = sprintf('files/activities/%s.%s', UuidV5::uuid1(), $extension);
+                    $this->filesystem->write(
+                        $imagePath,
+                        $this->strava->downloadImage($photo['urls'][5000])
+                    );
+                    $localImagePaths[] = $imagePath;
+                }
+                $activity->updateLocalImagePaths($localImagePaths);
 
                 if ($activityType->supportsWeather() && $activity->getLatitude() && $activity->getLongitude()) {
                     $weather = $this->openMeteo->getWeatherStats(
