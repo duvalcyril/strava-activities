@@ -12,6 +12,7 @@ use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Exception\EntityNotFound;
+use GuzzleHttp\Exception\ClientException;
 use League\Flysystem\Filesystem;
 use Ramsey\Uuid\Rfc4122\UuidV5;
 
@@ -40,53 +41,65 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
             try {
                 $this->stravaActivityRepository->findOneBy($stravaActivity['id']);
             } catch (EntityNotFound) {
-                $streams = [];
                 try {
-                    $streams = $this->strava->getActivityStreams($stravaActivity['id'], StreamType::WATTS);
-                } catch (\Throwable) {
-                }
-
-                $activity = Activity::create([
-                    ...$this->strava->getActivity($stravaActivity['id']),
-                    'streams' => [
-                        'watts' => $streams,
-                    ],
-                    'athlete_weight' => $athlete['weight'],
-                ]);
-
-                $localImagePaths = [];
-
-                if ($activity->getTotalImageCount() > 0) {
-                    $photos = $this->strava->getActivityPhotos($activity->getId());
-                    foreach ($photos as $photo) {
-                        if (empty($photo['urls'][5000])) {
-                            continue;
-                        }
-
-                        $extension = pathinfo($photo['urls'][5000], PATHINFO_EXTENSION);
-
-                        $imagePath = sprintf('files/activities/%s.%s', UuidV5::uuid1(), $extension);
-                        $this->filesystem->write(
-                            $imagePath,
-                            $this->strava->downloadImage($photo['urls'][5000])
-                        );
-                        $localImagePaths[] = $imagePath;
+                    $streams = [];
+                    try {
+                        $streams = $this->strava->getActivityStreams($stravaActivity['id'], StreamType::WATTS);
+                    } catch (\Throwable) {
                     }
-                    $activity->updateLocalImagePaths($localImagePaths);
-                }
 
-                if ($activityType->supportsWeather() && $activity->getLatitude() && $activity->getLongitude()) {
-                    $weather = $this->openMeteo->getWeatherStats(
-                        $activity->getLatitude(),
-                        $activity->getLongitude(),
-                        $activity->getStartDate()
-                    );
-                    $activity->updateWeather($weather);
-                }
+                    $activity = Activity::create([
+                        ...$this->strava->getActivity($stravaActivity['id']),
+                        'streams' => [
+                            'watts' => $streams,
+                        ],
+                        'athlete_weight' => $athlete['weight'],
+                    ]);
 
-                $this->stravaActivityRepository->add($activity);
-                // Try to avoid Strava rate limits.
-                sleep(20);
+                    $localImagePaths = [];
+
+                    if ($activity->getTotalImageCount() > 0) {
+                        $photos = $this->strava->getActivityPhotos($activity->getId());
+                        foreach ($photos as $photo) {
+                            if (empty($photo['urls'][5000])) {
+                                continue;
+                            }
+
+                            $extension = pathinfo($photo['urls'][5000], PATHINFO_EXTENSION);
+
+                            $imagePath = sprintf('files/activities/%s.%s', UuidV5::uuid1(), $extension);
+                            $this->filesystem->write(
+                                $imagePath,
+                                $this->strava->downloadImage($photo['urls'][5000])
+                            );
+                            $localImagePaths[] = $imagePath;
+                        }
+                        $activity->updateLocalImagePaths($localImagePaths);
+                    }
+
+                    if ($activityType->supportsWeather() && $activity->getLatitude() && $activity->getLongitude()) {
+                        $weather = $this->openMeteo->getWeatherStats(
+                            $activity->getLatitude(),
+                            $activity->getLongitude(),
+                            $activity->getStartDate()
+                        );
+                        $activity->updateWeather($weather);
+                    }
+
+                    $this->stravaActivityRepository->add($activity);
+                    $command->getOutput()->writeln(sprintf('Imported activity "%s"', $activity->getName()));
+                    // Try to avoid Strava rate limits.
+                    sleep(20);
+                } catch (ClientException $exception) {
+                    if (429 !== $exception->getResponse()?->getStatusCode()) {
+                        // Re-throw, we only want to catch "429 Too Many Requests".
+                        throw $exception;
+                    }
+                    // This will allow initial imports with a lot of activities to proceed the next day.
+                    // This occurs when we exceed Strava API rate limits.
+                    $command->getOutput()->writeln('You reached Strava API rate limits. You will need to import the rest of your activities tomorrow');
+                    break;
+                }
             }
         }
     }

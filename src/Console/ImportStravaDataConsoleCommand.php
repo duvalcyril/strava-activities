@@ -22,8 +22,8 @@ class ImportStravaDataConsoleCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $this->commandBus->dispatch(new ImportActivities());
-        $this->commandBus->dispatch(new ImportGear());
+        $this->commandBus->dispatch(new ImportActivities($output));
+        $this->commandBus->dispatch(new ImportGear($output));
         $this->commandBus->dispatch(new ImportChallenges());
 
         return Command::SUCCESS;

@@ -11,6 +11,7 @@ use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Exception\EntityNotFound;
+use GuzzleHttp\Exception\ClientException;
 use Lcobucci\Clock\Clock;
 
 #[AsCommandHandler]
@@ -34,7 +35,19 @@ final readonly class ImportGearCommandHandler implements CommandHandler
         )));
 
         foreach ($gearIds as $gearId) {
-            $stravaGear = $this->strava->getGear($gearId);
+            try {
+                $stravaGear = $this->strava->getGear($gearId);
+            } catch (ClientException $exception) {
+                if (429 !== $exception->getResponse()?->getStatusCode()) {
+                    // Re-throw, we only want to catch "429 Too Many Requests".
+                    throw $exception;
+                }
+                // This will allow initial imports with a lot of activities to proceed the next day.
+                // This occurs when we exceed Strava API rate limits.
+                $command->getOutput()->writeln('You reached Strava API rate limits. You will need to import the rest of your activities tomorrow');
+                break;
+            }
+
             try {
                 $gear = $this->stravaGearRepository->findOneBy($gearId);
                 $gear->updateDistance($stravaGear['distance'], $stravaGear['converted_distance']);
