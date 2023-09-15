@@ -17,8 +17,8 @@ feel free to [open an issue](https://github.com/robiningelbrecht/strava-activiti
   (forking is fancy word for copying)
 * The first thing you'll want to do is delete all my personal data. You don't want these mixed up
   with your own.
-  * Navigate to https://github.com/[YOUR-GITHUB-USERNAME]/[REPOSITORY-NAME]/tree/master/files/challenges 
-    and delete this directory (three dots in right-hand corner)
+  * Navigate to https://github.com/[YOUR-GITHUB-USERNAME]/[REPOSITORY-NAME]/tree/master/files 
+    and delete the two directories there (three dots in right-hand corner)
   * Navigate to https://github.com/[YOUR-GITHUB-USERNAME]/[REPOSITORY-NAME]/tree/master/database
     and delete all three subdirectories
 * Navigate to your newly created repository `Actions secrets and variables` page (https://github.com/[YOUR-GITHUB-USERNAME]/[REPOSITORY-NAME]/settings/secrets/actions)
