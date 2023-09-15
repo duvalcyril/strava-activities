@@ -55,14 +55,24 @@ final readonly class Strava
 
     public function getActivities(): array
     {
-        return Json::decode($this->request('api/v3/athlete/activities', 'GET', [
-            RequestOptions::HEADERS => [
-                'Authorization' => 'Bearer '.$this->getAccessToken(),
-            ],
-            RequestOptions::QUERY => [
-                'per_page' => 100,
-            ],
-        ]));
+        $allActivities = [];
+
+        $page = 1;
+        do {
+            $activities = Json::decode($this->request('api/v3/athlete/activities', 'GET', [
+                RequestOptions::HEADERS => [
+                    'Authorization' => 'Bearer '.$this->getAccessToken(),
+                ],
+                RequestOptions::QUERY => [
+                    'page' => $page,
+                    'per_page' => 200,
+                ],
+            ]));
+            $allActivities = array_merge($allActivities, $activities);
+            ++$page;
+        } while (count($activities) > 0);
+
+        return $allActivities;
     }
 
     public function getActivity(int $id): array
