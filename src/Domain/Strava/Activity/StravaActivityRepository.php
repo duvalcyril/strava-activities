@@ -36,22 +36,6 @@ readonly class StravaActivityRepository
         );
     }
 
-    /**
-     * @return \App\Domain\Strava\Activity\Activity[]
-     */
-    public function findByYear(int $year): array
-    {
-        return array_map(
-            fn (array $row) => Activity::fromMap($row),
-            $this->store->findBy([
-                fn ($row) => (int) \DateTimeImmutable::createFromFormat(
-                    Activity::DATE_TIME_FORMAT,
-                    $row['start_date']
-                )->format('Y') === $year,
-            ], ['start_date_timestamp' => 'desc'])
-        );
-    }
-
     public function findOneBy(int $id): Activity
     {
         if (!$row = $this->store->findOneBy(['id', '==', $id])) {

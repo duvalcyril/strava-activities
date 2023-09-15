@@ -10,8 +10,10 @@ final readonly class ActivityHeatMap
     ) {
     }
 
-    public function getData(int $year): array
-    {
+    public function getData(
+        \DateTimeImmutable $fromDate,
+        \DateTimeImmutable $toDate,
+    ): array {
         $data = $rawData = [];
         foreach ($this->activities as $activity) {
             if (!$intensity = $activity->getIntensity()) {
@@ -28,9 +30,9 @@ final readonly class ActivityHeatMap
 
         $interval = \DateInterval::createFromDateString('1 day');
         $period = new \DatePeriod(
-            \DateTimeImmutable::createFromFormat('d-m-Y', '01-01-'.$year),
+            $fromDate,
             $interval,
-            \DateTimeImmutable::createFromFormat('d-m-Y', '31-12-'.$year),
+            $toDate,
         );
 
         foreach ($period as $dt) {

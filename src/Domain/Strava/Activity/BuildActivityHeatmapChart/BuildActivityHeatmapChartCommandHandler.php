@@ -2,6 +2,7 @@
 
 namespace App\Domain\Strava\Activity\BuildActivityHeatmapChart;
 
+use App\Domain\Strava\Activity\Activity;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
@@ -23,7 +24,10 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
     {
         assert($command instanceof BuildActivityHeatmapChart);
 
-        $year = (int) $this->clock->now()->format('Y');
+        // We want a heatmap of the last twelve months.
+        $now = $this->clock->now();
+        $fromDate = \DateTimeImmutable::createFromFormat('Y-m-d', $now->modify('-11 months')->format('Y-m-01'));
+        $toDate = \DateTimeImmutable::createFromFormat('Y-m-d', $now->format('Y-m-t'));
 
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart-activities-heatmap.json',
@@ -79,7 +83,7 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
                         'auto',
                         13,
                     ],
-                    'range' => $year,
+                    'range' => [$fromDate->format('Y-m-d'), $toDate->format('Y-m-d')],
                     'itemStyle' => [
                         'borderWidth' => 3,
                         'opacity' => 0,
@@ -109,8 +113,11 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
                     'type' => 'heatmap',
                     'coordinateSystem' => 'calendar',
                     'data' => ActivityHeatMap::fromActivities(
-                        $this->stravaActivityRepository->findByYear($year)
-                    )->getData($year),
+                        array_filter(
+                            $this->stravaActivityRepository->findAll(),
+                            fn (Activity $activity) => $activity->getStartDate() >= $fromDate && $activity->getStartDate() <= $toDate
+                        ),
+                    )->getData($fromDate, $toDate),
                 ],
             ], JSON_PRETTY_PRINT),
         );
