@@ -22,7 +22,7 @@ feel free to [open an issue](https://github.com/robiningelbrecht/strava-activiti
     ![Delete directory](files/install/delete-directories.png)
     To confirm, click `Commit changes`
   * Navigate to https://github.com/[YOUR-GITHUB-USERNAME]/[REPOSITORY-NAME]/tree/master/database
-    and do the same for all three subdirectories `activities`, `challenges`and `gears`
+    and do the same for all three subdirectories `activities`, `challenges` and `gears`
 * Navigate to your newly created repository `Actions secrets and variables` page (https://github.com/[YOUR-GITHUB-USERNAME]/[REPOSITORY-NAME]/settings/secrets/actions)
   Keep this page open, you will need to add several secrets here
 * Next, navigate to your [Strava API settings page](https://www.strava.com/settings/api).
@@ -82,7 +82,7 @@ feel free to [open an issue](https://github.com/robiningelbrecht/strava-activiti
   this limit is not exceeded. See https://developers.strava.com/docs/rate-limits/. If you have more than 500 activities,
   you might run into the daily rate limit. If you do so, the app will import the remaining activities the next day(s).
 * Features still to add / finish
-    * Create fancy HTML version
+    * Create fancy HTML version (https://github.com/themesberg/flowbite-admin-dashboard or https://github.com/moesaid/cleopatra)
     * Display per activity weather data
 
 ## 💡Feature request?
