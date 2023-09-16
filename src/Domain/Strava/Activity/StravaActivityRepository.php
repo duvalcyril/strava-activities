@@ -62,4 +62,9 @@ readonly class StravaActivityRepository
     {
         $this->store->insert($activity->jsonSerialize());
     }
+
+    public function update(Activity $activity): void
+    {
+        $this->store->update($activity->jsonSerialize());
+    }
 }

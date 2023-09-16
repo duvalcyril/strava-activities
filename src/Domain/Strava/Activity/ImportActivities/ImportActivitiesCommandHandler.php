@@ -40,7 +40,10 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
             }
 
             try {
-                $this->stravaActivityRepository->findOneBy($stravaActivity['id']);
+                $activity = $this->stravaActivityRepository->findOneBy($stravaActivity['id']);
+                $activity->updateKudoCount($stravaActivity['kudos_count'] ?? 0);
+                $this->stravaActivityRepository->update($activity);
+                $command->getOutput()->writeln(sprintf('  => Updated activity "%s"', $activity->getName()));
             } catch (EntityNotFound) {
                 try {
                     $streams = [];
@@ -66,6 +69,7 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
                                 continue;
                             }
 
+                            // @TODO: remove query params
                             $extension = pathinfo($photo['urls'][5000], PATHINFO_EXTENSION);
 
                             $imagePath = sprintf('files/activities/%s.%s', UuidV5::uuid1(), $extension);

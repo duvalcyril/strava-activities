@@ -63,6 +63,16 @@ class Activity implements \JsonSerializable
         return Longitude::fromOptionalString($this->data['start_latlng'][1] ?? null);
     }
 
+    public function getKudoCount(): int
+    {
+        return $this->data['kudos_count'] ?? 0;
+    }
+
+    public function updateKudoCount(int $count): void
+    {
+        $this->data['kudos_count'] = $count;
+    }
+
     public function getGearId(): ?string
     {
         return $this->data['gear_id'] ?? null;
