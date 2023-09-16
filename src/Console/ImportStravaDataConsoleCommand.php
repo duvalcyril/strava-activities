@@ -24,7 +24,7 @@ class ImportStravaDataConsoleCommand extends Command
     {
         $this->commandBus->dispatch(new ImportActivities($output));
         $this->commandBus->dispatch(new ImportGear($output));
-        $this->commandBus->dispatch(new ImportChallenges());
+        $this->commandBus->dispatch(new ImportChallenges($output));
 
         return Command::SUCCESS;
     }

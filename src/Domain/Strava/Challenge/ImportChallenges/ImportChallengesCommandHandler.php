@@ -27,6 +27,7 @@ final readonly class ImportChallengesCommandHandler implements CommandHandler
     public function handle(DomainCommand $command): void
     {
         assert($command instanceof ImportChallenges);
+        $command->getOutput()->writeln('Importing challenges...');
 
         foreach ($this->strava->getChallenges() ?? [] as $challengeData) {
             try {
@@ -46,6 +47,7 @@ final readonly class ImportChallengesCommandHandler implements CommandHandler
                     $challenge->updateLocalLogo($imagePath);
                 }
                 $this->stravaChallengeRepository->add($challenge);
+                $command->getOutput()->writeln(sprintf('  => Imported activity "%s"', $challenge->getName()));
                 sleep(1); // Make sure timestamp is increased by at least one.
             }
         }
