@@ -1,15 +1,14 @@
 {
     "backgroundColor": "#ffffff",
     "title": {
-        "show": false,
         "left": "center",
-        "text": "Activity frequency 2023"
+        "text": "Oct 2022 - Sep 2023"
     },
     "tooltip": [],
     "visualMap": {
         "type": "piecewise",
         "left": "center",
-        "top": 0,
+        "bottom": 0,
         "orient": "horizontal",
         "pieces": [
             {

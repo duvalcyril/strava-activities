@@ -34,16 +34,15 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
             Json::encode([
                 'backgroundColor' => '#ffffff',
                 'title' => [
-                    'show' => false,
                     'left' => 'center',
-                    'text' => 'Activity frequency 2023',
+                    'text' => sprintf('%s - %s', $fromDate->format('M Y'), $toDate->format('M Y')),
                 ],
                 'tooltip' => [
                 ],
                 'visualMap' => [
                     'type' => 'piecewise',
                     'left' => 'center',
-                    'top' => 0,
+                    'bottom' => 0,
                     'orient' => 'horizontal',
                     'pieces' => [
                         [
