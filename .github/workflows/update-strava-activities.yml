@@ -55,7 +55,7 @@ jobs:
         uses: robiningelbrecht/apache-echarts-action@v1.1.0
         with:
           width: 1000
-          height: 160
+          height: 180
           pass-options-as: file
           chart-option: 'build/chart-activities-heatmap.json'
       - name: Save generated charts
