@@ -69,9 +69,7 @@ final readonly class ImportActivitiesCommandHandler implements CommandHandler
                                 continue;
                             }
 
-                            // @TODO: remove query params
-                            $extension = pathinfo($photo['urls'][5000], PATHINFO_EXTENSION);
-
+                            $extension = pathinfo(parse_url($photo['urls'][5000], PHP_URL_PATH), PATHINFO_EXTENSION);
                             $imagePath = sprintf('files/activities/%s.%s', UuidV5::uuid1(), $extension);
                             $this->filesystem->write(
                                 $imagePath,
