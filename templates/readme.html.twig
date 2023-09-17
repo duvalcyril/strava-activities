@@ -6,8 +6,11 @@
 
 Since I began cycling `{{ totals.getTotalDays() }} days` ago on `{{ totals.getStartDate().format('d-m-Y') }}`,
 I had `{{ totals.getTotalDaysOfCycling() }} cycling days`.<br />
-I recorded a total distance of `{{ totals.getDistance()|number_format(0, '.', ' ') }} km`,
-an elevation of `{{ totals.getElevation()|number_format(0, '.', ' ') }} m` 🏔
+I recorded a total distance of `{{ totals.getDistance()|number_format(0, '.', ' ') }} km`
+(`{{ (totals.getDistance() / 40075)|number_format(2, '.', ' ') }}` trips around the world 🌍 and
+`{{ (totals.getDistance() / 384400)|number_format(3, '.', ' ') }}` trips to the moon 🌕),
+an elevation of `{{ totals.getElevation()|number_format(0, '.', ' ') }} m`
+(`{{ (totals.getElevation() / 8849)|number_format(1, '.', ' ') }}` times Mount Everest 🏔)
 and a total time of `{{ totals.getMovingTimeFormatted() }}` 🎉
 
 That's a daily average of `{{ totals.getDailyAverage()|number_format(0, '.', ' ') }} km`,
