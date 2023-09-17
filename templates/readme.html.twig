@@ -153,7 +153,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         <td>
             <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ firstActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
             <a href="{{ firstActivity.getUrl() }}" title="Kcal: {{ firstActivity.getCalories() ?: 'n/a' }} | Gear: {{ firstActivity.getGearName() ?: 'None' }} ">
-                {{ firstActivity.getName()|length > 70 ? firstActivity.getName()|slice(0, 67) ~ '...' : firstActivity.getName() }}
+                {{ firstActivity.getName()|length > 50 ? firstActivity.getName()|slice(0, 67) ~ '...' : firstActivity.getName() }}
             </a>
         </td>
     </tr>
@@ -164,7 +164,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         <td>
             <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ earliestActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
             <a href="{{ earliestActivity.getUrl() }}" title="Kcal: {{ earliestActivity.getCalories() ?: 'n/a' }} | Gear: {{ earliestActivity.getGearName() ?: 'None' }} ">
-                {{ earliestActivity.getName()|length > 70 ? earliestActivity.getName()|slice(0, 67) ~ '...' : earliestActivity.getName() }}
+                {{ earliestActivity.getName()|length > 50 ? earliestActivity.getName()|slice(0, 67) ~ '...' : earliestActivity.getName() }}
             </a>
         </td>
     </tr>
@@ -175,7 +175,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         <td>
             <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ latestActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
             <a href="{{ latestActivity.getUrl() }}" title="Kcal: {{ latestActivity.getCalories() ?: 'n/a' }} | Gear: {{ latestActivity.getGearName() ?: 'None' }} ">
-                {{ latestActivity.getName()|length > 70 ? latestActivity.getName()|slice(0, 67) ~ '...' : latestActivity.getName() }}
+                {{ latestActivity.getName()|length > 50 ? latestActivity.getName()|slice(0, 67) ~ '...' : latestActivity.getName() }}
             </a>
         </td>
     </tr>
@@ -186,7 +186,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         <td>
             <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ longestActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
             <a href="{{ longestActivity.getUrl() }}" title="Kcal: {{ longestActivity.getCalories() ?: 'n/a' }} | Gear: {{ longestActivity.getGearName() ?: 'None' }} ">
-                {{ longestActivity.getName()|length > 70 ? longestActivity.getName()|slice(0, 67) ~ '...' : longestActivity.getName() }}
+                {{ longestActivity.getName()|length > 50 ? longestActivity.getName()|slice(0, 67) ~ '...' : longestActivity.getName() }}
             </a>
         </td>
     </tr>
@@ -197,7 +197,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         <td>
             <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ highestElevationActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
             <a href="{{ highestElevationActivity.getUrl() }}" title="Kcal: {{ highestElevationActivity.getCalories() ?: 'n/a' }} | Gear: {{ highestElevationActivity.getGearName() ?: 'None' }} ">
-                {{ highestElevationActivity.getName()|length > 70 ? highestElevationActivity.getName()|slice(0, 67) ~ '...' : highestElevationActivity.getName() }}
+                {{ highestElevationActivity.getName()|length > 50 ? highestElevationActivity.getName()|slice(0, 67) ~ '...' : highestElevationActivity.getName() }}
             </a>
         </td>
     </tr>
@@ -208,7 +208,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         <td>
             <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ fastestActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
             <a href="{{ fastestActivity.getUrl() }}" title="Kcal: {{ fastestActivity.getCalories() ?: 'n/a' }} | Gear: {{ fastestActivity.getGearName() ?: 'None' }} ">
-                {{ fastestActivity.getName()|length > 70 ? fastestActivity.getName()|slice(0, 67) ~ '...' : fastestActivity.getName() }}
+                {{ fastestActivity.getName()|length > 50 ? fastestActivity.getName()|slice(0, 67) ~ '...' : fastestActivity.getName() }}
             </a>
         </td>
     </tr>
@@ -219,7 +219,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         <td>
             <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ mostKudosActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
             <a href="{{ mostKudosActivity.getUrl() }}" title="Kcal: {{ mostKudosActivity.getCalories() ?: 'n/a' }} | Gear: {{ mostKudosActivity.getGearName() ?: 'None' }} ">
-                {{ mostKudosActivity.getName()|length > 70 ? mostKudosActivity.getName()|slice(0, 67) ~ '...' : mostKudosActivity.getName() }}
+                {{ mostKudosActivity.getName()|length > 50 ? mostKudosActivity.getName()|slice(0, 67) ~ '...' : mostKudosActivity.getName() }}
             </a>
         </td>
     </tr>
@@ -229,7 +229,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
         <td></td>
     </tr>
     <tr>
-        <td align="center">Most consecutive days of cycling</td>
+        <td align="center">Most consecutive days</td>
         <td align="center">{{ trivia.getMostConsecutiveDaysOfCycling() }}</td>
         <td></td>
     </tr>
