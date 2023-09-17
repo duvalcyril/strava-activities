@@ -25,7 +25,7 @@ class Activity implements \JsonSerializable
     {
         $data['start_date_timestamp'] = SerializableDateTime::createFromFormat(
             self::DATE_TIME_FORMAT,
-            $data['start_date']
+            $data['start_date_local']
         )->getTimestamp();
 
         return new self($data);
@@ -45,7 +45,7 @@ class Activity implements \JsonSerializable
     {
         return SerializableDateTime::createFromFormat(
             self::DATE_TIME_FORMAT,
-            $this->data['start_date']
+            $this->data['start_date_local']
         );
     }
 

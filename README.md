@@ -23,6 +23,7 @@ I burned `99180 calories` doing so, that's about `367` pizza slices 🍕
 <kbd><a href="#activity-heatmap">Activity heatmap</a></kbd> |
 <kbd><a href="#stats-per-bike">Stats per bike</a></kbd> |
 <kbd><a href="#best-power-outputs-over-time">Power outputs</a></kbd> |
+<kbd><a href="#trivia">Trivia</a></kbd> |
 <kbd><a href="#completed-challenges">Completed challenges</a></kbd>
 
 ## Weekly distances
@@ -1616,7 +1617,7 @@ I burned `99180 calories` doing so, that's about `367` pizza slices 🍕
             <td align="center">147</td>
         </tr>
             <tr>
-            <td>12-05-23</td>
+            <td>13-05-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9060004298" title="Kcal: n/a | Gear: None ">Night Ride</a>
@@ -2389,6 +2390,91 @@ I burned `99180 calories` doing so, that's about `367` pizza slices 🍕
             </td>
         </tr>
     </table>
+
+## Trivia
+
+<table>
+    <tr>
+                <td align="center">First activity</td>
+        <td align="center">27-03-2023</td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="ride" title="ride"/>
+            <a href="https://www.strava.com/activities/8835458375" title="Kcal: 136 | Gear: None ">
+                Morning Ride
+            </a>
+        </td>
+    </tr>
+    <tr>
+                <td align="center">Earliest activity</td>
+        <td align="center">00:23</td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="ride" title="ride"/>
+            <a href="https://www.strava.com/activities/9060004298" title="Kcal: n/a | Gear: None ">
+                Night Ride
+            </a>
+        </td>
+    </tr>
+    <tr>
+                <td align="center">Latest activity</td>
+        <td align="center">23:34</td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="ride" title="ride"/>
+            <a href="https://www.strava.com/activities/9152881957" title="Kcal: n/a | Gear: None ">
+                Night Ride
+            </a>
+        </td>
+    </tr>
+    <tr>
+                <td align="center">Longest activity</td>
+        <td align="center">102 <sup><sub>km</sub></sup></td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="ride" title="ride"/>
+            <a href="https://www.strava.com/activities/9494450902" title="Kcal: 2582 | Gear: Retro Race Bike ">
+                First Gran Fondo evah 🥳
+            </a>
+        </td>
+    </tr>
+    <tr>
+                <td align="center">Highest elevation</td>
+        <td align="center">1207 <sup><sub>m</sub></sup></td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="ride" title="ride"/>
+            <a href="https://www.strava.com/activities/9357278199" title="Kcal: 986 | Gear: Zwift Hub ">
+                Method in France
+            </a>
+        </td>
+    </tr>
+    <tr>
+                <td align="center">Fastest activity</td>
+        <td align="center">39.6 <sup><sub>km/h</sub></sup></td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="ride" title="ride"/>
+            <a href="https://www.strava.com/activities/9751176666" title="Kcal: 705 | Gear: Zwift Hub ">
+                Race: STAGE 9 TOUR DE HISP (B) on Greatest London Flat in London
+            </a>
+        </td>
+    </tr>
+    <tr>
+                <td align="center">Activity with most kudos</td>
+        <td align="center">19</td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="ride" title="ride"/>
+            <a href="https://www.strava.com/activities/9606936487" title="Kcal: 1067 | Gear: Retro Race Bike ">
+                Toerke met het vrouwtje 🇮🇹
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Total kudos received</td>
+        <td align="center">801</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center">Most consecutive days of cycling</td>
+        <td align="center">11</td>
+        <td></td>
+    </tr>
+</table>
 
 ## Completed challenges
 

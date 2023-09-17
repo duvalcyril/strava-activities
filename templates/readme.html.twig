@@ -24,6 +24,7 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
 <kbd><a href="#activity-heatmap">Activity heatmap</a></kbd> |
 <kbd><a href="#stats-per-bike">Stats per bike</a></kbd> |
 <kbd><a href="#best-power-outputs-over-time">Power outputs</a></kbd> |
+<kbd><a href="#trivia">Trivia</a></kbd> |
 <kbd><a href="#completed-challenges">Completed challenges</a></kbd>
 
 ## Weekly distances
@@ -140,6 +141,98 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
             </td>
         </tr>
     {% endfor %}
+</table>
+
+## Trivia
+
+<table>
+    <tr>
+        {% set firstActivity = trivia.getFirstActivity() %}
+        <td align="center">First activity</td>
+        <td align="center">{{ firstActivity.getStartDate().format('d-m-Y') }}</td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ firstActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
+            <a href="{{ firstActivity.getUrl() }}" title="Kcal: {{ firstActivity.getCalories() ?: 'n/a' }} | Gear: {{ firstActivity.getGearName() ?: 'None' }} ">
+                {{ firstActivity.getName()|length > 70 ? firstActivity.getName()|slice(0, 67) ~ '...' : firstActivity.getName() }}
+            </a>
+        </td>
+    </tr>
+    <tr>
+        {% set earliestActivity = trivia.getEarliestActivity() %}
+        <td align="center">Earliest activity</td>
+        <td align="center">{{ earliestActivity.getStartDate().format('H:i') }}</td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ earliestActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
+            <a href="{{ earliestActivity.getUrl() }}" title="Kcal: {{ earliestActivity.getCalories() ?: 'n/a' }} | Gear: {{ earliestActivity.getGearName() ?: 'None' }} ">
+                {{ earliestActivity.getName()|length > 70 ? earliestActivity.getName()|slice(0, 67) ~ '...' : earliestActivity.getName() }}
+            </a>
+        </td>
+    </tr>
+    <tr>
+        {% set latestActivity = trivia.getLatestActivity() %}
+        <td align="center">Latest activity</td>
+        <td align="center">{{ latestActivity.getStartDate().format('H:i') }}</td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ latestActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
+            <a href="{{ latestActivity.getUrl() }}" title="Kcal: {{ latestActivity.getCalories() ?: 'n/a' }} | Gear: {{ latestActivity.getGearName() ?: 'None' }} ">
+                {{ latestActivity.getName()|length > 70 ? latestActivity.getName()|slice(0, 67) ~ '...' : latestActivity.getName() }}
+            </a>
+        </td>
+    </tr>
+    <tr>
+        {% set longestActivity = trivia.getLongestActivity() %}
+        <td align="center">Longest activity</td>
+        <td align="center">{{ longestActivity.getDistance() }} <sup><sub>km</sub></sup></td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ longestActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
+            <a href="{{ longestActivity.getUrl() }}" title="Kcal: {{ longestActivity.getCalories() ?: 'n/a' }} | Gear: {{ longestActivity.getGearName() ?: 'None' }} ">
+                {{ longestActivity.getName()|length > 70 ? longestActivity.getName()|slice(0, 67) ~ '...' : longestActivity.getName() }}
+            </a>
+        </td>
+    </tr>
+    <tr>
+        {% set highestElevationActivity = trivia.getActivityWithHighestElevation() %}
+        <td align="center">Highest elevation</td>
+        <td align="center">{{ highestElevationActivity.getElevation() }} <sup><sub>m</sub></sup></td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ highestElevationActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
+            <a href="{{ highestElevationActivity.getUrl() }}" title="Kcal: {{ highestElevationActivity.getCalories() ?: 'n/a' }} | Gear: {{ highestElevationActivity.getGearName() ?: 'None' }} ">
+                {{ highestElevationActivity.getName()|length > 70 ? highestElevationActivity.getName()|slice(0, 67) ~ '...' : highestElevationActivity.getName() }}
+            </a>
+        </td>
+    </tr>
+    <tr>
+        {% set fastestActivity = trivia.getFastestActivity() %}
+        <td align="center">Fastest activity</td>
+        <td align="center">{{ fastestActivity.getAverageSpeedInKmPerH() }} <sup><sub>km/h</sub></sup></td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ fastestActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
+            <a href="{{ fastestActivity.getUrl() }}" title="Kcal: {{ fastestActivity.getCalories() ?: 'n/a' }} | Gear: {{ fastestActivity.getGearName() ?: 'None' }} ">
+                {{ fastestActivity.getName()|length > 70 ? fastestActivity.getName()|slice(0, 67) ~ '...' : fastestActivity.getName() }}
+            </a>
+        </td>
+    </tr>
+    <tr>
+        {% set mostKudosActivity = trivia.getMostKudotedActivity() %}
+        <td align="center">Activity with most kudos</td>
+        <td align="center">{{ mostKudosActivity.getKudoCount() }}</td>
+        <td>
+            <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/{{ mostKudosActivity.getType().getIcon() }}.svg" width="12" alt="ride" title="ride"/>
+            <a href="{{ mostKudosActivity.getUrl() }}" title="Kcal: {{ mostKudosActivity.getCalories() ?: 'n/a' }} | Gear: {{ mostKudosActivity.getGearName() ?: 'None' }} ">
+                {{ mostKudosActivity.getName()|length > 70 ? mostKudosActivity.getName()|slice(0, 67) ~ '...' : mostKudosActivity.getName() }}
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">Total kudos received</td>
+        <td align="center">{{ trivia.getTotalKudosReceived() }}</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center">Most consecutive days of cycling</td>
+        <td align="center">{{ trivia.getMostConsecutiveDaysOfCycling() }}</td>
+        <td></td>
+    </tr>
 </table>
 
 ## Completed challenges

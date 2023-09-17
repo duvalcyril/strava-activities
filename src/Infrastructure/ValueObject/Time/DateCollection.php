@@ -14,7 +14,7 @@ final class DateCollection
             if (!$date instanceof SerializableDateTime) {
                 throw new \InvalidArgumentException('Invalid SerializableDateTime');
             }
-            $this->datesIndexedByDate[(string) $date] = $date;
+            $this->datesIndexedByDate[$date->format('Y-m-d')] = $date;
         }
         \ksort($this->datesIndexedByDate);
     }
@@ -36,15 +36,22 @@ final class DateCollection
         }
 
         $keys = \array_keys($this->datesIndexedByDate);
+
         $delta = 0;
         $mostConsecutiveDayCount = 0;
+        $currentConsecutiveDayCount = 0;
         foreach ($this->datesIndexedByDate as $date) {
             if ($delta > 0 && $date->modify('-1 day')->format('Y-m-d') !== $this->datesIndexedByDate[$keys[$delta - 1]]->format('Y-m-d')) {
                 // Date is not consecutive.
-                $mostConsecutiveDayCount = 0;
+                $currentConsecutiveDayCount = 0;
             }
-            ++$mostConsecutiveDayCount;
+            ++$currentConsecutiveDayCount;
             ++$delta;
+            if ($currentConsecutiveDayCount > $mostConsecutiveDayCount) {
+                $mostConsecutiveDayCount = $currentConsecutiveDayCount;
+            }
         }
+
+        return $mostConsecutiveDayCount;
     }
 }
