@@ -2450,7 +2450,7 @@ I burned `99180 calories` doing so, that's about `367` pizza slices 🍕
         <td>
             <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="ride" title="ride"/>
             <a href="https://www.strava.com/activities/9751176666" title="Kcal: 705 | Gear: Zwift Hub ">
-                Race: STAGE 9 TOUR DE HISP (B) on Greatest London Flat in London...
+                Race: STAGE 9 TOUR DE HISP (B) on Greatest London Flat in...
             </a>
         </td>
     </tr>
