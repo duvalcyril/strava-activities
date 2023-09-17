@@ -3,6 +3,7 @@
 namespace App\Domain\Strava;
 
 use App\Domain\Strava\Activity\Activity;
+use App\Infrastructure\ValueObject\Time\DateCollection;
 
 final readonly class Trivia
 {
@@ -65,7 +66,7 @@ final readonly class Trivia
     {
         $latestActivity = reset($this->activities);
         foreach ($this->activities as $activity) {
-            if ($this->getMinutesSinceMidnight($activity->getStartDate()) < $this->getMinutesSinceMidnight($latestActivity->getStartDate())) {
+            if ($activity->getStartDate()->getMinutesSinceStartOfDay() < $latestActivity->getStartDate()->getMinutesSinceStartOfDay()) {
                 continue;
             }
             $latestActivity = $activity;
@@ -87,10 +88,24 @@ final readonly class Trivia
         return $longestActivity;
     }
 
+    public function getFastestActivity(): Activity
+    {
+        $fastestActivity = reset($this->activities);
+        foreach ($this->activities as $activity) {
+            if ($activity->getAverageSpeedInKmPerH() < $fastestActivity->getAverageSpeedInKmPerH()) {
+                continue;
+            }
+            $fastestActivity = $activity;
+        }
+
+        return $fastestActivity;
+    }
+
     public function getMostConsecutiveDaysOfCycling(): int
     {
-        $mostConsecutiveDaysOfCycling = 0;
-        foreach ($this->activities as $activity) {
-        }
+        return DateCollection::fromDates(array_map(
+            fn (Activity $activity) => $activity->getStartDate(),
+            $this->activities,
+        ))->countMostConsecutiveDates();
     }
 }
