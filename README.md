@@ -6,7 +6,7 @@
 Since I began cycling `174 days` ago on `27-03-2023`,
 I had `125 cycling days`.<br />
 I recorded a total distance of `4 617 km`,
-an elevation of `39 284 m`
+an elevation of `39 284 m` 🏔
 and a total time of `1w 7h 3m` 🎉
 
 That's a daily average of `27 km`,
