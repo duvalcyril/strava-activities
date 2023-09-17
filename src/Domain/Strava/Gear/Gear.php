@@ -2,6 +2,8 @@
 
 namespace App\Domain\Strava\Gear;
 
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
+
 class Gear implements \JsonSerializable
 {
     private function __construct(
@@ -9,7 +11,7 @@ class Gear implements \JsonSerializable
     ) {
     }
 
-    public static function create(array $data, \DateTimeImmutable $createdOn): self
+    public static function create(array $data, SerializableDateTime $createdOn): self
     {
         $data['createdOn'] = $createdOn->getTimestamp();
 

@@ -5,6 +5,7 @@ namespace App\Domain\Strava\Activity;
 use App\Domain\Weather\OpenMeteo\Weather;
 use App\Infrastructure\ValueObject\Geography\Latitude;
 use App\Infrastructure\ValueObject\Geography\Longitude;
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
 use App\Infrastructure\ValueObject\Weight;
 use Carbon\CarbonInterval;
 
@@ -22,7 +23,7 @@ class Activity implements \JsonSerializable
 
     public static function create(array $data): self
     {
-        $data['start_date_timestamp'] = \DateTimeImmutable::createFromFormat(
+        $data['start_date_timestamp'] = SerializableDateTime::createFromFormat(
             self::DATE_TIME_FORMAT,
             $data['start_date']
         )->getTimestamp();
@@ -40,9 +41,9 @@ class Activity implements \JsonSerializable
         return (int) $this->data['id'];
     }
 
-    public function getStartDate(): \DateTimeImmutable
+    public function getStartDate(): SerializableDateTime
     {
-        return \DateTimeImmutable::createFromFormat(
+        return SerializableDateTime::createFromFormat(
             self::DATE_TIME_FORMAT,
             $this->data['start_date']
         );

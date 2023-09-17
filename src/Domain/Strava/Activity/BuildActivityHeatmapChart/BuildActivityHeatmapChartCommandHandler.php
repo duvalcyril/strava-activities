@@ -9,6 +9,7 @@ use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Environment\Settings;
 use App\Infrastructure\Serialization\Json;
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
 use Lcobucci\Clock\Clock;
 
 #[AsCommandHandler]
@@ -25,9 +26,9 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
         assert($command instanceof BuildActivityHeatmapChart);
 
         // We want a heatmap of the last twelve months.
-        $now = $this->clock->now();
-        $fromDate = \DateTimeImmutable::createFromFormat('Y-m-d', $now->modify('-11 months')->format('Y-m-01'));
-        $toDate = \DateTimeImmutable::createFromFormat('Y-m-d', $now->format('Y-m-t'));
+        $now = SerializableDateTime::fromDateTimeImmutable($this->clock->now());
+        $fromDate = SerializableDateTime::createFromFormat('Y-m-d', $now->modify('-11 months')->format('Y-m-01'));
+        $toDate = SerializableDateTime::createFromFormat('Y-m-d', $now->format('Y-m-t'));
 
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart-activities-heatmap.json',
@@ -114,7 +115,7 @@ final readonly class BuildActivityHeatmapChartCommandHandler implements CommandH
                     'data' => ActivityHeatMap::fromActivities(
                         array_filter(
                             $this->stravaActivityRepository->findAll(),
-                            fn (Activity $activity) => $activity->getStartDate() >= $fromDate && $activity->getStartDate() <= $toDate
+                            fn (Activity $activity) => $activity->getStartDate()->isAfterOrOn($fromDate) && $activity->getStartDate()->isBeforeOrOn($toDate)
                         ),
                     )->getData($fromDate, $toDate),
                 ],

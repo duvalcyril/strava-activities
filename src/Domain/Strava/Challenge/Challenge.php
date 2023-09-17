@@ -2,6 +2,8 @@
 
 namespace App\Domain\Strava\Challenge;
 
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
+
 class Challenge
 {
     private function __construct(
@@ -14,7 +16,7 @@ class Challenge
         return new self($data);
     }
 
-    public static function create(array $data, \DateTimeImmutable $createdOn): self
+    public static function create(array $data, SerializableDateTime $createdOn): self
     {
         $data['createdOn'] = $createdOn->getTimestamp();
 
@@ -46,9 +48,9 @@ class Challenge
         $this->data['localLogo'] = $path;
     }
 
-    public function getCreatedOn(): \DateTimeImmutable
+    public function getCreatedOn(): SerializableDateTime
     {
-        return (new \DateTimeImmutable())->setTimestamp($this->data['createdOn']);
+        return SerializableDateTime::fromTimestamp($this->data['createdOn']);
     }
 
     public function jsonSerialize(): array

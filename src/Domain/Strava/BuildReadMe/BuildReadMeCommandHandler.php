@@ -9,11 +9,13 @@ use App\Domain\Strava\Challenge\StravaChallengeRepository;
 use App\Domain\Strava\Gear\StravaGearRepository;
 use App\Domain\Strava\MonthlyStatistics;
 use App\Domain\Strava\PowerOutputs;
+use App\Domain\Strava\Trivia;
 use App\Domain\Strava\WeekDayStatistics;
 use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Environment\Settings;
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
 use Lcobucci\Clock\Clock;
 use Twig\Environment;
 
@@ -49,7 +51,7 @@ final readonly class BuildReadMeCommandHandler implements CommandHandler
         \Safe\file_put_contents(Settings::getAppRoot().'/README.md', $this->twig->load('readme.html.twig')->render([
             'totals' => ActivityTotals::fromActivities(
                 $allActivities,
-                $this->clock->now(),
+                SerializableDateTime::fromDateTimeImmutable($this->clock->now()),
             ),
             'allActivities' => $this->twig->load('strava-activities.html.twig')->render([
                 'activities' => $allActivities,
@@ -58,7 +60,7 @@ final readonly class BuildReadMeCommandHandler implements CommandHandler
             'monthlyStatistics' => MonthlyStatistics::fromActivitiesAndChallenges(
                 $allActivities,
                 $allChallenges,
-                $this->clock->now()
+                SerializableDateTime::fromDateTimeImmutable($this->clock->now()),
             ),
             'weekdayStatistics' => WeekDayStatistics::fromActivities(
                 $allActivities,
@@ -68,6 +70,7 @@ final readonly class BuildReadMeCommandHandler implements CommandHandler
                 $allActivities
             ),
             'challenges' => $allChallenges,
+            'trivia' => Trivia::fromActivities($allActivities),
         ]));
     }
 }

@@ -4,21 +4,12 @@ namespace App\Domain\Strava;
 
 use Carbon\CarbonInterval;
 
-class WeekDayStatistics
+final readonly class WeekDayStatistics
 {
-    private \DateTimeImmutable $startDate;
-
     private function __construct(
         /** @var \App\Domain\Strava\Activity\Activity[] */
-        private readonly array $activities,
+        private array $activities,
     ) {
-        $this->startDate = new \DateTimeImmutable();
-        foreach ($this->activities as $activity) {
-            if ($activity->getStartDate() > $this->startDate) {
-                continue;
-            }
-            $this->startDate = $activity->getStartDate();
-        }
     }
 
     public static function fromActivities(array $activities): self

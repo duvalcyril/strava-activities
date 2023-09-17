@@ -11,6 +11,7 @@ use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Exception\EntityNotFound;
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
 use GuzzleHttp\Exception\ClientException;
 use Lcobucci\Clock\Clock;
 
@@ -56,7 +57,7 @@ final readonly class ImportGearCommandHandler implements CommandHandler
             } catch (EntityNotFound) {
                 $gear = Gear::create(
                     $stravaGear,
-                    $this->clock->now()
+                    SerializableDateTime::fromDateTimeImmutable($this->clock->now()),
                 );
             }
             $command->getOutput()->writeln(sprintf('  => Imported/updated gear "%s"', $gear->getName()));

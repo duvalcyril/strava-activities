@@ -9,6 +9,7 @@ use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Exception\EntityNotFound;
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
 use Lcobucci\Clock\Clock;
 use League\Flysystem\Filesystem;
 use Ramsey\Uuid\Rfc4122\UuidV5;
@@ -35,7 +36,7 @@ final readonly class ImportChallengesCommandHandler implements CommandHandler
             } catch (EntityNotFound) {
                 $challenge = Challenge::create(
                     $challengeData,
-                    $this->clock->now()
+                    SerializableDateTime::fromDateTimeImmutable($this->clock->now()),
                 );
                 if ($url = $challenge->getLogoUrl()) {
                     $imagePath = sprintf('files/challenges/%s.png', UuidV5::uuid1());

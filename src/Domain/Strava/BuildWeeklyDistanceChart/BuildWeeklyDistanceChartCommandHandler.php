@@ -9,6 +9,7 @@ use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
 use App\Infrastructure\Environment\Settings;
 use App\Infrastructure\Serialization\Json;
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
 use Lcobucci\Clock\Clock;
 
 #[AsCommandHandler]
@@ -101,7 +102,7 @@ final readonly class BuildWeeklyDistanceChartCommandHandler implements CommandHa
                         ],
                         'data' => DistancePerWeek::fromActivities(
                             $allActivities,
-                            $this->clock->now(),
+                            SerializableDateTime::fromDateTimeImmutable($this->clock->now()),
                         )->getData(),
                     ],
                 ],

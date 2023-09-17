@@ -5,29 +5,30 @@ namespace App\Domain\Strava;
 use App\Domain\Strava\Activity\Activity;
 use App\Domain\Strava\Activity\ActivityType;
 use App\Domain\Strava\Challenge\Challenge;
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
 use Carbon\CarbonInterval;
 
-class MonthlyStatistics
+final class MonthlyStatistics
 {
-    private \DateTimeImmutable $startDate;
+    private SerializableDateTime $startDate;
 
     private function __construct(
         /** @var \App\Domain\Strava\Activity\Activity[] */
         private readonly array $activities,
         /** @var \App\Domain\Strava\Challenge\Challenge[] */
         private readonly array $challenges,
-        private readonly \DateTimeImmutable $now,
+        private readonly SerializableDateTime $now,
     ) {
-        $this->startDate = new \DateTimeImmutable();
+        $this->startDate = new SerializableDateTime();
         foreach ($this->activities as $activity) {
-            if ($activity->getStartDate() > $this->startDate) {
+            if ($activity->getStartDate()->isAfterOrOn($this->startDate)) {
                 continue;
             }
             $this->startDate = $activity->getStartDate();
         }
     }
 
-    public static function fromActivitiesAndChallenges(array $activities, array $challenges, \DateTimeImmutable $now): self
+    public static function fromActivitiesAndChallenges(array $activities, array $challenges, SerializableDateTime $now): self
     {
         return new self($activities, $challenges, $now);
     }

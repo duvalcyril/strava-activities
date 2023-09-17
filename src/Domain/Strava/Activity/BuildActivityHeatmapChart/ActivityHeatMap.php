@@ -2,6 +2,8 @@
 
 namespace App\Domain\Strava\Activity\BuildActivityHeatmapChart;
 
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
+
 final readonly class ActivityHeatMap
 {
     private function __construct(
@@ -11,8 +13,8 @@ final readonly class ActivityHeatMap
     }
 
     public function getData(
-        \DateTimeImmutable $fromDate,
-        \DateTimeImmutable $toDate,
+        SerializableDateTime $fromDate,
+        SerializableDateTime $toDate,
     ): array {
         $data = $rawData = [];
         foreach ($this->activities as $activity) {

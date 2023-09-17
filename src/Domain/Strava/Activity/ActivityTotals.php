@@ -2,20 +2,21 @@
 
 namespace App\Domain\Strava\Activity;
 
+use App\Infrastructure\ValueObject\Time\SerializableDateTime;
 use Carbon\CarbonInterval;
 
-class ActivityTotals
+final class ActivityTotals
 {
-    private \DateTimeImmutable $startDate;
+    private SerializableDateTime $startDate;
 
     private function __construct(
         private readonly array $activities,
-        private readonly \DateTimeImmutable $now,
+        private readonly SerializableDateTime $now,
     ) {
-        $this->startDate = new \DateTimeImmutable();
+        $this->startDate = new SerializableDateTime();
         foreach ($this->activities as $activity) {
             /* @var \App\Domain\Strava\Activity\Activity $activity */
-            if ($activity->getStartDate() > $this->startDate) {
+            if ($activity->getStartDate()->isAfterOrOn($this->startDate)) {
                 continue;
             }
             $this->startDate = $activity->getStartDate();
@@ -44,7 +45,7 @@ class ActivityTotals
         return CarbonInterval::seconds($seconds)->cascade()->forHumans(['short' => true, 'minimumUnit' => 'minute']);
     }
 
-    public function getStartDate(): \DateTimeImmutable
+    public function getStartDate(): SerializableDateTime
     {
         return $this->startDate;
     }
@@ -70,11 +71,6 @@ class ActivityTotals
         return $this->getDistance() / ($diff->m + 1);
     }
 
-    public static function fromActivities(array $activities, \DateTimeImmutable $now): self
-    {
-        return new self($activities, $now);
-    }
-
     public function getTotalDays(): int
     {
         return $this->now->diff($this->startDate)->days;
@@ -83,5 +79,10 @@ class ActivityTotals
     public function getTotalDaysOfCycling(): int
     {
         return count(array_unique(array_map(fn (Activity $activity) => $activity->getStartDate()->format('Ymd'), $this->activities)));
+    }
+
+    public static function fromActivities(array $activities, SerializableDateTime $now): self
+    {
+        return new self($activities, $now);
     }
 }
