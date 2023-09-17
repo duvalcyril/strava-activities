@@ -2469,7 +2469,7 @@ I burned `99180 calories` doing so, that's about `367` pizza slices 🍕
     </tr>
     <tr>
         <td align="center">Total kudos received</td>
-        <td align="center">801</td>
+        <td align="center">807</td>
         <td></td>
     </tr>
     <tr>
