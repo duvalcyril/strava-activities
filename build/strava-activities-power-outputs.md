@@ -12,6 +12,29 @@
         <th colspan="2">Best 1h</th>
     </tr>
             <tr>
+            <td>18-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9874096489" title="Kcal: 814 | Gear: None ">Zone 2 in Makuri Islands</a>
+            </td>
+                                                                <td align="center">183 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.65 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">182 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.64 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">181 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.62 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">180 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.61 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">180 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.61 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">180 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.61 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">163 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.36 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">156 <sup><sub>w</sub></sup></td>
+                    <td align="center">2.26 <sup><sub>w/kg</sub></sup></td>
+                                    </tr>
+            <tr>
             <td>15-09-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
