@@ -84,6 +84,7 @@ feel free to [open an issue](https://github.com/robiningelbrecht/strava-activiti
 * Features still to add / finish
     * Create fancy HTML version
     * Display per activity weather data
+    * Eddington number
 
 ## 💡Feature request?
 
