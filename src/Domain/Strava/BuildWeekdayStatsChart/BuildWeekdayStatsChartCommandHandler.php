@@ -37,6 +37,9 @@ final readonly class BuildWeekdayStatsChartCommandHandler implements CommandHand
                 ],
                 'xAxis' => [
                     'type' => 'category',
+                    'axisTick' => [
+                        'alignWithLabel' => true,
+                    ],
                     'data' => [
                         'Mon',
                         'Tue',
