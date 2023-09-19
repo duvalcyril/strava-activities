@@ -58,6 +58,14 @@ jobs:
           height: 180
           pass-options-as: file
           chart-option: 'build/chart-activities-heatmap.json'
+      - name: Generate eddington chart
+        id: chart_activities_eddington
+        uses: robiningelbrecht/apache-echarts-action@v1.1.0
+        with:
+          width: 1000
+          height: 300
+          pass-options-as: file
+          chart-option: 'build/chart-activities-eddington.json'
       - name: Save generated charts
         run: |
           cat <<EOF > build/chart.svg
@@ -68,6 +76,9 @@ jobs:
           EOF
           cat <<EOF > build/chart-activities-heatmap.svg
           ${{ steps.chart_activities_heatmap.outputs.svg }}
+          EOF
+          cat <<EOF > build/chart-activities-eddington.svg
+          ${{ steps.chart_activities_eddington.outputs.svg }}
           EOF
       - name: Commit and push changes
         run: |
