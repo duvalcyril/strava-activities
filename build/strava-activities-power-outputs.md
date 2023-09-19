@@ -2,6 +2,7 @@
     <tr>
         <th></th>
         <th></th>
+        <th>Rpm</th>
         <th colspan="2">Best 5s</th>
         <th colspan="2">Best 10s</th>
         <th colspan="2">Best 30s</th>
@@ -17,6 +18,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9874096489" title="Kcal: 814 | Gear: None ">Zone 2 in Makuri Islands</a>
             </td>
+            <td align="center">102</td>
                                                                 <td align="center">183 <sup><sub>w</sub></sup></td>
                     <td align="center">2.65 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">182 <sup><sub>w</sub></sup></td>
@@ -40,6 +42,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9854642845" title="Kcal: 639 | Gear: None ">Watopia Hilly Forward in M...</a>
             </td>
+            <td align="center">89</td>
                                                                 <td align="center">477 <sup><sub>w</sub></sup></td>
                     <td align="center">6.91 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">476 <sup><sub>w</sub></sup></td>
@@ -63,6 +66,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9835896245" title="Kcal: 441 | Gear: None ">Fast and Easy in Makuri Is...</a>
             </td>
+            <td align="center">90</td>
                                                                 <td align="center">158 <sup><sub>w</sub></sup></td>
                     <td align="center">2.29 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">156 <sup><sub>w</sub></sup></td>
@@ -86,6 +90,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9828474776" title="Kcal: 573 | Gear: None ">Sweet Spot Ramps - 30min i...</a>
             </td>
+            <td align="center">92</td>
                                                                 <td align="center">227 <sup><sub>w</sub></sup></td>
                     <td align="center">3.29 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">226 <sup><sub>w</sub></sup></td>
@@ -109,6 +114,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9802860313" title="Kcal: 841 | Gear: None ">Zone 2, because Fons told ...</a>
             </td>
+            <td align="center">89</td>
                                                                 <td align="center">181 <sup><sub>w</sub></sup></td>
                     <td align="center">2.62 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">181 <sup><sub>w</sub></sup></td>
@@ -132,6 +138,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9796786381" title="Kcal: 579 | Gear: None ">Wild Starts in London</a>
             </td>
+            <td align="center">86</td>
                                                                 <td align="center">358 <sup><sub>w</sub></sup></td>
                     <td align="center">5.19 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">356 <sup><sub>w</sub></sup></td>
@@ -155,6 +162,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9790085499" title="Kcal: 841 | Gear: None ">Zone 2 in New York</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">183 <sup><sub>w</sub></sup></td>
                     <td align="center">2.65 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">181 <sup><sub>w</sub></sup></td>
@@ -178,6 +186,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9782131381" title="Kcal: 635 | Gear: None ">Watopia Volcano Circuit in...</a>
             </td>
+            <td align="center">85</td>
                                                                 <td align="center">479 <sup><sub>w</sub></sup></td>
                     <td align="center">6.94 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">478 <sup><sub>w</sub></sup></td>
@@ -201,6 +210,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9763146204" title="Kcal: 823 | Gear: None ">Race: 3R Volcano Flat Race...</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">526 <sup><sub>w</sub></sup></td>
                     <td align="center">7.62 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">504 <sup><sub>w</sub></sup></td>
@@ -224,6 +234,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9762712387" title="Kcal: 154 | Gear: None ">WarmUp in Makuri Islands</a>
             </td>
+            <td align="center">83</td>
                                                                 <td align="center">379 <sup><sub>w</sub></sup></td>
                     <td align="center">5.49 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">330 <sup><sub>w</sub></sup></td>
@@ -247,6 +258,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9756441741" title="Kcal: 695 | Gear: None ">Watopia Flat Forward in Lo...</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">476 <sup><sub>w</sub></sup></td>
                     <td align="center">6.9 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">452 <sup><sub>w</sub></sup></td>
@@ -270,6 +282,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9751176666" title="Kcal: 705 | Gear: None ">Race: STAGE 9 TOUR DE HISP...</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">542 <sup><sub>w</sub></sup></td>
                     <td align="center">7.86 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">484 <sup><sub>w</sub></sup></td>
@@ -293,6 +306,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9750729662" title="Kcal: 128 | Gear: None ">WarmUp in Makuri Islands</a>
             </td>
+            <td align="center">94</td>
                                                                 <td align="center">278 <sup><sub>w</sub></sup></td>
                     <td align="center">4.03 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">276 <sup><sub>w</sub></sup></td>
@@ -316,6 +330,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9743524526" title="Kcal: 622 | Gear: None ">Breakfast Returns🤢 in New ...</a>
             </td>
+            <td align="center">93</td>
                                                                 <td align="center">312 <sup><sub>w</sub></sup></td>
                     <td align="center">4.52 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">311 <sup><sub>w</sub></sup></td>
@@ -339,6 +354,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9737783754" title="Kcal: 1311 | Gear: None ">Aspire in Watopia</a>
             </td>
+            <td align="center">89</td>
                                                                 <td align="center">350 <sup><sub>w</sub></sup></td>
                     <td align="center">5.07 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">292 <sup><sub>w</sub></sup></td>
@@ -362,6 +378,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9724694247" title="Kcal: 1007 | Gear: None ">Race: 3R Innsbruckring Fla...</a>
             </td>
+            <td align="center">82</td>
                                                                 <td align="center">493 <sup><sub>w</sub></sup></td>
                     <td align="center">7.14 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">460 <sup><sub>w</sub></sup></td>
@@ -385,6 +402,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9719180546" title="Kcal: 1225 | Gear: None ">Tenacity in London</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">478 <sup><sub>w</sub></sup></td>
                     <td align="center">6.93 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">363 <sup><sub>w</sub></sup></td>
@@ -408,6 +426,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9706568176" title="Kcal: 610 | Gear: None ">Potpourri in New York</a>
             </td>
+            <td align="center">89</td>
                                                                 <td align="center">279 <sup><sub>w</sub></sup></td>
                     <td align="center">4.04 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">277 <sup><sub>w</sub></sup></td>
@@ -431,6 +450,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9699783067" title="Kcal: 663 | Gear: None ">Exemplar in New York</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">226 <sup><sub>w</sub></sup></td>
                     <td align="center">3.28 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">224 <sup><sub>w</sub></sup></td>
@@ -454,6 +474,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9693037895" title="Kcal: 603 | Gear: None ">Baffling Beau in New York</a>
             </td>
+            <td align="center">94</td>
                                                                 <td align="center">337 <sup><sub>w</sub></sup></td>
                     <td align="center">4.88 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">336 <sup><sub>w</sub></sup></td>
@@ -477,6 +498,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9685188804" title="Kcal: 972 | Gear: None ">Exigent in Innsbruck</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">281 <sup><sub>w</sub></sup></td>
                     <td align="center">4.07 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">276 <sup><sub>w</sub></sup></td>
@@ -500,6 +522,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9586615456" title="Kcal: 998 | Gear: None ">Serrated in London</a>
             </td>
+            <td align="center">90</td>
                                                                 <td align="center">337 <sup><sub>w</sub></sup></td>
                     <td align="center">4.88 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">335 <sup><sub>w</sub></sup></td>
@@ -523,6 +546,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9582002750" title="Kcal: 665 | Gear: None ">Malevolent in New York</a>
             </td>
+            <td align="center">94</td>
                                                                 <td align="center">278 <sup><sub>w</sub></sup></td>
                     <td align="center">4.03 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">277 <sup><sub>w</sub></sup></td>
@@ -546,6 +570,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9569764172" title="Kcal: 621 | Gear: None ">Circus in New York</a>
             </td>
+            <td align="center">94</td>
                                                                 <td align="center">482 <sup><sub>w</sub></sup></td>
                     <td align="center">6.99 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">478 <sup><sub>w</sub></sup></td>
@@ -569,6 +594,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9563517795" title="Kcal: 687 | Gear: None ">Race: EVO CC Race Series (...</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">547 <sup><sub>w</sub></sup></td>
                     <td align="center">7.93 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">416 <sup><sub>w</sub></sup></td>
@@ -592,6 +618,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9556405540" title="Kcal: 811 | Gear: None ">Melange in Watopia</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">294 <sup><sub>w</sub></sup></td>
                     <td align="center">4.26 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">292 <sup><sub>w</sub></sup></td>
@@ -615,6 +642,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9544303302" title="Kcal: 1185 | Gear: None ">Mosaic in Watopia</a>
             </td>
+            <td align="center">87</td>
                                                                 <td align="center">258 <sup><sub>w</sub></sup></td>
                     <td align="center">3.74 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">256 <sup><sub>w</sub></sup></td>
@@ -638,6 +666,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9531982736" title="Kcal: 567 | Gear: None ">Hang Ten in London</a>
             </td>
+            <td align="center">83</td>
                                                                 <td align="center">247 <sup><sub>w</sub></sup></td>
                     <td align="center">3.58 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">246 <sup><sub>w</sub></sup></td>
@@ -661,6 +690,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9519797203" title="Kcal: 550 | Gear: None ">Race: EVO CC Race Series (...</a>
             </td>
+            <td align="center">87</td>
                                                                 <td align="center">471 <sup><sub>w</sub></sup></td>
                     <td align="center">6.83 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">446 <sup><sub>w</sub></sup></td>
@@ -684,6 +714,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9513068209" title="Kcal: 1113 | Gear: None ">Bricolage in Watopia</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">275 <sup><sub>w</sub></sup></td>
                     <td align="center">3.99 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">272 <sup><sub>w</sub></sup></td>
@@ -707,6 +738,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9499680193" title="Kcal: 545 | Gear: None ">Giza in France</a>
             </td>
+            <td align="center">89</td>
                                                                 <td align="center">258 <sup><sub>w</sub></sup></td>
                     <td align="center">3.74 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">256 <sup><sub>w</sub></sup></td>
@@ -730,6 +762,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9475869554" title="Kcal: 588 | Gear: None ">Spaded Sweetie in Richmond</a>
             </td>
+            <td align="center">96</td>
                                                                 <td align="center">344 <sup><sub>w</sub></sup></td>
                     <td align="center">4.99 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">339 <sup><sub>w</sub></sup></td>
@@ -753,6 +786,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9468607450" title="Kcal: 585 | Gear: None ">LOX in Makuri Islands</a>
             </td>
+            <td align="center">95</td>
                                                                 <td align="center">260 <sup><sub>w</sub></sup></td>
                     <td align="center">3.77 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">258 <sup><sub>w</sub></sup></td>
@@ -776,6 +810,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9450997559" title="Kcal: 919 | Gear: None ">Cucumber in New York</a>
             </td>
+            <td align="center">90</td>
                                                                 <td align="center">337 <sup><sub>w</sub></sup></td>
                     <td align="center">4.88 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">336 <sup><sub>w</sub></sup></td>
@@ -799,6 +834,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9431441829" title="Kcal: 896 | Gear: None ">Kirizuma in France</a>
             </td>
+            <td align="center">92</td>
                                                                 <td align="center">246 <sup><sub>w</sub></sup></td>
                     <td align="center">3.57 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">246 <sup><sub>w</sub></sup></td>
@@ -822,6 +858,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9424963443" title="Kcal: 547 | Gear: None ">C.A. in Paris</a>
             </td>
+            <td align="center">95</td>
                                                                 <td align="center">246 <sup><sub>w</sub></sup></td>
                     <td align="center">3.57 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">246 <sup><sub>w</sub></sup></td>
@@ -845,6 +882,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9417045637" title="Kcal: 543 | Gear: None ">Uphill Battle in Paris</a>
             </td>
+            <td align="center">94</td>
                                                                 <td align="center">312 <sup><sub>w</sub></sup></td>
                     <td align="center">4.52 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">311 <sup><sub>w</sub></sup></td>
@@ -868,6 +906,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9406488593" title="Kcal: 547 | Gear: None ">Attack! in Makuri Islands</a>
             </td>
+            <td align="center">92</td>
                                                                 <td align="center">337 <sup><sub>w</sub></sup></td>
                     <td align="center">4.88 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">336 <sup><sub>w</sub></sup></td>
@@ -891,6 +930,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9394451254" title="Kcal: 566 | Gear: None ">15.9 in London</a>
             </td>
+            <td align="center">94</td>
                                                                 <td align="center">260 <sup><sub>w</sub></sup></td>
                     <td align="center">3.77 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">258 <sup><sub>w</sub></sup></td>
@@ -914,6 +954,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9388733291" title="Kcal: 848 | Gear: None ">HWBTWTDWH in Scotland</a>
             </td>
+            <td align="center">86</td>
                                                                 <td align="center">261 <sup><sub>w</sub></sup></td>
                     <td align="center">3.78 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">258 <sup><sub>w</sub></sup></td>
@@ -937,6 +978,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9372557932" title="Kcal: 523 | Gear: None ">Tine in New York</a>
             </td>
+            <td align="center">86</td>
                                                                 <td align="center">260 <sup><sub>w</sub></sup></td>
                     <td align="center">3.77 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">258 <sup><sub>w</sub></sup></td>
@@ -960,6 +1002,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9369192999" title="Kcal: 523 | Gear: None ">#8 in France</a>
             </td>
+            <td align="center">92</td>
                                                                 <td align="center">307 <sup><sub>w</sub></sup></td>
                     <td align="center">4.45 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">306 <sup><sub>w</sub></sup></td>
@@ -983,6 +1026,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9357278199" title="Kcal: 986 | Gear: None ">Method in France</a>
             </td>
+            <td align="center">88</td>
                                                                 <td align="center">331 <sup><sub>w</sub></sup></td>
                     <td align="center">4.8 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">307 <sup><sub>w</sub></sup></td>
@@ -1006,6 +1050,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9331921708" title="Kcal: 981 | Gear: None ">Escalation in Watopia</a>
             </td>
+            <td align="center">87</td>
                                                                 <td align="center">371 <sup><sub>w</sub></sup></td>
                     <td align="center">5.38 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">336 <sup><sub>w</sub></sup></td>
@@ -1029,6 +1074,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9312280977" title="Kcal: 543 | Gear: None ">Sneaky in Scotland</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">241 <sup><sub>w</sub></sup></td>
                     <td align="center">3.49 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">241 <sup><sub>w</sub></sup></td>
@@ -1052,6 +1098,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9308442674" title="Kcal: 1159 | Gear: None ">Purple Unicorn in Watopia</a>
             </td>
+            <td align="center">88</td>
                                                                 <td align="center">408 <sup><sub>w</sub></sup></td>
                     <td align="center">5.91 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">341 <sup><sub>w</sub></sup></td>
@@ -1075,6 +1122,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9301725522" title="Kcal: 600 | Gear: None ">Novanta in London</a>
             </td>
+            <td align="center">88</td>
                                                                 <td align="center">257 <sup><sub>w</sub></sup></td>
                     <td align="center">3.72 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">256 <sup><sub>w</sub></sup></td>
@@ -1098,6 +1146,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9265285993" title="Kcal: 604 | Gear: None ">Ham Sandwich in Makuri Isl...</a>
             </td>
+            <td align="center">93</td>
                                                                 <td align="center">295 <sup><sub>w</sub></sup></td>
                     <td align="center">4.28 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">293 <sup><sub>w</sub></sup></td>
@@ -1121,6 +1170,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9258936778" title="Kcal: 824 | Gear: None ">Amalgam in Yorkshire</a>
             </td>
+            <td align="center">86</td>
                                                                 <td align="center">257 <sup><sub>w</sub></sup></td>
                     <td align="center">3.72 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">256 <sup><sub>w</sub></sup></td>
@@ -1144,6 +1194,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9246480572" title="Kcal: 1032 | Gear: None ">Yellow Unicorn in Watopia</a>
             </td>
+            <td align="center">86</td>
                                                                 <td align="center">256 <sup><sub>w</sub></sup></td>
                     <td align="center">3.71 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">256 <sup><sub>w</sub></sup></td>
@@ -1167,6 +1218,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9238635357" title="Kcal: 604 | Gear: None ">Halvfems in New York</a>
             </td>
+            <td align="center">85</td>
                                                                 <td align="center">363 <sup><sub>w</sub></sup></td>
                     <td align="center">5.26 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">327 <sup><sub>w</sub></sup></td>
@@ -1190,6 +1242,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9226980899" title="Kcal: 617 | Gear: None ">What Goes Up, Must Come Do...</a>
             </td>
+            <td align="center">83</td>
                                                                 <td align="center">227 <sup><sub>w</sub></sup></td>
                     <td align="center">3.29 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">226 <sup><sub>w</sub></sup></td>
@@ -1213,6 +1266,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9220883501" title="Kcal: 933 | Gear: None ">Mishmash in Watopia</a>
             </td>
+            <td align="center">86</td>
                                                                 <td align="center">370 <sup><sub>w</sub></sup></td>
                     <td align="center">5.36 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">336 <sup><sub>w</sub></sup></td>
@@ -1236,6 +1290,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9214774609" title="Kcal: 597 | Gear: None ">Race: EVO CC Race Series (...</a>
             </td>
+            <td align="center">78</td>
                                                                 <td align="center">504 <sup><sub>w</sub></sup></td>
                     <td align="center">7.3 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">496 <sup><sub>w</sub></sup></td>
@@ -1259,6 +1314,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9207962438" title="Kcal: 921 | Gear: None ">Orange Unicorn in Watopia</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">322 <sup><sub>w</sub></sup></td>
                     <td align="center">4.67 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">271 <sup><sub>w</sub></sup></td>
@@ -1282,6 +1338,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9183393448" title="Kcal: 506 | Gear: None ">Zone Benchmarking in New York</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">326 <sup><sub>w</sub></sup></td>
                     <td align="center">4.72 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">295 <sup><sub>w</sub></sup></td>
@@ -1305,6 +1362,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9176313509" title="Kcal: 788 | Gear: None ">Devedeset in Watopia</a>
             </td>
+            <td align="center">87</td>
                                                                 <td align="center">350 <sup><sub>w</sub></sup></td>
                     <td align="center">5.07 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">335 <sup><sub>w</sub></sup></td>
@@ -1328,6 +1386,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9162422046" title="Kcal: 612 | Gear: None ">Race: 3R Racing (C) on Inn...</a>
             </td>
+            <td align="center">75</td>
                                                                 <td align="center">447 <sup><sub>w</sub></sup></td>
                     <td align="center">6.48 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">409 <sup><sub>w</sub></sup></td>
@@ -1351,6 +1410,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9155976770" title="Kcal: 872 | Gear: None ">Red Unicorn in Watopia</a>
             </td>
+            <td align="center">87</td>
                                                                 <td align="center">390 <sup><sub>w</sub></sup></td>
                     <td align="center">5.65 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">306 <sup><sub>w</sub></sup></td>
@@ -1374,6 +1434,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9138675211" title="Kcal: 385 | Gear: None ">Zone Benchmarking in Richmond</a>
             </td>
+            <td align="center">83</td>
                                                                 <td align="center">308 <sup><sub>w</sub></sup></td>
                     <td align="center">4.46 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">297 <sup><sub>w</sub></sup></td>
@@ -1397,6 +1458,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9138442860" title="Kcal: 173 | Gear: None ">Pedaling Drills in Makuri ...</a>
             </td>
+            <td align="center">88</td>
                                                                 <td align="center">372 <sup><sub>w</sub></sup></td>
                     <td align="center">5.39 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">289 <sup><sub>w</sub></sup></td>
@@ -1420,6 +1482,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9132215821" title="Kcal: 472 | Gear: None ">FTP Test (shorter) in Maku...</a>
             </td>
+            <td align="center">90</td>
                                                                 <td align="center">338 <sup><sub>w</sub></sup></td>
                     <td align="center">4.9 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">332 <sup><sub>w</sub></sup></td>
@@ -1443,6 +1506,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9120215227" title="Kcal: 519 | Gear: None ">Flexible Free Ride in France</a>
             </td>
+            <td align="center">93</td>
                                                                 <td align="center">372 <sup><sub>w</sub></sup></td>
                     <td align="center">5.39 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">335 <sup><sub>w</sub></sup></td>
@@ -1466,6 +1530,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9111623965" title="Kcal: 570 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">92</td>
                                                                 <td align="center">231 <sup><sub>w</sub></sup></td>
                     <td align="center">3.35 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">226 <sup><sub>w</sub></sup></td>
@@ -1489,6 +1554,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9106730277" title="Kcal: 591 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">252 <sup><sub>w</sub></sup></td>
                     <td align="center">3.65 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">215 <sup><sub>w</sub></sup></td>
@@ -1512,6 +1578,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9088700396" title="Kcal: 813 | Gear: None ">Threshold Development in W...</a>
             </td>
+            <td align="center">93</td>
                                                                 <td align="center">487 <sup><sub>w</sub></sup></td>
                     <td align="center">7.06 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">416 <sup><sub>w</sub></sup></td>
@@ -1535,6 +1602,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9076452878" title="Kcal: 664 | Gear: None ">Threshold Development in W...</a>
             </td>
+            <td align="center">84</td>
                                                                 <td align="center">272 <sup><sub>w</sub></sup></td>
                     <td align="center">3.94 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">249 <sup><sub>w</sub></sup></td>
@@ -1558,6 +1626,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9070524758" title="Kcal: 319 | Gear: None ">Active Recovery in London</a>
             </td>
+            <td align="center">94</td>
                                                                 <td align="center">253 <sup><sub>w</sub></sup></td>
                     <td align="center">3.67 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">224 <sup><sub>w</sub></sup></td>
@@ -1581,6 +1650,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9065355028" title="Kcal: 549 | Gear: None ">Active Recovery in Watopia</a>
             </td>
+            <td align="center">94</td>
                                                                 <td align="center">323 <sup><sub>w</sub></sup></td>
                     <td align="center">4.68 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">315 <sup><sub>w</sub></sup></td>
@@ -1604,6 +1674,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9058227157" title="Kcal: 602 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">316 <sup><sub>w</sub></sup></td>
                     <td align="center">4.58 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">308 <sup><sub>w</sub></sup></td>
@@ -1627,6 +1698,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9052150879" title="Kcal: 584 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">224 <sup><sub>w</sub></sup></td>
                     <td align="center">3.25 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">199 <sup><sub>w</sub></sup></td>
@@ -1650,6 +1722,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9040880440" title="Kcal: 715 | Gear: None ">Threshold Development in W...</a>
             </td>
+            <td align="center">92</td>
                                                                 <td align="center">303 <sup><sub>w</sub></sup></td>
                     <td align="center">4.39 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">288 <sup><sub>w</sub></sup></td>
@@ -1673,6 +1746,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9034331277" title="Kcal: 651 | Gear: None ">Threshold Development in W...</a>
             </td>
+            <td align="center">83</td>
                                                                 <td align="center">297 <sup><sub>w</sub></sup></td>
                     <td align="center">4.3 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">280 <sup><sub>w</sub></sup></td>
@@ -1696,6 +1770,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9019875314" title="Kcal: 582 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">92</td>
                                                                 <td align="center">264 <sup><sub>w</sub></sup></td>
                     <td align="center">3.83 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">225 <sup><sub>w</sub></sup></td>
@@ -1719,6 +1794,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9015734636" title="Kcal: 623 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">91</td>
                                                                 <td align="center">437 <sup><sub>w</sub></sup></td>
                     <td align="center">6.33 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">426 <sup><sub>w</sub></sup></td>
@@ -1742,6 +1818,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/9003851558" title="Kcal: 576 | Gear: None ">Intermittent in Watopia</a>
             </td>
+            <td align="center">88</td>
                                                                 <td align="center">295 <sup><sub>w</sub></sup></td>
                     <td align="center">4.28 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">256 <sup><sub>w</sub></sup></td>
@@ -1765,6 +1842,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8989624727" title="Kcal: 962 | Gear: None ">Tempo in Watopia</a>
             </td>
+            <td align="center">88</td>
                                                                 <td align="center">274 <sup><sub>w</sub></sup></td>
                     <td align="center">3.97 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">250 <sup><sub>w</sub></sup></td>
@@ -1788,6 +1866,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8983590716" title="Kcal: 447 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">93</td>
                                                                 <td align="center">186 <sup><sub>w</sub></sup></td>
                     <td align="center">2.7 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">173 <sup><sub>w</sub></sup></td>
@@ -1811,6 +1890,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8978542341" title="Kcal: 512 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">92</td>
                                                                 <td align="center">361 <sup><sub>w</sub></sup></td>
                     <td align="center">5.23 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">325 <sup><sub>w</sub></sup></td>
@@ -1834,6 +1914,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8961012150" title="Kcal: 510 | Gear: None ">Strength in Watopia</a>
             </td>
+            <td align="center">85</td>
                                                                 <td align="center">485 <sup><sub>w</sub></sup></td>
                     <td align="center">7.03 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">474 <sup><sub>w</sub></sup></td>
@@ -1857,6 +1938,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8954935199" title="Kcal: 699 | Gear: None ">Tempo in Watopia</a>
             </td>
+            <td align="center">88</td>
                                                                 <td align="center">251 <sup><sub>w</sub></sup></td>
                     <td align="center">3.64 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">210 <sup><sub>w</sub></sup></td>
@@ -1880,6 +1962,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8943085360" title="Kcal: 322 | Gear: None ">Active Recovery in Watopia</a>
             </td>
+            <td align="center">90</td>
                                                                 <td align="center">185 <sup><sub>w</sub></sup></td>
                     <td align="center">2.68 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">172 <sup><sub>w</sub></sup></td>
@@ -1903,6 +1986,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8931111884" title="Kcal: 398 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">85</td>
                                                                 <td align="center">205 <sup><sub>w</sub></sup></td>
                     <td align="center">2.97 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">174 <sup><sub>w</sub></sup></td>
@@ -1926,6 +2010,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8919763151" title="Kcal: 553 | Gear: None ">Foundation in Richmond</a>
             </td>
+            <td align="center">88</td>
                                                                 <td align="center">386 <sup><sub>w</sub></sup></td>
                     <td align="center">5.59 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">382 <sup><sub>w</sub></sup></td>
@@ -1949,6 +2034,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8913200246" title="Kcal: 437 | Gear: None ">Strength in Watopia</a>
             </td>
+            <td align="center">85</td>
                                                                 <td align="center">403 <sup><sub>w</sub></sup></td>
                     <td align="center">5.84 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">377 <sup><sub>w</sub></sup></td>
@@ -1972,6 +2058,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8889731068" title="Kcal: 670 | Gear: None ">Tempo in Watopia</a>
             </td>
+            <td align="center">87</td>
                                                                 <td align="center">275 <sup><sub>w</sub></sup></td>
                     <td align="center">3.99 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">239 <sup><sub>w</sub></sup></td>
@@ -1995,6 +2082,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8884162026" title="Kcal: 353 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">83</td>
                                                                 <td align="center">254 <sup><sub>w</sub></sup></td>
                     <td align="center">3.68 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">217 <sup><sub>w</sub></sup></td>
@@ -2018,6 +2106,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8878924682" title="Kcal: 352 | Gear: None ">Foundation in Watopia</a>
             </td>
+            <td align="center">86</td>
                                                                 <td align="center">263 <sup><sub>w</sub></sup></td>
                     <td align="center">3.81 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">208 <sup><sub>w</sub></sup></td>
@@ -2041,6 +2130,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8872209398" title="Kcal: 585 | Gear: None ">Strength in Makuri Islands</a>
             </td>
+            <td align="center">82</td>
                                                                 <td align="center">457 <sup><sub>w</sub></sup></td>
                     <td align="center">6.62 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">418 <sup><sub>w</sub></sup></td>
@@ -2064,6 +2154,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8859715132" title="Kcal: 645 | Gear: None ">Tempo in Watopia</a>
             </td>
+            <td align="center">82</td>
                                                                 <td align="center">313 <sup><sub>w</sub></sup></td>
                     <td align="center">4.54 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">280 <sup><sub>w</sub></sup></td>
@@ -2087,6 +2178,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8848645176" title="Kcal: 550 | Gear: None ">Ramp Test in Innsbruck</a>
             </td>
+            <td align="center">72</td>
                                                                 <td align="center">323 <sup><sub>w</sub></sup></td>
                     <td align="center">4.68 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">314 <sup><sub>w</sub></sup></td>
@@ -2110,6 +2202,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8842900668" title="Kcal: 418 | Gear: None ">Zone Benchmarking in Watopia</a>
             </td>
+            <td align="center">87</td>
                                                                 <td align="center">326 <sup><sub>w</sub></sup></td>
                     <td align="center">4.72 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">289 <sup><sub>w</sub></sup></td>
@@ -2133,6 +2226,7 @@
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
                 <a href="https://www.strava.com/activities/8837881433" title="Kcal: 365 | Gear: None ">FTP Test (shorter) in Watopia</a>
             </td>
+            <td align="center">77</td>
                                                                 <td align="center">236 <sup><sub>w</sub></sup></td>
                     <td align="center">3.42 <sup><sub>w/kg</sub></sup></td>
                                                                                 <td align="center">228 <sup><sub>w</sub></sup></td>

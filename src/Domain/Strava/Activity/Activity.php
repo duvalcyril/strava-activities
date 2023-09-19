@@ -161,6 +161,11 @@ class Activity implements \JsonSerializable
         return null;
     }
 
+    public function getAverageCadence(): ?int
+    {
+        return !empty($this->data['average_cadence']) ? round($this->data['average_cadence']) : null;
+    }
+
     public function getMovingTime(): int
     {
         return $this->data['moving_time'];
