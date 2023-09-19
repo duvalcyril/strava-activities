@@ -91,8 +91,8 @@ final readonly class BuildEddingtonChartCommandHandler implements CommandHandler
                                 [
                                     'value' => $eddingtonNumber,
                                     'coord' => [
-                                        $eddingtonNumber,
-                                        $eddingtonNumber,
+                                        $eddingtonNumber - 1,
+                                        $eddingtonNumber - 1,
                                     ],
                                 ],
                             ],
