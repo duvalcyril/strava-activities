@@ -2435,31 +2435,30 @@ I burned `99994 calories` doing so, that's about `370` pizza slices 🍕
 <table align="center">
     <tr>
         <th align="center">Eddington</th>
-        <th align="center">Days needed</th>
-    </tr>
-            <tr>
-            <td align="center">44 <sup><sub>km</sub></sup></td>
+            <th align="center">44 <sup><sub>km</sub></sup></th>
+            <th align="center">45 <sup><sub>km</sub></sup></th>
+            <th align="center">46 <sup><sub>km</sub></sup></th>
+            <th align="center">47 <sup><sub>km</sub></sup></th>
+            <th align="center">48 <sup><sub>km</sub></sup></th>
+            <th align="center">49 <sup><sub>km</sub></sup></th>
+            <th align="center">50 <sup><sub>km</sub></sup></th>
+            <th align="center">51 <sup><sub>km</sub></sup></th>
+            <th align="center">52 <sup><sub>km</sub></sup></th>
+            <th align="center">53 <sup><sub>km</sub></sup></th>
+        </tr>
+    <tr>
+        <td align="center">Days needed</td>
             <td align="center">6</td>
-        </tr>
-            <tr>
-            <td align="center">45 <sup><sub>km</sub></sup></td>
             <td align="center">8</td>
-        </tr>
-            <tr>
-            <td align="center">46 <sup><sub>km</sub></sup></td>
             <td align="center">12</td>
-        </tr>
-            <tr>
-            <td align="center">47 <sup><sub>km</sub></sup></td>
             <td align="center">15</td>
-        </tr>
-            <tr>
-            <td align="center">48 <sup><sub>km</sub></sup></td>
             <td align="center">20</td>
+            <td align="center">22</td>
+            <td align="center">24</td>
+            <td align="center">27</td>
+            <td align="center">29</td>
+            <td align="center">34</td>
         </tr>
-        <tr>
-        <td align="center" colspan="2">...</td>
-    </tr>
 </table>
 
 ## Trivia
