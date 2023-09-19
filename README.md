@@ -2411,6 +2411,7 @@ I burned `99994 calories` doing so, that's about `370` pizza slices 🍕
 ## Eddington chart
 
 > The Eddington number in the context of cycling is defined as the maximum number E such that the cyclist has cycled at least E miles on at least E days.
+>
 > For example, an Eddington number of 70 would imply that the cyclist has cycled at least 70 km in a day on at least 70 occasions.
 > Achieving a high Eddington number is difficult, since moving from, say, 70 to 75 will (probably) require more than five new long-distance rides, since any rides shorter than 75 miles will no longer be included in the reckoning.
 
