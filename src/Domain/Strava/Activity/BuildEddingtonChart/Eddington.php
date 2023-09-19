@@ -2,29 +2,34 @@
 
 namespace App\Domain\Strava\Activity\BuildEddingtonChart;
 
-/**
- * @todo add static cache.
- */
-final readonly class Eddington
+final class Eddington
 {
+    private static $distancesPerDay = [];
+
     private function __construct(
         /** @var \App\Domain\Strava\Activity\Activity[] */
-        private array $activities,
+        private readonly array $activities,
     ) {
     }
 
     private function getDistancesPerDay(): array
     {
-        $distancesPerDay = [];
-        foreach ($this->activities as $activity) {
-            $day = $activity->getStartDate()->format('dmY');
-            if (!array_key_exists($day, $distancesPerDay)) {
-                $distancesPerDay[$day] = 0;
-            }
-            $distancesPerDay[$day] += $activity->getDistance();
+        if (!empty(Eddington::$distancesPerDay)) {
+            return Eddington::$distancesPerDay;
         }
 
-        return array_values($distancesPerDay);
+        Eddington::$distancesPerDay = [];
+        foreach ($this->activities as $activity) {
+            $day = $activity->getStartDate()->format('dmY');
+            if (!array_key_exists($day, Eddington::$distancesPerDay)) {
+                Eddington::$distancesPerDay[$day] = 0;
+            }
+            Eddington::$distancesPerDay[$day] += $activity->getDistance();
+        }
+
+        Eddington::$distancesPerDay = array_values(Eddington::$distancesPerDay);
+
+        return Eddington::$distancesPerDay;
     }
 
     public function getLongestDistanceInADay(): int
