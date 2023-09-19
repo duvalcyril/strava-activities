@@ -2445,6 +2445,7 @@ I burned `99994 calories` doing so, that's about `370` pizza slices 🍕
             <th align="center">51 <sup><sub>km</sub></sup></th>
             <th align="center">52 <sup><sub>km</sub></sup></th>
             <th align="center">53 <sup><sub>km</sub></sup></th>
+            <th align="center">54 <sup><sub>km</sub></sup></th>
         </tr>
     <tr>
         <td align="center">Days needed</td>
@@ -2458,6 +2459,7 @@ I burned `99994 calories` doing so, that's about `370` pizza slices 🍕
             <td align="center">27</td>
             <td align="center">29</td>
             <td align="center">34</td>
+            <td align="center">36</td>
         </tr>
 </table>
 

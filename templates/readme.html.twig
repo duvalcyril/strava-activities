@@ -159,13 +159,13 @@ I burned `{{ totals.getCalories() }} calories` doing so, that's about `{{ (total
 <table align="center">
     <tr>
         <th align="center">Eddington</th>
-    {% for eddingtonNumber,daysNeeded in eddington.getRidesToCompleteForFutureNumbers()|slice(0, 10, true) %}
+    {% for eddingtonNumber,daysNeeded in eddington.getRidesToCompleteForFutureNumbers()|slice(0, 11, true) %}
         <th align="center">{{ eddingtonNumber }} <sup><sub>km</sub></sup></th>
     {% endfor %}
     </tr>
     <tr>
         <td align="center">Days needed</td>
-    {% for eddingtonNumber,daysNeeded in eddington.getRidesToCompleteForFutureNumbers()|slice(0, 10, true) %}
+    {% for eddingtonNumber,daysNeeded in eddington.getRidesToCompleteForFutureNumbers()|slice(0, 11, true) %}
         <td align="center">{{ daysNeeded }}</td>
     {% endfor %}
     </tr>
