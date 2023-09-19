@@ -13,6 +13,30 @@
         <th colspan="2">Best 1h</th>
     </tr>
             <tr>
+            <td>19-09-23</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
+                <a href="https://www.strava.com/activities/9880977887" title="Kcal: 664 | Gear: None ">London Classique in Richmond</a>
+            </td>
+            <td align="center">89</td>
+                                                                <td align="center">476 <sup><sub>w</sub></sup></td>
+                    <td align="center">6.9 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">476 <sup><sub>w</sub></sup></td>
+                    <td align="center">6.9 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">398 <sup><sub>w</sub></sup></td>
+                    <td align="center">5.77 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">324 <sup><sub>w</sub></sup></td>
+                    <td align="center">4.7 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">264 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.83 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">240 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.48 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center">233 <sup><sub>w</sub></sup></td>
+                    <td align="center">3.38 <sup><sub>w/kg</sub></sup></td>
+                                                                                <td align="center"></td>
+                    <td align="center"></td>
+                                    </tr>
+            <tr>
             <td>18-09-23</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="virtual ride" title="virtual ride"/>
