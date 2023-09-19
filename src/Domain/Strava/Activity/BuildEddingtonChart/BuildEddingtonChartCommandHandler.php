@@ -2,6 +2,7 @@
 
 namespace App\Domain\Strava\Activity\BuildEddingtonChart;
 
+use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Infrastructure\Attribute\AsCommandHandler;
 use App\Infrastructure\CQRS\CommandHandler\CommandHandler;
 use App\Infrastructure\CQRS\DomainCommand;
@@ -11,13 +12,25 @@ use App\Infrastructure\Serialization\Json;
 #[AsCommandHandler]
 final readonly class BuildEddingtonChartCommandHandler implements CommandHandler
 {
+    public function __construct(
+        private StravaActivityRepository $stravaActivityRepository,
+    ) {
+    }
+
     public function handle(DomainCommand $command): void
     {
         assert($command instanceof BuildEddingtonChart);
 
+        $eddington = Eddington::fromActivities($this->stravaActivityRepository->findAll());
+        $longestDistanceInADay = $eddington->getLongestDistanceInADay();
+        $timesCompletedData = $eddington->getTimesCompletedData();
+        $eddingtonNumber = $eddington->getNumber();
+        $yAxisMaxValue = ceil(max($timesCompletedData) / 30) * 30;
+
         \Safe\file_put_contents(
             Settings::getAppRoot().'/build/chart-activities-eddington.json',
             Json::encode([
+                'backgroundColor' => '#ffffff',
                 'animation' => false,
                 'grid' => [
                     'left' => '3%',
@@ -29,7 +42,7 @@ final readonly class BuildEddingtonChartCommandHandler implements CommandHandler
                     'show' => true,
                 ],
                 'xAxis' => [
-                    'data' => ['1km', '2km', '3km', '4km', '5km', '6km', '7km'],
+                    'data' => array_map(fn (int $distance) => $distance.'km', range(1, $longestDistanceInADay)),
                     'type' => 'category',
                     'axisTick' => [
                         'alignWithLabel' => true,
@@ -41,13 +54,16 @@ final readonly class BuildEddingtonChartCommandHandler implements CommandHandler
                         'splitLine' => [
                             'show' => true,
                         ],
+                        'max' => $yAxisMaxValue,
+                        'interval' => 30,
                     ],
                     [
                         'type' => 'value',
                         'splitLine' => [
                             'show' => false,
                         ],
-                        'max' => 120,
+                        'max' => $yAxisMaxValue,
+                        'interval' => 30,
                     ],
                 ],
                 'series' => [
@@ -62,26 +78,40 @@ final readonly class BuildEddingtonChartCommandHandler implements CommandHandler
                         'itemStyle' => [
                             'color' => 'rgba(227, 73, 2, 0.3)',
                         ],
-                        'data' => [
-                            100,
-                            89,
-                            [
-                                'value' => 120,
-                                'itemStyle' => [
-                                    'color' => 'rgba(227, 73, 2, 0.8)',
+                        'markPoint' => [
+                            'symbol' => 'pin',
+                            'symbolOffset' => [
+                                0,
+                                -5,
+                            ],
+                            'itemStyle' => [
+                                'color' => 'rgba(227, 73, 2, 0.8)',
+                            ],
+                            'data' => [
+                                [
+                                    'value' => $eddingtonNumber,
+                                    'coord' => [
+                                        $eddingtonNumber,
+                                        $eddingtonNumber,
+                                    ],
                                 ],
                             ],
-                            60,
-                            20,
-                            10,
-                            3,
                         ],
+                        'data' => array_map(fn (int $timesCompleted) => $timesCompleted === $eddingtonNumber ?
+                            [
+                              'value' => $timesCompleted,
+                              'itemStyle' => [
+                                'color' => 'rgba(227, 73, 2, 0.8)',
+                                ],
+                            ] : $timesCompleted, $timesCompletedData),
                     ],
                     [
                         'name' => 'Eddington',
                         'yAxisIndex' => 1,
                         'zlevel' => 1,
                         'type' => 'line',
+                        'smooth' => false,
+                        'showSymbol' => false,
                         'label' => [
                             'show' => false,
                         ],
@@ -89,15 +119,7 @@ final readonly class BuildEddingtonChartCommandHandler implements CommandHandler
                         'itemStyle' => [
                             'color' => '#E34902',
                         ],
-                        'data' => [
-                            0,
-                            1,
-                            2,
-                            3,
-                            4,
-                            5,
-                            6,
-                        ],
+                        'data' => range(1, $longestDistanceInADay),
                     ],
                 ],
             ], JSON_PRETTY_PRINT),
