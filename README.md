@@ -2432,7 +2432,7 @@ I burned `99994 calories` doing so, that's about `370` pizza slices 🍕
 
 <img src="build/chart-activities-eddington.svg" alt="Eddington"/>
 
-<table>
+<table align="center">
     <tr>
         <th align="center">Eddington</th>
         <th align="center">Days needed</th>
