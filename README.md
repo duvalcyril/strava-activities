@@ -2417,6 +2417,36 @@ I burned `99994 calories` doing so, that's about `370` pizza slices 🍕
 
 <img src="build/chart-activities-eddington.svg" alt="Eddington"/>
 
+<table>
+    <tr>
+        <th align="center">Eddington</th>
+        <th align="center">Days needed</th>
+    </tr>
+            <tr>
+            <td align="center">44 <sup><sub>km</sub></sup></td>
+            <td align="center">6</td>
+        </tr>
+            <tr>
+            <td align="center">45 <sup><sub>km</sub></sup></td>
+            <td align="center">8</td>
+        </tr>
+            <tr>
+            <td align="center">46 <sup><sub>km</sub></sup></td>
+            <td align="center">12</td>
+        </tr>
+            <tr>
+            <td align="center">47 <sup><sub>km</sub></sup></td>
+            <td align="center">15</td>
+        </tr>
+            <tr>
+            <td align="center">48 <sup><sub>km</sub></sup></td>
+            <td align="center">20</td>
+        </tr>
+        <tr>
+        <td align="center" colspan="2">...</td>
+    </tr>
+</table>
+
 ## Trivia
 
 <table>

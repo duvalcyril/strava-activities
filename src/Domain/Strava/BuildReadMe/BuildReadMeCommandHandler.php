@@ -3,6 +3,7 @@
 namespace App\Domain\Strava\BuildReadMe;
 
 use App\Domain\Strava\Activity\ActivityTotals;
+use App\Domain\Strava\Activity\BuildEddingtonChart\Eddington;
 use App\Domain\Strava\Activity\StravaActivityRepository;
 use App\Domain\Strava\BikeStatistics;
 use App\Domain\Strava\Challenge\StravaChallengeRepository;
@@ -71,6 +72,7 @@ final readonly class BuildReadMeCommandHandler implements CommandHandler
             ),
             'challenges' => $allChallenges,
             'trivia' => Trivia::fromActivities($allActivities),
+            'eddington' => Eddington::fromActivities($allActivities),
         ]));
     }
 }

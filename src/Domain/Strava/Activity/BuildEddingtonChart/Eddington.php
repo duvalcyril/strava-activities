@@ -2,6 +2,9 @@
 
 namespace App\Domain\Strava\Activity\BuildEddingtonChart;
 
+/**
+ * @todo add static cache.
+ */
 final readonly class Eddington
 {
     private function __construct(
@@ -32,9 +35,9 @@ final readonly class Eddington
     public function getTimesCompletedData(): array
     {
         $data = [];
-        foreach (range(1, $this->getLongestDistanceInADay()) as $distance) {
+        for ($distance = 1; $distance <= $this->getLongestDistanceInADay(); ++$distance) {
             // We need to count the number of days we exceeded this distance.
-            $data[] = count(array_filter($this->getDistancesPerDay(), fn (int $distanceForDay) => $distanceForDay >= $distance));
+            $data[] = count(array_filter($this->getDistancesPerDay(), fn (float $distanceForDay) => $distanceForDay >= $distance));
         }
 
         return $data;
@@ -43,15 +46,27 @@ final readonly class Eddington
     public function getNumber(): int
     {
         $number = 1;
-        foreach (range(1, $this->getLongestDistanceInADay()) as $distance) {
-            $timesCompleted = count(array_filter($this->getDistancesPerDay(), fn (int $distanceForDay) => $distanceForDay >= $distance));
+        for ($distance = 1; $distance <= $this->getLongestDistanceInADay(); ++$distance) {
+            $timesCompleted = count(array_filter($this->getDistancesPerDay(), fn (float $distanceForDay) => $distanceForDay >= $distance));
             if ($timesCompleted < $distance) {
                 break;
             }
             $number = $distance;
         }
 
-        return round($number);
+        return $number;
+    }
+
+    public function getRidesToCompleteForFutureNumbers(): array
+    {
+        $futureNumbers = [];
+        $eddingtonNumber = $this->getNumber();
+        for ($distance = $eddingtonNumber + 1; $distance <= $this->getLongestDistanceInADay(); ++$distance) {
+            $timesCompleted = count(array_filter($this->getDistancesPerDay(), fn (float $distanceForDay) => $distanceForDay >= $distance));
+            $futureNumbers[$distance] = $distance - $timesCompleted;
+        }
+
+        return $futureNumbers;
     }
 
     public static function fromActivities(array $activities): self
